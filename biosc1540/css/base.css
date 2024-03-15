@@ -1,0 +1,18 @@
+
+/*Make the content wider and relative to window size.*/
+.md-grid {
+    max-width: 80%
+}
+
+:root {
+    --md-tooltip-width: 600px;
+}
+
+@page {
+    size: letter;
+    max-width: 100%;
+    margin-top: 1in;
+    margin-right: 0in;
+    margin-bottom: 1in;
+    margin-left: 0in;
+}

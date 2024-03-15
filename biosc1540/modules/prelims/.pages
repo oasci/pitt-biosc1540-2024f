@@ -1,0 +1,5 @@
+nav:
+    - 00 - Preliminaries: index.md
+    - Nucleic acids: nucleic-acids.md
+    - Proteins: proteins.md
+    - More proteins: proteins-plus.md

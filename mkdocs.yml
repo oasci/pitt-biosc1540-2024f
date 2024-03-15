@@ -1,0 +1,148 @@
+docs_dir: biosc1540
+
+site_name: BIOSC 1540 - Fall 2024
+site_author: OASCI
+
+repo_name: oasci/courses/pitt/biosc1540-2024f
+repo_url: https://gitlab.com/oasci/courses/pitt/biosc1540-2024f
+edit_uri: -/edit/main/biosc1540
+copyright: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> by OASCI
+
+# https://squidfunk.github.io/mkdocs-material/
+theme:
+  name: material
+  custom_dir: biosc1540/.overrides
+  logo: /img/biosc-1540-logo-site.svg
+  language: en
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: dark
+      toggle:
+        icon: material/lightbulb
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    repo: fontawesome/brands/gitlab
+    annotation: material/star-four-points-circle
+  features:
+    - content.code.annotate
+    - content.code.copy
+    - content.code.select
+    - content.tooltips
+    - content.tabs.link
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.tracking
+    - navigation.top
+    - navigation.indexes
+    - navigation.path
+    - navigation.prune
+    - toc.follow
+    - search.suggest
+
+validation:
+  omitted_files: warn
+  absolute_links: warn
+  unrecognized_links: warn
+
+# Options need to be indented twice for some reason?
+plugins:
+  - search
+  - material-plausible
+  - table-reader
+  - mkdocs-jupyter:
+        no_input: False
+        include_requirejs: true
+        include_source: True
+        ignore: ["*.py"]
+        remove_tag_config:
+            remove_input_tags:
+                - hide_code
+  - awesome-pages:
+        collapse_single_pages: true
+        strict: false
+        order: asc
+        sort_type: natural
+        order_by: title
+  - glightbox
+  - macros
+  - print-site
+
+hooks:
+  - hooks/launchy.py
+  # - hooks/read-info.py
+colab_base_url: https://colab.research.google.com/github/oasci/pitt-biosc1540-2024f-website/blob/main/biosc1540
+
+extra:
+  generator: true
+  analytics:
+    provider: plausible
+    domain: pitt-biosc1540-2024f
+  social:
+    - icon: fontawesome/brands/gitlab
+      link: https://gitlab.com/oasci
+      name: OASCI on GitLab
+    - icon: fontawesome/brands/github
+      link: https://github.com/oasci
+      name: OASCI on GitHub
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:us@oasci.org
+
+extra_css:
+  - css/base.css
+  - css/colors.css
+  - css/3dmol.css
+  - css/progress.css
+  - css/launchy.css
+
+extra_javascript:
+  - js/mathjax-config.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - js/d3.js
+
+markdown_extensions:
+  - abbr
+  - toc:
+      permalink: true
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
