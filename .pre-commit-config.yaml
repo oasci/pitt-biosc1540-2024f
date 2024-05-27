@@ -4,7 +4,7 @@ repos:
 
   # https://github.com/pre-commit/pre-commit-hooks#pre-commit-hooks
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.4.0
+    rev: v4.6.0
     hooks:
       - id: check-executables-have-shebangs
       - id: detect-private-key
@@ -17,21 +17,20 @@ repos:
         args: [--markdown-linebreak-ext=md]
       - id: detect-private-key
 
-  # https://github.com/psf/black/blob/main/docs/integrations/source_version_control.md
   - repo: https://github.com/psf/black-pre-commit-mirror
-    rev: 23.7.0
+    rev: 24.4.2
     hooks:
       - id: black-jupyter
-        language_version: python3.11
+        language_version: python3.12
 
   - repo: https://github.com/pycqa/isort
-    rev: 5.12.0
+    rev: 5.13.2
     hooks:
       - id: isort
         name: isort (python)
 
   - repo: https://github.com/psf/black-pre-commit-mirror
-    rev: 23.11.0
+    rev: 24.4.2
     hooks:
       - id: black
-        language_version: python3.11
+        language_version: python3.12

@@ -1,6 +1,6 @@
 SHELL := /usr/bin/env bash
-PYTHON_VERSION := 3.11.7
-PYTHON_VERSION_CONDENSED := 311
+PYTHON_VERSION := 3.12.3
+PYTHON_VERSION_CONDENSED := 312
 PACKAGE_NAME := biosc1540-2024f
 CONDA_NAME := $(PACKAGE_NAME)-dev
 CONDA := conda run -n $(CONDA_NAME)
@@ -76,11 +76,12 @@ locks: conda-create conda-setup conda-dependencies conda-lock pre-commit-install
 
 .PHONY: validate
 validate:
-	$(CONDA) markdownlint-cli2-fix biosc1540/*
-	$(CONDA) pre-commit run --all-files
+	- $(CONDA) markdownlint-cli2 "**/*.{md,markdown}" --config .markdownlint.yaml
+	- $(CONDA) pre-commit run --all-files
 
 .PHONY: formatting
 formatting:
+	- $(CONDA) markdownlint-cli2 "**/*.{md,markdown}" --fix --config .markdownlint.yaml
 	- $(CONDA) isort --settings-path pyproject.toml ./
 	- $(CONDA) black --config pyproject.toml ./
 
@@ -156,7 +157,9 @@ serve:
 
 .PHONY: docs
 docs:
+	- rm -rf public/
 	$(CONDA) mkdocs build -d public/
+	- rm -rf api
 
 .PHONY: open-docs
 open-docs:

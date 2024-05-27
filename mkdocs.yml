@@ -78,7 +78,6 @@ plugins:
 
 hooks:
   - hooks/launchy.py
-  # - hooks/read-info.py
 colab_base_url: https://colab.research.google.com/github/oasci/pitt-biosc1540-2024f-website/blob/main/biosc1540
 
 extra:
