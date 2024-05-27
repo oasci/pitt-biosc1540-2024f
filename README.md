@@ -3,15 +3,14 @@
 <h3 align="center">BIOSC 1540</h3>
 
 <p align="center">
-    Fall 2024 •
-    <a href="https://www.pitt.edu">University of Pittsburgh</a> •
-    <a href="https://www.biology.pitt.edu">Department of Biological Sciences</a>
+ Fall 2024 •
+ <a href="https://www.pitt.edu">University of Pittsburgh</a> •
+ <a href="https://www.biology.pitt.edu">Department of Biological Sciences</a>
 </p>
 
 This course offers a systematic examination of foundational concepts, comprehensive proficiency in Python applications, and an in-depth understanding of the significant fields of computational biology.
 Students learn about genomics, transcriptomics, computer-aided drug design, and molecular simulations in the context of current research applications.
-We focus primarily on hands-on learning with projects centered around *E. coli* as our computational model organism.
-Ultimately, this course is the first stepping stone for undergraduates at the University of Pittsburgh before taking Computational Genomics (BIOSC 1542) and/or Simulation and Modeling (BIOSC 1544).
+This course is the first stepping stone for undergraduates at the University of Pittsburgh before taking Computational Genomics (BIOSC 1542) or Simulation and Modeling (BIOSC 1544).
 
 ## Contributions
 
@@ -24,7 +23,7 @@ Code contained in this project is released under the [GPLv3 license][gplv3] as s
 All other data, information, documentation, and associated content provided within this project are released under the [CC BY-NC-SA 4.0 license][cc-by-nc-sa-4.0] as specified in `LICENSE_INFO.md`.
 
 Why are we using copyleft licenses?
-Many people have dedicated countless hours to producing high-quality materials that are incorporated into this website.
+Many people have dedicated countless hours to producing high-quality materials incorporated into this website.
 We want to ensure that students maintain access to these materials.
 
 ## Web analytics
