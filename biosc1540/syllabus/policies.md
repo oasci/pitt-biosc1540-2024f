@@ -1,5 +1,9 @@
 # Policies
 
+!!! danger "DRAFT"
+
+    This page is a work in progress and is subject to change at any moment.
+
 ## Generative AI
 
 We are in an exciting area of generative AI development with the release of tools such as [ChatGPT](https://chat.openai.com/), [DALL-E](https://openai.com/dall-e-2), [GitHub Copilot](https://github.com/features/copilot), [Bing Chat](https://www.microsoft.com/en-us/edge/features/bing-chat?form=MT00D8), [Bard](https://bard.google.com/), [Copy.ai](https://www.copy.ai/), and many more.

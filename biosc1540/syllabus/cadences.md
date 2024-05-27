@@ -1,5 +1,9 @@
 # Cadences
 
+!!! danger "DRAFT"
+
+    This page is a work in progress and is subject to change at any moment.
+
 In this course, we will follow a structured cadence designed to help you achieve your academic goals.
 The cadence of the course refers to the rhythm and pace at which we will cover the material.
 By following a structured schedule, you can plan your study time more effectively and stay on track with the course material.

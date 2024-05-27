@@ -1,5 +1,9 @@
 # Attendance
 
+!!! danger "DRAFT"
+
+    This page is a work in progress and is subject to change at any moment.
+
 Attendance and active participation are strongly encouraged in this course.
 While attendance is not technically mandatory, [participation contributes 10% to your overall grade](./assessments.md/#participation).
 Classes enhance your understanding of the material through active engagement in class discussions, group activities, and hands-on exercises.

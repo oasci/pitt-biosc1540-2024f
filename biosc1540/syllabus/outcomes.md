@@ -1,5 +1,9 @@
 # Outcomes
 
+!!! danger "DRAFT"
+
+    This page is a work in progress and is subject to change at any moment.
+
 Course outcomes are crucial in higher education, providing a clear roadmap for instructors and students.
 They define the knowledge and skills students are expected to gain, guide the structure of the course, and inform assessments.
 The outcomes also facilitate constructive feedback, promote continuous improvement, and communicate the course's value to various stakeholders.
