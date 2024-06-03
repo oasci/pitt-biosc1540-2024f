@@ -12,21 +12,18 @@ Jump to [this week](#week-1).
 
 **Tuesday** (Aug 27) [Lecture 01](../../lectures/01/)
 
--   ^^Topics^^: [Syllabus](/syllabus) and [computational biology](/modules/intro/comp-bio)
+-   ^^Topics^^: [Syllabus]() and [overview of computational biology]()
 
-**Thursday** (Aug 29) [Lecture 02](../../lectures/02/)
+**Thursday** (Aug 29) [Lecture 02]()
 
--   ^^Topics^^: [Genetic library preparation]()
+-   ^^Topics^^: Introduction to [genomics]() and [transcriptomics]() and [preparing genetic libraries]().
 -   ^^Due^^:
-    -   Pre-course survey
-
-<hr>
 
 ### Week 2
 
 **Tuesday** (Sep 3) [Lecture 03]()
 
--   ^^Topics^^: [Sequencing technologies]()
+-   ^^Topics^^: [Sanger](), [illumina](), and [nanopore]() sequencing.
 -   ^^Due^^:
     -   [Assignment 01]()
 
@@ -34,15 +31,12 @@ Jump to [this week](#week-1).
 
 -   ^^Topics^^: [Data formats]() and [quality control]()
 -   ^^Due^^:
-    -
-
-<hr>
 
 ### Week 3
 
 **Tuesday** (Sep 10) [Lecture 05]()
 
--   ^^Topics^^: [Reference-guided sequence assembly]()
+-   ^^Topics^^: [Genome assembly]()
 
 **Thursday** (Sep 12) [Lecture 06](../../lectures/06/)
 
@@ -56,50 +50,43 @@ Jump to [this week](#week-1).
 
 ### Week 4
 
-**Tuesday** (Sep 17)
-
--   ^^Topics^^: [Pairwise sequence alignment]()
+**Tuesday** (Sep 17) Exam 1
 
 **Thursday** (Sep 19)  [Lecture 08](../../lectures/08/)
 
--   ^^Topics^^: [Multiple sequence alignment]()
-
-<hr>
+-   ^^Topics^^: [Pairwise sequence alignment]()
 
 ### Week 5
 
-**Tuesday** (Sep 24) Exam 1
+**Tuesday** (Sep 24)
+
+-   ^^Topics^^: [Multiple sequence alignment]()
 
 **Thursday** (Sep 26) [Lecture 10](../../lectures/10/)
 
--   ^^Topics^^: [Read mapping]()
+-   ^^Topics^^: [Multiple sequence alignment]()
 -   ^^Due^^:
-
-<hr>
 
 ### Week 6
 
 **Tuesday** (Oct 1) [Lecture 11](../../lectures/11/)
 
--   ^^Topics^^: [Quantification]()
+-   ^^Topics^^:
 
 **Thursday** (Oct 3)
 
--   ^^Topics^^: [Gene expression analysis]()
-
-<hr>
+-   ^^Topics^^: [Read mapping]()
 
 ### Week 7
 
 **Tuesday** (Oct 8) [Lecture 12](../../lectures/12/)
 
--   ^^Topics^^: Review
+-   ^^Topics^^: [Quantification]()
 
 **Thursday** (Oct 10) [Lecture 13](../../lectures/13/)
 
--   ^^Topics^^: [Bioinformatics exam]()
+-   ^^Topics^^: [Gene expression analysis]()
 -   ^^Due^^:
-    -   [Genomics checkpoint]()
 
 <hr>
 
@@ -115,8 +102,6 @@ Jump to [this week](#week-1).
 
 -   ^^Topics^^: [Target identification]()
 
-<hr>
-
 ### Week 9
 
 **Tuesday** (Oct 22) Exam 2
@@ -124,8 +109,6 @@ Jump to [this week](#week-1).
 **Thursday** (Oct 24)
 
 -   ^^Topics^^: [Thermodynamics of binding]()
-
-<hr>
 
 ### Week 10
 
@@ -137,8 +120,6 @@ Jump to [this week](#week-1).
 
 -   ^^Topics^^: [Noncovalent](https://cadd.crumblearn.org/binding/noncovalent/) interactions
 -   ^^Due^^:
-
-<hr>
 
 ### Week 11
 
@@ -154,41 +135,35 @@ Jump to [this week](#week-1).
 
 <hr>
 
-## [Module 04 - Ligand-based drug design][module 04]
+## [Module 04 - Special-interest topics][module 04]
 
 ### Week 12
 
 **Tuesday** (Nov 12)
 
--   ^^Topics^^: [Advanced simulations](https://cadd.crumblearn.org/sbdd/sims/)
+-   ^^Topics^^: [Advanced simulations]
 
 **Thursday** (Nov 14)
 
--   ^^Topics^^: [Ligand descriptors](https://cadd.crumblearn.org/lbdd/descriptors/)
+-   ^^Topics^^: [Ligand descriptors]
 -   ^^Due^^:
-    -   [Assignment 05](/assessments/assignments/06/)
-
-<hr>
+    -   [Assignment 05]
 
 ### Week 13
 
 **Tuesday** (Nov 19)
 
--   ^^Topics^^: [QSAR](https://cadd.crumblearn.org/lbdd/qsar/)
+-   ^^Topics^^: [QSAR]
 
 **Thursday** (Nov 21)
 
--   ^^Topics^^: [Ligand-based virtual screening](https://cadd.crumblearn.org/lbdd/vs/)
+-   ^^Topics^^: [Ligand-based virtual screening]
 -   ^^Due^^:
-    -   [Assignment 06](/assessments/assignments/07/)
-
-<hr>
+    -   [Assignment 06]
 
 ### Thanksgiving break
 
 No class on Nov 26 and 28.
-
-<hr>
 
 ### Week 15
 
