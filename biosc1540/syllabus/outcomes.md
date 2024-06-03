@@ -14,7 +14,7 @@ They define the knowledge and skills students are expected to gain, guide the co
 This course is designed with the following outcomes in mind:
 
 1.  Acquire practical data analysis, modeling, and interpretation skills with Python.
-2.  Understand and apply genomic and transcriptomic analysis techniques to analyze and interpret biological data.
-3.  Explore the principles and techniques of structure-based drug design, including molecular docking and virtual screening.
-4.  Learn and apply ligand-based drug design concepts, such as QSAR and pharmacophore modeling.
+2.  Understand and apply genomic and transcriptomic analysis techniques.
+3.  Explore the principles and techniques of structure-based drug design.
+4.  Learn and apply ligand-based drug design concepts.
 5.  Enhance problem-solving and critical thinking skills in the context of computational biology.
