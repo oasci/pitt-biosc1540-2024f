@@ -6,7 +6,7 @@ Jump to [this week](#week-1).
 
     This page is a work in progress and is subject to change at any moment.
 
-## [Module 01 - Introduction][module 01]
+## [Module 01 - Sequencing][module 01]
 
 ### Week 1
 
@@ -16,68 +16,78 @@ Jump to [this week](#week-1).
 
 **Thursday** (Aug 29) [Lecture 02](../../lectures/02/)
 
--   ^^Topics^^: [Python basics](/modules/intro/python-basics)
+-   ^^Topics^^: [Genetic library preparation]()
 -   ^^Due^^:
     -   Pre-course survey
 
+<hr>
+
 ### Week 2
 
-**Tuesday** (Sep 3) [Lecture 03](../../lectures/03/)
+**Tuesday** (Sep 3) [Lecture 03]()
 
--   ^^Topics^^: [Python basics](/modules/intro/python-basics)
+-   ^^Topics^^: [Sequencing technologies]()
 -   ^^Due^^:
-    -   [Assignment 01](/assessments/assignments/01/)
+    -   [Assignment 01]()
 
-**Thursday** (Sep 5) [Lecture 04](../../lectures/04/)
+**Thursday** (Sep 5) [Lecture 04]()
 
--   ^^Topics^^: [Python basics](/modules/intro/python-basics) and [plotting](/modules/intro/plotting)
+-   ^^Topics^^: [Data formats]() and [quality control]()
 -   ^^Due^^:
-    -   Python skills check (not graded)
+    -
 
-## [Module 02 - Bioinformatics][module 02]
+<hr>
 
 ### Week 3
 
-**Tuesday** (Sep 10) [Lecture 05](../../lectures/05/)
+**Tuesday** (Sep 10) [Lecture 05]()
 
--   ^^Topics^^: [Learning scenario](/modules/genomics/learning-scenario) and [sequencing](https://omics.crumblearn.org/sequencing/)
+-   ^^Topics^^: [Reference-guided sequence assembly]()
 
 **Thursday** (Sep 12) [Lecture 06](../../lectures/06/)
 
--   ^^Topics^^: [Genome assembly](https://omics.crumblearn.org/genomics/assembly/)
+-   ^^Topics^^: [Genome assembly]()
 -   ^^Due^^:
-    -   [Assignment 02](/assessments/assignments/02/)
+    -   [Assignment 02]()
+
+<hr>
+
+## [Module 02 - Sequence analysis][module 02]
 
 ### Week 4
 
-**Tuesday** (Sep 17) [Lecture 07](../../lectures/07/)
+**Tuesday** (Sep 17)
 
--   ^^Topics^^: [Pairwise sequence alignment](https://omics.crumblearn.org/alignment/pairwise/)
+-   ^^Topics^^: [Pairwise sequence alignment]()
 
 **Thursday** (Sep 19)  [Lecture 08](../../lectures/08/)
 
--   ^^Topics^^: [Multiple sequence alignment](https://omics.crumblearn.org/alignment/multiple/)
+-   ^^Topics^^: [Multiple sequence alignment]()
+
+<hr>
 
 ### Week 5
 
-**Tuesday** (Sep 24) [Lecture 09](../../lectures/09/)
-
--   ^^Topics^^: [Gene annotation](https://omics.crumblearn.org/genomics/annotation/)
+**Tuesday** (Sep 24) Exam 1
 
 **Thursday** (Sep 26) [Lecture 10](../../lectures/10/)
 
--   ^^Topics^^: [Read mapping](https://omics.crumblearn.org/transcriptomics/mapping/)
+-   ^^Topics^^: [Read mapping]()
 -   ^^Due^^:
+
+<hr>
 
 ### Week 6
 
 **Tuesday** (Oct 1) [Lecture 11](../../lectures/11/)
 
--   ^^Topics^^: [Quantification](https://omics.crumblearn.org/transcriptomics/rna-quant/)
+-   ^^Topics^^: [Quantification]()
 
 **Thursday** (Oct 3)
 
--   ^^Topics^^: [Gene expression analysis](https://omics.crumblearn.org/transcriptomics/ge/)
+-   ^^Topics^^: [Gene expression analysis]()
+
+<hr>
 
 ### Week 7
 
@@ -87,31 +97,35 @@ Jump to [this week](#week-1).
 
 **Thursday** (Oct 10) [Lecture 13](../../lectures/13/)
 
--   ^^Topics^^: [Bioinformatics exam](/assessments/exams/bioinformatics/)
+-   ^^Topics^^: [Bioinformatics exam]()
 -   ^^Due^^:
-    -   [Genomics checkpoint](/assessments/checkpoints/genomics)
+    -   [Genomics checkpoint]()
 
-## [Module 03 - Computer-aided drug design][module 03]
+<hr>
+
+## [Module 03 - Protein-ligand docking][module 03]
 
 ### Week 8
 
-**Tuesday** (Oct 15)  [Lecture 14](../../lectures/14/)
+**Tuesday** (Oct 15)  Exam 2
 
--   ^^Topics^^: [Learning scenario](/modules/cadd/learning-scenario) and [CADD introduction](https://cadd.crumblearn.org/intro/)
+-   ^^Topics^^: [Learning scenario]() and [CADD introduction]()
 
 **Thursday** (Oct 17)
 
--   ^^Topics^^: [Target identification](https://cadd.crumblearn.org/sbdd/targets/)
+-   ^^Topics^^: [Target identification]()
+
+<hr>
 
 ### Week 9
 
-**Tuesday** (Oct 22)
-
--   ^^Topics^^: [Target structure](https://cadd.crumblearn.org/sbdd/targets/)
+**Tuesday** (Oct 22) Exam 2
 
 **Thursday** (Oct 24)
 
--   ^^Topics^^: [Thermodynamics of binding](https://cadd.crumblearn.org/binding/thermo/)
+-   ^^Topics^^: [Thermodynamics of binding]()
+
+<hr>
 
 ### Week 10
 
@@ -123,6 +137,8 @@ Jump to [this week](#week-1).
 
 -   ^^Topics^^: [Noncovalent](https://cadd.crumblearn.org/binding/noncovalent/) interactions
 -   ^^Due^^:
+
+<hr>
 
 ### Week 11
 
@@ -136,6 +152,10 @@ Jump to [this week](#week-1).
 -   ^^Due^^:
     -   [Assignment 04](/assessments/assignments/05/)
 
+<hr>
+
+## [Module 04 - Ligand-based drug design][module 04]
+
 ### Week 12
 
 **Tuesday** (Nov 12)
@@ -147,6 +167,8 @@ Jump to [this week](#week-1).
 -   ^^Topics^^: [Ligand descriptors](https://cadd.crumblearn.org/lbdd/descriptors/)
 -   ^^Due^^:
     -   [Assignment 05](/assessments/assignments/06/)
+
+<hr>
 
 ### Week 13
 
@@ -160,9 +182,15 @@ Jump to [this week](#week-1).
 -   ^^Due^^:
     -   [Assignment 06](/assessments/assignments/07/)
 
+<hr>
+
 ### Thanksgiving break
 
-### Week 14
+No class on Nov 26 and 28.
+
+<hr>
+
+### Week 15
 
 **Tuesday** (Dec 3)
 
@@ -173,6 +201,8 @@ Jump to [this week](#week-1).
 -   ^^Topics^^: Flex
 -   ^^Due^^:
 
+<hr>
+
 ## Finals
 
 TODO:
@@ -182,3 +212,4 @@ TODO:
 [module 01]: /modules/intro
 [module 02]: /modules/bioinformatics
 [module 03]: /modules/cadd
+[module 04]: /modules/lbdd
