@@ -40,7 +40,7 @@ Jump to [this week](#week-1).
 
 **Thursday** (Sep 12) [Lecture 06](../../lectures/06/)
 
--   ^^Topics^^: [Genome assembly]()
+-   ^^Topics^^: [Read mapping]()
 -   ^^Due^^:
     -   [Assignment 02]()
 
@@ -75,7 +75,7 @@ Jump to [this week](#week-1).
 
 **Thursday** (Oct 3)
 
--   ^^Topics^^: [Read mapping]()
+-   ^^Topics^^:
 
 ### Week 7
 
@@ -184,7 +184,7 @@ TODO:
 
 <!-- LINKS -->
 
-[module 01]: /modules/intro
+[module 01]: /modules/sequencing
 [module 02]: /modules/bioinformatics
 [module 03]: /modules/cadd
 [module 04]: /modules/lbdd
