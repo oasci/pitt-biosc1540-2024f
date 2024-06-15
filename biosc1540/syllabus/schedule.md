@@ -12,37 +12,31 @@ Jump to [this week](#week-1).
 
 **Tuesday** (Aug 27) [Lecture 01](../../lectures/01/)
 
--   ^^Topics^^: [Syllabus]() and [overview of computational biology]()
+-   ^^Topics^^: Syllabus and introduction to computational biology.
 
 **Thursday** (Aug 29) [Lecture 02]()
 
--   ^^Topics^^: Introduction to [genomics]() and [transcriptomics]() and [preparing genetic libraries]().
--   ^^Due^^:
+-   ^^Topics^^: Overview of sequencing technologies: Sanger, Illumina, and nanopore sequencing.
 
 ### Week 2
 
 **Tuesday** (Sep 3) [Lecture 03]()
 
--   ^^Topics^^: [Sanger](), [illumina](), and [nanopore]() sequencing.
--   ^^Due^^:
-    -   [Assignment 01]()
+-   ^^Topics^^: FASTA files, quality control of sequencing data, and introduction to reference genome assembly.
 
 **Thursday** (Sep 5) [Lecture 04]()
 
--   ^^Topics^^: [Data formats]() and [quality control]()
--   ^^Due^^:
+-   ^^Topics^^: De novo genome assembly: concepts and challenges.
 
 ### Week 3
 
 **Tuesday** (Sep 10) [Lecture 05]()
 
--   ^^Topics^^: [Genome assembly]()
+-   ^^Topics^^: Introduction to transcriptomics and RNA-Seq experimental design.
 
-**Thursday** (Sep 12) [Lecture 06](../../lectures/06/)
+**Thursday** (Sep 12) [Lecture 06]()
 
--   ^^Topics^^: [Read mapping]()
--   ^^Due^^:
-    -   [Assignment 02]()
+-   ^^Topics^^: RNA-Seq data processing, quality control, and preprocessing.
 
 <hr>
 
@@ -52,41 +46,39 @@ Jump to [this week](#week-1).
 
 **Tuesday** (Sep 17) Exam 1
 
-**Thursday** (Sep 19)  [Lecture 08](../../lectures/08/)
+**Thursday** (Sep 19)  [Lecture 07]()
 
--   ^^Topics^^: [Pairwise sequence alignment]()
+-   ^^Topics^^: Pairwise sequence alignment and homology.
 
 ### Week 5
 
-**Tuesday** (Sep 24)
+**Tuesday** (Sep 24) [Lecture 08]()
 
--   ^^Topics^^: [Multiple sequence alignment]()
+-   ^^Topics^^: Multiple sequence alignment and sequence similarity search.
 
-**Thursday** (Sep 26) [Lecture 10](../../lectures/10/)
+**Thursday** (Sep 26) [Lecture 09]()
 
--   ^^Topics^^: [Multiple sequence alignment]()
--   ^^Due^^:
+-   ^^Topics^^: Gene Ontology and pathway analysis.
 
 ### Week 6
 
-**Tuesday** (Oct 1) [Lecture 11](../../lectures/11/)
+**Tuesday** (Oct 1) [Lecture 10]()
 
--   ^^Topics^^:
+-   ^^Topics^^: Quantification of gene expression: RPKM, FPKM, and TPM.
 
-**Thursday** (Oct 3)
+**Thursday** (Oct 3) [Lecture 11]()
 
--   ^^Topics^^:
+-   ^^Topics^^: Differential expression analysis. Introduction to statistical methods and tools.
 
 ### Week 7
 
-**Tuesday** (Oct 8) [Lecture 12](../../lectures/12/)
+**Tuesday** (Oct 8) [Lecture 12]()
 
--   ^^Topics^^: [Quantification]()
+-   ^^Topics^^: Single-cell omics and its applications in understanding cellular heterogeneity.
 
-**Thursday** (Oct 10) [Lecture 13](../../lectures/13/)
+**Thursday** (Oct 10) [Lecture 13]()
 
--   ^^Topics^^: [Gene expression analysis]()
--   ^^Due^^:
+-   ^^Topics^^: Overview of epigenomics, techniques, and their role in gene regulation and disease.
 
 <hr>
 
@@ -119,7 +111,7 @@ Jump to [this week](#week-1).
 **Thursday** (Oct 31)
 
 -   ^^Topics^^: [Noncovalent](https://cadd.crumblearn.org/binding/noncovalent/) interactions
--   ^^Due^^:
+
 
 ### Week 11
 
@@ -130,8 +122,7 @@ Jump to [this week](#week-1).
 **Thursday** (Nov 7)
 
 -   ^^Topics^^: [Molecular simulations](https://cadd.crumblearn.org/sbdd/sims/)
--   ^^Due^^:
-    -   [Assignment 04](/assessments/assignments/05/)
+
 
 <hr>
 
@@ -146,8 +137,7 @@ Jump to [this week](#week-1).
 **Thursday** (Nov 14)
 
 -   ^^Topics^^: [Ligand descriptors]
--   ^^Due^^:
-    -   [Assignment 05]
+
 
 ### Week 13
 
@@ -158,8 +148,7 @@ Jump to [this week](#week-1).
 **Thursday** (Nov 21)
 
 -   ^^Topics^^: [Ligand-based virtual screening]
--   ^^Due^^:
-    -   [Assignment 06]
+
 
 ### Thanksgiving break
 
@@ -174,7 +163,7 @@ No class on Nov 26 and 28.
 **Thursday** (Dec 5)
 
 -   ^^Topics^^: Flex
--   ^^Due^^:
+
 
 <hr>
 
