@@ -22,11 +22,11 @@ Jump to [this week](#week-1).
 
 **Tuesday** (Sep 3) [Lecture 03]()
 
--   ^^Topics^^: FASTA files, quality control of sequencing data, and introduction to reference genome assembly.
+-   ^^Topics^^: FASTA files, quality control, and reference genome assembly.
 
 **Thursday** (Sep 5) [Lecture 04]()
 
--   ^^Topics^^: De novo genome assembly: concepts and challenges.
+-   ^^Topics^^: De novo genome assembly.
 
 ### Week 3
 
@@ -37,8 +37,6 @@ Jump to [this week](#week-1).
 **Thursday** (Sep 12) [Lecture 06]()
 
 -   ^^Topics^^: RNA-Seq data processing, quality control, and preprocessing.
-
-<hr>
 
 ### Week 4
 
@@ -78,47 +76,47 @@ Jump to [this week](#week-1).
 
 **Thursday** (Oct 10) [Lecture 12]()
 
--   ^^Topics^^:
+-   ^^Topics^^: Overview of structural biology, protein structure levels, and basics of protein folding.
 
 ### Week 8
 
 **Tuesday** (Oct 15) [Lecture 13]()
 
--   ^^Topics^^:
+-   ^^Topics^^: Introduction to X-ray crystallography, NMR spectroscopy, and Cryo-EM.
 
 **Thursday** (Oct 17) [Lecture 14]()
 
--   ^^Topics^^:
+-   ^^Topics^^: Protein structure prediction methods, focusing on homology modeling, threading, and AlphaFold.
 
 ### Week 9
 
 **Tuesday** (Oct 22) [Lecture 15]()
 
--   ^^Topics^^:
+-   ^^Topics^^: Basics of molecular dynamics (MD), including force fields and the theory behind MD simulations. MD simulation setup: initial structure preparation, solvation, and defining the system environment.
 
 **Thursday** (Oct 24) [Lecture 16]()
 
--   ^^Topics^^:
+-   ^^Topics^^: Running MD simulations: temperature control, pressure control, and equilibration.
 
 ### Week 10
 
-**Tuesday** (Oct 29)
+**Tuesday** (Oct 29) [Lecture 17]()
 
--   ^^Topics^^:
+-   ^^Topics^^: Analysis of MD simulations: trajectory analysis, calculating RMSD, RMSF, and other properties.
 
-**Thursday** (Oct 31)
+**Thursday** (Oct 31) [Lecture 18]()
 
--   ^^Topics^^:
+-   ^^Topics^^: Introduction to protein-ligand docking: fundamental principles, ligand-receptor interactions, and docking tools.
 
 ### Week 11
 
-**Tuesday** (Nov 5)
+**Tuesday** (Nov 5) [Lecture 19]()
 
--   ^^Topics^^:
+-   ^^Topics^^: Ligand and receptor preparation, binding site definition, and scoring functions.
 
-**Thursday** (Nov 7)
+**Thursday** (Nov 7) [Lecture 20]()
 
--   ^^Topics^^:
+-   ^^Topics^^: Virtual screening, post-docking analysis, and advanced docking methods.
 
 <hr>
 
@@ -128,17 +126,17 @@ Jump to [this week](#week-1).
 
 **Tuesday** (Nov 12) Exam 3
 
-**Thursday** (Nov 14)
+**Thursday** (Nov 14) [Lecture 21]()
 
 -   ^^Topics^^:
 
 ### Week 13
 
-**Tuesday** (Nov 19)
+**Tuesday** (Nov 19) [Lecture 22]()
 
 -   ^^Topics^^:
 
-**Thursday** (Nov 21)
+**Thursday** (Nov 21) [Lecture 23]()
 
 -   ^^Topics^^:
 
@@ -148,11 +146,11 @@ No class on Nov 26 and 28.
 
 ### Week 15
 
-**Tuesday** (Dec 3)
+**Tuesday** (Dec 3) [Lecture 24]()
 
 -   ^^Topics^^:
 
-**Thursday** (Dec 5)
+**Thursday** (Dec 5) [Lecture 25]()
 
 -   ^^Topics^^:
 
