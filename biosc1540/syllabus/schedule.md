@@ -6,7 +6,7 @@ Jump to [this week](#week-1).
 
     This page is a work in progress and is subject to change at any moment.
 
-## [Module 01 - Sequencing][module 01]
+## [Module 01 - Bioinformatics][module 01]
 
 ### Week 1
 
@@ -40,8 +40,6 @@ Jump to [this week](#week-1).
 
 <hr>
 
-## [Module 02 - Sequence analysis][module 02]
-
 ### Week 4
 
 **Tuesday** (Sep 17) Exam 1
@@ -70,85 +68,79 @@ Jump to [this week](#week-1).
 
 -   ^^Topics^^: Differential expression analysis. Introduction to statistical methods and tools.
 
-### Week 7
-
-**Tuesday** (Oct 8) [Lecture 12]()
-
--   ^^Topics^^: Single-cell omics and its applications in understanding cellular heterogeneity.
-
-**Thursday** (Oct 10) [Lecture 13]()
-
--   ^^Topics^^: Overview of epigenomics, techniques, and their role in gene regulation and disease.
-
 <hr>
 
-## [Module 03 - Protein-ligand docking][module 03]
+## [Module 02 - Computational structural biology][module 02]
+
+### Week 7
+
+**Tuesday** (Oct 8) Exam 2
+
+**Thursday** (Oct 10) [Lecture 12]()
+
+-   ^^Topics^^:
 
 ### Week 8
 
-**Tuesday** (Oct 15)  Exam 2
+**Tuesday** (Oct 15) [Lecture 13]()
 
--   ^^Topics^^: [Learning scenario]() and [CADD introduction]()
+-   ^^Topics^^:
 
-**Thursday** (Oct 17)
+**Thursday** (Oct 17) [Lecture 14]()
 
--   ^^Topics^^: [Target identification]()
+-   ^^Topics^^:
 
 ### Week 9
 
-**Tuesday** (Oct 22) Exam 2
+**Tuesday** (Oct 22) [Lecture 15]()
 
-**Thursday** (Oct 24)
+-   ^^Topics^^:
 
--   ^^Topics^^: [Thermodynamics of binding]()
+**Thursday** (Oct 24) [Lecture 16]()
+
+-   ^^Topics^^:
 
 ### Week 10
 
 **Tuesday** (Oct 29)
 
--   ^^Topics^^: [Molecular mechanics](https://cadd.crumblearn.org/binding/mm/) and [covalent](https://cadd.crumblearn.org/binding/covalent/) interactions.
+-   ^^Topics^^:
 
 **Thursday** (Oct 31)
 
--   ^^Topics^^: [Noncovalent](https://cadd.crumblearn.org/binding/noncovalent/) interactions
-
+-   ^^Topics^^:
 
 ### Week 11
 
 **Tuesday** (Nov 5)
 
--   ^^Topics^^: [Protein-ligand docking](https://cadd.crumblearn.org/sbdd/docking/)
+-   ^^Topics^^:
 
 **Thursday** (Nov 7)
 
--   ^^Topics^^: [Molecular simulations](https://cadd.crumblearn.org/sbdd/sims/)
-
+-   ^^Topics^^:
 
 <hr>
 
-## [Module 04 - Special-interest topics][module 04]
+## [Module 03 - Special-interest topics][module 03]
 
 ### Week 12
 
-**Tuesday** (Nov 12)
-
--   ^^Topics^^: [Advanced simulations]
+**Tuesday** (Nov 12) Exam 3
 
 **Thursday** (Nov 14)
 
--   ^^Topics^^: [Ligand descriptors]
-
+-   ^^Topics^^:
 
 ### Week 13
 
 **Tuesday** (Nov 19)
 
--   ^^Topics^^: [QSAR]
+-   ^^Topics^^:
 
 **Thursday** (Nov 21)
 
--   ^^Topics^^: [Ligand-based virtual screening]
-
+-   ^^Topics^^:
 
 ### Thanksgiving break
 
@@ -158,12 +150,11 @@ No class on Nov 26 and 28.
 
 **Tuesday** (Dec 3)
 
--   ^^Topics^^: Flex
+-   ^^Topics^^:
 
 **Thursday** (Dec 5)
 
--   ^^Topics^^: Flex
-
+-   ^^Topics^^:
 
 <hr>
 
@@ -173,7 +164,6 @@ TODO:
 
 <!-- LINKS -->
 
-[module 01]: /modules/sequencing
-[module 02]: /modules/bioinformatics
-[module 03]: /modules/cadd
-[module 04]: /modules/lbdd
+[module 01]: /modules/bioinformatics
+[module 02]: /modules/csb
+[module 03]: /modules/special
