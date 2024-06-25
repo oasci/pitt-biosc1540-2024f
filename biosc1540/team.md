@@ -4,19 +4,16 @@
 
 ![Alex Maldonado](/img/team/alex.jpg){ width=200 }
 
-**Address me as:** Alex (preferred) or Dr. Maldonado
+**Address me as:** Alex (preferred), Dr. Maldonado, Dr. Alex, Dr. M.
 
 **Pronouns:** he/him/his
 
-**Major:** BSE in Chemical Engineering (Western Michigan University) and PhD in Chemical Engineering (University of Pittsburgh)
+**Major:** BSE (Western Michigan University) and PhD in Chemical Engineering (University of Pittsburgh)
 
 **Level:** Postdoctoral Associate in Computational Biology
 
 **Contact:** `alex.maldonado@pitt.edu` for most communication.
-I generally respond within a couple hours or by the next morning.
-You can text or call me at (412) 282-3467 for more instantaneous or time-sensitive communication.
-Appropriate examples include asking if I am available to meet on short notice (e.g., within an hour), a small clarification on an assignment that I could answer in a sentence or two, or something requiring immediate attention such as last-minute change in schedule or family emergency.
-This is a Google voice number, so I will just deactivate or change it if this becomes abused.
+I generally respond within 12 hours.
 
 **Office hours:**
 
@@ -72,6 +69,42 @@ Contact information can be found on [Canvas][canvas].
 **Ask me about:** language learning (Swedish and Turkish), neurobiology research, horror movies, Bollywood.
 
 **Career trajectory:** Pre-med
+
+### Justine Denby
+
+![Justine Denby](/img/team/justine.jpg){ width=300 }
+
+**Address me as:** TODO
+
+**Pronouns:** TODO
+
+**Major:** Computational Biology
+
+**Level:** TODO
+
+**Office hours:** To be determined
+
+**Ask me about** TODO
+
+**Career trajectory** TODO
+
+### Mathavan Murali
+
+![Mathavan Murali](/img/team/mathavan.jpg){ width=300 }
+
+**Address me as:** TODO
+
+**Pronouns:** TODO
+
+**Major:** TODO
+
+**Level:** TODO
+
+**Office hours:** To be determined
+
+**Ask me about** TODO
+
+**Career trajectory** TODO
 
 <!-- LINKS -->
 
