@@ -12,45 +12,47 @@ Jump to [this week](#week-1).
 
 **Tuesday** (Aug 27) [Lecture 01](../../lectures/01/)
 
--   ^^Topics^^: Syllabus and introduction to computational biology.
+-   ^^Topics^^: Introduction to computational biology.
 
-**Thursday** (Aug 29) [Lecture 02]()
+**Thursday** (Aug 29) [Lecture 02](../../lectures/02/)
 
--   ^^Topics^^: Overview of sequencing technologies: Sanger, Illumina, and nanopore sequencing.
+-   ^^Topics^^: DNA sequencing technologies.
 
 ### Week 2
 
-**Tuesday** (Sep 3) [Lecture 03]()
+**Tuesday** (Sep 3) [Lecture 03](../../lectures/03/)
 
--   ^^Topics^^: FASTA files, quality control, and reference genome assembly.
+-   ^^Topics^^: Reference genome assembly.
 
-**Thursday** (Sep 5) [Lecture 04]()
+**Thursday** (Sep 5) [Lecture 04](../../lectures/04/)
 
 -   ^^Topics^^: De novo genome assembly.
 
 ### Week 3
 
-**Tuesday** (Sep 10) [Lecture 05]()
+**Tuesday** (Sep 10) [Lecture 05](../../lectures/05/)
 
--   ^^Topics^^: Introduction to transcriptomics and RNA-Seq experimental design.
+-   ^^Topics^^: Pairwise sequence alignment.
 
-**Thursday** (Sep 12) [Lecture 06]()
+**Thursday** (Sep 12) [Lecture 06](../../lectures/06/)
 
--   ^^Topics^^: RNA-Seq data processing, quality control, and preprocessing.
+-   ^^Topics^^: Multiple sequence alignment.
 
 ### Week 4
 
-**Tuesday** (Sep 17) Exam 1
+**Tuesday** (Sep 17)
+
+-   ^^Topics^^: Introduction to transcriptomics and RNA-Seq experimental design.
 
 **Thursday** (Sep 19)  [Lecture 07]()
 
--   ^^Topics^^: Pairwise sequence alignment and homology.
+-   ^^Topics^^: RNA-Seq data processing, quality control, and preprocessing.
 
 ### Week 5
 
 **Tuesday** (Sep 24) [Lecture 08]()
 
--   ^^Topics^^: Multiple sequence alignment and sequence similarity search.
+-   ^^Topics^^: Quantification of gene expression.
 
 **Thursday** (Sep 26) [Lecture 09]()
 
@@ -60,11 +62,11 @@ Jump to [this week](#week-1).
 
 **Tuesday** (Oct 1) [Lecture 10]()
 
--   ^^Topics^^: Quantification of gene expression: RPKM, FPKM, and TPM.
+-   ^^Topics^^: Differential expression analysis.
 
 **Thursday** (Oct 3) [Lecture 11]()
 
--   ^^Topics^^: Differential expression analysis. Introduction to statistical methods and tools.
+-   ^^Topics^^: Review?
 
 <hr>
 
@@ -72,31 +74,31 @@ Jump to [this week](#week-1).
 
 ### Week 7
 
-**Tuesday** (Oct 8) Exam 2
+**Tuesday** (Oct 8) Exam 1
 
 **Thursday** (Oct 10) [Lecture 12]()
 
--   ^^Topics^^: Overview of structural biology, protein structure levels, and basics of protein folding.
+-   ^^Topics^^: Introduction to structural biology.
 
 ### Week 8
 
 **Tuesday** (Oct 15) [Lecture 13]()
 
--   ^^Topics^^: Introduction to X-ray crystallography, NMR spectroscopy, and Cryo-EM.
+-   ^^Topics^^: Protein structure determination.
 
 **Thursday** (Oct 17) [Lecture 14]()
 
--   ^^Topics^^: Protein structure prediction methods, focusing on homology modeling, threading, and AlphaFold.
+-   ^^Topics^^: Protein structure prediction.
 
 ### Week 9
 
 **Tuesday** (Oct 22) [Lecture 15]()
 
--   ^^Topics^^: Basics of molecular dynamics (MD), including force fields and the theory behind MD simulations. MD simulation setup: initial structure preparation, solvation, and defining the system environment.
+-   ^^Topics^^: Fundamentals of molecular dynamics.
 
 **Thursday** (Oct 24) [Lecture 16]()
 
--   ^^Topics^^: Running MD simulations: temperature control, pressure control, and equilibration.
+-   ^^Topics^^: Running molecular dynamics simulations.
 
 ### Week 10
 
@@ -124,7 +126,7 @@ Jump to [this week](#week-1).
 
 ### Week 12
 
-**Tuesday** (Nov 12) Exam 3
+**Tuesday** (Nov 12) Exam 2
 
 **Thursday** (Nov 14) [Lecture 21]()
 
