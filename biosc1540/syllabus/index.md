@@ -1,6 +1,6 @@
 # Syllabus
 
-**Semester:** Spring 2024
+**Semester:** Fall 2024
 <br>
 **Meeting time:** Tuesdays and Thursdays from 4:00 - 5:15 pm.
 <br>
@@ -28,6 +28,4 @@ To enroll, you must have received a minimum grade of `C` in Foundations of Biolo
 
 !!! warning "Programming experience"
 
-    Exposure to programming language fundamentals such as variables, functions, and conditionals is not required but **strongly recommended**.
-    We will be using Python&mdash;especially [NumPy](https://numpy.org/), [Pandas](https://pandas.pydata.org/)/[Polars](https://pola.rs/), [SciPy](https://scipy.org/), and [Matplotlib](https://matplotlib.org/)&mdash;throughout the course to explore topics in computational biology.
-    The [teaching team](/team) will provide a crash course in Python during the first week of class and use an ungraded skills check to assess your programming preparedness.
+    In contrast to previous semesters, no programming will be necessary for the successful completion of this course.
