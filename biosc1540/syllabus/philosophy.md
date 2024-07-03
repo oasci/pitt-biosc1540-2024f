@@ -38,7 +38,8 @@ This course aims to foster a spirit of independent inquiry and adaptability, pre
 ## Real-world scenarios enhance learning
 
 As we delve into computational biology, I want to emphasize the practical relevance of each module.
-Instead of a traditional approach, we'll be driven by motivating real-world scenarios that underscore the importance of the concepts you'll be learning. Consider yourself a problem solver in a scientific expedition, applying computational tools to tackle actual challenges faced in the field.
+Instead of a traditional approach, we'll be driven by motivating real-world scenarios that underscore the importance of the concepts you'll be learning.
+Consider yourself a problem solver in a scientific expedition, applying computational tools to tackle actual challenges faced in the field.
 Our focus will be on tangible applications, from predicting the impact of genetic variations on disease susceptibility to simulating the dynamics of biological systems under different conditions.
 This approach ensures that what you learn in this course is not confined to theoretical frameworks but has direct implications for understanding and addressing complex biological phenomena.
 
