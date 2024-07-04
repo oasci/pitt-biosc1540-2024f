@@ -1,7 +1,7 @@
 # Philosophy
 
 The Computational Biology course explores how to gain insight into biological phenomena with computational methodologies.
-Below is the course philosophy that drives my teaching.
+My teaching philosophy that guides this course is below.
 
 ## Critical thinking is paramount
 
@@ -26,19 +26,19 @@ This course aims to foster a spirit of independent inquiry and adaptability, pre
 
     In contrast, a computational biology course focuses on problem-based and open-ended learning, which is more akin to the approach in computer science courses.
     Students are presented with complex, real-world biological problems that require them to apply their knowledge innovatively and develop their own computational solutions.
-    For instance, students might be asked to analyze large genomic datasets to identify patterns or anomalies, develop algorithms to predict protein structures or create models to simulate the spread of infectious diseases.
+    For instance, students might be asked to analyze large genomic datasets to identify patterns or anomalies, develop algorithms to predict protein structures, or create models to simulate the spread of infectious diseases.
 
     These open-ended problems necessitate a deep understanding of biological concepts and the ability to translate that knowledge into computational frameworks.
     Students must think critically, break complex problems into manageable components, and develop creative solutions.
     They often need to engage in self-driven learning, exploring new computational tools and techniques to tackle the challenges.
 
-    A computational biology course emphasizes problem-based and open-ended learning, cultivating essential skills such as critical thinking, creativity, and adaptability.
+    A computational biology course emphasizes problem-based and open-ended learning, cultivating essential critical thinking, creativity, and adaptability skills.
     These skills prepare students for careers in computational biology and equip them with the tools to tackle the novel challenges they will face in any scientific field.
 
 ## Real-world scenarios enhance learning
 
 As we delve into computational biology, I want to emphasize the practical relevance of each module.
-Instead of a traditional approach, we'll be driven by motivating real-world scenarios that underscore the importance of the concepts you'll be learning.
+Instead of a traditional approach, we'll use motivating real-world scenarios that underscore the importance of the concepts you'll be learning.
 Consider yourself a problem solver in a scientific expedition, applying computational tools to tackle actual challenges faced in the field.
 Our focus will be on tangible applications, from predicting the impact of genetic variations on disease susceptibility to simulating the dynamics of biological systems under different conditions.
 This approach ensures that what you learn in this course is not confined to theoretical frameworks but has direct implications for understanding and addressing complex biological phenomena.
@@ -48,7 +48,7 @@ This approach ensures that what you learn in this course is not confined to theo
 Embarking on a journey in computational biology is most effectively achieved by actively participating in a research lab at [Pitt](https://www.pitt.edu/).
 This hands-on experience enriches your understanding and provides a practical immersion; computational biology research is becoming an expectation to remain competitive in today's job market.
 The modules in this course integrate seamlessly with this approach, offering direct links to labs that leverage tools relevant to the specific content covered.
-You are encouraged to contact these labs to see if they have paid or for-credit research positions available.
+You should contact these labs to see if they have paid or for-credit research positions available.
 
 ## Single source of truth
 
@@ -67,7 +67,7 @@ This can help ensure everyone is informed and up-to-date on what's happening in 
 ## Everything is a draft
 
 Open science and education are my core values and extend to my teaching.
-You will likely see me working on things that will be assigned in an hour or next week.
+You will likely see me working on things I assign in an hour or next week.
 Teaching new courses or making significant changes always works like this.
 Thus, looking ahead is acceptable, and all drafts are marked with the following admonition.
 If you start working ahead and things change, your time is lost.
