@@ -1,2 +1,34 @@
 nav:
     - Lectures: index.md
+    - Bioinformatics:
+        - bioinformatics
+        - Lecture 01: "01"
+        - Lecture 02: "02"
+        - Lecture 03: "03"
+        - Lecture 04: "04"
+        - Lecture 05: "05"
+        - Lecture 06: "06"
+        - Lecture 07: "07"
+        - Lecture 08: "08"
+        - Lecture 09: "09"
+        - Lecture 10: "10"
+        - Lecture 11: "11"
+        - Lecture 12: "12"
+    - Computational structural biology:
+        - csb
+        - Lecture 13: "13"
+        - Lecture 14: "14"
+        - Lecture 15: "15"
+        - Lecture 16: "16"
+        - Lecture 17: "17"
+        - Lecture 18: "18"
+        - Lecture 19: "19"
+        - Lecture 20: "20"
+        - Lecture 21: "21"
+    - Special topics:
+        - special
+        - Lecture 22: "22"
+        - Lecture 23: "23"
+        - Lecture 24: "24"
+        - Lecture 25: "25"
+        - Lecture 26: "26"
