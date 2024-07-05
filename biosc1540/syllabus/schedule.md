@@ -1,5 +1,10 @@
 # Schedule
 
+Our semester's schedule contains two main modules (each six weeks) and one special interest (three weeks).
+We start with [bioinformatics](#module-01-bioinformatics) to learn fundamentals of genomics and transcriptomics.
+Afterwards, we will cover structure prediction, molecular simulations, and computer-aided drug design in our [computational structural biology module](#module-02-computational-structural-biology).
+Our [third module in special interests](#module-03-special-interest-topics) will cover self-contained lectures about a more niche computational biology topic.
+
 Jump to [this week](#week-1).
 
 !!! danger "DRAFT"
@@ -40,31 +45,31 @@ Jump to [this week](#week-1).
 
 ### Week 4
 
-**Tuesday** (Sep 17)
+**Tuesday** (Sep 17) [Lecture 07](../../lectures/07/)
 
 -   ^^Topics^^: Introduction to transcriptomics.
 
-**Thursday** (Sep 19)  [Lecture 07](../../lectures/07/)
+**Thursday** (Sep 19)  [Lecture 08](../../lectures/08/)
 
 -   ^^Topics^^: RNA-Seq data processing.
 
 ### Week 5
 
-**Tuesday** (Sep 24) [Lecture 08](../../lectures/08/)
+**Tuesday** (Sep 24) [Lecture 09](../../lectures/09/)
 
 -   ^^Topics^^: Quantification of gene expression.
 
-**Thursday** (Sep 26) [Lecture 09](../../lectures/09/)
+**Thursday** (Sep 26) [Lecture 10](../../lectures/10/)
 
 -   ^^Topics^^: Gene Ontology and pathway analysis.
 
 ### Week 6
 
-**Tuesday** (Oct 1) [Lecture 10](../../lectures/10/)
+**Tuesday** (Oct 1) [Lecture 11](../../lectures/11/)
 
--   ^^Topics^^: Differential expression analysis.
+-   ^^Topics^^: Differential gene expression.
 
-**Thursday** (Oct 3) [Lecture 11](../../lectures/11/)
+**Thursday** (Oct 3) [Lecture 12](../../lectures/12/)
 
 -   ^^Topics^^: Review?
 
@@ -76,47 +81,47 @@ Jump to [this week](#week-1).
 
 **Tuesday** (Oct 8) Exam 1
 
-**Thursday** (Oct 10) [Lecture 12](../../lectures/12/)
+**Thursday** (Oct 10) [Lecture 13](../../lectures/13/)
 
 -   ^^Topics^^: Introduction to structural biology and experimental methods.
 
 ### Week 8
 
-**Tuesday** (Oct 15) [Lecture 13](../../lectures/13/)
+**Tuesday** (Oct 15) [Lecture 14](../../lectures/14/)
 
 -   ^^Topics^^: Molecular interactions and energy functions.
 
-**Thursday** (Oct 17) [Lecture 14](../../lectures/14/)
+**Thursday** (Oct 17) [Lecture 15](../../lectures/15/)
 
 -   ^^Topics^^: Protein structure prediction.
 
 ### Week 9
 
-**Tuesday** (Oct 22) [Lecture 15](../../lectures/15/)
+**Tuesday** (Oct 22) [Lecture 16](../../lectures/16/)
 
 -   ^^Topics^^: Molecular dynamics simulations I.
 
-**Thursday** (Oct 24) [Lecture 16](../../lectures/16/)
+**Thursday** (Oct 24) [Lecture 17](../../lectures/17/)
 
 -   ^^Topics^^: Molecular dynamics simulations II.
 
 ### Week 10
 
-**Tuesday** (Oct 29) [Lecture 17](../../lectures/17/)
+**Tuesday** (Oct 29) [Lecture 18](../../lectures/18/)
 
 -   ^^Topics^^: Structure-based drug design.
 
-**Thursday** (Oct 31) [Lecture 18](../../lectures/18/)
+**Thursday** (Oct 31) [Lecture 19](../../lectures/19/)
 
 -   ^^Topics^^: Docking and virtual screening.
 
 ### Week 11
 
-**Tuesday** (Nov 5) [Lecture 19](../../lectures/19/)
+**Tuesday** (Nov 5) [Lecture 20](../../lectures/20/)
 
 -   ^^Topics^^: Ligand-based drug design.
 
-**Thursday** (Nov 7) [Lecture 20](../../lectures/20/)
+**Thursday** (Nov 7) [Lecture 21](../../lectures/21/)
 
 -   ^^Topics^^: Review?
 
@@ -128,17 +133,17 @@ Jump to [this week](#week-1).
 
 **Tuesday** (Nov 12) Exam 2.
 
-**Thursday** (Nov 14) [Lecture 21](../../lectures/21/)
+**Thursday** (Nov 14) [Lecture 22](../../lectures/22/)
 
 -   ^^Topics^^: Systems biology.
 
 ### Week 13
 
-**Tuesday** (Nov 19) [Lecture 22](../../lectures/22/)
+**Tuesday** (Nov 19) [Lecture 23](../../lectures/23/)
 
 -   ^^Topics^^: Computational epigenetics.
 
-**Thursday** (Nov 21) [Lecture 23](../../lectures/23/)
+**Thursday** (Nov 21) [Lecture 24](../../lectures/24/)
 
 -   ^^Topics^^: Proteomics.
 
@@ -148,11 +153,11 @@ No class on Nov 26 and 28.
 
 ### Week 15
 
-**Tuesday** (Dec 3) [Lecture 24](../../lectures/24/)
+**Tuesday** (Dec 3) [Lecture 25](../../lectures/25/)
 
 -   ^^Topics^^: Computational neuroscience.
 
-**Thursday** (Dec 5) [Lecture 25](../../lectures/25/)
+**Thursday** (Dec 5) [Lecture 26](../../lectures/26/)
 
 -   ^^Topics^^: Computational immunology.
 
