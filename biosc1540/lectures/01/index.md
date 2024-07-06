@@ -2,15 +2,17 @@
 
 **Date:** Aug 27, 2024
 
+This introductory lecture sets the stage for our journey into computational biology. We'll begin by fostering a sense of community within our class and orienting you to the course resources. The bulk of our discussion will explore the diverse landscape of computational biology, highlighting its methods and real-world applications. We'll examine the delicate balance between explaining biological phenomena and making predictions, a key tension in the field. Finally, we'll delve into the art of crafting effective computational models, providing you with a framework for approaching complex biological problems. This session aims to ignite your curiosity and prepare you for the exciting challenges ahead in this rapidly evolving field.
+
 ## Learning objectives
 
-What you should be able to do after today's lecture.
+What you should be able to do after today's lecture:
 
-1.  🤝 Identify your learning community, including the [teaching team](/team) and fellow [students](/students).
-2.  🧫 🧮 Describe various methods and applications of computational biology.
-3.  🤝 Understand where to find course information from the [website](/) and [canvas](https://canvas.pitt.edu/courses/238471).
-4.  🧮 Articulate the balance between scientific explanation and prediction.
-5.  🧮 Identify the key steps of formulating a good computational model.
+1.  Identify your learning community, including the [teaching team](/team) and fellow [students](/students).
+2.  Understand where to find course information from the [website](/) and [canvas](https://canvas.pitt.edu/courses/238471).
+3.  Describe various methods and applications of computational biology.
+4.  Articulate the balance between scientific explanation and prediction.
+5.  Identify the key steps of formulating a good computational model.
 
 ## Readings
 

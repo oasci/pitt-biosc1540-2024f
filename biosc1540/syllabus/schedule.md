@@ -61,13 +61,13 @@ Jump to [this week](#week-1).
 
 **Thursday** (Sep 26) [Lecture 10](../../lectures/10/)
 
--   ^^Topics^^: Gene Ontology and pathway analysis.
+-   ^^Topics^^: Differential gene expression analysis.
 
 ### Week 6
 
 **Tuesday** (Oct 1) [Lecture 11](../../lectures/11/)
 
--   ^^Topics^^: Differential gene expression.
+-   ^^Topics^^: Gene ontology and pathway analysis.
 
 **Thursday** (Oct 3) [Lecture 12](../../lectures/12/)
 
@@ -89,21 +89,21 @@ Jump to [this week](#week-1).
 
 **Tuesday** (Oct 15) [Lecture 14](../../lectures/14/)
 
--   ^^Topics^^: Molecular interactions and energy functions.
+-   ^^Topics^^: Protein structure prediction.
 
 **Thursday** (Oct 17) [Lecture 15](../../lectures/15/)
 
--   ^^Topics^^: Protein structure prediction.
+-   ^^Topics^^: Introduction to Molecular Dynamics Simulations
 
 ### Week 9
 
 **Tuesday** (Oct 22) [Lecture 16](../../lectures/16/)
 
--   ^^Topics^^: Molecular dynamics simulations I.
+-   ^^Topics^^: Setting Up and Running Molecular Dynamics Simulations.
 
 **Thursday** (Oct 24) [Lecture 17](../../lectures/17/)
 
--   ^^Topics^^: Molecular dynamics simulations II.
+-   ^^Topics^^: Analyzing and Interpreting Molecular Dynamics Simulations.
 
 ### Week 10
 
@@ -159,7 +159,7 @@ No class on Nov 26 and 28.
 
 **Thursday** (Dec 5) [Lecture 26](../../lectures/26/)
 
--   ^^Topics^^: Computational immunology.
+-   ^^Topics^^: Bioimage analysis.
 
 <hr>
 
