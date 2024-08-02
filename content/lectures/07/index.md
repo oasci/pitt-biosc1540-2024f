@@ -1,6 +1,6 @@
 # Lecture 07
 
-**Date:** Sep 12, 2024
+**Date:** Sep 17, 2024
 
 This lecture introduces transcriptomics, a dynamic field that bridges genomics and gene expression studies. We'll explore how the transcriptome—the complete set of RNA transcripts in a cell—provides a snapshot of cellular activity, contrasting its fluid nature with the relatively static genome. The session will revisit the central dogma of molecular biology, emphasizing RNA's pivotal role in translating genetic information into functional proteins. We'll examine RNA-seq technology, drawing parallels to DNA sequencing while highlighting the unique challenges of RNA analysis. Through real-world examples, students will discover transcriptomics' broad applications in biological research, from unraveling gene regulation to identifying novel transcripts. This comprehensive overview aims to illuminate the complexities and potential of transcriptome analysis in advancing our understanding of cellular function and disease mechanisms.
 

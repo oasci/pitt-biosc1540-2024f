@@ -1,9 +1,9 @@
 # Schedule
 
-Our semester's schedule contains two main modules (each six weeks) and one special interest (three weeks).
+Our semester's schedule contains two main (each six weeks) and one special-interest module (three weeks).
 We start with [bioinformatics](#module-01-bioinformatics) to learn fundamentals of genomics and transcriptomics.
 Afterwards, we will cover structure prediction, molecular simulations, and computer-aided drug design in our [computational structural biology module](#module-02-computational-structural-biology).
-Our [third module in special interests](#module-03-special-interest-topics) will cover self-contained lectures about a more niche computational biology topic.
+Our [third module in special interests](#module-03-special-interest-topics) will cover self-contained lectures about more niche computational biology topics.
 
 Jump to [this week](#week-1).
 
@@ -71,7 +71,7 @@ Jump to [this week](#week-1).
 
 **Thursday** (Oct 3) [Lecture 12](../../lectures/12/)
 
--   ^^Topics^^: Review?
+-   ^^Topics^^: Review
 
 <hr>
 
@@ -83,7 +83,7 @@ Jump to [this week](#week-1).
 
 **Thursday** (Oct 10) [Lecture 13](../../lectures/13/)
 
--   ^^Topics^^: Introduction to structural biology and experimental methods.
+-   ^^Topics^^: Structural biology and determination.
 
 ### Week 8
 
@@ -93,13 +93,13 @@ Jump to [this week](#week-1).
 
 **Thursday** (Oct 17) [Lecture 15](../../lectures/15/)
 
--   ^^Topics^^: Introduction to Molecular Dynamics Simulations
+-   ^^Topics^^: Molecular simulation principles
 
 ### Week 9
 
 **Tuesday** (Oct 22) [Lecture 16](../../lectures/16/)
 
--   ^^Topics^^: Setting Up and Running Molecular Dynamics Simulations.
+-   ^^Topics^^: Molecular system representations
 
 **Thursday** (Oct 24) [Lecture 17](../../lectures/17/)
 
