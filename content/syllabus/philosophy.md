@@ -1,4 +1,4 @@
-# Philosophy
+# Course philosophy
 
 The Computational Biology course explores how to gain insight into biological phenomena with computational methodologies.
 My teaching philosophy that guides this course is below.

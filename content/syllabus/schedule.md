@@ -11,7 +11,7 @@ Jump to [this week](#week-1).
 
     This page is a work in progress and is subject to change at any moment.
 
-## [Module 01 - Bioinformatics][module 01]
+## Module 01 - Bioinformatics
 
 ### Week 1
 
@@ -75,7 +75,7 @@ Jump to [this week](#week-1).
 
 <hr>
 
-## [Module 02 - Computational structural biology][module 02]
+## Module 02 - Computational structural biology
 
 ### Week 7
 
@@ -93,7 +93,7 @@ Jump to [this week](#week-1).
 
 **Thursday** (Oct 17) [Lecture 15](../../lectures/15/)
 
--   ^^Topics^^: Molecular simulation principles
+-   ^^Topics^^: Molecular simulation principles.
 
 ### Week 9
 
@@ -103,7 +103,7 @@ Jump to [this week](#week-1).
 
 **Thursday** (Oct 24) [Lecture 17](../../lectures/17/)
 
--   ^^Topics^^: Analyzing and Interpreting Molecular Dynamics Simulations.
+-   ^^Topics^^: Gaining atomistic insights.
 
 ### Week 10
 
@@ -123,11 +123,11 @@ Jump to [this week](#week-1).
 
 **Thursday** (Nov 7) [Lecture 21](../../lectures/21/)
 
--   ^^Topics^^: Review?
+-   ^^Topics^^: Review
 
 <hr>
 
-## [Module 03 - Special-interest topics][module 03]
+## Module 03 - Special-interest topics
 
 ### Week 12
 
@@ -163,12 +163,6 @@ No class on Nov 26 and 28.
 
 <hr>
 
-## Finals
+## Final
 
 TODO:
-
-<!-- LINKS -->
-
-[module 01]: /modules/bioinformatics
-[module 02]: /modules/csb
-[module 03]: /modules/special
