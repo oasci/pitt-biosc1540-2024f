@@ -75,6 +75,10 @@ plugins:
   - glightbox
   - macros
   - print-site
+  - git-revision-date-localized:
+      type: iso_datetime
+      timezone: America/Detroit
+      fallback_to_build_date: true
 
 hooks:
   - hooks/launchy.py
