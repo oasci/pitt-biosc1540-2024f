@@ -8,12 +8,12 @@
 
 The course will have the following point distribution.
 
--   [**Exams**](../../assessments/exams/) (45%)
--   [**Case studies**](../../assessments/case-studies/) (30%)
--   [**Assignments**](../../assessments/assignments/) (20%)
+-   [**Exams**](../../assessments/exams/) (30%)
+-   [**Project**](../../assessments/project/) (20%)
+-   [**Assignments**](../../assessments/assignments/) (30%)
 -   [**Participation**](../../assessments/participation/) (5%)
 
-## Late Assignments and Extensions
+## Late assignments and extensions
 
 I am mindful of the diverse nature of deadlines, particularly in the scientific realm.
 Some are set in stone, while others exhibit more flexibility.
@@ -37,7 +37,7 @@ It encourages timely submissions while acknowledging the influence of external c
     | 48 | 45.2% |
     | 72 | 100.0% |
 
--   Assignments will not be accepted more than 96 hours (4 days) after the due date.
+-   Assignments will not be accepted more than 72 hours (3 days) after the due date.
 -   The penalty is applied to the assignment's total possible points.
     For example, if an assignment is worth 100 points and is submitted 36 hours late, the penalty would be approximately 13 points.
 -   To reward punctuality, each assignment submitted on time will earn a 2% bonus on that assignment's score.
@@ -50,7 +50,7 @@ By submitting assignments on time, you can earn up to 2% extra credit on your fi
 This bonus can potentially bump your grade to the next highest letter grade if you are close.
 Consequently, I will not round up any final grades.
 
-## Quiz Drop Policy
+## Quiz drop policy
 
 Throughout the semester, there will be several quizzes designed to assess your understanding of the course material and provide you with regular feedback on your progress.
 However, we recognize that students may face unexpected challenges or have an occasional off day.
@@ -67,7 +67,7 @@ We are here to support your learning and help you succeed in this course.
 
 ## Scale
 
-Letter grades for this course will be assigned based on the [Pitt's recommended scale](#scale) (shown below).
+Letter grades for this course will be assigned based on Pitt's recommended scale (shown below).
 
 | Letter grade | Percentage | GPA |
 | ------------ | ---------- | --- |
