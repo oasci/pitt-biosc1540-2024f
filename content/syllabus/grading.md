@@ -9,7 +9,7 @@
 The course will have the following point distribution.
 
 -   [**Exams**](../../assessments/exams/) (30%)
--   [**Project**](../../assessments/project/) (20%)
+-   [**Projects**](../../assessments/projects/) (20%)
 -   [**Assignments**](../../assessments/assignments/) (30%)
 -   [**Participation**](../../assessments/participation/) (5%)
 
