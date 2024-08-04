@@ -13,7 +13,7 @@
 version: 1
 metadata:
   content_hash:
-    linux-64: 60ead591cc1fa5c0992ebeb94ee4b82eeb0de6d59c7671d3ff43634c29ee5626
+    linux-64: f7ebb8a6ab2d350628e79042071bfe25ddcf52a8df50ba68e502edf95a7bedb9
   channels:
   - url: conda-forge
     used_env_vars: []
@@ -1082,7 +1082,7 @@ package:
   category: main
   optional: false
 - name: pre-commit
-  version: 3.7.1
+  version: 3.8.0
   manager: conda
   platform: linux-64
   dependencies:
@@ -1092,10 +1092,10 @@ package:
     python: '>=3.9'
     pyyaml: '>=5.1'
     virtualenv: '>=20.10.0'
-  url: https://conda.anaconda.org/conda-forge/noarch/pre-commit-3.7.1-pyha770c72_0.conda
+  url: https://conda.anaconda.org/conda-forge/noarch/pre-commit-3.8.0-pyha770c72_0.conda
   hash:
-    md5: 724bc4489c1174fc8e3233b0624fa51f
-    sha256: 689c169ce6ed5d516d8524cc1e6ef2687dff19747c1ed1ee9b347a71f47ff12d
+    md5: 1822e87a5d357f79c6aab871d86fb062
+    sha256: 2363c8706ca3b2a3385b09e33f639f6b66e4fa8d00a21c3dea4d934472a96e85
   category: main
   optional: false
 - name: ptyprocess
@@ -1390,15 +1390,15 @@ package:
   category: main
   optional: false
 - name: setuptools
-  version: 71.0.4
+  version: 72.1.0
   manager: conda
   platform: linux-64
   dependencies:
     python: '>=3.8'
-  url: https://conda.anaconda.org/conda-forge/noarch/setuptools-71.0.4-pyhd8ed1ab_0.conda
+  url: https://conda.anaconda.org/conda-forge/noarch/setuptools-72.1.0-pyhd8ed1ab_0.conda
   hash:
-    md5: ee78ac9c720d0d02fcfd420866b82ab1
-    sha256: e1b5dd28d2ea2a7ad660fbc8d1f2ef682a2f8460f80240d836d62e56225ac680
+    md5: e06d4c26df4f958a8d38696f2c344d15
+    sha256: d239e7f1b1a5617eeadda4e91183592f5a15219e97e16bc721d7b0597ee89a80
   category: main
   optional: false
 - name: shellingham

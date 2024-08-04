@@ -1,6 +1,6 @@
 # Schedule
 
-Our semester's schedule contains two main (each six weeks) and one special-interest module (three weeks).
+Our semester's schedule contains two main and one special-interest module.
 We start with [bioinformatics](#module-01-bioinformatics) to learn fundamentals of genomics and transcriptomics.
 Afterwards, we will cover structure prediction, molecular simulations, and computer-aided drug design in our [computational structural biology module](#module-02-computational-structural-biology).
 Our [third module in special interests](#module-03-special-interest-topics) will cover self-contained lectures about more niche computational biology topics.
@@ -165,4 +165,4 @@ No class on Nov 26 and 28.
 
 ## Final
 
-TODO:
+In lieu of a final exam, you will submit a project that covers concepts spanning the whole semester.

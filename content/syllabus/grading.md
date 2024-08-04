@@ -9,7 +9,7 @@
 The course will have the following point distribution.
 
 -   [**Exams**](../../assessments/exams/) (30%)
--   [**Projects**](../../assessments/projects/) (20%)
+-   [**Project**](../../assessments/project/) (20%)
 -   [**Assignments**](../../assessments/assignments/) (30%)
 -   [**Participation**](../../assessments/participation/) (5%)
 
@@ -52,18 +52,7 @@ Consequently, I will not round up any final grades.
 
 ## Quiz drop policy
 
-Throughout the semester, there will be several quizzes designed to assess your understanding of the course material and provide you with regular feedback on your progress.
-However, we recognize that students may face unexpected challenges or have an occasional off day.
-To accommodate such circumstances and to alleviate some of the stress associated with quizzes, the course includes a quiz drop policy.
-
-Under this policy, each student will be allowed to drop their lowest quiz score from their final grade calculation.
-This means that if you miss a quiz due to an unforeseen situation or if you have a particularly low score on one of the quizzes, that quiz will be automatically dropped from your overall quiz grade, and your remaining quiz scores will be used to calculate your final quiz average.
-
-Please note that this policy is intended to provide flexibility and support for students, but it should not be used as a substitute for consistent preparation and engagement with the course material.
-Students are still expected to attend classes regularly, complete all assigned readings and problem sets, and make a genuine effort to perform well on all quizzes.
-
-If you have any questions about the quiz drop policy or need further clarification, please don't hesitate to reach out to the instructor or the teaching assistants.
-We are here to support your learning and help you succeed in this course.
+TODO:
 
 ## Scale
 
