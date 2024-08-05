@@ -1,19 +1,19 @@
 # Lecture 22
 
-**Date:** Nov 14, 2024
+**Date:** Nov 21, 2024
 
-This lecture introduces students to the interdisciplinary field of systems biology, which aims to understand complex biological systems through a holistic approach. We'll explore how systems biology integrates various biological data types and computational methods to model and analyze cellular networks and organism-level processes. The session will cover key concepts such as network biology, metabolic modeling, and multi-scale integration. By examining real-world applications, students will gain insight into how systems biology is revolutionizing our understanding of biological complexity and its implications for medicine and biotechnology.
+This lecture introduces students to the field of proteomics, the large-scale study of proteins in biological systems. We'll explore how proteomics complements genomics and transcriptomics to provide a more complete picture of cellular function. The session will cover key technologies used in proteomics, including mass spectrometry and protein microarrays, as well as computational methods for data analysis. We'll examine how proteomics is applied in various areas of biological research, from understanding disease mechanisms to drug discovery. By the end of the lecture, students will appreciate the power of proteomics in elucidating the complex world of proteins and its impact on our understanding of biology and medicine.
 
 ## Learning objectives
 
 What you should be able to do after today's lecture:
 
-1.  Define systems biology and explain its importance in modern biological research
-2.  Describe the key principles of network biology and its application in understanding cellular processes.
-3.  Explain the basics of metabolic modeling and its role in predicting cellular behavior.
-4.  Discuss the concept of multi-scale integration in systems biology, from molecular to organism-level processes.
-5.  Identify major computational tools and approaches used in systems biology research.
-6.  Evaluate the potential applications and limitations of systems biology in addressing complex biological questions and in fields such as personalized medicine and synthetic biology.
+1.  Define proteomics and explain its importance in the context of systems biology and functional genomics.
+2.  Describe the basic principles of mass spectrometry and its application in protein identification and quantification.
+3.  Discuss other key technologies used in proteomics research, such as protein microarrays and two-dimensional gel electrophoresis.
+4.  Explain the challenges in proteomics data analysis and outline basic computational approaches used to address these challenges.
+5.  Identify major applications of proteomics in biological and biomedical research, including biomarker discovery and studying protein-protein interactions.
+6.  Evaluate the strengths and limitations of proteomics approaches in addressing biological questions, and discuss how proteomics integrates with other 'omics' technologies.
 
 ## Readings
 

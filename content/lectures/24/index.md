@@ -1,19 +1,19 @@
 # Lecture 24
 
-**Date:** Nov 21, 2024
+**Date:** Dec 5, 2024
 
-This lecture introduces students to the field of proteomics, the large-scale study of proteins in biological systems. We'll explore how proteomics complements genomics and transcriptomics to provide a more complete picture of cellular function. The session will cover key technologies used in proteomics, including mass spectrometry and protein microarrays, as well as computational methods for data analysis. We'll examine how proteomics is applied in various areas of biological research, from understanding disease mechanisms to drug discovery. By the end of the lecture, students will appreciate the power of proteomics in elucidating the complex world of proteins and its impact on our understanding of biology and medicine.
+This lecture introduces students to the rapidly evolving field of bioimage informatics, which bridges biology, microscopy, and computer science. We'll explore how computational methods are revolutionizing the analysis of biological images, from cellular structures to whole organisms. The session will cover key concepts in image processing, computer vision, and machine learning as applied to biological imaging data. We'll examine how these techniques enable quantitative analysis of complex biological processes, high-throughput screening, and the extraction of meaningful data from vast image repositories. By the end of the lecture, students will appreciate the power of bioimage informatics in advancing our understanding of biological systems and its potential applications in research and medical diagnostics.
 
 ## Learning objectives
 
 What you should be able to do after today's lecture:
 
-1.  Define proteomics and explain its importance in the context of systems biology and functional genomics.
-2.  Describe the basic principles of mass spectrometry and its application in protein identification and quantification.
-3.  Discuss other key technologies used in proteomics research, such as protein microarrays and two-dimensional gel electrophoresis.
-4.  Explain the challenges in proteomics data analysis and outline basic computational approaches used to address these challenges.
-5.  Identify major applications of proteomics in biological and biomedical research, including biomarker discovery and studying protein-protein interactions.
-6.  Evaluate the strengths and limitations of proteomics approaches in addressing biological questions, and discuss how proteomics integrates with other 'omics' technologies.
+1.  Define bioimage informatics and explain its importance in modern biological research and medical imaging.
+2.  Describe basic image processing techniques used in bioimage analysis, such as filtering, segmentation, and feature extraction.
+3.  Explain how machine learning and deep learning approaches are applied to biological image analysis.
+4.  Discuss key applications of bioimage informatics, including high-content screening, 3D reconstruction, and automated cell tracking.
+5.  Identify major challenges in bioimage analysis, such as dealing with noise, variability, and large datasets.
+6.  Evaluate the potential of bioimage informatics in advancing fields like cell biology, neuroscience, and personalized medicine.
 
 ## Readings
 

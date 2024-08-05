@@ -87,63 +87,61 @@ Jump to [this week](#week-1).
 
 ### Week 8
 
-**Tuesday** (Oct 15) [Lecture 14](../../lectures/14/)
+**Tuesday** (Oct 15) **Fall break (no class).**
+
+**Thursday** (Oct 17) [Lecture 14](../../lectures/14/)
 
 -   ^^Topics^^: Protein structure prediction.
 
-**Thursday** (Oct 17) [Lecture 15](../../lectures/15/)
+### Week 9
+
+**Tuesday** (Oct 22) [Lecture 15](../../lectures/15/)
 
 -   ^^Topics^^: Molecular simulation principles.
 
-### Week 9
+**Thursday** (Oct 24) [Lecture 16](../../lectures/16/)
 
-**Tuesday** (Oct 22) [Lecture 16](../../lectures/16/)
-
--   ^^Topics^^: Molecular system representations
-
-**Thursday** (Oct 24) [Lecture 17](../../lectures/17/)
-
--   ^^Topics^^: Gaining atomistic insights.
+-   ^^Topics^^: Molecular system representations.
 
 ### Week 10
 
-**Tuesday** (Oct 29) [Lecture 18](../../lectures/18/)
+**Tuesday** (Oct 29) [Lecture 17](../../lectures/17/)
+
+-   ^^Topics^^: Gaining atomistic insights.
+
+**Thursday** (Oct 31) [Lecture 18](../../lectures/18/)
 
 -   ^^Topics^^: Structure-based drug design.
 
-**Thursday** (Oct 31) [Lecture 19](../../lectures/19/)
+### Week 11
+
+**Tuesday** (Nov 5) **Election day: go vote (no class)!**
+
+**Thursday** (Nov 7) [Lecture 19](../../lectures/19/)
 
 -   ^^Topics^^: Docking and virtual screening.
 
-### Week 11
+### Week 12
 
-**Tuesday** (Nov 5) [Lecture 20](../../lectures/20/)
+**Tuesday** (Nov 12) [Lecture 20](../../lectures/20/)
 
 -   ^^Topics^^: Ligand-based drug design.
 
-**Thursday** (Nov 7) [Lecture 21](../../lectures/21/)
+**Thursday** (Nov 14) [Lecture 21](../../lectures/21/)
 
--   ^^Topics^^: Review
+-   ^^Topics^^: Review.
 
 <hr>
 
 ## Module 03 - Special-interest topics
 
-### Week 12
-
-**Tuesday** (Nov 12) Exam 2.
-
-**Thursday** (Nov 14) [Lecture 22](../../lectures/22/)
-
--   ^^Topics^^: Systems biology.
-
 ### Week 13
 
-**Tuesday** (Nov 19) [Lecture 23](../../lectures/23/)
+**Tuesday** (Nov 19)
 
--   ^^Topics^^: Computational epigenetics.
+-   ^^Topics^^: Exam 2.
 
-**Thursday** (Nov 21) [Lecture 24](../../lectures/24/)
+**Thursday** (Nov 21) [Lecture 22](../../lectures/22/)
 
 -   ^^Topics^^: Proteomics.
 
@@ -153,11 +151,11 @@ No class on Nov 26 and 28.
 
 ### Week 15
 
-**Tuesday** (Dec 3) [Lecture 25](../../lectures/25/)
+**Tuesday** (Dec 3) [Lecture 23](../../lectures/23/)
 
--   ^^Topics^^: Computational neuroscience.
+-   ^^Topics^^: Systems biology.
 
-**Thursday** (Dec 5) [Lecture 26](../../lectures/26/)
+**Thursday** (Dec 5) [Lecture 24](../../lectures/24/)
 
 -   ^^Topics^^: Bioimage analysis.
 

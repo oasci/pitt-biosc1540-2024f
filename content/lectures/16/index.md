@@ -1,6 +1,6 @@
 # Lecture 16
 
-**Date:** Oct 22, 2024
+**Date:** Oct 24, 2024
 
 Building on the foundations from the previous lecture, this session focuses on the practical aspects of setting up and running MD simulations. We'll walk through the steps involved in preparing a system for simulation, from initial structure to production run.
 

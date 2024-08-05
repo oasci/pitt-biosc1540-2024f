@@ -1,6 +1,6 @@
 # Lecture 14
 
-**Date:** Oct 15, 2024
+**Date:** Oct 17, 2024
 
 This lecture delves into the fascinating world of protein structure prediction, a cornerstone of computational structural biology. We'll explore how amino acid sequences are transformed into three-dimensional structures through computational methods. The session will cover various approaches, from traditional homology modeling to cutting-edge deep learning techniques like AlphaFold. We'll examine the principles underlying these methods, their applications, and their impact on biological research. By understanding the strengths and limitations of different prediction methods, students will gain insight into how these tools are revolutionizing our ability to study protein function and design novel therapeutics.
 

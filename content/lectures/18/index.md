@@ -1,6 +1,6 @@
 # Lecture 18
 
-**Date:** Oct 29, 2024
+**Date:** Oct 31, 2024
 
 This lecture introduces structure-based drug design, a powerful approach in modern drug discovery that leverages the three-dimensional structure of biological targets. We'll explore how knowledge of protein structures guides the rational design of new therapeutics. The session will cover key principles of molecular recognition, binding site analysis, and fragment-based drug design. Students will gain insight into how computational tools utilize structural information to identify and optimize potential drug candidates, setting the stage for more detailed exploration of docking and virtual screening in the following lecture.
 

@@ -1,6 +1,6 @@
 # Lecture 17
 
-**Date:** Oct 24, 2024
+**Date:** Oct 29, 2024
 
 This final lecture in the MD series focuses on the analysis and interpretation of MD simulation data. We'll explore common analysis techniques and how to extract meaningful biological insights from simulation trajectories.
 
