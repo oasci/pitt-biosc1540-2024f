@@ -2,7 +2,9 @@
 
 **Date:** Aug 27, 2024
 
-This introductory lecture sets the stage for our journey into computational biology. We'll begin by fostering a sense of community within our class and orienting you to the course resources. The bulk of our discussion will explore the diverse landscape of computational biology, highlighting its methods and real-world applications. We'll examine the delicate balance between explaining biological phenomena and making predictions, a key tension in the field. Finally, we'll delve into the art of crafting effective computational models, providing you with a framework for approaching complex biological problems. This session aims to ignite your curiosity and prepare you for the exciting challenges ahead in this rapidly evolving field.
+This introductory lecture sets the stage for this computational biology course.
+We will begin by establishing our learning community and orienting you to the available course resources.
+The bulk of our discussion will explore the diverse landscape of computational biology, highlighting its methods and real-world applications.
 
 ## Learning objectives
 
@@ -19,8 +21,8 @@ What you should be able to do after today's lecture:
 Relevant content for today's lecture.
 
 -   [Syllabus](../../syllabus/)
--   Computational biology
--   Modeling philosophy
+-   [Computational biology](https://compbio.crumblearn.org/about/compbio/)
+-   [Modeling philosophy](https://compbio.crumblearn.org/about/modeling-philosophy/)
 
 ## Presentation
 

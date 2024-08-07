@@ -35,6 +35,22 @@ This course aims to foster a spirit of independent inquiry and adaptability, pre
     A computational biology course emphasizes problem-based and open-ended learning, cultivating essential critical thinking, creativity, and adaptability skills.
     These skills prepare students for careers in computational biology and equip them with the tools to tackle the novel challenges they will face in any scientific field.
 
+## Learning happens outside your comfort zone
+
+This computational biology course embraces the idea that authentic learning and growth often occur when one steps outside one's comfort zone.
+This approach is particularly relevant in a field that combines biology's complexities with computational methods' challenges.
+As you navigate this course, you will encounter concepts, problems, and methodologies that may initially seem daunting or unfamiliar.
+This is intentional.
+By pushing the boundaries of your knowledge and skills, you develop resilience, adaptability, and a deeper understanding of the subject matter.
+
+Rest assured that your willingness to step outside your comfort zone will not negatively affect your grade.
+We have meticulously structured the course to support your growth while ensuring fair and transparent assessment methods.
+
+-   Most assignments employ a scaffolded or tiered approach, where more straightforward questions that test foundational knowledge are worth more points than the more challenging, advanced questions.
+-   Optional "stretch" questions or projects for those seeking extra challenges, with bonus points that can't negatively affect your grade.
+
+These strategies are designed to create a nurturing and supportive learning environment where you can push your boundaries, take intellectual risks, and grow your skills in computational biology without fear of academic consequences.
+
 ## Real-world scenarios enhance learning
 
 As we delve into computational biology, I want to emphasize the practical relevance of each module.
