@@ -1,5 +1,7 @@
 # Lectures
 
-!!! danger "DRAFT"
+We have 24 lectures spanned across three modules:
 
-    This page is a work in progress and is subject to change at any moment.
+-   [Bioinformatics](./bioinformatics/)
+-   [Computational structural biology](./csb/)
+-   [Special topics](./special/)
