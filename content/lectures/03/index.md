@@ -1,4 +1,7 @@
-# Lecture 03
+<h1 align="center">
+<b>Lecture 03</b><br>
+Title
+</h1>
 
 **Date:** Sep 3, 2024
 
