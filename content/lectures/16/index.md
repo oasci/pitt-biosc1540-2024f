@@ -1,19 +1,19 @@
 # Lecture 16
 
-**Date:** Oct 24, 2024
+**Date:** Oct 29, 2024
 
-Building on the foundations from the previous lecture, this session focuses on the practical aspects of setting up and running MD simulations. We'll walk through the steps involved in preparing a system for simulation, from initial structure to production run.
+This lecture introduces structure-based drug design, a powerful approach in modern drug discovery that leverages the three-dimensional structure of biological targets. We'll explore how knowledge of protein structures guides the rational design of new therapeutics. The session will cover key principles of molecular recognition, binding site analysis, and fragment-based drug design. Students will gain insight into how computational tools utilize structural information to identify and optimize potential drug candidates, setting the stage for more detailed exploration of docking and virtual screening in the following lecture.
 
 ## Learning objectives
 
 What you should be able to do after today's lecture:
 
-1.  Outline the steps involved in setting up an MD simulation.
-2.  Explain the importance of system preparation, including solvation and ion placement.
-3.  Describe the process of energy minimization and its importance.
-4.  Discuss the concept of equilibration and its role in MD simulations.
-5.  Explain periodic boundary conditions and their importance in MD simulations.
-6.  Identify key parameters and their significance in running production MD simulations.
+1.  Define structure-based drug design and explain its importance in modern drug discovery pipelines.
+2.  Describe the key steps in a typical structure-based drug design workflow.
+3.  Explain the concept of molecular recognition and its role in drug-target interactions.
+4.  Discuss the importance of binding site analysis in identifying potential drug targets.
+5.  Outline the principles of fragment-based drug design and its advantages in lead discovery.
+6.  Evaluate the strengths and limitations of structure-based approaches in drug discovery.
 
 ## Readings
 

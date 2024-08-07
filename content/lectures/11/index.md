@@ -1,19 +1,19 @@
 # Lecture 11
 
-**Date:** Oct 1, 2024
+**Date:** Oct 8, 2024
 
-This lecture explores the powerful tools of Gene Ontology and pathway analysis, essential for extracting biological meaning from large-scale genomics data. We'll dive into how these approaches transform lists of genes into functional insights, revealing the underlying biological processes at work. The session will unpack the structured vocabulary of Gene Ontology, showing how it captures the complexity of gene function across diverse organisms. We'll examine various pathway analysis methods, comparing their strengths and applications in deciphering cellular networks. Through practical examples, students will learn to interpret enrichment results, balancing statistical significance with biological relevance. By critically examining the limitations and biases of these methods, this lecture aims to equip students with the skills to apply GO and pathway analysis judiciously, enhancing their ability to derive meaningful conclusions from genomic and transcriptomic studies.
+This lecture introduces the field of computational structural biology and its interplay with experimental methods. We'll explore how computational approaches complement and enhance traditional structural biology techniques, providing insights into protein structure, function, and dynamics. The session will cover key experimental methods like X-ray crystallography, NMR spectroscopy, and cryo-EM, highlighting their strengths and limitations. We'll then delve into how computational methods address these limitations and extend our understanding of molecular structures. This foundational knowledge will set the stage for deeper exploration of computational techniques in structural biology.
 
 ## Learning objectives
 
 What you should be able to do after today's lecture:
 
-1.  Define Gene Ontology (GO) and explain its role in functional annotation of genes.
-2.  Describe the basic structure of GO terms and their hierarchical relationships.
-3.  Explain the concept of pathway analysis and its importance in interpreting transcriptomics data.
-4.  Compare and contrast different approaches to pathway analysis (e.g., over-representation analysis, gene set enrichment analysis).
-5.  Interpret the results of GO enrichment and pathway analysis, including understanding statistical significance and biological relevance.
-6.  Discuss the limitations and potential biases in GO and pathway analysis.
+1.  Define computational structural biology and explain its importance in modern biological research.
+2.  Describe the basic principles of key experimental methods in structural biology (X-ray crystallography, NMR spectroscopy, cryo-EM).
+3.  Compare and contrast the strengths and limitations of different experimental structural biology techniques.
+4.  Explain how computational methods complement and enhance experimental structural biology approaches.
+5.  Identify major areas of application for computational structural biology, such as protein structure prediction and molecular dynamics simulations.
+6.  Discuss the future directions and challenges in integrating computational and experimental methods in structural biology.
 
 ## Readings
 

@@ -1,21 +1,19 @@
 # Lecture 12
 
-**Date:** Oct 3, 2024
+**Date:** Oct 10, 2024
 
-This lecture will serve as a comprehensive review of the module, using a case study to illustrate how the various concepts and techniques covered are applied in real-world research.
-It will help students connect the dots between different topics and prepare them for applying their knowledge in the exam and beyond.
-The case study approach will also help demonstrate the practical relevance of the material, reinforcing its importance for both computational biology majors and biology majors.
+This lecture delves into the fascinating world of protein structure prediction, a cornerstone of computational structural biology. We'll explore how amino acid sequences are transformed into three-dimensional structures through computational methods. The session will cover various approaches, from traditional homology modeling to cutting-edge deep learning techniques like AlphaFold. We'll examine the principles underlying these methods, their applications, and their impact on biological research. By understanding the strengths and limitations of different prediction methods, students will gain insight into how these tools are revolutionizing our ability to study protein function and design novel therapeutics.
 
 ## Learning objectives
 
 What you should be able to do after today's lecture:
 
-1.  Synthesize key concepts from genomics and transcriptomics covered in the module, including sequencing technologies, genome assembly, and RNA-seq analysis.
-2.  Apply their understanding of bioinformatics workflows to a real-world research scenario presented as a case study.
-3.  Analyze and interpret example datasets that integrate genomic and transcriptomic information.
-4.  Critically evaluate the strengths and limitations of different bioinformatics approaches in addressing specific biological questions.
-5.  Propose appropriate analytical strategies for novel research questions involving genomics and transcriptomics data.
-6.  Discuss the broader implications of bioinformatics analyses in advancing biological understanding and potential applications.
+1.  Explain the importance of protein structure prediction in biological research and its applications.
+2.  Describe the basic principles of homology modeling and threading approaches in protein structure prediction.
+3.  Outline the key steps in ab initio protein structure prediction methods.
+4.  Discuss the impact of machine learning and deep learning techniques, such as AlphaFold, on protein structure prediction.
+5.  Compare and contrast different protein structure prediction methods, highlighting their strengths and limitations.
+6.  Interpret and evaluate the quality of predicted protein structures using common assessment metrics.
 
 ## Readings
 

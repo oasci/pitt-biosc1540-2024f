@@ -1,19 +1,19 @@
 # Lecture 18
 
-**Date:** Oct 31, 2024
+**Date:** Nov 7, 2024
 
-This lecture introduces structure-based drug design, a powerful approach in modern drug discovery that leverages the three-dimensional structure of biological targets. We'll explore how knowledge of protein structures guides the rational design of new therapeutics. The session will cover key principles of molecular recognition, binding site analysis, and fragment-based drug design. Students will gain insight into how computational tools utilize structural information to identify and optimize potential drug candidates, setting the stage for more detailed exploration of docking and virtual screening in the following lecture.
+This lecture focuses on ligand-based drug design, an approach that leverages information from known active compounds to discover new drug candidates. We'll explore various ligand-based methods, including quantitative structure-activity relationships (QSAR), pharmacophore modeling, and similarity searching. The session will highlight how these techniques complement structure-based approaches and their application in lead optimization and scaffold hopping.
 
 ## Learning objectives
 
 What you should be able to do after today's lecture:
 
-1.  Define structure-based drug design and explain its importance in modern drug discovery pipelines.
-2.  Describe the key steps in a typical structure-based drug design workflow.
-3.  Explain the concept of molecular recognition and its role in drug-target interactions.
-4.  Discuss the importance of binding site analysis in identifying potential drug targets.
-5.  Outline the principles of fragment-based drug design and its advantages in lead discovery.
-6.  Evaluate the strengths and limitations of structure-based approaches in drug discovery.
+1.  Define ligand-based drug design and its role in drug discovery pipelines.
+2.  Explain the principles of quantitative structure-activity relationships (QSAR) and their applications.
+3.  Describe ligand-based pharmacophore modeling and how it differs from structure-based approaches.
+4.  Discuss the concept of molecular similarity and its use in compound library screening.
+5.  Outline the process of scaffold hopping in lead optimization.
+6.  Compare and contrast ligand-based and structure-based drug design approaches, identifying scenarios where each is most appropriate.
 
 ## Readings
 

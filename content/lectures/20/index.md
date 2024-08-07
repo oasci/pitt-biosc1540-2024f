@@ -1,19 +1,19 @@
 # Lecture 20
 
-**Date:** Nov 12, 2024
+**Date:** Nov 21, 2024
 
-This lecture focuses on ligand-based drug design, an approach that leverages information from known active compounds to discover new drug candidates. We'll explore various ligand-based methods, including quantitative structure-activity relationships (QSAR), pharmacophore modeling, and similarity searching. The session will highlight how these techniques complement structure-based approaches and their application in lead optimization and scaffold hopping.
+This lecture introduces students to the interdisciplinary field of systems biology, which aims to understand complex biological systems through a holistic approach. We'll explore how systems biology integrates various biological data types and computational methods to model and analyze cellular networks and organism-level processes. The session will cover key concepts such as network biology, metabolic modeling, and multi-scale integration. By examining real-world applications, students will gain insight into how systems biology is revolutionizing our understanding of biological complexity and its implications for medicine and biotechnology.
 
 ## Learning objectives
 
 What you should be able to do after today's lecture:
 
-1.  Define ligand-based drug design and its role in drug discovery pipelines.
-2.  Explain the principles of quantitative structure-activity relationships (QSAR) and their applications.
-3.  Describe ligand-based pharmacophore modeling and how it differs from structure-based approaches.
-4.  Discuss the concept of molecular similarity and its use in compound library screening.
-5.  Outline the process of scaffold hopping in lead optimization.
-6.  Compare and contrast ligand-based and structure-based drug design approaches, identifying scenarios where each is most appropriate.
+1.  Define systems biology and explain its importance in modern biological research
+2.  Describe the key principles of network biology and its application in understanding cellular processes.
+3.  Explain the basics of metabolic modeling and its role in predicting cellular behavior.
+4.  Discuss the concept of multi-scale integration in systems biology, from molecular to organism-level processes.
+5.  Identify major computational tools and approaches used in systems biology research.
+6.  Evaluate the potential applications and limitations of systems biology in addressing complex biological questions and in fields such as personalized medicine and synthetic biology.
 
 ## Readings
 

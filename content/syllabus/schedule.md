@@ -15,63 +15,63 @@ Jump to [this week](#week-1).
 
 ### Week 1
 
-**Tuesday** (Aug 27) [Lecture 01](../../lectures/01/)
+**Tuesday** (Aug 27) [**Lecture 01**](../../lectures/01/)
 
 -   ^^Topics^^: Introduction to computational biology.
 
-**Thursday** (Aug 29) [Lecture 02](../../lectures/02/)
+**Thursday** (Aug 29) [**Lecture 02**](../../lectures/02/)
 
 -   ^^Topics^^: DNA sequencing technologies.
 
 ### Week 2
 
-**Tuesday** (Sep 3) [Lecture 03](../../lectures/03/)
+**Tuesday** (Sep 3) [**Lecture 03**](../../lectures/03/)
 
 -   ^^Topics^^: Reference genome assembly.
 
-**Thursday** (Sep 5) [Lecture 04](../../lectures/04/)
+**Thursday** (Sep 5) [**Lecture 04**](../../lectures/04/)
 
 -   ^^Topics^^: De novo genome assembly.
 
 ### Week 3
 
-**Tuesday** (Sep 10) [Lecture 05](../../lectures/05/)
+**Tuesday** (Sep 10) [**Lecture 05**](../../lectures/05/)
 
 -   ^^Topics^^: Pairwise sequence alignment.
 
-**Thursday** (Sep 12) [Lecture 06](../../lectures/06/)
+**Thursday** (Sep 12) [**Lecture 06**](../../lectures/06/)
 
 -   ^^Topics^^: Multiple sequence alignment.
 
 ### Week 4
 
-**Tuesday** (Sep 17) [Lecture 07](../../lectures/07/)
+**Tuesday** (Sep 17) [**Lecture 07**](../../lectures/07/)
 
 -   ^^Topics^^: Introduction to transcriptomics.
 
-**Thursday** (Sep 19)  [Lecture 08](../../lectures/08/)
+**Thursday** (Sep 19)  [**Lecture 08**](../../lectures/08/)
 
 -   ^^Topics^^: RNA-Seq data processing.
 
 ### Week 5
 
-**Tuesday** (Sep 24) [Lecture 09](../../lectures/09/)
+**Tuesday** (Sep 24) [**Lecture 09**](../../lectures/09/)
 
 -   ^^Topics^^: Quantification of gene expression.
 
-**Thursday** (Sep 26) [Lecture 10](../../lectures/10/)
+**Thursday** (Sep 26) [**Lecture 10**](../../lectures/10/)
 
 -   ^^Topics^^: Differential gene expression analysis.
 
 ### Week 6
 
-**Tuesday** (Oct 1) [Lecture 11](../../lectures/11/)
+**Tuesday** (Oct 1)
 
--   ^^Topics^^: Gene ontology and pathway analysis.
+-   ^^Topics^^: **Review**
 
-**Thursday** (Oct 3) [Lecture 12](../../lectures/12/)
+**Thursday** (Oct 3)
 
--   ^^Topics^^: Review
+-   ^^Topics^^: **Exam 1**
 
 <hr>
 
@@ -79,57 +79,55 @@ Jump to [this week](#week-1).
 
 ### Week 7
 
-**Tuesday** (Oct 8) Exam 1
-
-**Thursday** (Oct 10) [Lecture 13](../../lectures/13/)
+**Tuesday** (Oct 8) [**Lecture 11**](../../lectures/11/)
 
 -   ^^Topics^^: Structural biology and determination.
 
-### Week 8
-
-**Tuesday** (Oct 15) **Fall break (no class).**
-
-**Thursday** (Oct 17) [Lecture 14](../../lectures/14/)
+**Thursday** (Oct 10) [**Lecture 12**](../../lectures/12/)
 
 -   ^^Topics^^: Protein structure prediction.
 
-### Week 9
+### Week 8
 
-**Tuesday** (Oct 22) [Lecture 15](../../lectures/15/)
+**Tuesday** (Oct 15) **Fall break (no class)**
+
+**Thursday** (Oct 17) [**Lecture 13**](../../lectures/13/)
 
 -   ^^Topics^^: Molecular simulation principles.
 
-**Thursday** (Oct 24) [Lecture 16](../../lectures/16/)
+### Week 9
+
+**Tuesday** (Oct 22) [**Lecture 14**](../../lectures/14/)
 
 -   ^^Topics^^: Molecular system representations.
 
-### Week 10
-
-**Tuesday** (Oct 29) [Lecture 17](../../lectures/17/)
+**Thursday** (Oct 24) [**Lecture 15**](../../lectures/15/)
 
 -   ^^Topics^^: Gaining atomistic insights.
 
-**Thursday** (Oct 31) [Lecture 18](../../lectures/18/)
+### Week 10
+
+**Tuesday** (Oct 29) [**Lecture 16**](../../lectures/16/)
 
 -   ^^Topics^^: Structure-based drug design.
 
-### Week 11
-
-**Tuesday** (Nov 5) **Election day: go vote (no class)!**
-
-**Thursday** (Nov 7) [Lecture 19](../../lectures/19/)
+**Thursday** (Oct 31) [**Lecture 17**](../../lectures/17/)
 
 -   ^^Topics^^: Docking and virtual screening.
 
-### Week 12
+### Week 11
 
-**Tuesday** (Nov 12) [Lecture 20](../../lectures/20/)
+**Tuesday** (Nov 5) **Election day: go vote (no class)**
+
+**Thursday** (Nov 7) [**Lecture 18**](../../lectures/18/)
 
 -   ^^Topics^^: Ligand-based drug design.
 
-**Thursday** (Nov 14) [Lecture 21](../../lectures/21/)
+### Week 12
 
--   ^^Topics^^: Review.
+**Tuesday** (Nov 12) **Review**
+
+**Thursday** (Nov 14): **Exam 2**
 
 <hr>
 
@@ -137,13 +135,13 @@ Jump to [this week](#week-1).
 
 ### Week 13
 
-**Tuesday** (Nov 19)
+**Tuesday** (Nov 19) [**Lecture 19**](../../lectures/19/)
 
--   ^^Topics^^: Exam 2.
+-   ^^Topics^^: Proteomics
 
-**Thursday** (Nov 21) [Lecture 22](../../lectures/22/)
+**Thursday** (Nov 21) [**Lecture 20**](../../lectures/20/)
 
--   ^^Topics^^: Proteomics.
+-   ^^Topics^^: Systems biology
 
 ### Thanksgiving break
 
@@ -151,13 +149,13 @@ No class on Nov 26 and 28.
 
 ### Week 15
 
-**Tuesday** (Dec 3) [Lecture 23](../../lectures/23/)
+**Tuesday** (Dec 3) [**Lecture 21**](../../lectures/21/)
 
--   ^^Topics^^: Systems biology.
+-   ^^Topics^^: Bioimage analysis
 
-**Thursday** (Dec 5) [Lecture 24](../../lectures/24/)
+**Thursday** (Dec 5) [**Lecture 22**](../../lectures/22/)
 
--   ^^Topics^^: Bioimage analysis.
+-   ^^Topics^^: TBD
 
 <hr>
 

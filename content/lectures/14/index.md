@@ -1,19 +1,19 @@
 # Lecture 14
 
-**Date:** Oct 17, 2024
+**Date:** Oct 22, 2024
 
-This lecture delves into the fascinating world of protein structure prediction, a cornerstone of computational structural biology. We'll explore how amino acid sequences are transformed into three-dimensional structures through computational methods. The session will cover various approaches, from traditional homology modeling to cutting-edge deep learning techniques like AlphaFold. We'll examine the principles underlying these methods, their applications, and their impact on biological research. By understanding the strengths and limitations of different prediction methods, students will gain insight into how these tools are revolutionizing our ability to study protein function and design novel therapeutics.
+Building on the foundations from the previous lecture, this session focuses on the practical aspects of setting up and running MD simulations. We'll walk through the steps involved in preparing a system for simulation, from initial structure to production run.
 
 ## Learning objectives
 
 What you should be able to do after today's lecture:
 
-1.  Explain the importance of protein structure prediction in biological research and its applications.
-2.  Describe the basic principles of homology modeling and threading approaches in protein structure prediction.
-3.  Outline the key steps in ab initio protein structure prediction methods.
-4.  Discuss the impact of machine learning and deep learning techniques, such as AlphaFold, on protein structure prediction.
-5.  Compare and contrast different protein structure prediction methods, highlighting their strengths and limitations.
-6.  Interpret and evaluate the quality of predicted protein structures using common assessment metrics.
+1.  Outline the steps involved in setting up an MD simulation.
+2.  Explain the importance of system preparation, including solvation and ion placement.
+3.  Describe the process of energy minimization and its importance.
+4.  Discuss the concept of equilibration and its role in MD simulations.
+5.  Explain periodic boundary conditions and their importance in MD simulations.
+6.  Identify key parameters and their significance in running production MD simulations.
 
 ## Readings
 

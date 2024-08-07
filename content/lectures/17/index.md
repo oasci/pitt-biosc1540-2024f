@@ -1,19 +1,19 @@
 # Lecture 17
 
-**Date:** Oct 29, 2024
+**Date:** Oct 31, 2024
 
-This final lecture in the MD series focuses on the analysis and interpretation of MD simulation data. We'll explore common analysis techniques and how to extract meaningful biological insights from simulation trajectories.
+This lecture delves into molecular docking and virtual screening, essential techniques in computational drug discovery. We'll explore the principles behind predicting ligand-protein interactions and how these methods are used to screen large compound libraries. The session will cover different docking algorithms, scoring functions, and strategies for improving virtual screening efficiency and accuracy.
 
 ## Learning objectives
 
 What you should be able to do after today's lecture:
 
-1.  Describe common analysis techniques for MD trajectories, including RMSD and RMSF.
-2.  Explain how to analyze protein secondary structure changes over a simulation.
-3.  Discuss methods for studying protein-ligand interactions in MD simulations.
-4.  Interpret MD simulation results in the context of experimental data.
-5.  Identify key applications of MD simulations in studying biological systems.
-6.  Critically evaluate the strengths and limitations of MD simulations in addressing biological questions.
+1.  Explain the basic principles of molecular docking and its role in drug discovery.
+2.  Describe different types of docking algorithms and their applications.
+3.  Discuss the concept of scoring functions in docking and their limitations.
+4.  Outline the process of virtual screening and its advantages in drug discovery.
+5.  Compare and contrast structure-based and ligand-based virtual screening approaches.
+6.  Interpret and evaluate the results of docking and virtual screening experiments.
 
 ## Readings
 
