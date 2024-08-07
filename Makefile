@@ -166,8 +166,8 @@ mkdocs_port := $(shell \
 
 .PHONY: serve
 serve:
-	echo "Served at http://127.0.0.1:$(mkdocs_port)/"
-	$(CONDA) mkdocs serve -a localhost:$(mkdocs_port)
+	@ echo "Served at http://127.0.0.1:$(mkdocs_port)/"
+	@ $(CONDA) mkdocs serve -a localhost:$(mkdocs_port)
 
 .PHONY: docs
 docs:
