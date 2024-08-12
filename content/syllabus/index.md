@@ -10,7 +10,12 @@
 <br>
 **Email:** `alex.maldonado@pitt.edu`
 <br>
-**Office hours:** To be determined
+**Office hours:**
+
+| Day | Time | Location |
+| --- | ---- | -------- |
+| Tuesday | 11:30 am - 12:30 pm | 102 Clapp Hall |
+| Thursday | 11:30 am - 12:30 pm | 315 Clapp Hall |
 
 ## Catalog description
 

@@ -17,7 +17,10 @@ I generally respond within 12 hours.
 
 **Office hours:**
 
-To be determined.
+| Day | Time | Location |
+| --- | ---- | -------- |
+| Tuesday | 11:30 am - 12:30 pm | 102 Clapp Hall |
+| Thursday | 11:30 am - 12:30 pm | 315 Clapp Hall |
 
 **Office:** 103 Clapp Hall
 
@@ -33,24 +36,6 @@ To be determined.
 ## Teaching assistants
 
 Contact information can be found on [Canvas][canvas].
-
-### Rushali Patel
-
-![Rushali Patel](/img/team/rushali.jpg){ width=300 }
-
-**Address me as:** Rushali
-
-**Pronouns:** she/her/hers
-
-**Major:** Computational Biology
-
-**Level:** Senior
-
-**Office hours:** To be determined
-
-**Ask me about** Crocheting, my plants, and books I’ve read
-
-**Career trajectory** Biological Data Science and Analysis
 
 ### Shreya Kundu
 
