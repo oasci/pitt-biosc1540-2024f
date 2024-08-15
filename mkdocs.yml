@@ -3,9 +3,8 @@ docs_dir: content
 site_name: BIOSC 1540 - Fall 2024
 site_author: OASCI
 
-repo_name: oasci/courses/pitt/biosc1540-2024f
-repo_url: https://gitlab.com/oasci/courses/pitt/biosc1540-2024f
-edit_uri: -/edit/main/content
+repo_name: oasci/pitt-biosc1540-2024f
+repo_url: https://github.com/oasci-courses/pitt-biosc1540-2024f
 copyright: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> by OASCI
 
 # https://squidfunk.github.io/mkdocs-material/
@@ -31,7 +30,7 @@ theme:
     text: Roboto
     code: Roboto Mono
   icon:
-    repo: fontawesome/brands/gitlab
+    repo: fontawesome/brands/github
     annotation: material/star-four-points-circle
   features:
     - content.code.annotate
@@ -83,7 +82,7 @@ plugins:
 
 hooks:
   - hooks/launchy.py
-colab_base_url: https://colab.research.google.com/github/oasci/pitt-biosc1540-2024f-website/blob/main/biosc1540
+colab_base_url: https://colab.research.google.com/github/oasci-courses/pitt-biosc1540-2024f/blob/main/content
 
 extra:
   generator: true
