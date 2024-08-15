@@ -69,22 +69,6 @@ Contact information can be found on [Canvas][canvas].
 
 **Career trajectory** TODO
 
-### Mathavan Murali
-
-**Address me as:** TODO
-
-**Pronouns:** TODO
-
-**Major:** TODO
-
-**Level:** TODO
-
-**Office hours:** To be determined
-
-**Ask me about** TODO
-
-**Career trajectory** TODO
-
 <!-- LINKS -->
 
 [canvas]: https://canvas.pitt.edu/courses/238471
