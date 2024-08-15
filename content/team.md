@@ -37,11 +37,9 @@ I generally respond within 12 hours.
 
 Contact information can be found on [Canvas][canvas].
 
-### Shreya Kundu
+### Reya Kundu
 
-![Shreya Kundu](/img/team/shreya.jpg){ width=300 }
-
-**Address me as:** Shreya
+**Address me as:** Reya
 
 **Pronouns:** she/her/hers
 
@@ -49,15 +47,13 @@ Contact information can be found on [Canvas][canvas].
 
 **Level:** Senior
 
-**Office hours:** To be determined
+**Office hours:** Wednesdays 9:00 - 10:00 am in 102 Clapp
 
 **Ask me about:** language learning (Swedish and Turkish), neurobiology research, horror movies, Bollywood.
 
 **Career trajectory:** Pre-med
 
 ### Justine Denby
-
-![Justine Denby](/img/team/justine.jpg){ width=300 }
 
 **Address me as:** TODO
 
@@ -74,8 +70,6 @@ Contact information can be found on [Canvas][canvas].
 **Career trajectory** TODO
 
 ### Mathavan Murali
-
-![Mathavan Murali](/img/team/mathavan.jpg){ width=300 }
 
 **Address me as:** TODO
 
