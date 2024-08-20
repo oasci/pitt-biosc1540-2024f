@@ -1,4 +1,5 @@
 nav:
     - index.md
+    - Assignments: assignments
     - Exams: exams
-    - ...
+    - Project: project
