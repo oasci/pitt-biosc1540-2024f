@@ -1,5 +1,4 @@
 nav:
   - index.md
-  - bioinformatics.md
-  - csb.md
-  
+  - bioinformatics
+  - csb
