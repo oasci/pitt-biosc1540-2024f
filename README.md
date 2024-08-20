@@ -15,7 +15,6 @@ This course is the first stepping stone for undergraduates at the University of 
 ## Contributions
 
 All comments, questions, concerns, feedback, or suggestions are welcome!
-This website is on [GitLab][gitlab] and mirrored on [GitHub][github]; you can submit an issue or merge request on either site.
 
 ## License
 
@@ -39,7 +38,6 @@ Additionally, instructors may leverage web analytics as evidence of their commit
 We track website traffic using [plausible][plausible], which is privacy-friendly, uses no cookies, and is compliant with [GDPR][gdpr], [CCPA][ccpa], and [PECR][pecr].
 <!-- We also share [this website's analytics with you][plausible-link] for additional transparency. -->
 
-[gitlab]: https://gitlab.com/oasci/courses/pitt/biosc1540-2024f
 [github]: https://github.com/oasci/pitt-biosc1540-2024f-website
 [gplv3]: https://spdx.org/licenses/GPL-3.0-only.html
 [cc-by-nc-sa-4.0]: https://creativecommons.org/licenses/by-nc-sa/4.0/
