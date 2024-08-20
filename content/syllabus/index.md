@@ -14,8 +14,8 @@
 
 | Day | Time | Location |
 | --- | ---- | -------- |
-| Tuesday | 11:30 am - 12:30 pm | 102 Clapp Hall |
-| Thursday | 11:30 am - 12:30 pm | 315 Clapp Hall |
+| Tuesday | 11:30 am - 12:30 pm | 102 [Clapp Hall][clapp] |
+| Thursday | 11:30 am - 12:30 pm | 315 [Clapp Hall][clapp] |
 
 ## Catalog description
 
@@ -34,3 +34,7 @@ To enroll, you must have received a minimum grade of `C` in Foundations of Biolo
 !!! warning "Programming experience"
 
     In contrast to previous semesters, no programming will be necessary for the successful completion of this course.
+
+<!-- REFERENCES -->
+
+[clapp]: https://map.concept3d.com/?id=1315#!ct/38344,38325,38322,38242,37767?m/376106?s/?sbc/
