@@ -7,6 +7,6 @@ nav:
     - team.md
     - students.md
     - data-sources
-    - blank.ipynb
-    - resources
+    # - blank.ipynb
+    # - resources
     - Print site: print_page
