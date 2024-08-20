@@ -32,6 +32,7 @@ Jump to [this week](#week-1).
 **Thursday** (Sep 5) [**Lecture 04**](../../lectures/04/)
 
 -   ^^Topics^^: De novo genome assembly.
+-   ^^Due at 11:59 pm^^: [**A01**](../../assessments/assignments/01)
 
 ### Week 3
 
@@ -42,6 +43,7 @@ Jump to [this week](#week-1).
 **Thursday** (Sep 12) [**Lecture 06**](../../lectures/06/)
 
 -   ^^Topics^^: Multiple sequence alignment.
+-   ^^Due at 11:59 pm^^: [**A02**](../../assessments/assignments/02)
 
 ### Week 4
 
@@ -52,6 +54,7 @@ Jump to [this week](#week-1).
 **Thursday** (Sep 19)  [**Lecture 08**](../../lectures/08/)
 
 -   ^^Topics^^: RNA-Seq data processing.
+-   ^^Due at 11:59 pm^^: [**A03**](../../assessments/assignments/03)
 
 ### Week 5
 
@@ -62,6 +65,7 @@ Jump to [this week](#week-1).
 **Thursday** (Sep 26) [**Lecture 10**](../../lectures/10/)
 
 -   ^^Topics^^: Differential gene expression analysis.
+-   ^^Due at 11:59 pm^^: [**A04**](../../assessments/assignments/04)
 
 ### Week 6
 
@@ -94,6 +98,7 @@ Jump to [this week](#week-1).
 **Thursday** (Oct 17) [**Lecture 13**](../../lectures/13/)
 
 -   ^^Topics^^: Molecular simulation principles.
+-   ^^Due at 11:59 pm^^: [**A05**](../../assessments/assignments/05)
 
 ### Week 9
 
@@ -104,6 +109,7 @@ Jump to [this week](#week-1).
 **Thursday** (Oct 24) [**Lecture 15**](../../lectures/15/)
 
 -   ^^Topics^^: Gaining atomistic insights.
+-   ^^Due at 11:59 pm^^: [**A06**](../../assessments/assignments/06)
 
 ### Week 10
 
@@ -114,6 +120,7 @@ Jump to [this week](#week-1).
 **Thursday** (Oct 31) [**Lecture 17**](../../lectures/17/)
 
 -   ^^Topics^^: Docking and virtual screening.
+-   ^^Due at 11:59 pm^^: [**A07**](../../assessments/assignments/07)
 
 ### Week 11
 
@@ -122,6 +129,7 @@ Jump to [this week](#week-1).
 **Thursday** (Nov 7) [**Lecture 18**](../../lectures/18/)
 
 -   ^^Topics^^: Ligand-based drug design.
+-   ^^Due at 11:59 pm^^: [**A08**](../../assessments/assignments/08)
 
 ### Week 12
 
