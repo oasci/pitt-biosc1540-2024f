@@ -1,9 +1,14 @@
 <h1 align="center">
 <b>Lecture 02</b><br>
-Fundamentals of Genomics and DNA Sequencing Technologies
+Fundamentals of genomics and DNA sequencing technologies
 </h1>
+<p align="center">
+<b>Date:</b> August 29, 2024
+</p>
 
-**Date:** August 29, 2024
+!!! danger "DRAFT"
+
+    This page is a work in progress and is subject to change at any moment.
 
 This lecture provides a comprehensive examination of genomics and its transformative impact on molecular biology.
 The session traces the evolution of DNA sequencing technologies, commencing with the seminal Sanger method and progressing to state-of-the-art Illumina and Nanopore platforms.

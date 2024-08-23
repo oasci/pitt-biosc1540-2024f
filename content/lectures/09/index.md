@@ -1,6 +1,14 @@
-# Lecture 09
+<h1 align="center">
+<b>Lecture 09</b><br>
+Gene expression quantification
+</h1>
+<p align="center">
+<b>Date:</b> Sep 24, 2024
+</p>
 
-**Date:** Sep 24, 2024
+!!! danger "DRAFT"
+
+    This page is a work in progress and is subject to change at any moment.
 
 This lecture delves into the critical process of quantifying gene expression from RNA-seq data, a key step in understanding cellular activity and function. We'll explore how raw sequencing reads are transformed into meaningful measures of gene activity, navigating the complexities of multi-mapped reads and isoform variations. The session will compare various quantification metrics, from traditional RPKM to more recent innovations like TPM, highlighting their strengths and limitations. We'll examine cutting-edge tools for transcript-level quantification and discuss the crucial role of normalization in generating comparable expression data across samples. Through practical examples, students will learn to interpret gene expression results, bridging the gap between computational output and biological insight. This comprehensive overview aims to equip students with the skills to critically analyze and derive meaningful conclusions from RNA-seq expression data.
 

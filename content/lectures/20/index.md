@@ -1,6 +1,14 @@
-# Lecture 20
+<h1 align="center">
+<b>Lecture 20</b><br>
+Systems biology
+</h1>
+<p align="center">
+<b>Date:</b> Nov 21, 2024
+</p>
 
-**Date:** Nov 21, 2024
+!!! danger "DRAFT"
+
+    This page is a work in progress and is subject to change at any moment.
 
 This lecture introduces students to the interdisciplinary field of systems biology, which aims to understand complex biological systems through a holistic approach. We'll explore how systems biology integrates various biological data types and computational methods to model and analyze cellular networks and organism-level processes. The session will cover key concepts such as network biology, metabolic modeling, and multi-scale integration. By examining real-world applications, students will gain insight into how systems biology is revolutionizing our understanding of biological complexity and its implications for medicine and biotechnology.
 

@@ -1,6 +1,14 @@
-# Lecture 06
+<h1 align="center">
+<b>Lecture 06</b><br>
+Multiple sequence alignment
+</h1>
+<p align="center">
+<b>Date:</b> Sep 12, 2024
+</p>
 
-**Date:** Sep 12, 2024
+!!! danger "DRAFT"
+
+    This page is a work in progress and is subject to change at any moment.
 
 This lecture explores the powerful technique of multiple sequence alignment (MSA), a vital tool for unraveling evolutionary relationships and functional similarities among genes and proteins. We'll journey beyond pairwise comparisons to tackle the complexities of aligning numerous sequences simultaneously. The session illuminates how MSA algorithms, such as the widely-used ClustalW and MUSCLE, navigate the intricate landscape of multiple sequence relationships. By examining guide trees and progressive alignment methods, students will gain insight into the strategies employed to manage the computational challenges inherent in MSA. Through hands-on analysis of alignment outputs, we'll learn to identify conserved regions and infer potential evolutionary connections, showcasing MSA's crucial role in modern genomics and molecular biology research.
 

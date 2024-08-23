@@ -1,6 +1,14 @@
-# Lecture 13
+<h1 align="center">
+<b>Lecture 13</b><br>
+Molecular simulation principles
+</h1>
+<p align="center">
+<b>Date:</b> Oct 17, 2024
+</p>
 
-**Date:** Oct 17, 2024
+!!! danger "DRAFT"
+
+    This page is a work in progress and is subject to change at any moment.
 
 This lecture introduces the fundamental principles of molecular dynamics (MD) simulations. We'll explore the theoretical foundations of MD, including force fields and integration algorithms. The session will cover the basic concepts needed to understand how MD simulations provide a dynamic view of molecular systems, complementing static structural data.
 

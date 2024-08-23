@@ -1,6 +1,14 @@
-# Lecture 08
+<h1 align="center">
+<b>Lecture 08</b><br>
+RNA-Seq data processing
+</h1>
+<p align="center">
+<b>Date:</b> Sep 19, 2024
+</p>
 
-**Date:** Sep 19, 2024
+!!! danger "DRAFT"
+
+    This page is a work in progress and is subject to change at any moment.
 
 This lecture provides a comprehensive journey through the RNA-seq experimental process, from bench to bioinformatics. We'll explore the critical steps of sample preparation and sequencing, emphasizing how careful experimental design lays the foundation for robust transcriptomic insights. The session delves into the intricacies of RNA extraction and library preparation, highlighting the technical considerations that ensure high-quality data. By comparing various RNA-seq protocols, students will gain insight into selecting the right approach for specific research questions. We'll then navigate the computational landscape of RNA-seq data processing, addressing the unique challenges posed by the complexity of transcriptome data. This practical overview aims to equip students with a thorough understanding of RNA-seq methodology, preparing them to design, execute, and analyze transcriptomics experiments in diverse biological contexts.
 

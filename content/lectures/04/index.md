@@ -1,6 +1,14 @@
-# Lecture 04
+<h1 align="center">
+<b>Lecture 04</b><br>
+De novo genome assembly
+</h1>
+<p align="center">
+<b>Date:</b> Sep 5, 2024
+</p>
 
-**Date:** Sep 5, 2024
+!!! danger "DRAFT"
+
+    This page is a work in progress and is subject to change at any moment.
 
 This lecture explores the intricate world of de novo genome assembly, a powerful approach for reconstructing genomes without prior reference. We'll unravel the complex puzzle of piecing together complete genomes from short DNA fragments, highlighting the unique challenges this method presents. The session introduces key concepts like contigs and scaffolds, essential building blocks in the assembly process. We'll examine fundamental assembly algorithms, with a focus on the overlap-layout-consensus approach, and discuss the obstacles posed by genomic complexities such as repetitive sequences. By interpreting common quality metrics, students will gain practical skills in assessing assembly accuracy and completeness. This comprehensive overview aims to equip students with a deep understanding of de novo assembly techniques and their critical role in expanding our genomic knowledge.
 

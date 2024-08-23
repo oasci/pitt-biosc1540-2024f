@@ -1,6 +1,14 @@
-# Lecture 05
+<h1 align="center">
+<b>Lecture 05</b><br>
+Pairwise sequence alignment
+</h1>
+<p align="center">
+<b>Date:</b> Sep 10, 2024
+</p>
 
-**Date:** Sep 10, 2024
+!!! danger "DRAFT"
+
+    This page is a work in progress and is subject to change at any moment.
 
 This lecture delves into the fundamental technique of sequence alignment, a cornerstone of comparative genomics and evolutionary studies. We'll explore how aligning DNA, RNA, or protein sequences unveils crucial insights into biological relationships and functions. The session will navigate through the nuances of global and local alignment strategies, illuminating their distinct applications in genomic analysis. We'll unpack the mathematical foundations of alignment algorithms, introducing dynamic programming as a powerful problem-solving approach. By examining the Needleman-Wunsch and Smith-Waterman algorithms, students will gain a deep understanding of how computational methods tackle the complex task of finding similarities between biological sequences. This comprehensive exploration aims to equip students with the theoretical knowledge and practical skills essential for interpreting genomic data in diverse biological contexts.
 

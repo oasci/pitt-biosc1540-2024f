@@ -1,6 +1,14 @@
-# Lecture 17
+<h1 align="center">
+<b>Lecture 17</b><br>
+Docking and virtual screening
+</h1>
+<p align="center">
+<b>Date:</b> Oct 31, 2024
+</p>
 
-**Date:** Oct 31, 2024
+!!! danger "DRAFT"
+
+    This page is a work in progress and is subject to change at any moment.
 
 This lecture delves into molecular docking and virtual screening, essential techniques in computational drug discovery. We'll explore the principles behind predicting ligand-protein interactions and how these methods are used to screen large compound libraries. The session will cover different docking algorithms, scoring functions, and strategies for improving virtual screening efficiency and accuracy.
 

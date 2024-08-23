@@ -1,6 +1,14 @@
-# Lecture 19
+<h1 align="center">
+<b>Lecture 19</b><br>
+Proteomics
+</h1>
+<p align="center">
+<b>Date:</b> Nov 19, 2024
+</p>
 
-**Date:** Nov 19, 2024
+!!! danger "DRAFT"
+
+    This page is a work in progress and is subject to change at any moment.
 
 This lecture introduces students to the field of proteomics, the large-scale study of proteins in biological systems. We'll explore how proteomics complements genomics and transcriptomics to provide a more complete picture of cellular function. The session will cover key technologies used in proteomics, including mass spectrometry and protein microarrays, as well as computational methods for data analysis. We'll examine how proteomics is applied in various areas of biological research, from understanding disease mechanisms to drug discovery. By the end of the lecture, students will appreciate the power of proteomics in elucidating the complex world of proteins and its impact on our understanding of biology and medicine.
 

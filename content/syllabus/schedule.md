@@ -7,10 +7,6 @@ Our [third module in special interests](#module-03-special-interest-topics) will
 
 Jump to [this week](#week-1).
 
-!!! danger "DRAFT"
-
-    This page is a work in progress and is subject to change at any moment.
-
 ## Module 01 - Bioinformatics
 
 ### Week 1
@@ -60,11 +56,11 @@ Jump to [this week](#week-1).
 
 **Tuesday** (Sep 24) [**Lecture 09**](../../lectures/09/)
 
--   ^^Topics^^: Quantification of gene expression.
+-   ^^Topics^^: Gene expression quantification.
 
 **Thursday** (Sep 26) [**Lecture 10**](../../lectures/10/)
 
--   ^^Topics^^: Differential gene expression analysis.
+-   ^^Topics^^: Differential gene expression.
 -   ^^Due at 11:59 pm^^: [**A04**](../../assessments/assignments/04)
 
 ### Week 6

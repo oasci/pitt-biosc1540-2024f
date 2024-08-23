@@ -1,6 +1,14 @@
-# Lecture 14
+<h1 align="center">
+<b>Lecture 14</b><br>
+Molecular system representations
+</h1>
+<p align="center">
+<b>Date:</b> Oct 22, 2024
+</p>
 
-**Date:** Oct 22, 2024
+!!! danger "DRAFT"
+
+    This page is a work in progress and is subject to change at any moment.
 
 Building on the foundations from the previous lecture, this session focuses on the practical aspects of setting up and running MD simulations. We'll walk through the steps involved in preparing a system for simulation, from initial structure to production run.
 

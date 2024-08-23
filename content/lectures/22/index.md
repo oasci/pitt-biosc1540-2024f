@@ -1,6 +1,14 @@
-# Lecture 22
+<h1 align="center">
+<b>Lecture 22</b><br>
+TODO
+</h1>
+<p align="center">
+<b>Date:</b> Dec 5, 2024
+</p>
 
-**Date:** Dec 5, 2024
+!!! danger "DRAFT"
+
+    This page is a work in progress and is subject to change at any moment.
 
 ## Learning objectives
 

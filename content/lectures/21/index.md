@@ -1,6 +1,14 @@
-# Lecture 21
+<h1 align="center">
+<b>Lecture 21</b><br>
+Bioimage analysis
+</h1>
+<p align="center">
+<b>Date:</b> Dec 3, 2024
+</p>
 
-**Date:** Dec 3, 2024
+!!! danger "DRAFT"
+
+    This page is a work in progress and is subject to change at any moment.
 
 This lecture introduces students to the rapidly evolving field of bioimage informatics, which bridges biology, microscopy, and computer science. We'll explore how computational methods are revolutionizing the analysis of biological images, from cellular structures to whole organisms. The session will cover key concepts in image processing, computer vision, and machine learning as applied to biological imaging data. We'll examine how these techniques enable quantitative analysis of complex biological processes, high-throughput screening, and the extraction of meaningful data from vast image repositories. By the end of the lecture, students will appreciate the power of bioimage informatics in advancing our understanding of biological systems and its potential applications in research and medical diagnostics.
 

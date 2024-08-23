@@ -1,13 +1,17 @@
 <h1 align="center">
 <b>Lecture 01</b><br>
-Computational Biology Course Overview and Foundations
+Computational biology course overview and foundations
 </h1>
+<p align="center">
+<b>Date:</b> Aug 27, 2024
+</p>
 
-**Date:** Aug 27, 2024
+!!! danger "DRAFT"
+
+    This page is a work in progress and is subject to change at any moment.
 
 This inaugural lecture serves as a comprehensive introduction to the field of computational biology and establishes the framework for the course.
 The session commences with the formation of our academic learning community and an orientation to the course resources.
-The primary focus of the lecture is an exploration of the multifaceted landscape of computational biology, emphasizing its methodologies and practical applications across various scientific domains.
 
 ## Learning objectives
 

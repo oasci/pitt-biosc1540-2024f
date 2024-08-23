@@ -1,6 +1,14 @@
-# Lecture 18
+<h1 align="center">
+<b>Lecture 18</b><br>
+Ligand-based drug design
+</h1>
+<p align="center">
+<b>Date:</b> Nov 7, 2024
+</p>
 
-**Date:** Nov 7, 2024
+!!! danger "DRAFT"
+
+    This page is a work in progress and is subject to change at any moment.
 
 This lecture focuses on ligand-based drug design, an approach that leverages information from known active compounds to discover new drug candidates. We'll explore various ligand-based methods, including quantitative structure-activity relationships (QSAR), pharmacophore modeling, and similarity searching. The session will highlight how these techniques complement structure-based approaches and their application in lead optimization and scaffold hopping.
 
