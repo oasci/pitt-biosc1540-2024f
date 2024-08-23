@@ -1,17 +1,12 @@
 # Assessments
 
-!!! danger "DRAFT"
-
-    This page is a work in progress and is subject to change at any moment.
-
 ## Distribution
 
 The course will have the following point distribution.
 
--   [**Exams**](../../assessments/exams/) (30%)
--   [**Project**](../../assessments/project/) (20%)
--   [**Assignments**](../../assessments/assignments/) (30%)
--   [**Participation**](../../assessments/participation/) (5%)
+-   [**Exams**](../../assessments/exams/) (35%)
+-   [**Project**](../../assessments/project/) (30%)
+-   [**Assignments**](../../assessments/assignments/) (35%)
 
 ## Late assignments and extensions
 
@@ -50,7 +45,7 @@ By submitting assignments on time, you can earn up to 2% extra credit on your fi
 This bonus can potentially bump your grade to the next highest letter grade if you are close.
 Consequently, I will not round up any final grades.
 
-## Quiz drop policy
+## Missed exams
 
 TODO:
 

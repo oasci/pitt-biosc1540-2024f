@@ -1,17 +1,15 @@
-# Attendance
+## Attendance and participation
 
-!!! danger "DRAFT"
+While attendance is not mandatory, active participation is strongly encouraged and integral to your course success.
+Regular class attendance offers several benefits:
 
-    This page is a work in progress and is subject to change at any moment.
+1.  Enhanced understanding of course material through engaging discussions;
+2.  Opportunities for collaborative learning through group activities;
+3.  Practical application of concepts via hands-on exercises.
 
-Attendance and active participation are strongly encouraged in this course.
-While attendance is not technically mandatory, [participation contributes 5% to your overall grade](./assessments.md/#participation).
-Classes enhance your understanding of the material through active engagement in class discussions, group activities, and hands-on exercises.
+Please note that while it is possible to achieve the maximum number of points without attending lectures, consistent attendance demonstrates commitment to the course.
+This commitment may be considered when addressing individual circumstances or requests for flexibility.
 
-!!! important
-
-    Attending classes virtually (i.e., over Zoom) will not be an option.
-
-If you cannot attend a class, it remains vital for you to engage with the materials covered during that session.
-You will be responsible for covering the content on your own time, but you should come to any office hours and ask questions.
-This practice ensures you maintain a strong connection with the course material and its overarching learning objectives, even when your physical presence is impossible.
+!!! warning "Important"
+    Virtual attendance (e.g., via Zoom) is unavailable for this course.
+    All class sessions will be conducted in person.

@@ -1,19 +1,10 @@
 # Policies
 
-!!! danger "DRAFT"
-
-    This page is a work in progress and is subject to change at any moment.
-
 ## Generative AI
 
-We are in an exciting area of generative AI development with the release of tools such as [ChatGPT](https://chat.openai.com/), [DALL-E](https://openai.com/dall-e-2), [GitHub Copilot](https://github.com/features/copilot), [Bing Chat](https://www.microsoft.com/en-us/edge/features/bing-chat?form=MT00D8), [Bard](https://bard.google.com/), [Copy.ai](https://www.copy.ai/), and many more.
+We are in an exciting area of generative AI development with the release of tools such as [ChatGPT](https://chatgpt.com/), [DALL-E](https://openai.com/dall-e-2), [GitHub Copilot](https://github.com/features/copilot), [Bing Chat](https://www.bing.com/chat), [Bard](https://bard.google.com/), [Copy.ai](https://www.copy.ai/), and many more.
 This course will permit these tools' ethical and responsible use except when explicitly noted.
-Some examples of appropriate uses to
-
--   find a bug in code that you wrote,
--   explain what a specific line of code is doing,
--   translate code from one programming language to another,
--   as an on-demand tutor.
+For example, you can use these tools as an on-demand tutor by explaining complex topics.
 
 Other ways are undoubtedly possible, but any use should aid&mdash;not replace&mdash;your learning.
 You must also be aware of the following aspects of generative AI.
@@ -21,9 +12,6 @@ You must also be aware of the following aspects of generative AI.
 -   **AI limitations:**
     While AI programs can be valuable resources, they may produce inaccurate, biased, or incomplete material.
     Each program has its unique limitations as well.
-    For example, [ChatGPT](https://chat.openai.com/) and [Bing Chat](https://www.microsoft.com/en-us/edge/features/bing-chat?form=MT00D8) appear similar on the surface, but they are pretty different.
-    [ChatGPT](https://chat.openai.com/) operates in an isolated environment and provides responses based only on its---[unreleased](https://openai.com/research/gpt-4)&mdash;training set.
-    Each query in [Bing Chat](https://www.microsoft.com/en-us/edge/features/bing-chat?form=MT00D8) coalesces responses from real-time internet searches.
 
 -   **Bias and accuracy:**
     Scrutinizing each aspect of these enormous data sets used to train these products is infeasible.
@@ -40,22 +28,16 @@ You must also be aware of the following aspects of generative AI.
     Always give credit to AI-generated content and adhere to citation rules.
 
     Furthermore, text from AI tools should be treated as someone else's work&mdash;because it is.
-    You should never copy and paste text directly and, at the very least, paraphrase in your style.
+    You should never copy and paste text directly.
 
 -   **AI detection:**
-    As discussed [here](https://teaching.pitt.edu/resources/chatgpt-resources-for-faculty/), the University Center for Teaching and Learning does not recommend using AI detection tools like [turnitin](https://www.turnitin.com/solutions/ai-writing) due to high false positive rates.
-    I will not use AI detection tools in any capacity for this course. I encourage and trust that you will use these tools responsibly when permitted and desired.
+    As discussed [here](https://teaching.pitt.edu/generative-ai-resources-for-faculty/), the University Center for Teaching and Learning does not recommend using AI detection tools like [turnitin](https://www.turnitin.com/solutions/topics/ai-writing/) due to high false positive rates.
+    I will not use AI detection tools in any capacity for this course and trust that you will use these tools responsibly when permitted and desired.
 
 Remember that generative AI is helpful when used responsibly.
 You can ethically benefit from these technological advances by adhering to these guidelines.
 Embrace this opportunity to expand your skill set and engage thoughtfully with emerging technologies.
-If you have any questions about AI tool usage, please contact me for clarification and guidance.
-
-!!! info
-
-    I frequently use ChatGPT, Bing Chat, and GitHub Copilot in my research and preparing ideas for teaching materials and explanations.
-    Acknowledgments are always included in my work; for example, you can see a [recent publication of mine](https://link.springer.com/article/10.1186/s12915-023-01791-z#Ack1) where we acknowledge several AI tools.
-    That said, I review all materials on this website for accuracy and clarity.
+If you have any questions about AI tool usage, please get in touch with me for clarification and guidance.
 
 ## Equity, diversity, and inclusion
 
