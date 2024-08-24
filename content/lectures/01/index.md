@@ -11,17 +11,17 @@ Computational biology course overview and foundations
     This page is a work in progress and is subject to change at any moment.
 
 This inaugural lecture serves as a comprehensive introduction to the field of computational biology and establishes the framework for the course.
-The session commences with the formation of our academic learning community and an orientation to the course resources.
 
 ## Learning objectives
 
 What you should be able to do after today's lecture:
 
-1.  Identify your learning community, including the [teaching team](/team) and fellow [students](/students).
-2.  Understand where to find course information from the [website](/) and [canvas](https://canvas.pitt.edu/courses/238471).
-3.  Describe various methods and applications of computational biology.
-4.  Articulate the balance between scientific explanation and prediction.
-5.  Identify the key steps of formulating a good computational model.
+1.  Describe the course structure, expectations, and available resources for success.
+2.  Define computational biology and explain its interdisciplinary nature.
+3.  Identify key applications and recent advancements in computational biology.
+4.  Understand the balance between scientific explanation and prediction in computational biology.
+5.  Recognize the key steps in formulating a good computational model.
+6.  Identify potential career paths and educational opportunities in computational biology.
 
 ## Readings
 
@@ -39,6 +39,6 @@ Live link: [slides.com/d/8v0rJC8/live](https://slides.com/d/8v0rJC8/live)
 
 <!-- <p style="text-align: center;">
     <object hspace="50">
-        <a href="/files/slides/pdfs/biosc1540-2024s-l01.pdf" target="_blank">PDF</a>
+        <a href="/files/slides/pdfs/biosc1540-l02.pdf" target="_blank">PDF</a>
     </object>
 </p> -->
