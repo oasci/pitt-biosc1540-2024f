@@ -6,7 +6,9 @@
 | -------- | --------- | ------ | ------ |
 | 0 | 13 | 30 | 32 |
 
-## Majors
+## Programs of study
+
+These include majors and minors of students enrolled in the class.
 
 Computational Biology: 40 <progress value="40" max="75"></progress>
 
