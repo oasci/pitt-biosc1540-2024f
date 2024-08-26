@@ -22,13 +22,6 @@ What you should be able to do after today's lecture:
 4.  Understand the balance between applications and development.
 5.  Identify potential career paths and educational opportunities.
 
-## Readings
-
-Relevant content for today's lecture.
-
--   [Syllabus](../../syllabus/)
--   [Computational biology](https://compbio.crumblearn.org/about/compbio/)
-
 ## Presentation
 
 Live link: [slides.com/d/8v0rJC8/live](https://slides.com/d/8v0rJC8/live)
