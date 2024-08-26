@@ -18,10 +18,9 @@ What you should be able to do after today's lecture:
 
 1.  Describe the course structure, expectations, and available resources for success.
 2.  Define computational biology and explain its interdisciplinary nature.
-3.  Identify key applications and recent advancements in computational biology.
-4.  Understand the balance between scientific explanation and prediction in computational biology.
-5.  Recognize the key steps in formulating a good computational model.
-6.  Identify potential career paths and educational opportunities in computational biology.
+3.  Identify key applications and recent advancements.
+4.  Understand the balance between applications and development.
+5.  Identify potential career paths and educational opportunities.
 
 ## Readings
 
@@ -29,7 +28,6 @@ Relevant content for today's lecture.
 
 -   [Syllabus](../../syllabus/)
 -   [Computational biology](https://compbio.crumblearn.org/about/compbio/)
--   [Modeling philosophy](https://compbio.crumblearn.org/about/modeling-philosophy/)
 
 ## Presentation
 
