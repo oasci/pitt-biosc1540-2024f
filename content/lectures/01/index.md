@@ -6,10 +6,6 @@ Computational biology course overview and foundations
 <b>Date:</b> Aug 27, 2024
 </p>
 
-!!! danger "DRAFT"
-
-    This page is a work in progress and is subject to change at any moment.
-
 This inaugural lecture serves as a comprehensive introduction to the field of computational biology and establishes the framework for the course.
 
 ## Learning objectives

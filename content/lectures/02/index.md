@@ -1,6 +1,6 @@
 <h1 align="center">
 <b>Lecture 02</b><br>
-Fundamentals of genomics and DNA sequencing technologies
+DNA sequencing
 </h1>
 <p align="center">
 <b>Date:</b> August 29, 2024
@@ -33,7 +33,7 @@ TODO:
 
 ## Presentation
 
-<iframe src="https://slides.com/aalexmmaldonado/biosc1540-l02/embed?byline=hidden&share=hidden" width="100%" height="600" title="BIOSC 1540: Lecture 02" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<!-- <iframe src="https://slides.com/aalexmmaldonado/biosc1540-l02/embed?byline=hidden&share=hidden" width="100%" height="600" title="BIOSC 1540: Lecture 02" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
 
 <!-- <p style="text-align: center;">
     <object hspace="50">
