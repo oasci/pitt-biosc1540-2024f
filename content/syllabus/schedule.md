@@ -165,4 +165,4 @@ No class on Nov 26 and 28.
 
 ## Final
 
-In lieu of a final exam, you will submit a project that covers concepts spanning the whole semester.
+An optional, cumulative final exam will be offered to replace lowest exam grade.
