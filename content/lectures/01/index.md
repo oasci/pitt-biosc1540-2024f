@@ -20,12 +20,7 @@ What you should be able to do after today's lecture:
 
 ## Presentation
 
-Live link: [slides.com/d/8v0rJC8/live](https://slides.com/d/8v0rJC8/live)
+-   **Live link:** [slides.com/d/8v0rJC8/live](https://slides.com/d/8v0rJC8/live)
+-   **Download:** [biosc1540-l01.pdf](/lectures/01/biosc1540-l01.pdf)
 
 <iframe src="https://slides.com/aalexmmaldonado/biosc1540-l01/embed?byline=hidden&share=hidden" width="100%" height="600" title="BIOSC 1540: Lecture 01" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-<!-- <p style="text-align: center;">
-    <object hspace="50">
-        <a href="/files/slides/pdfs/biosc1540-l02.pdf" target="_blank">PDF</a>
-    </object>
-</p> -->
