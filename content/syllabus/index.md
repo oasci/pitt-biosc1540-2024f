@@ -4,7 +4,7 @@
 <br>
 **Meeting time:** Tuesdays and Thursdays from 4:00 - 5:15 pm.
 <br>
-**Location:** 1510 [Posvar](https://map.concept3d.com/?id=1315#!ct/38344,38325,38322,38242,37767?m/376158?sbc/?mc/40.441700000000004,-79.953903?z/17?lvl/0?share)
+**Location:** 1501 [Posvar](https://map.concept3d.com/?id=1315#!ct/38344,38325,38322,38242,37767?m/376158?sbc/?mc/40.441700000000004,-79.953903?z/17?lvl/0?share)
 <br>
 **Instructor:** Alex Maldonado, PhD (he/him/his)
 <br>
