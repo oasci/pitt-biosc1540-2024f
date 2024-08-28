@@ -55,20 +55,20 @@ Contact information can be found on [Canvas][canvas].
 
 ### Justine Denby
 
-**Address me as:** TODO
+**Address me as:** Justine
 
-**Pronouns:** TODO
+**Pronouns:** she/her/hers
 
 **Major:** Computational Biology
 
-**Level:** TODO
+**Level:** Junior
 
-**Office hours:** To be determined
+**Office hours:** Tuesdays 2:00 - 3:00 pm in L01 Clapp
 
-**Ask me about** TODO
+**Ask me about** Working out, climbing, music, video games, and reading!
 
-**Career trajectory** TODO
+**Career trajectory** PhD and industry
 
 <!-- LINKS -->
 
-[canvas]: https://canvas.pitt.edu/courses/238471
+[canvas]: https://canvas.pitt.edu/courses/267135
