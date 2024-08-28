@@ -24,3 +24,16 @@ What you should be able to do after today's lecture:
 -   **Download:** [biosc1540-l01.pdf](/lectures/01/biosc1540-l01.pdf)
 
 <iframe src="https://slides.com/aalexmmaldonado/biosc1540-l01/embed?byline=hidden&share=hidden" width="100%" height="600" title="BIOSC 1540: Lecture 01" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<!--
+Thoughts:
+
+-   I was short about 15 minutes; maybe I was going to fast.
+-   Some students said the career portion was helpful.
+-   Essentially no questions.
+-   Could go more in depth on the materials?
+-   Probably should have mentioned brush up on fundamentals, or even gave a quick crash course to start next class.
+-   Having the career at the beginning was weird, but useful.
+-   People were very glad that coding was taken out of this class.
+-   Definitely think that Python should be in replace of the special interests lectures.
+-->
