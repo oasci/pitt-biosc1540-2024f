@@ -29,14 +29,17 @@ What you should be able to do after today's lecture:
 
 Relevant content for today's lecture.
 
-TODO:
+-   [Sequencing background](https://omics.crumblearn.org/sequencing/)
+-   [DNA sequencing](https://omics.crumblearn.org/sequencing/dna/)
+-   [DNA sample preparation](https://omics.crumblearn.org/sequencing/dna/sample/)
+-   [PCR](https://omics.crumblearn.org/sequencing/dna/pcr/)
+-   [Sanger sequencing](https://omics.crumblearn.org/sequencing/dna/first-gen/sanger/)
+-   [Illumina sequencing](https://omics.crumblearn.org/sequencing/dna/second-gen/illumina/)
+-   [Nanopore sequencing](https://omics.crumblearn.org/sequencing/dna/third-gen/nanopore/)
 
 ## Presentation
 
-<!-- <iframe src="https://slides.com/aalexmmaldonado/biosc1540-l02/embed?byline=hidden&share=hidden" width="100%" height="600" title="BIOSC 1540: Lecture 02" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
+-   **Live link:** [slides.com/d/wOV7d9w/live](https://slides.com/d/wOV7d9w/live)
+<!-- -   **Download:** [biosc1540-l02.pdf](/lectures/02/biosc1540-l02.pdf) -->
 
-<!-- <p style="text-align: center;">
-    <object hspace="50">
-        <a href="/files/slides/pdfs/biosc1540-l02.pdf" target="_blank">PDF</a>
-    </object>
-</p> -->
+<!-- <iframe src="https://slides.com/aalexmmaldonado/biosc1540-l02/embed?byline=hidden&share=hidden" width="100%" height="600" title="BIOSC 1540: Lecture 02" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
