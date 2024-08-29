@@ -6,10 +6,6 @@ DNA sequencing
 <b>Date:</b> August 29, 2024
 </p>
 
-!!! danger "DRAFT"
-
-    This page is a work in progress and is subject to change at any moment.
-
 The session traces the evolution of DNA sequencing technologies, commencing with the seminal Sanger method and progressing to state-of-the-art Illumina and Nanopore platforms.
 Through a comparative analysis of these technologies, we will elucidate the rapid advancements that have catalyzed genomic research.
 The discourse will encompass a critical evaluation of the strengths and limitations inherent to each method, offering insights into their optimal applications in contemporary research contexts.
