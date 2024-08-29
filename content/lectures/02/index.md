@@ -36,6 +36,6 @@ Relevant content for today's lecture.
 ## Presentation
 
 -   **Live link:** [slides.com/d/wOV7d9w/live](https://slides.com/d/wOV7d9w/live)
-<!-- -   **Download:** [biosc1540-l02.pdf](/lectures/02/biosc1540-l02.pdf) -->
+-   **Download:** [biosc1540-l02.pdf](/lectures/02/biosc1540-l02.pdf)
 
-<!-- <iframe src="https://slides.com/aalexmmaldonado/biosc1540-l02/embed?byline=hidden&share=hidden" width="100%" height="600" title="BIOSC 1540: Lecture 02" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
+<iframe src="https://slides.com/aalexmmaldonado/biosc1540-l02/embed?byline=hidden&share=hidden" width="100%" height="600" title="BIOSC 1540: Lecture 02" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
