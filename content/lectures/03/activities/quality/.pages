@@ -1,0 +1,4 @@
+nav:
+    - "Activity: Quality control":
+        - index.md
+        - "FastQC report guide": fastqc.md
