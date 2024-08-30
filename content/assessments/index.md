@@ -32,5 +32,4 @@ Letter grades will be assigned based on the following scale:
 | D &ndash; | 60.0 - 62.9% | 0.75 |
 | F | 0.0 - 59.9% | 0.00 |
 
-
 For more detailed information on assessments, please consult the full course syllabus or contact the instructor.
