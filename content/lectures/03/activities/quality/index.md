@@ -133,7 +133,7 @@ Under "Raw read data from your current history", click the "Dataset collection" 
 You will be given two collections of data on the right.
 We want to look at the "FastQC on collection 1: Webpage" <a href="./fastqc_forward_initial.html" target="blank">forward</a> and <a href="./fastqc_reverse_initial.html" target="blank">reverse</a>.
 These reports contain a bunch of useful information, but we generally check a few things first.
-Please read the [FastQC report guide](./fastqc.md) for plot explanations.
+Please read the [FastQC report guide](https://omics.crumblearn.org/genomics/assembly/qc/fastqc/analysis/) for plot explanations.
 
 ## Trim and filter
 

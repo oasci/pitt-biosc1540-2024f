@@ -28,8 +28,11 @@ What you should be able to do after today's lecture:
 
 Relevant content for today's lecture.
 
-TODO:
+-   [FastQC reports](https://omics.crumblearn.org/genomics/assembly/qc/fastqc/analysis/)
 
 ## Presentation
 
-TODO:
+-   **Live link:** [slides.com/d/HVHLMoo/live](https://slides.com/d/HVHLMoo/live)
+<!-- -   **Download:** [biosc1540-l03.pdf](/lectures/03/biosc1540-l03.pdf) -->
+
+<iframe src="https://slides.com/aalexmmaldonado/biosc1540-l03/embed?byline=hidden&share=hidden" width="100%" height="600" title="BIOSC 1540: Lecture 03" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
