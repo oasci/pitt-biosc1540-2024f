@@ -1,6 +1,6 @@
 <h1 align="center">
 <b>Lecture 22</b><br>
-TODO
+TBD
 </h1>
 <p align="center">
 <b>Date:</b> Dec 5, 2024
@@ -14,7 +14,7 @@ TODO
 
 What you should be able to do after today's lecture:
 
-1.  TODO
+1.  TODO:
 
 ## Readings
 

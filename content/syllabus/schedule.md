@@ -1,11 +1,8 @@
 # Schedule
 
-Our semester's schedule contains two main and one special-interest module.
 We start with [bioinformatics](#module-01-bioinformatics) to learn fundamentals of genomics and transcriptomics.
 Afterwards, we will cover structure prediction, molecular simulations, and computer-aided drug design in our [computational structural biology module](#module-02-computational-structural-biology).
-Our [third module in special interests](#module-03-special-interest-topics) will cover self-contained lectures about more niche computational biology topics.
-
-Jump to [this week](#week-1).
+Our [third module in scientific python](#module-03-special-interest-topics) will introduce how we can use Python in computational biology.
 
 ## Module 01 - Bioinformatics
 
@@ -34,11 +31,11 @@ Jump to [this week](#week-1).
 
 **Tuesday** (Sep 10) [**Lecture 05**](../../lectures/05/)
 
--   ^^Topics^^: Pairwise sequence alignment.
+-   ^^Topics^^: Gene annotation.
 
 **Thursday** (Sep 12) [**Lecture 06**](../../lectures/06/)
 
--   ^^Topics^^: Multiple sequence alignment.
+-   ^^Topics^^: Sequence alignment.
 -   ^^Due at 11:59 pm^^: [**A02**](../../assessments/assignments/02)
 
 ### Week 4
@@ -135,17 +132,17 @@ Jump to [this week](#week-1).
 
 <hr>
 
-## Module 03 - Special-interest topics
+## Module 03 - Scientific python
 
 ### Week 13
 
 **Tuesday** (Nov 19) [**Lecture 19**](../../lectures/19/)
 
--   ^^Topics^^: Proteomics
+-   ^^Topics^^: TBD
 
 **Thursday** (Nov 21) [**Lecture 20**](../../lectures/20/)
 
--   ^^Topics^^: Systems biology
+-   ^^Topics^^: TBD
 
 ### Thanksgiving break
 
@@ -155,7 +152,7 @@ No class on Nov 26 and 28.
 
 **Tuesday** (Dec 3) [**Lecture 21**](../../lectures/21/)
 
--   ^^Topics^^: Bioimage analysis
+-   ^^Topics^^: TBD
 
 **Thursday** (Dec 5) [**Lecture 22**](../../lectures/22/)
 

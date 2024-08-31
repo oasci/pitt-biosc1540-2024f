@@ -1,4 +1,4 @@
-# Special interests
+# Scientific python
 
 !!! danger "DRAFT"
 
