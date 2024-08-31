@@ -7,10 +7,9 @@ This page provides an overview of how your performance in the course will be eva
 
 Your final grade will be calculated based on the following distribution:
 
--   [**Exams**](../../assessments/exams/) (30%)
--   [**Project**](../../assessments/project/) (20%)
--   [**Assignments**](../../assessments/assignments/) (30%)
--   [**Participation**](../../assessments/participation/) (5%)
+-   [**Exams**](../../assessments/exams/) (35%)
+-   [**Project**](../../assessments/project/) (30%)
+-   [**Assignments**](../../assessments/assignments/) (35%)
 
 ## Grading Scale
 
