@@ -1,6 +1,6 @@
 <h1 align="center">
 <b>Lecture 06</b><br>
-Multiple sequence alignment
+Sequence alignment
 </h1>
 <p align="center">
 <b>Date:</b> Sep 12, 2024
@@ -10,18 +10,17 @@ Multiple sequence alignment
 
     This page is a work in progress and is subject to change at any moment.
 
-This lecture explores the powerful technique of multiple sequence alignment (MSA), a vital tool for unraveling evolutionary relationships and functional similarities among genes and proteins. We'll journey beyond pairwise comparisons to tackle the complexities of aligning numerous sequences simultaneously. The session illuminates how MSA algorithms, such as the widely-used ClustalW and MUSCLE, navigate the intricate landscape of multiple sequence relationships. By examining guide trees and progressive alignment methods, students will gain insight into the strategies employed to manage the computational challenges inherent in MSA. Through hands-on analysis of alignment outputs, we'll learn to identify conserved regions and infer potential evolutionary connections, showcasing MSA's crucial role in modern genomics and molecular biology research.
+In this lecture, we will explore sequence alignment, a fundamental technique in computational biology.
+We will cover the basics of alignment scoring, key algorithms for both pairwise and multiple sequence alignments, and learn how to interpret alignment results.
 
 ## Learning objectives
 
 What you should be able to do after today's lecture:
 
-1.  Define multiple sequence alignment (MSA) and explain its importance in comparative genomics and evolutionary studies.
-2.  Differentiate between pairwise and multiple sequence alignments, highlighting the increased complexity and challenges of MSA.
-3.  Describe the progressive alignment method, including the concept of guide trees and how they are used in MSA algorithms.
-4.  Explain the basic principles of popular MSA algorithms such as ClustalW or MUSCLE.
-5.  Discuss the challenges in MSA, including computational complexity and handling of insertions/deletions across multiple sequences.
-6.  Interpret and analyze a simple multiple sequence alignment output, identifying conserved regions and potential evolutionary relationships.
+1.  Define sequence alignment and explain its importance.
+2.  Describe the basic principles of scoring systems in sequence alignment.
+3.  Outline key algorithms for pairwise alignment and multiple sequence alignment.
+4.  Interpret and analyze alignment outputs.
 
 ## Readings
 

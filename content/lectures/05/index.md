@@ -1,6 +1,6 @@
 <h1 align="center">
 <b>Lecture 05</b><br>
-Pairwise sequence alignment
+Gene annotation
 </h1>
 <p align="center">
 <b>Date:</b> Sep 10, 2024
@@ -10,18 +10,18 @@ Pairwise sequence alignment
 
     This page is a work in progress and is subject to change at any moment.
 
-This lecture delves into the fundamental technique of sequence alignment, a cornerstone of comparative genomics and evolutionary studies. We'll explore how aligning DNA, RNA, or protein sequences unveils crucial insights into biological relationships and functions. The session will navigate through the nuances of global and local alignment strategies, illuminating their distinct applications in genomic analysis. We'll unpack the mathematical foundations of alignment algorithms, introducing dynamic programming as a powerful problem-solving approach. By examining the Needleman-Wunsch and Smith-Waterman algorithms, students will gain a deep understanding of how computational methods tackle the complex task of finding similarities between biological sequences. This comprehensive exploration aims to equip students with the theoretical knowledge and practical skills essential for interpreting genomic data in diverse biological contexts.
+This lecture covers the fundamental concepts and techniques of gene annotation, a critical process in genomics for identifying and characterizing genes within DNA sequences.
+We'll explore various computational and experimental methods used in gene annotation, their applications, and challenges.
 
-## Learning objectives
+## Learning Objectives
 
-What you should be able to do after today's lecture:
+By the end of this lecture, you should be able to:
 
-1.  Define sequence alignment and explain its importance in bioinformatics and genomic analysis.
-2.  Differentiate between global and local pairwise sequence alignment, providing examples of when each is most appropriate.
-3.  Describe the basic principles of scoring systems in sequence alignment, including match, mismatch, and gap penalties.
-4.  Explain the fundamental concept of dynamic programming as applied to sequence alignment algorithms.
-5.  Outline the key steps of the Needleman-Wunsch algorithm for global alignment, using a simple example.
-6.  Compare the Smith-Waterman algorithm for local alignment to the Needleman-Wunsch algorithm, highlighting their differences and specific applications.
+1.  Define gene annotation and explain its importance in genomics and molecular biology.
+2.  Describe the main steps involved in the gene annotation process.
+3.  Explain key algorithms and tools used in computational gene prediction.
+4.  Identify challenges in gene annotation and strategies to address them.
+5.  Interpret basic gene annotation data and outputs.
 
 ## Readings
 
