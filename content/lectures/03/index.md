@@ -1,6 +1,6 @@
 <h1 align="center">
 <b>Lecture 03</b><br>
-Reference genome assembly
+Reference-guided assembly
 </h1>
 <p align="center">
 <b>Date:</b> Sep 3, 2024
@@ -17,18 +17,20 @@ We'll walk through the key steps and concepts of reference-guided assembly, prov
 
 What you should be able to do after today's lecture:
 
-1.  Explain the concept of a reference genome and its importance in genomics research.
-2.  Describe the structure and purpose of FASTA and FASTQ file formats in storing sequence data.
-3.  Identify the challenges of assembling a genome from short sequencing reads.
-4.  Distinguish between de novo assembly and reference-guided assembly approaches.
-5.  Outline the basic steps involved in reference-guided genome assembly.
-6.  Explain key concepts in reference assembly, including read mapping, coverage, and consensus sequence generation.
+1.  Describe the structure and purpose of FASTA and FASTQ file formats in storing sequence data.
+2.  Identify the challenges of assembling a genome from short sequencing reads.
+3.  Distinguish between de novo assembly and reference-guided assembly approaches.
+4.  Outline the basic steps involved in reference-guided genome assembly.
+5.  Explain key concepts in reference assembly, including read mapping, coverage, and consensus sequence generation.
 
 ## Readings
 
 Relevant content for today's lecture.
 
--   [FastQC reports](https://omics.crumblearn.org/genomics/assembly/qc/fastqc/analysis/)
+-   [FASTA files](https://omics.crumblearn.org/appendices/file-types/fasta/)
+-   [FASTQ files](https://omics.crumblearn.org/appendices/file-types/fastq/)
+-   [FastQC](https://omics.crumblearn.org/genomics/assembly/qc/fastqc/) and nested content
+-   [Assembly concepts](https://omics.crumblearn.org/genomics/assembly/concepts/) and nested content
 
 ## Presentation
 
