@@ -128,7 +128,7 @@ Our [third module in scientific python](#module-03-special-interest-topics) will
 
 **Tuesday** (Nov 12) **Review**
 
-**Thursday** (Nov 14): **Exam 2**
+**Thursday** (Nov 14): [**Exam 2**](../assessments/exams/csb/)
 
 <hr>
 
@@ -158,8 +158,16 @@ No class on Nov 26 and 28.
 
 -   ^^Topics^^: TBD
 
+### Week 16
+
+**Tuesday** (Dec 10) [**Lecture 23**](../../lectures/23/)
+
+-   ^^Topics^^: TBD
+
 <hr>
 
 ## Final
 
-An optional, cumulative final exam will be offered to replace lowest exam grade.
+**Monday** (Dec 16) [**Final exam**](../assessments/exams/final/)
+
+-   An optional, cumulative final exam will be offered to replace lowest exam grade.
