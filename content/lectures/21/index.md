@@ -1,6 +1,6 @@
 <h1 align="center">
 <b>Lecture 21</b><br>
-TBD
+Matplotlib
 </h1>
 <p align="center">
 <b>Date:</b> Dec 3, 2024

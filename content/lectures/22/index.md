@@ -1,6 +1,6 @@
 <h1 align="center">
 <b>Lecture 22</b><br>
-TBD
+SciPy
 </h1>
 <p align="center">
 <b>Date:</b> Dec 5, 2024
