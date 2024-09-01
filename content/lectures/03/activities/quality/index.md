@@ -1,6 +1,6 @@
 <h1 align="center">
 <b>Activity</b><br>
-Quality control
+Quality analysis
 </h1>
 
 During sequencing, errors are introduced, such as incorrect nucleotides being called.
