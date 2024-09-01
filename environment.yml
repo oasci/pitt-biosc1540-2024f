@@ -1,5 +1,6 @@
 name: biosc1540-2024f-dev
 channels:
+  - conda-forge
   - defaults
 dependencies:
   - python=3.12.3
