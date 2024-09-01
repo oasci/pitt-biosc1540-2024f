@@ -20,7 +20,7 @@ Our [third module in scientific python](#module-03-special-interest-topics) will
 
 **Tuesday** (Sep 3) [**Lecture 03**](../../lectures/03/)
 
--   ^^Topics^^: Reference genome assembly.
+-   ^^Topics^^: Quality control.
 
 **Thursday** (Sep 5) [**Lecture 04**](../../lectures/04/)
 

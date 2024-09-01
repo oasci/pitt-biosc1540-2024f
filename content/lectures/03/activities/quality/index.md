@@ -131,7 +131,7 @@ Under "Raw read data from your current history", click the "Dataset collection" 
     </figure>
 
 You will be given two collections of data on the right.
-We want to look at the "FastQC on collection 1: Webpage" <a href="./fastqc_forward_initial.html" target="blank">forward</a> and <a href="./fastqc_reverse_initial.html" target="blank">reverse</a>.
+We want to look at the "FastQC on collection 1: Webpage" <a href="https://omics.crumblearn.org/genomics/assembly/qc/fastqc/fastqc_forward_initial.html" target="blank">forward</a> and <a href="https://omics.crumblearn.org/genomics/assembly/qc/fastqc/fastqc_reverse_initial.html" target="blank">reverse</a>.
 These reports contain a bunch of useful information, but we generally check a few things first.
 Please read the [FastQC report guide](https://omics.crumblearn.org/genomics/assembly/qc/fastqc/analysis/) for plot explanations.
 
@@ -139,7 +139,8 @@ Please read the [FastQC report guide](https://omics.crumblearn.org/genomics/asse
 
 The quality drops in the middle of these sequences.
 This could cause bias in downstream analyses with these potentially incorrectly called nucleotides. Sequences must be treated to reduce bias in downstream analysis.
-Trimming can help to increase the number of reads the aligner or assembler are able to successfully use, reducing the number of reads that are unmapped or unassembled. In general, quality treatments include:
+Trimming can help to increase the number of reads the aligner or assembler are able to successfully use, reducing the number of reads that are unmapped or unassembled.
+In general, quality treatments include:
 
 1.  Trimming/cutting/masking sequences
     -   from low quality score regions
