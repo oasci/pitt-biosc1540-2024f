@@ -134,15 +134,17 @@ Our [third module in scientific python](#module-03-special-interest-topics) will
 
 ## Module 03 - Scientific python
 
+These are optional lectures that will not negatively affect your final grade.
+
 ### Week 13
 
 **Tuesday** (Nov 19) [**Lecture 19**](../../lectures/19/)
 
--   ^^Topics^^: TBD
+-   ^^Topics^^: NumPy
 
 **Thursday** (Nov 21) [**Lecture 20**](../../lectures/20/)
 
--   ^^Topics^^: TBD
+-   ^^Topics^^: Polars
 
 ### Thanksgiving break
 
@@ -152,17 +154,17 @@ No class on Nov 26 and 28.
 
 **Tuesday** (Dec 3) [**Lecture 21**](../../lectures/21/)
 
--   ^^Topics^^: TBD
+-   ^^Topics^^: Matplotlib
 
 **Thursday** (Dec 5) [**Lecture 22**](../../lectures/22/)
 
--   ^^Topics^^: TBD
+-   ^^Topics^^: SciPy
 
 ### Week 16
 
 **Tuesday** (Dec 10) [**Lecture 23**](../../lectures/23/)
 
--   ^^Topics^^: TBD
+-   ^^Topics^^: Scikit-learn
 
 <hr>
 

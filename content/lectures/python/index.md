@@ -1,5 +1,3 @@
 # Scientific python
 
-!!! danger "DRAFT"
-
-    This page is a work in progress and is subject to change at any moment.
+These are optional lectures that will not negatively affect your final grade.
