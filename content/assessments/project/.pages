@@ -1,2 +1,5 @@
 nav:
     - Project: index.md
+    - Genome assembly: genome
+    - Protein structure prediction: protein
+    - Docking: docking
