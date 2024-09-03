@@ -35,3 +35,11 @@ Relevant content for today's lecture.
 -   **Download:** [biosc1540-l03.pdf](/lectures/03/biosc1540-l03.pdf)
 
 <iframe src="https://slides.com/aalexmmaldonado/biosc1540-l03/embed?byline=hidden&share=hidden" width="100%" height="600" title="BIOSC 1540: Lecture 03" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<!-- NOTE:
+
+-   This was too much material to cover in one lecture.
+-   N50 and L50 were confusing concepts
+-   Probably spend too much time on why we use ASCII or error source. I could streamline this.
+-   Perhaps I can have students be responsible for that material for more activity time.
+ -->
