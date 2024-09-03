@@ -1,2 +1,3 @@
 nav:
-    - quality
+  - "Quality analysis": /lectures/03/activities/quality/
+  - "Read trimming": /lectures/03/activities/trim/

@@ -40,8 +40,7 @@ In the Galaxy **Tools** panel on the left, click `Get Data` and select the "**Do
 
 This tool allows you to download available data from the [SRA](https://www.ncbi.nlm.nih.gov/sra).
 Often, we are analyzing data mentioned in a publication that will provide you with an accession number either for the SRA or BioProject.
-In our case, we will use the whole genome sequencing of *Staphylococcus aureus* at [`SRR14933407`](https://www.ncbi.nlm.nih.gov/sra/?term=SRR14933407).
-In the "**Accession**" field, enter the following SRA accession number: `SRR14933407`.
+For example, we can use the whole genome sequencing of *Staphylococcus aureus* at [`SRR14933407`](https://www.ncbi.nlm.nih.gov/sra/?term=SRR14933407).
 Leave other options as default and click "**Run Tool**" in the top right.
 This will start downloading the raw reads in FASTQ format.
 
@@ -132,23 +131,4 @@ Under "Raw read data from your current history", click the "Dataset collection" 
 
 You will be given two collections of data on the right.
 We want to look at the "FastQC on collection 1: Webpage" <a href="https://omics.crumblearn.org/genomics/assembly/qc/fastqc/fastqc_forward_initial.html" target="blank">forward</a> and <a href="https://omics.crumblearn.org/genomics/assembly/qc/fastqc/fastqc_reverse_initial.html" target="blank">reverse</a>.
-These reports contain a bunch of useful information, but we generally check a few things first.
-Please read the [FastQC report guide](https://omics.crumblearn.org/genomics/assembly/qc/fastqc/analysis/) for plot explanations.
-
-## Trim and filter
-
-The quality drops in the middle of these sequences.
-This could cause bias in downstream analyses with these potentially incorrectly called nucleotides. Sequences must be treated to reduce bias in downstream analysis.
-Trimming can help to increase the number of reads the aligner or assembler are able to successfully use, reducing the number of reads that are unmapped or unassembled.
-In general, quality treatments include:
-
-1.  Trimming/cutting/masking sequences
-    -   from low quality score regions
-    -   beginning/end of sequence
-    -   removing adapters
-2.  Filtering of sequences
-    -   with low mean quality score
-    -   too short
-    -   with too many ambiguous (N) bases
-
-To accomplish this task we will use [Cutadapt](https://cutadapt.readthedocs.io/en/stable/index.html), a tool that enhances sequence quality by automating adapter trimming as well as quality control.
+These reports contain a bunch of useful information, please read the [FastQC report guide](https://omics.crumblearn.org/genomics/assembly/qc/fastqc/analysis/) for explanations.
