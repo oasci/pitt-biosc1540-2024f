@@ -6,10 +6,6 @@ Quality control
 <b>Date:</b> Sep 3, 2024
 </p>
 
-!!! danger "DRAFT"
-
-    This page is a work in progress and is subject to change at any moment.
-
 This session focuses on the critical steps of quality control and preprocessing in genomic data analysis.
 We will explore the fundamentals of sequencing data formats and delve into essential techniques for assessing and improving data quality.
 
@@ -123,13 +119,11 @@ Provide students with sample FASTA and FASTQ files
 Ask them to identify key components (header, sequence, quality scores)
 Have students write a simple script to count the number of sequences in each file
 
-
 Running FastQC
 
 Provide a raw sequencing dataset
 Guide students through running FastQC on the command line
 Have students interpret the FastQC report, identifying potential quality issues
-
 
 Quality Score Analysis
 
@@ -159,6 +153,5 @@ Divide the class into groups
 Assign each group a different type of sequencing project (e.g., bacterial genome, transcriptome, metagenome)
 Have groups discuss and present their proposed quality control strategy for their assigned project
 
-
-
-These exercises will provide hands-on experience with the key concepts of the lecture, allowing students to apply their knowledge to real-world scenarios. They progress from basic file manipulation to more complex analysis and interpretation tasks, culminating in a discussion that encourages critical thinking about quality control in different contexts. -->
+These exercises will provide hands-on experience with the key concepts of the lecture, allowing students to apply their knowledge to real-world scenarios. They progress from basic file manipulation to more complex analysis and interpretation tasks, culminating in a discussion that encourages critical thinking about quality control in different contexts.
+-->
