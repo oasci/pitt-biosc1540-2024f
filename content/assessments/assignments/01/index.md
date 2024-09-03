@@ -72,6 +72,20 @@ Further investigation reveals that the plant samples were collected from an area
 What is one possible molecular or genomic explanation for the overlapping peaks observed in your chromatogram?
 Describe how it could lead to the pattern in the sequencing results.
 
+!!! note "Clarification"
+
+    In this scenario, we are working with plant samples collected from a wild population in an area known for high biodiversity.
+    This means we're not dealing with lab-grown, genetically identical plants, but rather with plants that have natural genetic variation.
+
+    When we say we're sequencing "a gene of interest isolated from a wild plant population," we're typically working with DNA extracted from a single plant specimen.
+    However, this single specimen can contain genetic material from multiple closely related organisms due to various biological phenomena.
+
+    Sanger sequencing typically starts with many copies of a specific DNA region (our "gene of interest").
+    These copies are created through PCR amplification of the extracted DNA.
+    The sequencing reaction is then performed on this amplified DNA.
+
+    The chromatogram represents the sequencing results from all the DNA molecules present in your sample. If there are multiple versions of the gene present, they will all be sequenced simultaneously, resulting in overlapping peaks.
+
 ## Problem 8
 
 **Points**: 4
