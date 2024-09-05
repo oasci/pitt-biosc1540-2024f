@@ -21,9 +21,10 @@ What you should be able to do after today's lecture:
 Relevant content for today's lecture.
 
 -   [Greedy algorithm](https://omics.crumblearn.org/genomics/assembly/de-novo/greedy/)
-    -   [JHU](https://www.cs.jhu.edu/~langmea/resources/lecture_notes/assembly_scs.pdf)
+    -   [JHU](https://www.cs.jhu.edu/~langmea/resources/lecture_notes/16_assembly_scs_v2.pdf)
 -   de Bruijn
-    -   [JHU](https://www.cs.jhu.edu/~langmea/resources/lecture_notes/assembly_dbg.pdf)
+    -   [JHU](https://www.cs.jhu.edu/~langmea/resources/lecture_notes/17_assembly_dbg_v2.pdf)
+    -   [JHU2](https://www.cs.jhu.edu/~langmea/resources/lecture_notes/19_assembly_dbg2_v2.pdf)
     -   [Why are de Bruijn graphs useful for genome assembly?](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5531759/)
     -   [Read mapping on de Bruijn graphs](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1103-9)
     -   [Galaxy](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/debruijn-graph-assembly/slides-plain.html)
