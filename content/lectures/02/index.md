@@ -46,4 +46,5 @@ Relevant content for today's lecture.
 - Need to go into more detail/clarification of primers, indices, and adapters.
 - There seems to be a gap in how we get from sample, to attached, amplified, and then sequenced.
 - Gave example of looking out into a dark stadium and giving people flash lights.
+- Students are still really struggling with how the fragments get onto the flow cell.
 -->

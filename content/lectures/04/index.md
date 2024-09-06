@@ -36,3 +36,12 @@ Relevant content for today's lecture.
 -   **Download:** [biosc1540-l04.pdf](/lectures/04/biosc1540-l04.pdf)
 
 <iframe src="https://slides.com/aalexmmaldonado/biosc1540-l04/embed?byline=hidden&share=hidden" width="100%" height="600" title="BIOSC 1540: Lecture 04" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<!--
+
+- Students were not really engaged with hands-on practice. I guess this is fine since they can practice it later.
+- I ended early, so if I take out the activities, I certainly have time to add in a galaxy activity or the OLC.
+- I had a good question about why we take k-mers, then make k-1 mers for nodes. Why not just straightly make k-1 mer nodes.
+- I'm not sure it was useful to include the error correction.
+
+ -->
