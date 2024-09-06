@@ -33,6 +33,6 @@ Relevant content for today's lecture.
 ## Presentation
 
 -   **Live link:** [slides.com/d/KOit8yE/live](https://slides.com/d/KOit8yE/live)
-<!-- -   **Download:** [biosc1540-l04.pdf](/lectures/03/biosc1540-l04.pdf) -->
+-   **Download:** [biosc1540-l04.pdf](/lectures/04/biosc1540-l04.pdf)
 
 <iframe src="https://slides.com/aalexmmaldonado/biosc1540-l04/embed?byline=hidden&share=hidden" width="100%" height="600" title="BIOSC 1540: Lecture 04" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
