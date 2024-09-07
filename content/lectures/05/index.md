@@ -11,17 +11,18 @@ Gene annotation
     This page is a work in progress and is subject to change at any moment.
 
 This lecture covers the fundamental concepts and techniques of gene annotation, a critical process in genomics for identifying and characterizing genes within DNA sequences.
-We'll explore various computational and experimental methods used in gene annotation, their applications, and challenges.
+We'll explore various computational methods used in gene annotation, their applications, and challenges.
 
 ## Learning Objectives
 
 By the end of this lecture, you should be able to:
 
-1.  Define gene annotation and explain its importance in genomics and molecular biology.
-2.  Describe the main steps involved in the gene annotation process.
-3.  Explain key algorithms and tools used in computational gene prediction.
-4.  Identify challenges in gene annotation and strategies to address them.
-5.  Interpret basic gene annotation data and outputs.
+1.  Explain the process of graph traversal and contig extraction in genome assemblers.
+2.  Understand key output files and quality metrics of genome assembly results.
+3.  Define gene annotation and describe its key components.
+4.  Outline the main computational methods used in gene prediction and annotation.
+5.  Analyze and interpret basic gene annotation data and outputs.
+6.  Demonstrate basic skills in using gene annotation tools.
 
 ## Readings
 
