@@ -22,7 +22,6 @@ By the end of this lecture, you should be able to:
 3.  Define gene annotation and describe its key components.
 4.  Outline the main computational methods used in gene prediction and annotation.
 5.  Analyze and interpret basic gene annotation data and outputs.
-6.  Demonstrate basic skills in using gene annotation tools.
 
 ## Readings
 
