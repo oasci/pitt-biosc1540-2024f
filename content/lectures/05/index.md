@@ -17,7 +17,7 @@ We'll explore various computational methods used in gene annotation, their appli
 
 By the end of this lecture, you should be able to:
 
-1.  Explain the process of graph traversal and contig extraction in genome assemblers.
+1.  Explain the graph traversal and contig extraction process in genome assemblers.
 2.  Understand key output files and quality metrics of genome assembly results.
 3.  Define gene annotation and describe its key components.
 4.  Outline the main computational methods used in gene prediction and annotation.
@@ -28,6 +28,8 @@ By the end of this lecture, you should be able to:
 Relevant content for today's lecture.
 
 TODO:
+
+-   [SPAdes assembler](https://doi.org/10.1089/cmb.2012.0021)
 
 ## Presentation
 

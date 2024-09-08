@@ -29,6 +29,7 @@ Relevant content for today's lecture.
     -   [Read mapping on de Bruijn graphs](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1103-9)
     -   [Galaxy](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/debruijn-graph-assembly/slides-plain.html)
     -   [Data science for HTS](https://data-science-sequencing.github.io/Win2018/lectures/lecture7/)
+    -   [SPAdes assembler](https://doi.org/10.1089/cmb.2012.0021)
 
 ## Presentation
 
