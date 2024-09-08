@@ -19,6 +19,33 @@ Please submit your answers as a PDF to gradescope.
 
 Why is the quality of sequencing data typically lower at the end of a read in Sanger sequencing?
 
+??? note "Solution"
+
+    The quality of sequencing data in Sanger sequencing tends to decrease towards the end of a read due to several factors related to the nature of the sequencing process. This phenomenon is primarily attributed to the decreasing population of longer DNA fragments. Here's a detailed explanation:
+
+    1. Probability of ddNTP incorporation:
+        - To obtain longer fragments, we need to avoid incorporating a dideoxynucleotide (ddNTP) until the very end of the sequence.
+        - As the length of the fragment increases, the probability of not incorporating a ddNTP at any previous position decreases.
+        - This results in fewer long fragments compared to shorter ones, leading to weaker signals for longer sequences.
+    2. Concentration ratio of dNTPs to ddNTPs:
+        - While we maintain a low concentration of ddNTPs relative to dNTPs to promote the synthesis of longer fragments, the cumulative probability of ddNTP incorporation still increases with length.
+        - This leads to a gradual decrease in the population of fragments as their length grows.
+    3. Mass and mobility differences:
+        - As DNA fragments increase in length, the relative mass difference between fragments of consecutive lengths decreases.
+        - For example, the mass difference between a 99-mer and a 100-mer is proportionally smaller than the difference between a 9-mer and a 10-mer.
+        - This results in poorer separation of longer fragments during electrophoresis, contributing to decreased resolution and quality of signals for longer reads.
+    4. Signal-to-noise ratio:
+        - Due to the factors mentioned above, the signal intensity for longer fragments is lower.
+        - This leads to a decreased signal-to-noise ratio for longer reads, making it more difficult to accurately determine the base calls at the end of a sequence.
+
+    Some students might suggest that the depletion of ddNTPs is responsible for the lower quality of longer reads.
+    However, this is not correct.
+    It's important to clarify that:
+
+    - The reaction mixture contains an excess of both dNTPs and ddNTPs.
+    - The concentrations of these nucleotides are not significantly depleted during the sequencing reaction.
+    - The relative concentrations of dNTPs and ddNTPs remain essentially constant throughout the process.
+
 ## Problem 2
 
 **Points**: 6
