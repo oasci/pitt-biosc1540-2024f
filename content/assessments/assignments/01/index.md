@@ -13,7 +13,7 @@ A01
 
 Please submit your answers as a PDF to gradescope.
 
-## Problem 1
+## Q01
 
 **Points**: 6
 
@@ -46,13 +46,13 @@ Why is the quality of sequencing data typically lower at the end of a read in Sa
     - The concentrations of these nucleotides are not significantly depleted during the sequencing reaction.
     - The relative concentrations of dNTPs and ddNTPs remain essentially constant throughout the process.
 
-## Problem 2
+## Q02
 
 **Points**: 6
 
 What is the purpose of adding adapters to DNA fragments in Illumina sequencing?
 
-## Problem 3
+## Q03
 
 **Points**: 4
 
@@ -60,7 +60,7 @@ Compare and contrast the principles behind Sanger sequencing and Illumina sequen
 How does each method overcome the challenge of determining the order of nucleotides in a DNA strand?
 In your answer, consider the strengths and limitations of each approach.
 
-## Problem 4
+## Q04
 
 **Points**: 5
 
@@ -70,7 +70,7 @@ Explain why this ratio is essential and predict what might happen if:
 1.  The concentration of ddNTPs is too high;
 2.  The concentration of ddNTPs is too low.
 
-## Problem 5
+## Q05
 
 **Points**: 4
 
@@ -78,7 +78,7 @@ Illumina sequencing uses "bridge amplification" to create clusters of identical 
 Describe how this process works and explain why it's necessary for the Illumina sequencing method.
 How does this compare to the amplification process in Sanger sequencing?
 
-## Problem 6
+## Q06
 
 **Points**: 4
 
@@ -87,7 +87,7 @@ The region you want to sequence contains an important single nucleotide polymorp
 Given what you know about the typical quality of Sanger sequencing reads at different positions, where would you design your sequencing primer to bind?
 Explain your reasoning.
 
-## Problem 7
+## Q07
 
 **Points**: 2
 
@@ -113,7 +113,7 @@ Describe how it could lead to the pattern in the sequencing results.
 
     The chromatogram represents the sequencing results from all the DNA molecules present in your sample. If there are multiple versions of the gene present, they will all be sequenced simultaneously, resulting in overlapping peaks.
 
-## Problem 8
+## Q08
 
 **Points**: 4
 
@@ -123,7 +123,7 @@ In Illumina sequencing, adapters are ligated to DNA fragments before sequencing.
 -   How might errors in adapter ligation affect the sequencing results and downstream data analysis?
 -   Describe how the design of these adapters helps prevent the formation of adapter dimers.
 
-## Problem 9
+## Q09
 
 **Points**: 5
 
