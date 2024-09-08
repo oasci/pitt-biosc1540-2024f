@@ -19,7 +19,7 @@ Please submit your answers as a PDF to gradescope.
 
 Why is the quality of sequencing data typically lower at the end of a read in Sanger sequencing?
 
-??? note "Solution"
+??? success "Solution"
 
     The quality of sequencing data in Sanger sequencing tends to decrease towards the end of a read due to several factors related to the nature of the sequencing process. This phenomenon is primarily attributed to the decreasing population of longer DNA fragments. Here's a detailed explanation:
 
