@@ -141,6 +141,26 @@ Explain why this ratio is essential and predict what might happen if:
 1.  The concentration of ddNTPs is too high;
 2.  The concentration of ddNTPs is too low.
 
+??? success "Solution"
+
+    The optimal ratio of ddNTPs to dNTPs in Sanger sequencing is critical for generating a balanced distribution of fragment lengths.
+    This ratio is essential for the following reasons:
+
+    -   **Fragment Distribution**: The ratio ensures that chain termination occurs randomly at different positions along the template DNA, producing a set of fragments that differ in length by one nucleotide.
+    -   **Read Length**: It allows for the generation of fragments covering the entire sequence of interest, typically up to 900-1000 base pairs.
+
+    **If the concentration of ddNTPs is too high:**
+
+    -   **Short Fragments**: There would be an overabundance of short DNA fragments due to frequent early termination of DNA synthesis.
+    -   **Loss of Long Reads**: Longer fragments would be underrepresented or absent, leading to incomplete sequence information for the latter part of the template.
+    -   **Reduced Overall Signal**: The signal intensity would decrease rapidly along the length of the sequence, making it difficult to read bases accurately beyond the first 100-200 nucleotides.
+
+    **If the concentration of ddNTPs is too low:**
+
+    -   **Long Fragments**: There would be an overabundance of long DNA fragments due to infrequent termination of DNA synthesis.
+    -   **Loss of Short Reads**: Shorter fragments would be underrepresented, leading to poor sequence quality at the beginning of the read.
+    -   **Weak Signal for Short Fragments**: The signal intensity for the first part of the sequence would be very low, making it difficult to accurately determine the initial bases.
+
 ## Q05
 
 **Points**: 4
