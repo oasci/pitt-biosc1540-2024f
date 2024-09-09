@@ -52,6 +52,20 @@ Why is the quality of sequencing data typically lower at the end of a read in Sa
 
 What is the purpose of adding adapters to DNA fragments in Illumina sequencing?
 
+??? success "Solution"
+    Adapters are short oligonucleotide sequences added to DNA fragments during Illumina sequencing library preparation.
+
+    !!! note "Key purpose"
+        Adapters contain sequences complementary to oligonucleotides on the Illumina flow cell surface.
+        This allows DNA fragments to bind to the flow cell and form clusters.
+
+    They serve several other crucial purposes.
+
+    1. **Priming for sequencing**: Adapters include primer binding sites for both forward and reverse sequencing reactions.
+    2. **Index/barcode sequences**: Adapters often contain unique index sequences that allow for multiplexing&mdash;running multiple samples in a single sequencing lane.
+    3. **Bridge amplification**: Adapter sequences facilitate bridge amplification, which generates clonal clusters of each DNA fragment on the flow cell surface.
+    4. **Sequencing initiation**: The adapter sequences provide a known starting point for the sequencing reaction.
+
 ## Q03
 
 **Points**: 4
