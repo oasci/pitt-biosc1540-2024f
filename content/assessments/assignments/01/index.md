@@ -74,6 +74,63 @@ Compare and contrast the principles behind Sanger sequencing and Illumina sequen
 How does each method overcome the challenge of determining the order of nucleotides in a DNA strand?
 In your answer, consider the strengths and limitations of each approach.
 
+??? success "Solution"
+
+    **Sanger Sequencing:**
+
+    - **Principle**: Based on the selective incorporation of chain-terminating dideoxynucleotides (ddNTPs) by DNA polymerase during in vitro DNA replication.
+    - **Method**:
+        - Uses a single-stranded DNA template, a DNA primer, DNA polymerase, normal deoxynucleotides (dNTPs), and modified nucleotides (ddNTPs) that terminate DNA strand elongation.
+        - Resulting DNA fragments are separated by size using capillary electrophoresis.
+    - **Determining sequence:**
+        - Nucleotide order is determined by the length of DNA fragments produced when chain termination occurs.
+        - The fragments are separated by size, and the terminal ddNTP of each fragment indicates the nucleotide at that position.
+        - The sequence is read from the shortest to the longest fragment.
+    - **Strengths:**
+        - High accuracy for long reads (up to ~900 base pairs).
+        - Good for sequencing specific genes or DNA regions.
+        - Still considered the "gold standard" for validation of other sequencing methods.
+    - **Limitations:**
+        - Low throughput compared to next-generation methods.
+        - Higher cost per base compared to Illumina sequencing.
+        - Difficulty in sequencing low-complexity regions or regions with extreme GC content.
+
+    **Illumina Sequencing:**
+
+    - **Principle**: Uses sequencing by synthesis (SBS) technology, where fluorescently labeled nucleotides are detected as they are incorporated into growing DNA strands.
+    - **Method**:
+        - DNA is fragmented and adapters are ligated to both ends of the fragments.
+        - Fragments are amplified on a flow cell surface, creating clusters.
+        - Sequencing occurs in cycles, where a single labeled nucleotide is added, detected, and then the label is cleaved off before the next cycle.
+    - **Determining sequence:**
+        - Nucleotide order is determined by detecting the specific fluorescent signal emitted when each base is incorporated.
+        - Millions of clusters are sequenced simultaneously, with each cluster representing a single DNA fragment.
+        - The sequence of each cluster is built up one base at a time over multiple cycles.
+    - **Strengths:**
+        - Very high throughput, capable of sequencing millions of fragments simultaneously.
+        - Cost-effective for large-scale sequencing projects.
+        - Highly accurate due to the depth of coverage (each base is sequenced multiple times).
+        - Versatile, can be used for whole genome sequencing, transcriptomics, and more.
+    - **Limitations:**
+        - Shorter read lengths (typically 150-300 base pairs) compared to Sanger sequencing.
+        - Higher error rates in homopolymer regions.
+        - More complex data analysis required due to the large volume of data generated.
+
+    **Crucial Differences:**
+
+    -   **Scale and Throughput**: Illumina sequencing is massively parallel, allowing for much higher throughput than Sanger sequencing.
+    -   **Read Length**: Sanger produces longer individual reads compared to Illumina.
+    -   **Methodology**: Sanger uses chain termination, while Illumina uses sequencing by synthesis.
+    -   **Application**: Sanger is better for targeted sequencing of specific genes, while Illumina is preferred for whole genome or exome sequencing.
+
+    **Subtle Differences:**
+
+    -   **Sample Preparation**: Illumina requires more complex library preparation, including adapter ligation and amplification.
+    -   **Error Profiles**: Each method has different types of sequencing errors. Sanger tends to have higher error rates at the beginning and end of reads, while Illumina can struggle with GC-rich regions.
+    -   **Data Analysis**: Illumina sequencing requires more sophisticated bioinformatics tools for data processing and analysis.
+    -   **Cost Structure**: While Illumina is more cost-effective for large-scale projects, Sanger can be more economical for sequencing small numbers of samples or specific regions.
+    -   **Sensitivity**: Illumina can detect low-frequency variants more easily due to its high depth of coverage, which is more challenging with Sanger sequencing.
+
 ## Q04
 
 **Points**: 5
