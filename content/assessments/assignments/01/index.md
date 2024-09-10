@@ -169,6 +169,48 @@ Illumina sequencing uses "bridge amplification" to create clusters of identical 
 Describe how this process works and explain why it's necessary for the Illumina sequencing method.
 How does this compare to the amplification process in Sanger sequencing?
 
+??? success "Solution"
+
+    Bridge amplification is a crucial step in Illumina sequencing that creates clusters of identical DNA fragments on the surface of a flow cell.
+    The process works as follows:
+
+    1. **Flow Cell Preparation**: The flow cell surface is coated with two types of oligonucleotide adapters.
+    2. **DNA Fragment Attachment**: Single-stranded DNA fragments with adapters at both ends are added to the flow cell. These fragments bind randomly to the complementary adapters on the surface.
+    3. **Bridge Formation**: The free end of a bound DNA fragment bends over and hybridizes to a nearby complementary adapter on the surface, forming a "bridge."
+    4. **Amplification**: DNA polymerase creates a complementary strand, forming a double-stranded bridge.
+    5. **Denaturation**: The double-stranded bridge is denatured, resulting in two single-stranded copies of the molecule tethered to the flow cell surface.
+    6. **Repeated Cycles**: Steps 3-5 are repeated multiple times, with each fragment amplifying into a distinct cluster.
+    7. **Reverse Strand Removal**: One strand (usually the reverse strand) is cleaved and washed away, leaving clusters of single-stranded, identical DNA fragments.
+
+    Bridge amplification is necessary for Illumina sequencing for several reasons:
+
+    1. **Signal Amplification**: It creates thousands of identical copies of each DNA fragment, significantly amplifying the signal for detection during sequencing.
+    2. **Clonal Clusters**: Each cluster represents a single original DNA fragment, ensuring that the sequencing signal comes from identical molecules.
+    3. **Parallelization**: Millions of clusters can be generated on a single flow cell, allowing for massive parallelization of sequencing reactions.
+    4. **Improved Accuracy**: The clonal nature of each cluster helps to reduce sequencing errors by providing multiple identical copies for each base call.
+    5. **High Throughput**: The dense arrangement of clusters on the flow cell surface enables high-throughput sequencing.
+
+    The amplification process in Illumina sequencing differs significantly from that used in Sanger sequencing:
+
+    1.  **Method**:
+        - Illumina: Uses solid-phase bridge amplification on a flow cell surface.
+        - Sanger: Typically uses solution-phase PCR or cloning in bacterial vectors.
+    2. **Scale**:
+        - Illumina: Massively parallel, creating millions of clusters simultaneously.
+        - Sanger: Limited to amplifying one DNA fragment at a time.
+    3. **Product**:
+        - Illumina: Generates clonal clusters of single-stranded DNA.
+        - Sanger: Produces a population of double-stranded DNA fragments.
+    4. **Locality**:
+        - Illumina: Amplification occurs in a fixed location on the flow cell.
+        - Sanger: Amplification occurs in solution.
+    5. **Preparation for Sequencing**:
+        - Illumina: Clusters are ready for sequencing immediately after amplification.
+        - Sanger: Amplified DNA requires additional purification and preparation steps.
+    6. **Throughput**:
+        - Illumina: Enables high-throughput sequencing of millions of fragments simultaneously.
+        - Sanger: Limited to sequencing one fragment at a time, resulting in lower throughput.
+
 ## Q06
 
 **Points**: 4
@@ -177,6 +219,29 @@ You are designing primers for a Sanger sequencing experiment.
 The region you want to sequence contains an important single nucleotide polymorphism (SNP) at position 90 from the start of your sequence of interest.
 Given what you know about the typical quality of Sanger sequencing reads at different positions, where would you design your sequencing primer to bind?
 Explain your reasoning.
+
+??? success "Solution"
+
+    Before designing the primer, it's crucial to understand the typical quality pattern of Sanger sequencing reads:
+
+    -   **Start of the read** (first ~15-35 bases): Often low quality due to primer binding and initial reaction instability.
+    -   **Middle section** (~35-700 bases): Highest quality, with accurate base calls.
+    -   **End of the read** (beyond ~700-900 bases): Decreasing quality due to signal decay and increased noise.
+
+    Given that the SNP of interest is at position 90 from the start of the sequence, the ideal primer design would place this SNP within the high-quality middle section of the sequencing read.
+    Specifically, design the primer to bind approximately 40-50 bases upstream of the SNP.
+
+    **Rationale**:
+
+    - This placement allows for the initial low-quality bases (first 15-35) to be read before reaching the SNP.
+    - It positions the SNP at around base 130-140 in the sequencing read (40-50 bases for primer + 90 bases to SNP).
+    - This location falls well within the high-quality middle section of a typical Sanger sequencing read.
+
+    **Benefits of this design**:
+
+    - Ensures high-quality base calls around the SNP position.
+    - Provides sufficient context before and after the SNP for accurate analysis.
+    - Allows for potential upstream sequence verification if needed.
 
 ## Q07
 
@@ -204,6 +269,41 @@ Describe how it could lead to the pattern in the sequencing results.
 
     The chromatogram represents the sequencing results from all the DNA molecules present in your sample. If there are multiple versions of the gene present, they will all be sequenced simultaneously, resulting in overlapping peaks.
 
+??? success "Solution"
+    The observation of multiple overlapping peaks at several positions in a Sanger sequencing chromatogram, persisting even with newly designed primers, can be attributed to various molecular and genomic phenomena.
+    Given the context of a wild plant population in an area of high biodiversity, several plausible explanations warrant consideration.
+
+    **High Heterozygosity Due to Outcrossing**
+
+    In outcrossing plant species, high levels of heterozygosity can accumulate, especially in regions with large, diverse populations.
+
+    -   Molecular Mechanism
+        -   Plants in the population cross-pollinate, leading to offspring with diverse allelic combinations.
+        -   Over generations, multiple alleles for each gene can persist in the population.
+        -   Individual plants may carry two or more distinct alleles for many genes.
+    -   How it Causes Overlapping Peaks
+        -   When sequencing a heterozygous individual, both alleles are amplified and sequenced.
+        -   Differences between alleles result in double peaks at heterozygous positions.
+    -   Supporting Evidence
+        -   Consistent with a wild population in a biodiverse area.
+        -   Might be particularly noticeable if the population has high genetic diversity.
+
+    **Allopolyploidy**
+
+    Allopolyploidy results from hybridization between two or more different species, followed by chromosome doubling.
+
+    -   Mechanism
+        -   Hybridization occurs between two related species (e.g., Species A: AA and Species B: BB).
+        -   The resulting hybrid (AB) undergoes chromosome doubling to form an allopolyploid (AABB).
+        -   The allopolyploid now contains two sets of similar but not identical genomes.
+    -   How it Causes Overlapping Peaks
+        -   Multiple similar copies of each gene are present in the genome.
+        -   During PCR and sequencing, all copies are amplified and sequenced simultaneously.
+        -   Where sequences differ between copies, multiple bases are incorporated, resulting in overlapping peaks.
+    -   Supporting Evidence
+        -   Consistent with the high biodiversity and presence of closely related species in the area.
+        -   Explains the persistence of the pattern with new primers.
+
 ## Q08
 
 **Points**: 4
@@ -213,6 +313,54 @@ In Illumina sequencing, adapters are ligated to DNA fragments before sequencing.
 -   Explain the role of these adapters in the sequencing process.
 -   How might errors in adapter ligation affect the sequencing results and downstream data analysis?
 -   Describe how the design of these adapters helps prevent the formation of adapter dimers.
+
+??? success "Solution"
+    Adapters in Illumina sequencing play several crucial roles throughout the sequencing workflow:
+
+    -   Enabling Bridge Amplification
+        -   Adapters contain sequences complementary to oligonucleotides on the flow cell surface.
+        -   This allows DNA fragments to bind to the flow cell and undergo bridge amplification.
+    -   Priming for Sequencing
+        -   Adapters include binding sites for sequencing primers.
+        -   This enables the initiation of sequencing reactions for both forward and reverse reads.
+    -   Index Sequences
+        -   Adapters often contain index sequences (barcodes).
+        -   These allow for multiplexing, where multiple samples can be sequenced in the same lane and later demultiplexed.
+    -   Facilitating Paired-End Sequencing
+        -   In paired-end sequencing, adapters at both ends of the fragment allow sequencing from both directions.
+
+    Errors in adapter ligation can have several negative effects on sequencing results and downstream analysis:
+
+    -   Reduced Sequencing Efficiency
+        -   Fragments without properly ligated adapters won't bind to the flow cell, reducing the overall yield.
+    -   Chimeric Reads
+        -   Improper ligation can lead to chimeric fragments where adapters join unrelated DNA fragments.
+        -   This results in chimeric reads that can complicate assembly and alignment processes.
+    -   Biased Representation
+        -   Inefficient ligation can lead to under-representation of certain sequences, especially those with extreme GC content.
+        -   This introduces bias in quantitative analyses like RNA-Seq or ChIP-Seq.
+    -   Index Hopping
+        -   In multiplexed samples, errors in index sequence ligation can lead to index hopping.
+        -   This results in reads being assigned to the wrong sample during demultiplexing.
+    -   Reduced Read Quality
+        -   Partially ligated adapters can lead to poor quality reads, especially at the beginning or end of reads.
+    -   Complications in Data Analysis
+        -   Adapter contamination in reads can interfere with alignment, assembly, and variant calling.
+        -   It necessitates more stringent quality control and adapter trimming steps in data preprocessing.
+    -   False Positive Variant Calls
+        -   Adapter sequences present in reads can be misinterpreted as real genomic sequence, leading to false positive variant calls.
+
+    Illumina adapters are designed with several features to minimize the formation of adapter dimers:
+
+    -   Y-shaped Adapters
+        -   Adapters are often designed with a Y-shape, where only a portion of the adapter is double-stranded.
+        -   This reduces the likelihood of adapters ligating to each other.
+    -   Sequence Design
+        -   Adapter sequences are designed to minimize complementarity between different adapter molecules.
+        -   This reduces the likelihood of base-pairing between adapters.
+    -   PCR Suppression Effect
+        -   Some adapter designs incorporate sequences that, when dimerized, form strong hairpin structures.
+        -   These structures are poor substrates for PCR amplification, suppressing the amplification of adapter dimers.
 
 ## Q09
 
