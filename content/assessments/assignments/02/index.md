@@ -67,6 +67,10 @@ You are given the following set of reads from a DNA sequencing experiment:
 -   **d)** Identify a potential problem with this assembly that might not reflect the true original sequence.
     Explain your reasoning.
 
+!!! note "Clarification"
+    "Unique assembly" in the context of DNA sequence assembly refers to a situation where there is only one possible way to combine the given reads (DNA fragments) to reconstruct the original sequence.
+    In other words, if there are multiple valid ways to combine these reads then the assembly is not unique.
+
 ## Q07
 
 You are given the following set of reads from a DNA sequencing experiment:
