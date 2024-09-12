@@ -97,7 +97,7 @@ FFHHIIII
 
 -   **a)** Construct a de Bruijn graph for these reads using $k$ = 5, where $k$ is the edge length.
     Draw the graph, clearly labeling nodes and edges.
--   **b)** Identify and explain any features in your graph that might complicate genome assembly, such as bubbles, tips, or cycles.
+-   **b)** Identify and explain any features in your graph that might complicate genome assembly, such as bubbles/bulge, tips, or cycles.
 -   **c)** Propose a possible original sequence that could have generated these reads.
     If multiple possibilities exist, explain why.
 -   **d)** How would increasing the k-mer size to 5 change the structure of the graph?
