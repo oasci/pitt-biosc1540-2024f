@@ -57,19 +57,28 @@ Describe the greedy algorithm approach to genome assembly:
 You are given the following set of reads from a DNA sequencing experiment:
 {`ATGGCTA`, `GGCTAAC`, `CTAACGT`, `AACGTAG`, `CGTAGCT`, `TAGCTAA`, `GCTAACG`, `TAACGTA`, `ACGTAGT`}.
 
--   **a)** Using the greedy algorithm, show the steps to assemble these reads.
+-   **a)** Using the greedy algorithm, show the steps to assemble these reads into contig(s).
     Assume a minimum overlap of 3 bases.
     For each step, clearly state which reads you are merging and the resulting sequence.
     If there are multiple possibilities with the same overlap length, explain your choice.
+
+    !!! warning "Clarification"
+        By saying "Assume a minimum overlap of 3", this means you cannot make a merge if the overlap is less than 3.
+        So if you get to a point where you have two sequences and they only have an overlap of 1, you cannot merge them.
+
+        If I didn't specify a minimum overlap, you still take the highest overlap each time but you don't have a minimum overlap requirement to merge.
+        If the highest overlap was 2, you can still make that merge.
+        If there is no overlap, you cannot concatenate.
+
+        Since this was confusing, I will accept any valid greedy assembly.
 -   **b)** What is the final assembled sequence?
 -   **c)** Is this assembly unique?
     Why or why not?
+    !!! warning "Clarification"
+        "Unique assembly" in the context of DNA sequence assembly refers to a situation where there is only one possible way to combine the given reads (DNA fragments) to reconstruct the original sequence.
+        In other words, if there are multiple valid ways to combine these reads then the assembly is not unique.
 -   **d)** Identify a potential problem with this assembly that might not reflect the true original sequence.
     Explain your reasoning.
-
-!!! note "Clarification"
-    "Unique assembly" in the context of DNA sequence assembly refers to a situation where there is only one possible way to combine the given reads (DNA fragments) to reconstruct the original sequence.
-    In other words, if there are multiple valid ways to combine these reads then the assembly is not unique.
 
 ## Q07
 
@@ -92,7 +101,6 @@ FFIIIIFF
 TACGTAGT
 +
 FFHHIIII
-
 ```
 
 -   **a)** Construct a de Bruijn graph for these reads using $k$ = 5, where $k$ is the edge length.
