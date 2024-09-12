@@ -18,7 +18,6 @@ What you should be able to do after today's lecture:
 3.  Explain the principles and steps of global alignment using the Needleman-Wunsch algorithm.
 4.  Describe the concept and procedure of local alignment using the Smith-Waterman algorithm.
 5.  Introduce the concept of multiple sequence alignment, including its importance and challenges.
-6.  Interpret and analyze pairwise and multiple sequence alignment outputs.
 
 ## Readings
 
