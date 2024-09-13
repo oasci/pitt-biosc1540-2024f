@@ -23,11 +23,12 @@ What you should be able to do after today's lecture:
 
 Relevant content for today's lecture.
 
-TODO:
+-   [Global alignment](https://omics.crumblearn.org/alignment/pairwise/global/)
+-   [Local alignment](https://omics.crumblearn.org/alignment/pairwise/local/)
 
 ## Presentation
 
 -   **Live link:** [slides.com/d/jwdlkhM/live](https://slides.com/d/jwdlkhM/live)
-<!-- -   **Download:** [biosc1540-l06.pdf](/lectures/06/biosc1540-l06.pdf) -->
+-   **Download:** [biosc1540-l06.pdf](/lectures/06/biosc1540-l06.pdf)
 
 <iframe src="https://slides.com/aalexmmaldonado/biosc1540-l06/embed?byline=hidden&share=hidden" width="100%" height="600" title="BIOSC 1540: Lecture 06" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
