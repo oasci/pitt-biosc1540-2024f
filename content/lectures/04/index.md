@@ -30,6 +30,7 @@ Relevant content for today's lecture.
     -   [Galaxy](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/debruijn-graph-assembly/slides-plain.html)
     -   [Data science for HTS](https://data-science-sequencing.github.io/Win2018/lectures/lecture7/)
     -   [SPAdes assembler](https://doi.org/10.1089/cmb.2012.0021)
+    -   [Online graph builder](https://0petya.github.io/debruijn-assembler/). Note that they use k<sub>node</sub> values.
 
 ## Presentation
 

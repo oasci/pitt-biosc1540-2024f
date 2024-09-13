@@ -25,6 +25,7 @@ Relevant content for today's lecture.
 
 -   [Global alignment](https://omics.crumblearn.org/alignment/pairwise/global/)
 -   [Local alignment](https://omics.crumblearn.org/alignment/pairwise/local/)
+-   Online tools for [Needleman-Wunsch](http://rna.informatik.uni-freiburg.de/Teaching/index.jsp?toolName=Needleman-Wunsch) and [Smith-Waterman](http://rna.informatik.uni-freiburg.de/Teaching/index.jsp?toolName=Smith-Waterman).
 
 ## Presentation
 
