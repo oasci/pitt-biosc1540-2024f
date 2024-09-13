@@ -46,7 +46,7 @@ Our [third module in scientific python](#module-03-special-interest-topics) will
 
 **Thursday** (Sep 19)  [**Lecture 08**](../../lectures/08/)
 
--   ^^Topics^^: RNA-Seq data processing.
+-   ^^Topics^^: Read mapping.
 -   ^^Due at 11:59 pm^^: [**A03**](../../assessments/assignments/03)
 
 ### Week 5
