@@ -204,12 +204,6 @@ How does this compare to the amplification process in Sanger sequencing?
     4. **Locality**:
         - Illumina: Amplification occurs in a fixed location on the flow cell.
         - Sanger: Amplification occurs in solution.
-    5. **Preparation for Sequencing**:
-        - Illumina: Clusters are ready for sequencing immediately after amplification.
-        - Sanger: Amplified DNA requires additional purification and preparation steps.
-    6. **Throughput**:
-        - Illumina: Enables high-throughput sequencing of millions of fragments simultaneously.
-        - Sanger: Limited to sequencing one fragment at a time, resulting in lower throughput.
 
 ## Q06
 
