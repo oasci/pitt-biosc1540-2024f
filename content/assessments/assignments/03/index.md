@@ -19,7 +19,7 @@ Why are both important in genomics research?
 ## Q02
 
 Compare and contrast global and local sequence alignment.
-Provide an example of when each would be more appropriate to use.
+Provide example(s) of when each would be more appropriate to use.
 
 ## Q03
 
@@ -35,34 +35,45 @@ Given the following DNA sequences:
 
 Perform the following tasks:
 
-**a)** Perform a global alignment using the Needleman-Wunsch algorithm. Use a scoring system of +1 for matches, -1 for mismatches, and -2 for gaps.
+**a)** Perform a global alignment using the Needleman-Wunsch algorithm.
+Use a scoring system of +1 for matches, -1 for mismatches, and -2 for gaps.
 Show your work, including the scoring matrix and traceback path.
 
-**b)** Using the same sequences and scoring system as above, perform a local alignment using the Smith-Waterman algorithm. Show your work, including the scoring matrix and traceback path.
+**b)** Using the same sequences and scoring system as above, perform a local alignment using the Smith-Waterman algorithm.
+Show your work, including the scoring matrix and traceback path.
 
-**c)** Compare your results from the global and local alignments. What differences do you notice? Discuss the biological implications of these differences.
+**c)** Compare your results from the global and local alignments.
+What differences do you notice?
+Discuss the biological implications of these differences.
 
 ## Q05
 
 **a)** List and briefly describe three key challenges in prokaryotic gene annotation.
 
-**b)** What role do ribosomal binding sites (RBS) play in prokaryotic gene prediction? How are they typically identified?
+**b)** What role do ribosomal binding sites (RBS) play in prokaryotic gene prediction?
+How are they typically identified?
 
-**c)** Explain the importance of identifying regulatory elements in gene annotation. Give two examples of regulatory elements and their functions.
+**c)** Explain the importance of identifying regulatory elements in gene annotation.
+Give two examples of regulatory elements and their functions.
 
 ## Q06
 
-**a)** What is the significance of using multiple k-mer sizes in SPAdes? How does this strategy improve assembly quality?
+**a)** What is the significance of using multiple k-mer sizes in SPAdes?
+How does this strategy improve assembly quality?
 
-**b)** What are "bulges" and "tips" in the context of the SPAdes assembly graph? How does SPAdes handle these structures?
+**b)** What are "bulges" and "tips" in the context of the SPAdes assembly graph?
+How does SPAdes handle these structures?
 
 **c)** Explain the concept of "paired-end reads" and how SPAdes utilizes this information to improve assembly.
 
 ## Q07
 
-**a)** You are assembling a bacterial genome using SPAdes. The assembly results in several large contigs and many small contigs. What might this indicate about the genome or sequencing data, and what steps could you take to improve the assembly?
+**a)** You are assembling a bacterial genome using SPAdes.
+The assembly results in several large contigs and many small contigs.
+What might this indicate about the genome or sequencing data, and what steps could you take to improve the assembly?
 
-**b)** Describe how you would use the SPAdes assembly graph visualization tool Bandage to analyze the quality of your assembly. What features would you look for?
+**b)** Describe how you would use the SPAdes assembly graph visualization tool Bandage to analyze the quality of your assembly.
+What features would you look for?
 
 ## Q08
 
@@ -71,7 +82,8 @@ Show your work, including the scoring matrix and traceback path.
 Identify all possible ORFs in this sequence (consider both strands).
 Which ORF is most likely to be a real gene and why?
 
-**b)** Compare and contrast the challenges of identifying genes in GC-rich vs. AT-rich prokaryotic genomes. How might these differences affect gene prediction strategies?
+**b)** Compare and contrast the challenges of identifying genes in GC-rich vs. AT-rich prokaryotic genomes.
+How might these differences affect gene prediction strategies?
 
 ## Q09
 
@@ -91,18 +103,18 @@ $$
 
 Where $G(w)$ is the frequency of the word in genes, and $B(w)$ is the frequency in the whole genome.
 
-**b)** Interpret the result. What does a positive score indicate about this hexamer?
+**b)** Interpret the result.
+What does the score indicate about this hexamer?
 
 **c)** If you found this hexamer in an uncharacterized region of DNA, how might this score influence your assessment of whether this region is likely to be protein-coding?
 
 ## Q10
 
-You are analyzing a short DNA sequence to determine if it's likely to be protein-coding.
-You have a table of pre-calculated coding scores for all possible hexamers based on known genes in the organism's genome.
+You are analyzing a short DNA sequence to determine if there is likely to be a protein-coding gene.
 
--   Given sequence: `ATATGCATGCTTAGCTTA`
+-   Given DNA sequence: `ATATGCATGCTTAGCTTA`
 
-And the following hexamer scores:
+You have a table of pre-calculated coding scores for all possible hexamers based on known genes in the bacteria's genome.
 
 | Hexamer | Score | Hexamer | Score |
 |---------|-------|---------|-------|
@@ -114,17 +126,18 @@ And the following hexamer scores:
 | TTAGCT  | -0.3  | TAGCTT  | -0.5  |
 | AGCTTA  | 0.1   |         |       |
 
-**a)** Calculate the overall coding score for this DNA sequence. To do this:
+**a)** Calculate the overall coding score for the **gene** in this DNA sequence.
+To do this:
 
--   Determine the score for each overlapping hexamer in the sequence.
--   Sum these scores to get the total coding score for the sequence.
+-   Determine the score for each overlapping hexamer in the gene.
+-   Sum these scores to get the total coding score for the gene.
 
 Remember that you [shift over one codon a time](https://slides.com/aalexmmaldonado/biosc1540-l05#/4/6).
 (I had to [read their C code](https://github.com/hyattpd/Prodigal/blob/c1e2d361479cc1b18175ea79ebd8ff10411c46cb/node.c#L325-L367) to figure this out.)
 
 **b)** What is the average coding score per hexamer for this sequence?
 
-**c)** Based on your results, do you think this sequence is likely to be protein-coding?
+**c)** Based on your results, do you think this gene is likely to be protein-coding?
 Explain your reasoning.
 
 **d)** Discuss potential limitations of using this hexamer-based coding score approach for gene prediction.
