@@ -20,6 +20,7 @@ What you should be able to do after today's lecture:
 
 ## Presentation
 
+-   **View:** [slides.com/aalexmmaldonado/biosc1540-l01](https://slides.com/aalexmmaldonado/biosc1540-l01)
 -   **Live link:** [slides.com/d/8v0rJC8/live](https://slides.com/d/8v0rJC8/live)
 -   **Download:** [biosc1540-l01.pdf](/lectures/01/biosc1540-l01.pdf)
 

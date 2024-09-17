@@ -34,6 +34,7 @@ Relevant content for today's lecture.
 
 ## Presentation
 
+-   **View:** [slides.com/aalexmmaldonado/biosc1540-l04](https://slides.com/aalexmmaldonado/biosc1540-l04)
 -   **Live link:** [slides.com/d/KOit8yE/live](https://slides.com/d/KOit8yE/live)
 -   **Download:** [biosc1540-l04.pdf](/lectures/04/biosc1540-l04.pdf)
 

@@ -31,6 +31,7 @@ Relevant content for today's lecture.
 
 ## Presentation
 
+-   **View:** [slides.com/aalexmmaldonado/biosc1540-l03](https://slides.com/aalexmmaldonado/biosc1540-l03)
 -   **Live link:** [slides.com/d/HVHLMoo/live](https://slides.com/d/HVHLMoo/live)
 -   **Download:** [biosc1540-l03.pdf](/lectures/03/biosc1540-l03.pdf)
 
