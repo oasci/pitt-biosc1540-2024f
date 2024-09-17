@@ -122,7 +122,7 @@ You have a table of pre-calculated coding scores for all possible hexamers based
 | TATGCA  | -0.4  | ATGCTT  | 0.7   |
 | ATGCAT  | 0.8   | TGCTTA  | -0.1  |
 | TGCATG  | -0.2  | GCTTAG  | 0.3   |
-| GCATGC  | 0.5   | CTTAG   | 0.6   |
+| GCATGC  | 0.5   | CTTAGC  | 0.6   |
 | TTAGCT  | -0.3  | TAGCTT  | -0.5  |
 | AGCTTA  | 0.1   |         |       |
 
