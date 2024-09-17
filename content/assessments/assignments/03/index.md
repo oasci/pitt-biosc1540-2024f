@@ -80,7 +80,7 @@ What features would you look for?
 **a)** You are given the following bacterial DNA sequence:
 `5' ATGCATGCTAGCTAATGCCCGGGTAACCCATGA 3'`
 Identify all possible ORFs in this sequence (consider both strands).
-Which ORF is most likely to be a real gene and why?
+How would you determine which ORF is most likely to be a real gene?
 
 **b)** Compare and contrast the challenges of identifying genes in GC-rich vs. AT-rich prokaryotic genomes.
 How might these differences affect gene prediction strategies?
