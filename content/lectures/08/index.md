@@ -19,10 +19,9 @@ We'll examine how these techniques are implemented in popular alignment tools an
 What you should be able to do after today's lecture:
 
 1.  Describe the challenges of aligning short reads to a large reference genome.
-2.  Explain the basic principles of the Burrows-Wheeler Transform (BWT) for sequence alignment.
-3.  Discuss the FM-index and how it enhances the efficiency of BWT-based alignments.
-4.  Compare read alignment algorithms, including hash-based and suffix tree-based approaches.
-5.  Outline the steps in handling mismatches, insertions, and deletions during alignment.
+2.  Compare read alignment algorithms, including hash-based and suffix tree-based approaches.
+3.  Explain the basic principles of the Burrows-Wheeler Transform (BWT) for sequence alignment.
+4.  Discuss the FM-index and how it enhances the efficiency of BWT-based alignments.
 
 ## Readings
 
