@@ -28,8 +28,20 @@ What you should be able to do after today's lecture:
 
 Relevant content for today's lecture.
 
-TODO:
+-   Burrows-Wheeler transform
+    -   [Omics website](https://omics.crumblearn.org/appendices/algorithms/compression/bwt/)
+    -   [JHU](https://www.cs.jhu.edu/~langmea/resources/lecture_notes/10_bwt_and_fm_index_v2.pdf)
+-   FM-index
+    -   [Omics website](https://omics.crumblearn.org/appendices/algorithms/search/fm-index)
+-   Suffix trees
+    -   [JHU](https://www.cs.jhu.edu/~langmea/resources/lecture_notes/08_suffix_trees_v2.pdf)
+-   Suffix arrays
+    -   [JHU](https://www.cs.jhu.edu/~langmea/resources/lecture_notes/09_suffix_arrays_v2.pdf)
 
 ## Presentation
 
-TODO:
+<!-- -   **View:** [slides.com/aalexmmaldonado/biosc1540-l08](https://slides.com/aalexmmaldonado/biosc1540-l08) -->
+-   **Live link:** [slides.com/d/v69HoBk/live](https://slides.com/d/v69HoBk/live)
+<!-- -   **Download:** [biosc1540-l08.pdf](/lectures/08/biosc1540-l08.pdf) -->
+
+<iframe src="https://slides.com/aalexmmaldonado/biosc1540-l08/embed?byline=hidden&share=hidden" width="100%" height="600" title="BIOSC 1540: Lecture 08" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
