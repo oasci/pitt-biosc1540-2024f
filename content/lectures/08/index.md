@@ -21,7 +21,6 @@ What you should be able to do after today's lecture:
 1.  Describe the challenges of aligning short reads to a large reference genome.
 2.  Compare read alignment algorithms, including hash-based and suffix tree-based approaches.
 3.  Explain the basic principles of the Burrows-Wheeler Transform (BWT) for sequence alignment.
-4.  Discuss the FM-index and how it enhances the efficiency of BWT-based alignments.
 
 ## Readings
 
@@ -30,8 +29,6 @@ Relevant content for today's lecture.
 -   Burrows-Wheeler transform
     -   [Omics website](https://omics.crumblearn.org/appendices/algorithms/compression/bwt/)
     -   [JHU](https://www.cs.jhu.edu/~langmea/resources/lecture_notes/10_bwt_and_fm_index_v2.pdf)
--   FM-index
-    -   [Omics website](https://omics.crumblearn.org/appendices/algorithms/search/fm-index)
 -   Suffix trees
     -   [JHU](https://www.cs.jhu.edu/~langmea/resources/lecture_notes/08_suffix_trees_v2.pdf)
 -   Suffix arrays
@@ -39,8 +36,8 @@ Relevant content for today's lecture.
 
 ## Presentation
 
-<!-- -   **View:** [slides.com/aalexmmaldonado/biosc1540-l08](https://slides.com/aalexmmaldonado/biosc1540-l08) -->
+-   **View:** [slides.com/aalexmmaldonado/biosc1540-l08](https://slides.com/aalexmmaldonado/biosc1540-l08)
 -   **Live link:** [slides.com/d/v69HoBk/live](https://slides.com/d/v69HoBk/live)
-<!-- -   **Download:** [biosc1540-l08.pdf](/lectures/08/biosc1540-l08.pdf) -->
+-   **Download:** [biosc1540-l08.pdf](/lectures/08/biosc1540-l08.pdf)
 
 <iframe src="https://slides.com/aalexmmaldonado/biosc1540-l08/embed?byline=hidden&share=hidden" width="100%" height="600" title="BIOSC 1540: Lecture 08" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
