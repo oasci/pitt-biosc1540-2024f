@@ -15,9 +15,11 @@ A02
 
 You run FastQC on a set of sequencing reads and observe the following "Per base sequence quality" plot.
 
--   **a)** Describe what this plot is showing.
--   **b)** What does this pattern typically indicate about the sequencing run?
--   **c)** How might this affect downstream analyses if left uncorrected?
+**a)** Describe what this plot is showing.
+
+**b)** What does this pattern typically indicate about the sequencing run?
+
+**c)** How might this affect downstream analyses if left uncorrected?
 
 <figure markdown>
 ![](./q01-quality.png){ width=500 }
@@ -27,16 +29,19 @@ You run FastQC on a set of sequencing reads and observe the following "Per base 
 
 In a FastQC report, you notice a high percentage of overrepresented sequences that match known Illumina adapters.
 
--   **a)** What step in data preprocessing should you perform to address this issue?
--   **b)** How might the presence of adapter sequences affect genome assembly if not removed?
+**a)** What step in data preprocessing should you perform to address this issue?
+
+**b)** How might the presence of adapter sequences affect genome assembly if not removed?
 
 ## Q03
 
 You observe in your "Per sequence GC content" plot in your FastQC report a bimodal distribution.
 
--   **a)** What does a bimodal distribution in this plot typically suggest?
--   **b)** List a possible reason for this observation.
--   **c)** How would you further investigate the cause of this pattern?
+**a)** What does a bimodal distribution in this plot typically suggest?
+
+**b)** List a possible reason for this observation.
+
+**c)** How would you further investigate the cause of this pattern?
 
 ## Q04
 
@@ -48,37 +53,43 @@ Provide examples of potential issues with very small and very large k-mer sizes.
 
 Describe the greedy algorithm approach to genome assembly:
 
--   **a)** Outline the basic steps of the algorithm.
--   **b)** What are the advantages and disadvantages of this approach?
--   **c)** Give an example scenario where the greedy algorithm might fail to produce the correct assembly.
+**a)** Outline the basic steps of the algorithm.
+
+**b)** What are the advantages and disadvantages of this approach?
+
+**c)** Give an example scenario where the greedy algorithm might fail to produce the correct assembly.
 
 ## Q06
 
 You are given the following set of reads from a DNA sequencing experiment:
 {`ATGGCTA`, `GGCTAAC`, `CTAACGT`, `AACGTAG`, `CGTAGCT`, `TAGCTAA`, `GCTAACG`, `TAACGTA`, `ACGTAGT`}.
 
--   **a)** Using the greedy algorithm, show the steps to assemble these reads into contig(s).
-    Assume a minimum overlap of 3 bases.
-    For each step, clearly state which reads you are merging and the resulting sequence.
-    If there are multiple possibilities with the same overlap length, explain your choice.
+**a)** Using the greedy algorithm, show the steps to assemble these reads into contig(s).
+Assume a minimum overlap of 3 bases.
+For each step, clearly state which reads you are merging and the resulting sequence.
+If there are multiple possibilities with the same overlap length, explain your choice.
 
-    !!! warning "Clarification"
-        By saying "Assume a minimum overlap of 3", this means you cannot make a merge if the overlap is less than 3.
-        So if you get to a point where you have two sequences and they only have an overlap of 1, you cannot merge them.
+!!! warning "Clarification"
+    By saying "Assume a minimum overlap of 3", this means you cannot make a merge if the overlap is less than 3.
+    So if you get to a point where you have two sequences and they only have an overlap of 1, you cannot merge them.
 
-        If I didn't specify a minimum overlap, you still take the highest overlap each time but you don't have a minimum overlap requirement to merge.
-        If the highest overlap was 2, you can still make that merge.
-        If there is no overlap, you cannot concatenate.
+    If I didn't specify a minimum overlap, you still take the highest overlap each time but you don't have a minimum overlap requirement to merge.
+    If the highest overlap was 2, you can still make that merge.
+    If there is no overlap, you cannot concatenate.
 
-        Since this was confusing, I will accept any valid greedy assembly.
--   **b)** What is the final assembled sequence?
--   **c)** Is this assembly unique?
-    Why or why not?
-    !!! warning "Clarification"
-        "Unique assembly" in the context of DNA sequence assembly refers to a situation where there is only one possible way to combine the given reads (DNA fragments) to reconstruct the original sequence.
-        In other words, if there are multiple valid ways to combine these reads then the assembly is not unique.
--   **d)** Identify a potential problem with this assembly that might not reflect the true original sequence.
-    Explain your reasoning.
+    Since this was confusing, I will accept any valid greedy assembly.
+
+**b)** What is the final assembled sequence?
+
+**c)** Is this assembly unique?
+Why or why not?
+
+!!! warning "Clarification"
+    "Unique assembly" in the context of DNA sequence assembly refers to a situation where there is only one possible way to combine the given reads (DNA fragments) to reconstruct the original sequence.
+    In other words, if there are multiple valid ways to combine these reads then the assembly is not unique.
+
+**d)** Identify a potential problem with this assembly that might not reflect the true original sequence.
+Explain your reasoning.
 
 ## Q07
 
@@ -103,24 +114,70 @@ TACGTAGT
 FFHHIIII
 ```
 
--   **a)** Construct a de Bruijn graph for these reads using $k$ = 5, where $k$ is the edge length.
-    Draw the graph, clearly labeling nodes and edges.
--   **b)** Identify and explain any features in your graph that might complicate genome assembly, such as bubbles/bulge, tips, or cycles.
--   **c)** Propose a possible original sequence that could have generated these reads.
-    If multiple possibilities exist, explain why.
--   **d)** How would increasing the k-mer size to 5 change the structure of the graph?
-    Discuss both potential benefits and drawbacks of this change.
+**a)** Construct a de Bruijn graph for these reads using $k$ = 5, where $k$ is the edge length.
+Draw the graph, clearly labeling nodes and edges.
+
+**b)** Identify and explain any features in your graph that might complicate genome assembly, such as bubbles/bulge, tips, or cycles.
+
+**c)** Propose a possible original sequence that could have generated these reads.
+If multiple possibilities exist, explain why.
+
+**d)** How would increasing the k-mer size to 5 change the structure of the graph?
+Discuss both potential benefits and drawbacks of this change.
 
 !!! note
     In your de Bruijn graph, represent the frequency of each edge by labeling it with a number.
+
+??? success "Solution"
+
+    **a)**
+
+    ```mermaid
+    flowchart LR
+        A((ATGC)) -->|1| B((TGCG))
+        B -->|1| C((GCGT))
+        C -->|1| D((CGTA))
+
+        D -->|1| E((GTAG))
+        E -->|1| F((TAGT))
+
+        D -->|3| G((GTAC))
+        G -->|1| H((TACG))
+        H -->|2| I((ACGT))
+        I -->|2| D
+
+        G -->|1| J((TACA))
+        J -->|1| K((ACAT))
+        K -->|1| L((CATA))
+    ```
+
+    **b)** TODO:
+
+    **c)** In order to determine possible contigs, we try various paths from the `ATGC` tip to either `TAGT` or `CATA`.
+
+    -   `ATGCGTAGT`
+    -   `ATGCGTACATA`
+    -   `ATGCGTACGTAGT`
+    -   `ATGCGTACGTACATA`
+    -   `ATGCGTACGTACGTAGT`
+    -   `ATGCGTACGTACGTACATA`
+
+    These contigs represent the main paths through the graph that don't involve repeating significant portions of the sequence.
+    The circular path in contig 2 is included because it represents a potential repetitive element in the genome.
+    It's worth noting that there could be variations of these contigs depending on how many times you traverse the circular path.
+    However, without additional information about the expected genome structure or read coverage, it's difficult to determine how many times this repeat should be included in the final assembly.
+
+    TODO:
 
 ## Q08
 
 You are working on assembling a bacterial genome. After initial quality control and assembly, you notice that your assembly is highly fragmented with a low N50 value.
 
--   **a)** List three possible reasons for this poor assembly.
--   **b)** For each reason, suggest a strategy to improve the assembly.
--   **c)** How would you validate the quality of your improved assembly?
+**a)** List three possible reasons for this poor assembly.
+
+**b)** For each reason, suggest a strategy to improve the assembly.
+
+**c)** How would you validate the quality of your improved assembly?
 
 ## Q09
 
