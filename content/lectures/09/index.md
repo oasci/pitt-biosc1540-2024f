@@ -19,8 +19,8 @@ Through practical examples, students will learn to interpret gene expression res
 
 What you should be able to do after today's lecture:
 
-1.  Explain the concept of gene expression quantification.
-2.  Discuss the importance of normalization in RNA-seq data analysis.
+1.  Discuss the importance of normalization in RNA-seq data analysis.
+2.  Explain the concept of gene expression quantification.
 3.  Compare and contrast different methods for quantifying gene expression.
 4.  Outline the basic principles of transcript-level quantification methods.
 5.  Interpret basic gene expression quantification results.
