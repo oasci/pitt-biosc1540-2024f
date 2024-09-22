@@ -19,11 +19,11 @@ Through practical examples, students will learn to interpret gene expression res
 
 What you should be able to do after today's lecture:
 
-1.  Explain the concept of gene expression quantification in the context of RNA-seq data.
-2.  Compare and contrast different methods for quantifying gene expression, such as RPKM, FPKM, and TPM.
-3.  Outline the basic principles of transcript-level quantification methods (e.g., Salmon, Kallisto).
-4.  Discuss the importance of normalization in RNA-seq data analysis and describe common normalization methods.
-5.  Interpret basic gene expression quantification results, including understanding the meaning of expression values and their biological significance.
+1.  Explain the concept of gene expression quantification.
+2.  Discuss the importance of normalization in RNA-seq data analysis.
+3.  Compare and contrast different methods for quantifying gene expression.
+4.  Outline the basic principles of transcript-level quantification methods.
+5.  Interpret basic gene expression quantification results.
 
 ## Readings
 
