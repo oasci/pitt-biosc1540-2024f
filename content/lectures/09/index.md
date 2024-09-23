@@ -19,11 +19,12 @@ Through practical examples, students will learn to interpret gene expression res
 
 What you should be able to do after today's lecture:
 
-1.  Discuss the importance of normalization in RNA-seq data analysis.
-2.  Explain the concept of gene expression quantification.
-3.  Compare and contrast different methods for quantifying gene expression.
-4.  Outline the basic principles of transcript-level quantification methods.
-5.  Interpret basic gene expression quantification results.
+1.  Discuss the importance of normalization and quantification in RNA-seq data analysis.
+2.  Compare and contrast different methods for quantifying gene expression.
+3.  Explain the relevance of pseudoalignment instead of read mapping.
+4.  Understand the purpose of Salmon's generative model.
+5.  Describe how salmon handles experimental biases in transcriptomics data.
+6.  Communicate the principles of inference in Salmon.
 
 ## Readings
 
