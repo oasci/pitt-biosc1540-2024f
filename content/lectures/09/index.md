@@ -25,7 +25,8 @@ What you should be able to do after today's lecture:
 
 Relevant content for today's lecture.
 
-TODO:
+-   [Problem formulation](https://omics.crumblearn.org/transcriptomics/quant/problem/)
+-   [Salmon](https://omics.crumblearn.org/transcriptomics/quant/salmon/#maximum-likelihood)
 
 ## Presentation
 
