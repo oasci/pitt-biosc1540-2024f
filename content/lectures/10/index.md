@@ -6,10 +6,6 @@ Differential gene expression
 <b>Date:</b> Sep 26, 2024
 </p>
 
-!!! danger "DRAFT"
-
-    This page is a work in progress and is subject to change at any moment.
-
 This lecture explores differential gene expression analysis, a powerful approach for uncovering the molecular basis of biological phenomena.
 
 ## Learning objectives
@@ -26,12 +22,12 @@ What you should be able to do after today's lecture:
 
 Relevant content for today's lecture.
 
-TODO:
+-   None! Just the slides.
 
 ## Presentation
 
-<!-- -   **View:** [slides.com/aalexmmaldonado/biosc1540-l10](https://slides.com/aalexmmaldonado/biosc1540-l10) -->
+-   **View:** [slides.com/aalexmmaldonado/biosc1540-l10](https://slides.com/aalexmmaldonado/biosc1540-l10)
 -   **Live link:** [slides.com/d/uhBDP3A/live](https://slides.com/d/uhBDP3A/live)
-<!-- -   **Download:** [biosc1540-l10.pdf](/lectures/08/biosc1540-l10.pdf) -->
+-   **Download:** [biosc1540-l10.pdf](/lectures/10/biosc1540-l10.pdf)
 
 <iframe src="https://slides.com/aalexmmaldonado/biosc1540-l10/embed?byline=hidden&share=hidden" width="100%" height="600" title="BIOSC 1540: Lecture 10" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
