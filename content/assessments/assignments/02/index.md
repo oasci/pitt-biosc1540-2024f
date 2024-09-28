@@ -13,6 +13,8 @@ A02
 
 ## Q01
 
+**Points**: 7
+
 You run FastQC on a set of sequencing reads and observe the following "Per base sequence quality" plot.
 
 **a)** Describe what this plot is showing.
@@ -69,6 +71,8 @@ You run FastQC on a set of sequencing reads and observe the following "Per base 
 
 ## Q02
 
+**Points**: 7
+
 In a FastQC report, you notice a high percentage of overrepresented sequences that match known Illumina adapters.
 
 **a)** What step in data preprocessing should you perform to address this issue?
@@ -96,6 +100,8 @@ In a FastQC report, you notice a high percentage of overrepresented sequences th
     Furthermore, including adapter sequences increases the complexity of the dataset, leading to longer processing times and higher computational resource usage during assembly.
 
 ## Q03
+
+**Points**: 7
 
 You observe in your "Per sequence GC content" plot in your FastQC report a bimodal distribution.
 
@@ -146,6 +152,8 @@ You observe in your "Per sequence GC content" plot in your FastQC report a bimod
 
 ## Q04
 
+**Points**: 7
+
 Explain the concept of $k$-mers in the context of genome assembly.
 How does the choice of $k$-mer size affect the assembly process?
 Provide examples of potential issues with very small and very large $k$-mer sizes.
@@ -186,6 +194,8 @@ Provide examples of potential issues with very small and very large $k$-mer size
     By carefully selecting and possibly combining different $k$-mer sizes, assemblers aim to produce the most accurate and contiguous genome assemblies possible given the data quality and computational resources available.
 
 ## Q05
+
+**Points**: 6
 
 Describe the greedy algorithm approach to genome assembly:
 
@@ -259,6 +269,8 @@ Describe the greedy algorithm approach to genome assembly:
     -   The algorithm may encounter conflicting overlaps of similar lengths and arbitrarily choose one, potentially breaking contigs or preventing the correct assembly of unique regions adjacent to repeats.
 
 ## Q06
+
+**Points**: 6
 
 You are given the following set of reads from a DNA sequencing experiment:
 {`ATGGCTA`, `GGCTAAC`, `CTAACGT`, `AACGTAG`, `CGTAGCT`, `TAGCTAA`, `GCTAACG`, `TAACGTA`, `ACGTAGT`}.
@@ -386,6 +398,8 @@ Explain your reasoning.
 
 ## Q07
 
+**Points**: 6
+
 You are given the following set of reads from a DNA sequencing experiment:
 
 ```text
@@ -509,7 +523,10 @@ Discuss both potential benefits and drawbacks of this change.
 
 ## Q08
 
-You are working on assembling a bacterial genome. After initial quality control and assembly, you notice that your assembly is highly fragmented with a low N50 value.
+**Points**: 6
+
+You are working on assembling a bacterial genome.
+After initial quality control and assembly, you notice that your assembly is highly fragmented with a low N50 value.
 
 **a)** List three possible reasons for this poor assembly.
 
@@ -583,6 +600,8 @@ You are working on assembling a bacterial genome. After initial quality control 
     Evaluating statistics such as GC content distribution, gene density, and $k$-mer frequencies can offer additional insights into the quality of your assembly.
 
 ## Q09
+
+**Points**: 8
 
 Design a step-by-step workflow for preprocessing raw Illumina sequencing data and performing a de novo genome assembly.
 For each step, briefly explain its purpose and mention one commonly used bioinformatics tool that could be used to perform that step.
