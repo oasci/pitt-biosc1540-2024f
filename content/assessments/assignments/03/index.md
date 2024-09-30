@@ -989,13 +989,394 @@ To do this:
 Remember that you [shift over one codon a time](https://slides.com/aalexmmaldonado/biosc1540-l05#/4/6).
 (I had to [read their C code](https://github.com/hyattpd/Prodigal/blob/c1e2d361479cc1b18175ea79ebd8ff10411c46cb/node.c#L325-L367) to figure this out.)
 
+??? success "Solution"
+
+    In gene prediction, one of the key steps is to determine whether a DNA sequence is likely to be a protein-coding gene. This involves:
+
+    1. Identifying an **open reading frame (ORF)** with a start codon and a stop codon in the same reading frame.
+    2. Calculating the **overall coding score** by analyzing hexamer frequencies within the ORF.
+    3. Interpreting the coding score to assess the likelihood of the sequence being protein-coding.
+
+    In this walkthrough, we will apply these steps to the given DNA sequence using the provided table of hexamer coding scores.
+
+    ---
+
+    **Given DNA Sequence**
+
+    ```
+    ATATGCATGCTTAGCTTA
+    ```
+
+    ---
+
+    **Identify the Open Reading Frame (ORF)**
+
+    An **open reading frame (ORF)** is a sequence of DNA that could potentially encode a protein. It starts with a **start codon** and ends with a **stop codon**, with all codons read in the same frame.
+
+    -   **Start Codon:** ATG
+    -   **Stop Codons:** TAA, TAG, TGA
+
+    **Analyzing the Three Possible Reading Frames**
+
+    We will examine all three possible reading frames to find an ORF.
+
+    ---
+
+    **_Reading Frame 1:_**
+
+    Positions: 1-3, 4-6, 7-9, 10-12, 13-15, 16-18
+
+    ```
+    Codon 1 (1-3):    A T A
+    Codon 2 (4-6):    T G C
+    Codon 3 (7-9):    A T G  (Start Codon)
+    Codon 4 (10-12):  C T T
+    Codon 5 (13-15):  A G C
+    Codon 6 (16-18):  T T A
+    ```
+
+    - **No Stop Codon** found in this frame.
+    - **Start Codon** at Codon 3 (positions 7-9).
+
+    ---
+
+    **_Reading Frame 2:_**
+
+    Positions: 2-4, 5-7, 8-10, 11-13, 14-16, 17-18
+
+    ```
+    Codon 1 (2-4):    T A T
+    Codon 2 (5-7):    G C A
+    Codon 3 (8-10):   T G C
+    Codon 4 (11-13):  T T A
+    Codon 5 (14-16):  G C T
+    Codon 6 (17-18):  T A    (Incomplete)
+    ```
+
+    - **No Start or Stop Codon** found in this frame.
+
+    ---
+
+    **_Reading Frame 3:_**
+
+    Positions: 3-5, 6-8, 9-11, 12-14, 15-17
+
+    ```
+    Codon 1 (3-5):    A T G  (Start Codon)
+    Codon 2 (6-8):    C A T
+    Codon 3 (9-11):   G C T
+    Codon 4 (12-14):  T A G  (Stop Codon)
+    Codon 5 (15-17):  C T T
+    ```
+
+    - **Start Codon** at Codon 1 (positions 3-5).
+    - **Stop Codon** at Codon 4 (positions 12-14).
+    - **ORF Length:** From Codon 1 to Codon 4.
+
+    **Conclusion:** We have identified an ORF in **Reading Frame 3** starting with a start codon (ATG) and ending with a stop codon (TAG) in the same frame.
+
+    ---
+
+    **Extract Hexamers Within the ORF**
+
+    Now that we have the ORF, we need to extract hexamers (6-nucleotide sequences) within it.
+
+    - Shift over one codon (three nucleotides) at a time.
+    - This ensures that the hexamers align with the reading frame and reflect codon usage.
+
+    ORF Nucleotide Sequence (Positions 3-14):
+
+    ```text
+    ATG - CAT - GCT - TAG
+    ```
+
+    -   **Hexamer 1 (Positions 3-8):** `ATGCAT`
+    -   **Hexamer 2 (Positions 6-11):** `CATGCT`
+    -   **Hexamer 3 (Positions 9-14):** `GCTTAG`
+
+    ---
+
+    **Retrieve Coding Scores for Each Hexamer**
+
+    Using the provided coding scores table:
+
+    | Hexamer | Score |
+    |---------|-------|
+    | **ATGCAT**  | **0.8**   |
+    | **CATGCT**  | **1.2**   |
+    | **GCTTAG**  | **0.3**   |
+
+    ---
+
+    **Calculate the Total Coding Score**
+
+    The **total coding score** is the sum of the scores of all hexamers within the ORF.
+
+    \[
+    \text{Total Coding Score} = \text{Score}_1 + \text{Score}_2 + \text{Score}_3
+    \]
+
+    \[
+    \text{Total Coding Score} = 0.8 + 1.2 + 0.3 = \boxed{2.3}
+    \]
+
 **b)** What is the average coding score per hexamer for this sequence?
+
+??? success "Solution"
+
+    **Identify the Number of Hexamers**
+
+    From the analysis of the open reading frame (ORF), we have the following hexamers:
+
+    1. **Hexamer 1:** ATGCAT (Score: 0.8)
+    2. **Hexamer 2:** CATGCT (Score: 1.2)
+    3. **Hexamer 3:** GCTTAG (Score: 0.3)
+
+    **Total Number of Hexamers:** **3**
+
+    ---
+
+    **Recall the Total Coding Score**
+
+    The sum of the coding scores for these hexamers is:
+
+    \[
+    \text{Total Coding Score} = 0.8 + 1.2 + 0.3 = 2.3
+    \]
+
+    ---
+
+    **Calculate the Average Coding Score per Hexamer**
+
+    The average coding score per hexamer is calculated by dividing the total coding score by the number of hexamers:
+
+    \[
+    \text{Average Coding Score per Hexamer} = \frac{\text{Total Coding Score}}{\text{Number of Hexamers}}
+    \]
+
+    Plugging in the numbers:
+
+    \[
+    \text{Average Coding Score per Hexamer} = \frac{2.3}{3} \approx 0.7667
+    \]
+
+    ---
+
+    **Answer:**
+
+    The **average coding score per hexamer** for this sequence is approximately **0.7667**.
+
+    - **Positive Average Score:** An average coding score per hexamer greater than zero indicates that, on average, the hexamers within the sequence are characteristic of protein-coding regions.
+    - **Strength of Coding Potential:** An average score of approximately **0.7667** suggests a strong coding potential for the sequence.
+    - **Consistency Across Hexamers:** The relatively high average reflects that most hexamers contribute positively to the overall coding score.
 
 **c)** Based on your results, do you think this gene is likely to be protein-coding?
 Explain your reasoning.
 
+??? success "Solution"
+
+    Yes, based on the results of the analysis, it is highly likely that this gene is protein-coding
+
+    **1. Identification of an Open Reading Frame (ORF):**
+
+    - **Start Codon:** The sequence contains a start codon (**ATG**) at positions 3-5 in **Reading Frame 3**.
+    - **Stop Codon:** A stop codon (**TAG**) is present at positions 12-14 in the same reading frame.
+    - **Continuous Reading Frame:** The codons between the start and stop codons are in-frame, allowing for uninterrupted translation.
+    - **Significance:** The presence of an ORF with both start and stop codons is a key indicator of a protein-coding gene.
+
+    **2. Positive Total Coding Score:**
+
+    - **Calculated Total Coding Score:** The sum of the coding scores for the hexamers within the ORF is **2.3**.
+    - **Interpretation:** A positive total coding score suggests that the sequence has characteristics similar to known protein-coding regions.
+    - **Strength of Evidence:** A score of 2.3 is significantly positive, indicating strong coding potential.
+
+    **3. High Average Coding Score per Hexamer:**
+
+    - **Average Score:** The average coding score per hexamer is approximately **0.7667**.
+    - **Consistent Positive Scores:** All hexamers within the ORF have positive scores, reinforcing the coding potential.
+    - **Implication:** A high average score per hexamer suggests that, on average, the sequence closely resembles coding sequences in terms of hexamer composition.
+
+    **4. Individual Hexamer Scores Support Coding Potential:**
+
+    - **Hexamer 1 (ATGCAT):** Score **0.8**
+    - **Hexamer 2 (CATGCT):** Score **1.2**
+    - **Hexamer 3 (GCTTAG):** Score **0.3**
+    - **Analysis:** Each hexamer has a positive coding score, indicating that these sequences are more frequently found in known genes compared to non-coding regions.
+    - **Cumulative Effect:** The positive contributions of each hexamer strengthen the overall evidence for coding potential.
+
+    **5. Alignment with Known Gene Features:**
+
+    - **Reading Frame Integrity:** The codons are properly aligned without frameshifts, which is essential for correct protein translation.
+    - **Codon Usage:** The sequence likely follows typical codon usage patterns observed in the organism's protein-coding genes.
+    - **Biological Plausibility:** The structure of the sequence is consistent with what is expected for a functional gene.
+
+    **6. Absence of Negative Indicators:**
+
+    - **No Premature Stop Codons:** There are no in-frame stop codons before the identified stop codon, which could truncate the protein.
+    - **No Significant Negative Coding Scores:** Negative scores can indicate non-coding regions; their absence supports the coding potential.
+    - **Sequence Length:** The length of the ORF is sufficient to encode a peptide of reasonable size, which is typical for bacterial genes.
+
+    **7. Statistical Evidence from Coding Scores:**
+
+    - **Methodology Validity:** Coding scores are based on statistical analyses comparing hexamer frequencies in known genes versus the whole genome.
+    - **Reliability:** The positive scores provide quantitative support for the sequence being protein-coding.
+    - **Comparative Analysis:** The sequence aligns well with known coding patterns in the bacterial genome.
+
 **d)** Discuss potential limitations of using this hexamer-based coding score approach for gene prediction.
 What factors might lead to false positives or false negatives?
+
+??? success "Solution"
+
+    Hexamer-based coding score methods are widely utilized in gene prediction algorithms due to their ability to capture local sequence patterns characteristic of protein-coding regions.
+    By analyzing the frequency of six-nucleotide sequences (hexamers) in known genes versus the entire genome, these methods provide statistical measures to identify potential coding regions.
+    However, despite their utility, hexamer-based approaches possess several limitations that can lead to inaccuracies in gene prediction.
+    This comprehensive discussion outlines the primary limitations and factors that may result in false positives and false negatives.
+
+    ---
+
+    **Dependence on Existing Gene Models**
+
+    Hexamer-based methods rely heavily on the frequency of hexamers observed in known genes.
+    This dependence means that the effectiveness of the approach is contingent on the quality and comprehensiveness of the training data.
+
+    - **False Negatives:** Novel genes or genes with atypical hexamer compositions not represented in the training set may be overlooked.
+    - **False Positives:** Regions with hexamer patterns similar to known genes but not actually coding may be incorrectly identified as genes.
+
+    A newly discovered gene with unique regulatory elements or unusual codon usage may not align well with existing hexamer profiles, causing it to be missed by prediction algorithms.
+
+    ---
+
+    **Codon Bias and Genome Composition Variability**
+
+    Different organisms exhibit varying codon biases and nucleotide compositions.
+    Hexamer frequencies are influenced by these biases, and extreme GC-rich or AT-rich genomes may present challenges.
+
+    - **False Positives in GC/AT-Rich Genomes:** In genomes with extreme nucleotide compositions, certain hexamers may appear more frequently in non-coding regions purely due to base composition, leading to erroneous gene predictions.
+    - **False Negatives:** Genuine coding regions in such genomes may have hexamer patterns that diverge from typical coding regions in more balanced genomes, causing them to be missed.
+
+    A GC-rich genome may have stable secondary structures or specific codon usage that affects hexamer frequencies, complicating the distinction between coding and non-coding regions.
+
+    ---
+
+    **Overlapping Genes and Operonic Structures**
+
+    Prokaryotic genomes often contain overlapping genes and operonic structures, where multiple genes share regions of DNA.
+
+    - **False Positives:** Overlapping genes may create complex hexamer patterns that resemble coding regions, even if only part of the sequence is genuinely coding.
+    - **False Negatives:** Genes overlapping with non-coding regions or other genes may dilute the hexamer signal, making it harder to detect.
+
+    An operon with tightly packed genes may exhibit combined hexamer frequencies that do not accurately reflect individual gene coding potentials.
+
+    ---
+
+    **Short Genes and Insufficient Hexamer Data**
+
+    Short genes or small open reading frames (sORFs) provide limited hexamer data, reducing the statistical power of the coding score.
+
+    - **False Negatives:** Short coding sequences may not accumulate enough positive hexamer scores to surpass prediction thresholds.
+    - **False Positives:** Limited hexamer data can make it easier for non-coding regions to coincidentally exhibit high coding scores.
+
+    A small peptide-coding gene with only a few hexamers may not receive a sufficiently high total coding score to be confidently identified as coding.
+
+    ---
+
+    **Pseudogenes and Mobile Genetic Elements**
+
+    Pseudogenes and mobile genetic elements (e.g., transposons, plasmids) can contain hexamer patterns similar to functional genes.
+
+    - **False Positives:** These non-functional or mobile elements may be incorrectly predicted as protein-coding genes due to their similar hexamer compositions.
+    - **False Negatives:** Conversely, fragmented pseudogenes may disrupt hexamer patterns, making true coding regions harder to detect.
+
+    A transposable element with conserved coding sequences for transposase enzymes may be mistakenly annotated as a separate gene.
+
+    ---
+
+    **Regulatory Regions and Non-Coding RNAs**
+
+    Some regulatory regions and non-coding RNAs (ncRNAs) possess hexamer compositions that overlap with those of protein-coding genes.
+
+    - **False Positives:** Regulatory elements like promoters, enhancers, or ncRNAs may exhibit hexamer frequencies akin to coding regions, leading to incorrect gene predictions.
+    - **False Negatives:** Genuine coding regions adjacent to regulatory elements might have diluted hexamer signals.
+
+    An enhancer region with high GC content may generate hexamer patterns that resemble coding regions, causing misannotation.
+
+    ---
+
+    **Sequencing Errors and Genome Assembly Issues**
+
+    Errors introduced during DNA sequencing or genome assembly can distort the true hexamer frequencies.
+
+    - **False Positives:** Sequencing errors may create artificial hexamers with high coding scores.
+    - **False Negatives:** Errors that disrupt genuine hexamer patterns can prevent accurate gene prediction.
+
+    Insertion or deletion errors leading to frameshifts can alter hexamer sequences, affecting the overall coding score calculation.
+
+    ---
+
+    **Context-Dependence and Higher-Order Sequence Features**
+
+    Hexamer-based methods focus on local sequence patterns and may overlook broader contextual or higher-order sequence features essential for accurate gene prediction.
+
+    - **False Positives:** Lack of consideration for gene context (e.g., genomic location, regulatory context) may result in mispredictions.
+    - **False Negatives:** Ignoring larger sequence motifs or structural features can lead to missed coding regions.
+
+    A hexamer pattern typical of coding regions but located within a known non-coding genomic island may be incorrectly predicted as a gene.
+
+    ---
+
+    **Alternative Start Codons and Non-Standard Coding Patterns**
+
+    Some genes utilize non-standard start codons or have atypical coding patterns that are not well-represented in the hexamer training data.
+
+    - **False Negatives:** Genes with alternative start codons (e.g., GTG, TTG) may not trigger high coding scores if such codons are not accounted for.
+    - **False Positives:** Misinterpretation of alternative codon usages in non-coding regions may lead to incorrect gene predictions.
+
+    A gene starting with GTG, a less common start codon, may not be recognized as coding if the hexamer frequencies do not account for such variations.
+
+    ---
+
+    **Insensitivity to Longer Sequence Patterns and Gene Structure**
+
+    Hexamer-based approaches analyze fixed-length sequences and may miss longer or more complex sequence patterns essential for gene structure recognition, such as splice sites in eukaryotes (though less relevant for prokaryotes).
+
+    - **False Negatives:** Complex gene structures may not be captured, leading to missed predictions.
+    - **False Positives:** Overreliance on short sequence motifs without structural context can cause mispredictions.
+
+    In prokaryotes, operon structures and regulatory sequences extending beyond hexamer boundaries may influence gene expression but remain undetected by hexamer-based scores.
+
+    ---
+
+    **Evolutionary Conservation and Functional Divergence**
+
+    Hexamer-based methods may not account for evolutionary conservation or functional divergence among genes, leading to mismatches in coding score expectations.
+
+    - **False Negatives:** Highly conserved genes with unique hexamer compositions may be underrepresented in training data, reducing prediction accuracy.
+    - **False Positives:** Conserved non-coding regions may exhibit similar hexamer patterns to coding regions, causing incorrect predictions.
+
+    Essential genes with highly conserved sequences across species may present hexamer patterns that diverge from the training set, affecting prediction algorithms.
+
+    ---
+
+    **Computational and Statistical Limitations**
+
+    Hexamer-based approaches involve statistical modeling that may suffer from limitations such as insufficient sample sizes, overfitting, or assumptions about hexamer independence.
+
+    - **False Positives:** Overfitting to training data can cause the model to predict genes where none exist.
+    - **False Negatives:** Simplistic statistical models may fail to generalize to diverse genomic contexts.
+
+    Assuming independence between hexamers ignores the potential correlations and dependencies in genomic sequences, reducing the model's predictive power.
+
+    ---
+
+    **Strategies to Mitigate Limitations**
+
+    While hexamer-based coding score methods have inherent limitations, several strategies can enhance their accuracy:
+
+    1. **Integrate Multiple Features:** Combine hexamer scores with other genomic features such as promoter motifs, ribosome binding sites, and gene conservation.
+    2. **Use Machine Learning Models:** Employ advanced machine learning techniques that can capture higher-order dependencies and contextual information.
+    3. **Adapt to Genome Composition:** Customize hexamer training sets to reflect the specific nucleotide composition and codon bias of the target organism.
+    4. **Incorporate Comparative Genomics:** Leverage evolutionary conservation by comparing sequences across related species to validate gene predictions.
+    5. **Enhance Training Data:** Expand and diversify training datasets to include a wide range of gene types, including those with non-standard features.
 
 ## Programming+
 
