@@ -50,6 +50,8 @@ Provide example(s) of when each would be more appropriate to use.
     There are two primary types of sequence alignment: **global** and **local**.
     Understanding the distinctions between these two methods is essential for selecting the appropriate approach based on the specific objectives of a genomic analysis.
 
+    ---
+
     **Global alignment** involves aligning two sequences from end to end, encompassing their entire lengths.
     This method attempts to optimize the alignment across the whole sequence, ensuring that every nucleotide or amino acid is included in the comparison.
     Global alignment is particularly effective when the sequences being compared are of similar length and are expected to be largely similar across their entire span.
@@ -60,6 +62,8 @@ Provide example(s) of when each would be more appropriate to use.
     Global alignment is most suitable when comparing **orthologous genes**—genes in different species that originated from a common ancestral gene and retain similar functions.
     For instance, aligning the entire coding sequences of the hemoglobin gene from humans and mice can provide insights into evolutionary conservation and functional similarities.
     Since these genes are expected to be similar in length and structure, a global alignment ensures that the entire gene sequences are compared comprehensively.
+
+    ---
 
     In contrast, **local alignment** focuses on identifying the most similar subsequences within two larger sequences.
     Instead of attempting to align the entire length of both sequences, local alignment seeks regions of high similarity, which may be significantly shorter than the full length of the sequences.
@@ -92,6 +96,8 @@ How do different types of gap penalties (e.g., linear vs. affine) affect alignme
     2.  **Reflect Biological Reality**: Different types of gaps (e.g., single nucleotide insertions versus large indels) have varying biological implications.
         Gap penalties help model these differences by assigning appropriate costs.
     3.  **Optimize Alignment Scores**: Gap penalties are integrated into the scoring system of alignment algorithms to ensure that the overall alignment score accurately reflects the quality of the alignment, balancing matches, mismatches, and gaps.
+
+    ---
 
     **Types of Gap Penalties**
 
@@ -126,6 +132,8 @@ How do different types of gap penalties (e.g., linear vs. affine) affect alignme
 
     Affine gap penalties are ideal for alignments where insertions or deletions tend to occur in blocks or segments, reflecting scenarios such as exon-intron boundaries in genes or structural variations in genomes.
 
+    ---
+
     **Comparative Effects on Alignment Results**
 
     The choice between linear and affine gap penalties significantly influences the resulting alignment:
@@ -156,12 +164,228 @@ Perform the following tasks:
 Use a scoring system of +1 for matches, -1 for mismatches, and -2 for gaps.
 Show your work, including the scoring matrix and traceback path.
 
+??? success "Solution"
+
+    The Needleman-Wunsch algorithm is a dynamic programming method used for global sequence alignment.
+    It aligns two sequences from start to end, optimizing the alignment score based on a predefined scoring system.
+    Below, we'll perform a global alignment of the given DNA sequences using the Needleman-Wunsch algorithm with the specified scoring system:
+
+    - **Match:** +1
+    - **Mismatch:** -1
+    - **Gap:** -2
+
+    ---
+
+    **Given Sequences**
+
+    - **Sequence 1 (S1):** `ATGCACTAGCTA` (Length: 12)
+    - **Sequence 2 (S2):** `ATGCTACGTA` (Length: 10)
+
+    *For clarity, we index the sequences starting from 1:*
+
+    - **S1:** A1 T2 G3 C4 A5 C6 T7 A8 G9 C10 T11 A12
+    - **S2:** A1 T2 G3 C4 T5 A6 C7 G8 T9 A10
+
+    ---
+
+    **Step 1: Initialize the Scoring Matrix**
+
+    The scoring matrix has dimensions `(m+1) x (n+1)`, where `m` and `n` are the lengths of `S1` and `S2`, respectively. The first row and first column are initialized based on gap penalties.
+
+    - **Rows:** Represent characters from `S1` (including a leading gap).
+    - **Columns:** Represent characters from `S2` (including a leading gap).
+
+    Given:
+
+    - **m = 12** (Length of S1)
+    - **n = 10** (Length of S2)
+
+    **Initialization Rules:**
+
+    - **First Cell (0,0):** 0
+    - **First Row (i=0):** Each cell `(0,j)` = `(0,j-1)` + Gap Penalty
+    - **First Column (j=0):** Each cell `(i,0)` = `(i-1,0)` + Gap Penalty
+
+    ---
+
+    **Step 2: Construct and Fill the Scoring Matrix**
+
+    Below is the fully constructed scoring matrix. Each cell `(i,j)` represents the optimal score for aligning the first `i` characters of `S₁` with the first `j` characters of `S₂`.
+
+    **Scoring Matrix:**
+
+    |       |   -   |  A1  |  T2  |  G3  |  C4  |  T5  |  A6  |  C7  |  G8  |  T9  | A10 |
+    |-------|-------|------|------|------|------|------|------|------|------|------|-----|
+    | **-** |   0   |  -2  |  -4  |  -6  |  -8  | -10  | -12  | -14  | -16  | -18  | -20 |
+    | **A1** |  -2   |   1  |  -1  |  -3  |  -5  |  -7  |  -9  | -11  | -13  | -15  | -17 |
+    | **T2** |  -4   |  -1  |   2  |   0  |  -2  |  -4  |  -6  |  -8  | -10  | -12  | -14 |
+    | **G3** |  -6   |  -3  |   0  |   3  |   1  |  -1  |  -3  |  -5  |  -7  |  -9  | -11 |
+    | **C4** |  -8   |  -5  |  -2  |   1  |   4  |   2  |   0  |  -2  |  -4  |  -6  |  -8 |
+    | **A5** | -10   |  -7  |  -4  |  -1  |   2  |   3  |   3  |   1  |  -1  |  -3  |  -5 |
+    | **C6** | -12   |  -9  |  -6  |  -3  |   0  |   1  |   2  |   4  |   2  |   0  |  -2 |
+    | **T7** | -14   | -11  |  -8  |  -5  |  -2  |   1  |   0  |   2  |   3  |   3  |   1 |
+    | **A8** | -16   | -13  | -10  |  -7  |  -4  |  -1  |   2  |   0  |   1  |   2  |   4 |
+    | **G9** | -18   | -15  | -12  |  -9  |  -6  |  -3  |   0  |   1  |   1  |   0  |   2 |
+    | **C10**| -20  | -17  | -14  | -11  |  -8  |  -5  |  -2  |   1  |   0  |   0  |   0 |
+    | **T11**| -22  | -19  | -16  | -13  | -10  |  -7  |  -4  |  -1  |   0  |   1  |  -1 |
+    | **A12**| -24  | -21  | -18  | -15  | -12  |  -9  |  -6  |  -3  |  -2  |  -1  |   2 |
+
+    ---
+
+    **Step 3: Traceback to Determine the Optimal Alignment**
+
+    **Traceback Process:**
+
+    1. **Start:** Bottom-right cell `(A12, A10)` with a score of **2**.
+    2. **Goal:** Reach the top-left cell `(0,0)`.
+
+    At each step, determine the direction from which the current cell's score was derived:
+
+    - **Diagonal (↖):** Match/Mismatch
+    - **Up (↑):** Gap in S2
+    - **Left (←):** Gap in S1
+
+    **Traceback Steps:**
+
+    1.  **Cell (A12, A10): Score = 2**
+        - **Diagonal (A11, T9):** Score = 1
+            - Characters: `A` vs `A` (Match)
+            - Calculated: `1 + 1 = 2` → **Equal to current score (2)**
+        - **Up (T₁₁, A10):** Score = -1
+            - Calculated: `-1 + (-2) = -3` → **Less than current score (2)**
+        - **Left (A₁₂, T₉):** Score = -1
+            - Calculated: `-1 + (-2) = -3` → **Less than current score (2)**
+        - **Alignment Action:** Match (`A` aligned with `A`)
+    2.  **Cell (T11, T9): Score = 1**
+        - **Diagonal (C10, G8):** Score = 0
+            - Characters: `T` vs `T` (Match)
+            - Calculated: `0 + 1 = 1` → **Equal to current score (1)**
+        -   **Up (C10, T9):** Score = 0
+            - Calculated: `0 + (-2) = -2` → **Less than current score (1)**
+        - **Left (T11, G8):** Score = 0
+            - Calculated: `0 + (-2) = -2` → **Less than current score (1)**
+        - **Chosen Move:** **Diagonal** (From C10, G8)
+        - **Alignment Action:** Match (`T` aligned with `T`)
+    3. **Continue Traceback:** Repeat the process for each preceding cell, choosing the move that leads to the current cell's score.
+
+    Due to the complexity and size of the matrix, we'll summarize the final alignment based on the matrix and traceback.
+
+    ---
+
+    **Step 4: Final Alignment**
+
+    Based on the traceback, the optimal global alignment between `S₁` and `S₂` with a final score of **2** is as follows:
+
+    ```text
+    S1: A T G C A C T A G C T A
+        | | |     | | |     | |
+    S2: A T G - - C T A C G T A
+    ```
+
+    ```text
+    S1: A T G C A C T A G C T A
+        | | | |     | |     | |
+    S2: A T G C - - T A C G T A
+    ```
+
+    **Alignment Details:**
+
+    - **Matches:** Positions where characters are identical.
+    - **Mismatches:** Positions with different characters.
+    - **Gaps:** Indicated by '-' where a character is missing in one sequence.
+
 **b)** Using the same sequences and scoring system as above, perform a local alignment using the Smith-Waterman algorithm.
 Show your work, including the scoring matrix and traceback path.
+
+??? success "Solution"
+
+    |       |   -   |  A1  |  T2  |  G3  |  C4  |  T5  |  A6  |  C7  |  G8  |  T9  | A10  |
+    |-------|-------|------|------|------|------|------|------|------|------|------|------|
+    | **-** |   0   |   0  |   0  |   0  |   0  |   0  |   0  |   0  |   0  |   0  |   0  |
+    | **A1**|   0   |   1  |   0  |   0  |   0  |   0  |   1  |   0  |   0  |   0  |   1  |
+    | **T2**|   0   |   0  |   2  |   0  |   0  |   1  |   0  |   0  |   0  |   1  |   0  |
+    | **G3**|   0   |   0  |   0  |   3  |   1  |   0  |   0  |   0  |   1  |   0  |   0  |
+    | **C4**|   0   |   0  |   0  |   1  |   4  |   2  |   0  |   1  |   0  |   0  |   0  |
+    | **A5**|   0   |   1  |   0  |   0  |   2  |   3  |   3  |   1  |   0  |   0  |   1  |
+    | **C6**|   0   |   0  |   0  |   0  |   1  |   1  |   2  |   4  |   2  |   0  |   0  |
+    | **T7**|   0   |   0  |   1  |   0  |   0  |   2  |   0  |   2  |   3  |   3  |   1  |
+    | **A8**|   0   |   1  |   0  |   0  |   0  |   0  |   3  |   1  |   1  |   2  |   4  |
+    | **G9**|   0   |   0  |   0  |   1  |   0  |   0  |   1  |   2  |   2  |   0  |   2  |
+    | **C10**|  0   |   0  |   0  |   0  |   2  |   0  |   0  |   2  |   1  |   1  |   0  |
+    | **T11**|  0   |   0  |   1  |   0  |   0  |   3  |   1  |   0  |   1  |   2  |   0  |
+    | **A12**|  0   |   1  |   0  |   0  |   0  |   1  |   4  |   2  |   0  |   0  |   3  |
+
+    ---
+
+    ```text
+    A T G C
+    | | | |
+    A T G C
+    ```
+
+    ```text
+    A T G C - A C
+    | | | |   | |
+    A T G C T A C
+    ```
+
+    ```text
+    A T G C - A C - T A
+    | | | |   | |   | |
+    A T G C T A C G T A
+    ```
+
+    ```text
+    G C T A
+    | | | |
+    G C T A
+    ```
 
 **c)** Compare your results from the global and local alignments.
 What differences do you notice?
 Discuss the biological implications of these differences.
+
+??? success "Solution"
+
+    In comparing the global alignments produced by the Needleman-Wunsch algorithm with the local alignments generated by the Smith-Waterman algorithm, several key differences emerge that have significant biological implications.
+
+    1.  **Scope of Alignment:**
+        - **Global Alignment (Needleman-Wunsch):** This approach attempts to align the entire length of both sequences.
+            Both alignments cover the full sequences of S1 and S2, introducing gaps to accommodate differences.
+            For instance, in the first global alignment:
+            ```text
+            S1: A T G C A C T A G C T A
+                | | |     | | |     | |
+            S2: A T G - - C T A C G T A
+            ```
+           Gaps are inserted in S2 to align with S1's additional characters.
+        -   **Local Alignment (Smith-Waterman):** This method focuses on finding the most similar subsequences within the larger sequences, without necessarily aligning the entire sequence.
+            The local alignments provided highlight highly similar regions, such as:
+            ```text
+            A T G C
+            | | | |
+            A T G C
+            ```
+    2.  **Introduction of Gaps:**
+        - **Global Alignment:** Gaps are systematically introduced to ensure that every part of both sequences is aligned, which can sometimes result in multiple gaps or extensive shifting to accommodate overall sequence differences.
+        - **Local Alignment:** Gaps are introduced selectively to optimize the alignment of highly similar regions, often resulting in fewer and strategically placed gaps that do not affect unrelated regions of the sequences.
+    3.  **Handling of Sequence Length Differences:**
+        - **Global Alignment:** Requires that the entire length of both sequences be accounted for, which can be problematic when sequences vary significantly in length or contain non-homologous regions.
+        - **Local Alignment:** More flexible in handling sequences of different lengths by focusing only on the most relevant and similar segments, ignoring the non-matching regions.
+
+    ---
+
+    Biological Implications of These Differences:
+
+    1.  **Functional Insights:**
+        - **Global Alignment:** Best suited for comparing sequences that are expected to be entirely homologous, such as orthologous genes across different species where the overall structure and function are conserved. This comprehensive alignment can reveal large-scale similarities and differences, which are crucial for understanding evolutionary relationships and functional conservation.
+        - **Local Alignment:** Ideal for identifying conserved domains, motifs, or functional regions within larger proteins or genes that may have diverged otherwise. For example, a protein may contain a highly conserved active site amid regions of variability; local alignment would effectively highlight such critical areas without being confounded by less relevant differences.
+    2.  **Evolutionary Studies:**
+        - **Global Alignment:** Facilitates the study of sequence evolution over entire genes or genomes, allowing researchers to detect patterns of conservation and divergence that inform phylogenetic analyses.
+        - **Local Alignment:** Enables the detection of evolutionary conserved elements that may be under selective pressure, even if the surrounding regions have undergone significant changes. This is particularly useful for identifying conserved regulatory elements or protein-binding sites.
+    3.  **Practical Applications:**
+        - **Global Alignment:** Useful in applications where complete sequence similarity is required, such as in genome assembly, where overlapping sequences must be aligned across their entire lengths.
+        - **Local Alignment:** Essential in database searches (e.g., BLAST) where researchers seek to find regions of similarity between a query sequence and a vast database of sequences, identifying potential functional or evolutionary relationships without the need for complete sequence alignment.
 
 ## Q05
 
@@ -171,7 +395,9 @@ Discuss the biological implications of these differences.
 
     Prokaryotic gene annotation involves the identification and characterization of genes within prokaryotic genomes, such as those of bacteria and archaea.
     While significant progress has been made in sequencing prokaryotic genomes, accurately annotating these genes remains challenging.
-    Below are three key challenges in prokaryotic gene annotation, each accompanied by a brief description:
+    Below are three key challenges in prokaryotic gene annotation, each accompanied by a brief description.
+
+    ---
 
     **Functional Annotation of Hypothetical Proteins**
 
@@ -187,6 +413,8 @@ Discuss the biological implications of these differences.
     - Reliance on computational methods that may produce ambiguous or inaccurate annotations.
     - Difficulty in distinguishing between genuinely novel proteins and misannotated genes.
 
+    ---
+
     **Accurate Gene Prediction in Compact and Overlapping Genomes**
 
     Prokaryotic genomes are typically compact, with genes densely packed and often overlapping or arranged in operons.
@@ -199,6 +427,8 @@ Discuss the biological implications of these differences.
     - Differentiating between closely spaced or overlapping genes.
     - Identifying small genes that may be overlooked by prediction tools.
     - Accounting for alternative start codons and non-standard genetic codes prevalent in some prokaryotes.
+
+    ---
 
     **Identification and Annotation of Regulatory Elements and Operon Structures**
 
@@ -231,6 +461,8 @@ How are they typically identified?
     Incorporating RBS identification into gene prediction pipelines improves the precision of gene models.
     It reduces false positives by ensuring that predicted genes possess the necessary regulatory elements for translation and increases confidence in the functional annotation of genes.
 
+    ---
+
     **Identification of Ribosomal Binding Sites**
 
     Accurate identification of RBS is integral to effective gene prediction in prokaryotes. Several methodologies and computational strategies are employed to detect RBS motifs within genomic sequences:
@@ -250,6 +482,8 @@ How are they typically identified?
 
     The secondary structure of mRNA near the RBS can influence ribosome binding efficiency. Computational tools that predict RNA secondary structures can identify RBS regions that are accessible and not occluded by hairpins or other structural elements. Incorporating secondary structure information ensures that identified RBS motifs are not only sequence-compatible but also structurally favorable for ribosome interaction.
 
+    ---
+
     **Integration into Gene Prediction Pipelines**
 
     Effective prokaryotic gene prediction pipelines integrate RBS identification with other genomic signals to enhance overall annotation quality. The typical workflow includes:
@@ -268,18 +502,22 @@ Give two examples of regulatory elements and their functions.
     Accurate identification and annotation of these elements are essential for understanding how genes are turned on or off in different cellular contexts, developmental stages, or environmental conditions.
     This understanding is fundamental to deciphering the complex regulatory networks that govern biological processes, disease mechanisms, and phenotypic diversity.
 
+    ---
+
     **Importance of Identifying Regulatory Elements in Gene Annotation**
 
     1. **Understanding Gene Expression Regulation:**
-    Regulatory elements serve as control points that determine when, where, and how much a gene is expressed. By identifying these elements, researchers can map the regulatory landscape of the genome, revealing how genes are coordinated in response to internal signals and external stimuli. This is essential for elucidating the mechanisms underlying cellular differentiation, development, and homeostasis.
+        Regulatory elements serve as control points that determine when, where, and how much a gene is expressed. By identifying these elements, researchers can map the regulatory landscape of the genome, revealing how genes are coordinated in response to internal signals and external stimuli. This is essential for elucidating the mechanisms underlying cellular differentiation, development, and homeostasis.
     2. **Deciphering Complex Regulatory Networks:**
-    Genes do not operate in isolation; they are part of intricate networks that interact with multiple regulatory elements. Identifying these elements enables the construction of comprehensive gene regulatory networks, which are vital for understanding systems biology and the integration of various signaling pathways.
+        Genes do not operate in isolation; they are part of intricate networks that interact with multiple regulatory elements. Identifying these elements enables the construction of comprehensive gene regulatory networks, which are vital for understanding systems biology and the integration of various signaling pathways.
     3. **Facilitating Functional Genomics and Disease Research:**
-    Many genetic variations associated with diseases are located in regulatory regions rather than within protein-coding sequences. Accurate annotation of regulatory elements allows for the identification of disease-associated variants that may disrupt normal gene regulation, thereby contributing to the development of targeted therapies and personalized medicine approaches.
+        Many genetic variations associated with diseases are located in regulatory regions rather than within protein-coding sequences. Accurate annotation of regulatory elements allows for the identification of disease-associated variants that may disrupt normal gene regulation, thereby contributing to the development of targeted therapies and personalized medicine approaches.
     4. **Enhancing Comparative Genomics and Evolutionary Studies:**
-    Comparative analysis of regulatory elements across different species can provide insights into evolutionary conservation and divergence of gene regulation. This helps in identifying fundamental regulatory mechanisms that are preserved through evolution and those that have adapted to species-specific needs.
+        Comparative analysis of regulatory elements across different species can provide insights into evolutionary conservation and divergence of gene regulation. This helps in identifying fundamental regulatory mechanisms that are preserved through evolution and those that have adapted to species-specific needs.
     5. **Improving Gene Prediction Algorithms:**
-    Incorporating regulatory elements into gene annotation pipelines enhances the accuracy of gene prediction by providing additional evidence for gene boundaries and functional annotation. This reduces false positives and improves the reliability of genomic annotations.
+        Incorporating regulatory elements into gene annotation pipelines enhances the accuracy of gene prediction by providing additional evidence for gene boundaries and functional annotation. This reduces false positives and improves the reliability of genomic annotations.
+
+    ---
 
     **Examples of Regulatory Elements and Their Functions**
 
@@ -314,6 +552,8 @@ How does this strategy improve assembly quality?
     **SPAdes** (St. Petersburg genome assembler) is a widely used assembler that employs a sophisticated strategy involving multiple k-mer sizes to enhance assembly quality.
     Understanding the significance of using multiple k-mer sizes in SPAdes and how this approach improves assembly outcomes is essential for appreciating its effectiveness in handling complex genomic data.
 
+    ---
+
     **Significance of Using Multiple k-mer Sizes in SPAdes**
 
     1.  **Capturing Diverse Read Lengths and Coverage:**
@@ -325,6 +565,8 @@ How does this strategy improve assembly quality?
     3. **Enhancing Graph Connectivity and Accuracy:**
         - **De Bruijn Graph Complexity:** Genome assembly algorithms like SPAdes construct De Bruijn graphs based on k-mers. Varying k-mer sizes help in creating a more connected and accurate graph by providing multiple perspectives on the sequence data.
         - **Error Correction:** Multiple k-mer sizes facilitate more robust error correction by cross-validating information across different k-mer scales, thereby reducing the impact of sequencing errors on the final assembly.
+
+    ---
 
     **How Multiple k-mer Sizes Improve Assembly Quality**
 
@@ -341,6 +583,8 @@ How does this strategy improve assembly quality?
         - **Adaptability to Different Genome Sizes and Complexities:** Genomic projects often involve a wide range of organisms with varying genome sizes and complexities. The use of multiple k-mer sizes in SPAdes provides the necessary flexibility to effectively assemble genomes across this diversity.
         - **Scalability to High-Throughput Data:** As sequencing technologies generate increasingly large and complex datasets, the multi k-mer approach ensures that SPAdes can scale efficiently, maintaining high assembly quality even with massive amounts of data.
 
+    ---
+
     **Illustrative Example**
 
     Consider the assembly of a bacterial genome with several repetitive regions interspersed between unique sequences:
@@ -355,6 +599,8 @@ How does SPAdes handle these structures?
 
     In genome assembly, particularly within the framework of **De Bruijn graphs**, the construction and simplification of these graphs are pivotal for accurately reconstructing the original genomic sequence from short sequencing reads. **SPAdes** (St. Petersburg genome assembler) is an advanced assembler that employs sophisticated strategies to manage and resolve various structural complexities within the assembly graph. Two such complexities are known as **"bulges"** and **"tips."** Understanding these structures and how SPAdes handles them is essential for appreciating the assembler's effectiveness in producing high-quality genome assemblies.
 
+    ---
+
     **Understanding Bulges and Tips in Assembly Graphs**
 
     <u>Bulges</u>
@@ -366,22 +612,27 @@ How does SPAdes handle these structures?
     - **Low Coverage Regions:** Areas with insufficient sequencing coverage may result in incomplete or fragmented paths, leading to bulges.
 
     **Characteristics of Bulges:**
+
     - **Parallel Paths:** Bulges consist of multiple paths that start and end at the same nodes, creating a "bubble-like" structure.
     - **Short Length:** Typically, bulges are short in length, corresponding to minor variations or errors.
     - **Resolution Requirement:** Accurate genome assembly necessitates resolving these bulges to determine the correct path that represents the true genomic sequence.
 
     <u>Tips</u>
 
-    **Tips** are another form of irregularity in the assembly graph, characterized by dead-end paths that branch off from the main graph. They commonly result from:
+    **Tips** are another form of irregularity in the assembly graph, characterized by dead-end paths&mdash;at the beginning or end&mdash;that branch off from the main graph.
+    They commonly result from:
 
     - **Sequencing Artifacts:** Errors such as misincorporated bases or chimeric reads can create spurious k-mers that lead to short, dead-end branches.
     - **Low Coverage or Unique Regions:** Regions with very low coverage or unique sequences may not have enough supporting reads to form continuous paths, resulting in tips.
     - **Collapsed Repeats:** Highly repetitive regions can sometimes cause the assembler to create tips if the repeats are not properly resolved.
 
     **Characteristics of Tips:**
-    - **Dead-Ends:** Tips are short branches that do not reconnect with the main graph, terminating abruptly.
+
+    - **Dead-Ends:** Tips are short branches that do not reconnect with the main graph, terminating or starting abruptly.
     - **Short Length:** They are generally short in length, often representing minor sequencing errors or genuine biological variations.
     - **Potential for Removal:** Many tips are artifacts and can be safely removed to simplify the graph without losing significant genomic information.
+
+    ---
 
     **How SPAdes Handles Bulges and Tips**
 
@@ -399,22 +650,19 @@ How does SPAdes handle these structures?
     To resolve bulges, SPAdes employs the following strategies:
 
     - **Bubble Popping Algorithm:** SPAdes identifies bubbles (bulges) by locating parallel paths between the same pair of nodes. It then evaluates these paths based on criteria such as k-mer coverage, path length, and consistency with the overall graph structure.
-
     - **Coverage-Based Selection:** The assembler typically selects the path with higher coverage as the true sequence, assuming that genuine genomic sequences are more frequently represented in the reads compared to error-induced variations.
-
     - **Path Consistency:** SPAdes ensures that the selected path maintains continuity and does not introduce further inconsistencies in the graph.
-
     - **Local Graph Reconciliation:** After selecting the optimal path, SPAdes merges the nodes and edges along this path, effectively removing the alternative, less-supported branches that constitute the bulge.
 
     <u>Tip Removal</u>
 
-    Handling tips involves identifying and eliminating short, dead-end branches that are likely artifacts rather than genuine genomic sequences.
+    Handling tips involves identifying and eliminating short, dead-end branches&mdash;either at the beginning or end&mdash;that are likely artifacts rather than genuine genomic sequences.
     SPAdes employs the following methods:
 
-    - **Length Thresholding:** SPAdes sets a predefined length threshold below which tips are considered too short to represent true genomic variations. Tips shorter than this threshold are pruned from the graph.
-
-    - **Coverage Filtering:** Tips with significantly lower coverage compared to the main graph are likely to be sequencing errors and are removed. This is based on the assumption that genuine genomic sequences are consistently covered across multiple reads.
-
+    - **Length Thresholding:** SPAdes sets a predefined length threshold below which tips are considered too short to represent true genomic variations.
+        Tips shorter than this threshold are pruned from the graph.
+    - **Coverage Filtering:** Tips with significantly lower coverage compared to the main graph are likely to be sequencing errors and are removed.
+        This is based on the assumption that genuine genomic sequences are consistently covered across multiple reads.
     - **Isolation Criteria:** Tips that do not reconnect with the main graph and have no supporting evidence from overlapping reads are identified as candidates for removal.
 
     <u>Multi-Kmer Approach Enhancement</u>
@@ -422,7 +670,6 @@ How does SPAdes handle these structures?
     SPAdes’s use of multiple k-mer sizes enhances its ability to handle bulges and tips effectively:
 
     - **Small k-mers:** Smaller k-mers are more sensitive to variations and can help in detecting subtle differences that form bulges. They are also useful in resolving tips by providing detailed local information.
-
     - **Large k-mers:** Larger k-mers offer greater specificity, aiding in distinguishing between genuine repetitive regions and spurious branches. They help in accurately resolving bulges by providing longer contiguous sequences for comparison.
 
     By integrating information from multiple k-mer sizes, SPAdes can more robustly identify and correctly resolve bulges and tips, ensuring that the final assembly accurately reflects the true genomic sequence.
@@ -432,10 +679,10 @@ How does SPAdes handle these structures?
     SPAdes often employs an iterative assembly process where the assembly graph is progressively refined:
 
     - **Graph Simplification:** After initial resolution of bulges and removal of tips, SPAdes further simplifies the graph by collapsing linear paths and merging highly connected nodes.
-
     - **Reassembly Checks:** The assembler may revisit previously resolved regions to ensure that no new bulges or tips have emerged due to the changes in the graph structure.
-
     - **Consensus Validation:** SPAdes validates the resolved graph against the original read data to confirm that the chosen paths are consistent with the sequencing evidence.
+
+    ---
 
     **Illustrative Example**
 
@@ -458,6 +705,8 @@ How does SPAdes handle these structures?
     1. **Dual Sequencing:** Both ends of a DNA fragment are sequenced, yielding two reads per fragment.
     2. **Insert Size Information:** The approximate distance between the two reads (insert size) is known, facilitating the estimation of the fragment's length.
     3. **Orientation:** The reads are typically oriented toward each other, with each read facing the opposite direction.
+
+    ---
 
     **SPAdes Utilization of Paired-End Reads**
 
@@ -501,6 +750,8 @@ How does SPAdes handle these structures?
     3. **Graph Simplification and Resolution:** SPAdes simplifies the De Bruijn graph by resolving bulges (alternative paths) and tips (dead-end paths) using paired-end linkage information. This leads to a cleaner and more accurate assembly graph, reducing the likelihood of misassemblies.
     4. **Error Correction Integration:** Paired-end reads assist in the error correction phase by providing consistency checks across the linked reads, ensuring that the corrected k-mers are supported by multiple read pairs.
 
+    ---
+
     **Impact on Assembly Quality**
 
     The incorporation of paired-end reads into SPAdes' assembly pipeline yields several tangible improvements in assembly quality:
@@ -508,6 +759,8 @@ How does SPAdes handle these structures?
     - **Increased Contiguity:** Paired-end information reduces fragmentation by enabling the assembler to bridge gaps and extend contigs, resulting in longer and more contiguous assemblies.
     - **Enhanced Accuracy:** The dual-read linkage provides robust evidence for correct sequence placement, minimizing errors and misassemblies, particularly in repetitive or complex genomic regions.
     - **Better Resolution of Structural Variants:** Paired-end reads facilitate the detection and accurate assembly of structural variants, contributing to a more comprehensive and accurate representation of the genome.
+
+    ---
 
     **Illustrative Example**
 
@@ -524,31 +777,33 @@ What might this indicate about the genome or sequencing data, and what steps cou
 
 ??? success "Solution"
 
-    When assembling a bacterial genome using **SPAdes**, encountering an assembly characterized by **several large contigs alongside numerous small contigs** can provide valuable insights into both the genomic features of the organism and the quality of the sequencing data. Understanding the underlying causes of such assembly patterns is crucial for diagnosing potential issues and implementing effective strategies to enhance assembly quality. Below, we explore the possible implications of this assembly outcome and outline actionable steps to improve the assembly process.
+    When assembling a bacterial genome using **SPAdes**, encountering an assembly characterized by **several large contigs alongside numerous small contigs** can provide valuable insights into both the genomic features of the organism and the quality of the sequencing data. Understanding the underlying causes of such assembly patterns is crucial for diagnosing potential issues and implementing effective strategies to enhance assembly quality.
+    Below, we explore the possible implications of this assembly outcome and outline actionable steps to improve the assembly process.
+
+    ---
 
     **Possible Implications of Large and Small Contigs**
 
     <u>Genome Complexity and Repetitive Regions</u>
 
     - **Repetitive Elements:** Bacterial genomes may contain repetitive sequences, such as insertion sequences, transposons, or ribosomal RNA (rRNA) operons. These repeats can complicate assembly by causing ambiguity in read alignment, leading to breaks in the assembly graph and the formation of smaller contigs.
-
     - **Multiple Replicons:** Some bacteria possess multiple replicons, including plasmids and secondary chromosomes. These additional genetic elements can result in separate large contigs if they are not fully integrated into the main assembly.
 
     <u>Sequencing Data Quality and Coverage</u>
 
     - **Uneven Coverage:** Variability in sequencing coverage across the genome can lead to regions with insufficient data for robust assembly. Low-coverage areas may fail to bridge gaps between contigs, resulting in fragmented assemblies with many small contigs.
-
     - **Sequencing Errors:** High error rates, particularly in specific regions of the genome, can disrupt the continuity of the assembly by introducing false k-mers that fragment the assembly graph.
 
     <u>Library Preparation and Read Length</u>
 
     - **Short Read Lengths:** Shorter sequencing reads may struggle to span longer repetitive regions or structural variants, making it difficult for SPAdes to assemble contiguous sequences, thereby producing numerous small contigs.
-
     - **Library Insert Size:** Inappropriate insert sizes during library preparation can affect the ability of SPAdes to link contigs effectively, especially in repetitive or complex genomic regions.
 
     <u>Contamination and Mixed Populations</u>
 
     - **Contaminant DNA:** Presence of contaminant DNA from other organisms can introduce additional contigs that do not correspond to the target bacterial genome, contributing to the abundance of small, unrelated contigs.
+
+    ---
 
     **Strategies to Improve Assembly Quality**
 
@@ -590,6 +845,8 @@ What features would you look for?
     - **Gaps and Linkers:** Bandage can visualize gaps between contigs within scaffolds, often represented by stretches of unknown bases (e.g., Ns). The size and distribution of these gaps provide insights into assembly completeness and potential regions needing improvement.
     - **Abrupt Path Terminations:** Unexpected breaks or sudden changes in the graph structure may indicate misassemblies, where incorrect overlaps or erroneous contig connections have occurred.
     - **Comparison with Reference Genomes:** If a reference genome is available, overlaying it with the assembly graph can help identify discrepancies, misassemblies, or structural variations.
+
+    ---
 
     Upon identifying potential issues through Bandage visualization, several corrective actions can be undertaken to improve assembly quality:
 
@@ -801,6 +1058,8 @@ How might these differences affect gene prediction strategies?
     GC-rich and AT-rich genomes represent the two extremes of this spectrum, each introducing unique obstacles for accurate gene identification.
     This discussion compares the challenges associated with identifying genes in GC-rich versus AT-rich prokaryotic genomes and examines how these differences influence gene prediction strategies.
 
+    ---
+
     **Challenges in GC-Rich Prokaryotic Genomes**
 
     1.  **Codon Usage Bias:**
@@ -946,8 +1205,6 @@ What does the score indicate about this hexamer?
 
     - **\( C(w) \approx 1.0986 \)**: A positive value, indicating higher frequency in coding regions.
     - The ratio \( \frac{G(w)}{B(w)} = 3 \) means the hexamer is three times more common in known genes than in the genome overall.
-
-    **Interpretation:**
 
     The positive coding score suggests that `ATGGCC` is significantly associated with protein-coding regions, making it a potential indicator of coding sequences.
 
@@ -1400,7 +1657,7 @@ Happy coding!
     These problems would be similar to ones given in a major-only version of the class.
     Although, there would be more relevant instructions during class and would be given more than a week to complete.
 
-### P01
+P01
 
 Implement the Needleman-Wunsch algorithm for global sequence alignment.
 
@@ -1415,7 +1672,7 @@ Use a match score of +1, mismatch score of -1, and gap penalty of -2.
 
 **c)** Add functionality to visualize the scoring matrix and the traceback path.
 
-### P02
+P02
 
 Implement the Smith-Waterman algorithm for local sequence alignment.
 
@@ -1425,7 +1682,7 @@ Implement the Smith-Waterman algorithm for local sequence alignment.
 
 **c)** Add functionality to visualize the scoring matrix and the traceback path, highlighting the highest-scoring local alignment.
 
-### P03
+P03
 
 Create a script to find all possible Open Reading Frames (ORFs) in a given DNA sequence.
 
@@ -1437,7 +1694,7 @@ Create a script to find all possible Open Reading Frames (ORFs) in a given DNA s
 
 **d)** Add functionality to identify the longest ORF and potential start codons (ATG) within the ORFs.
 
-### P04
+P04
 
 Implement a Python script to calculate coding scores for a DNA sequence based on hexamer frequencies.
 
