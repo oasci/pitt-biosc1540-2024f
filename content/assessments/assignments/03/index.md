@@ -886,15 +886,81 @@ Given the following information:
 **a)** Calculate the coding score $C(w)$ for this hexamer using the formula:
 
 $$
-C(w) = \log \left(\frac{G(w)}{B(w)} \right)
+C(w) = \ln \left(\frac{G(w)}{B(w)} \right)
 $$
 
 Where $G(w)$ is the frequency of the word in genes, and $B(w)$ is the frequency in the whole genome.
 
+!!! warning
+    The prodigal paper was unclear what base the $\log$ was in, but the [C code](https://github.com/hyattpd/Prodigal/blob/GoogleImport/node.c) uses the built-in `log` function which is the natural logarithm.
+    I will accept $\log_{10}$ as well just for this problem.
+
+??? success "Solution"
+
+    The coding score \( C(w) \) quantifies how much more (or less) frequently a particular hexamer occurs in known genes compared to the entire genome. It is calculated using the formula:
+
+    \[
+    C(w) = \ln \left( \frac{G(w)}{B(w)} \right)
+    \]
+
+    Where:
+
+    - \( G(w) \) is the frequency of the hexamer in known genes.
+    - \( B(w) \) is the frequency of the hexamer in the whole genome.
+    - \( \ln \) denotes the natural logarithm (base \( e \)).
+
+    Given:
+
+    - \( G(w) = 0.015 \)
+    - \( B(w) = 0.005 \)
+
+    First, compute the ratio \( \frac{G(w)}{B(w)} \):
+
+    \[
+    \frac{G(w)}{B(w)} = \frac{0.015}{0.005} = 3
+    \]
+
+    Next, calculate \( C(w) \):
+
+    \[
+    C(w) = \ln(3) \approx 1.0986
+    \]
+
+    **Answer:**
+
+    The coding score \( C(w) \) for the hexamer `ATGGCC` is approximately **1.0986**.
+    (If you used $\log_{10}$, this would approximatley be 0.477.)
+
 **b)** Interpret the result.
 What does the score indicate about this hexamer?
 
+??? success "Solution"
+
+    The coding score indicates how much more likely a hexamer is to be found in coding regions compared to the genome overall:
+
+    - **Positive Score (\( C(w) > 0 \))**: The hexamer is more frequent in coding regions.
+    - **Negative Score (\( C(w) < 0 \))**: The hexamer is less frequent in coding regions.
+    - **Zero Score (\( C(w) = 0 \))**: The hexamer is equally frequent in both regions.
+
+    For `ATGGCC`:
+
+    - **\( C(w) \approx 1.0986 \)**: A positive value, indicating higher frequency in coding regions.
+    - The ratio \( \frac{G(w)}{B(w)} = 3 \) means the hexamer is three times more common in known genes than in the genome overall.
+
+    **Interpretation:**
+
+    The positive coding score suggests that `ATGGCC` is significantly associated with protein-coding regions, making it a potential indicator of coding sequences.
+
 **c)** If you found this hexamer in an uncharacterized region of DNA, how might this score influence your assessment of whether this region is likely to be protein-coding?
+
+??? success "Solution"
+
+    If the hexamer `ATGGCC` is found in an uncharacterized DNA region, the positive coding score has the following implications:
+
+    -   **Increased Likelihood of Coding Potential**: The region is more likely to be protein-coding because it contains a hexamer that is prevalent in known genes.
+    -   **Support for Gene Prediction**: The presence of such hexamers can be used as evidence in computational gene prediction algorithms to identify potential genes.
+
+    The positive coding score of `ATGGCC` would lead you to **favor the hypothesis that the uncharacterized DNA region is part of a protein-coding gene**. This score strengthens the assessment by providing statistical evidence that the region shares characteristics with known coding sequences.
 
 ## Q10
 
