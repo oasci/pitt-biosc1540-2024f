@@ -10,7 +10,11 @@ Structural biology and determination
 
     This page is a work in progress and is subject to change at any moment.
 
-This lecture introduces the field of computational structural biology and its interplay with experimental methods. We'll explore how computational approaches complement and enhance traditional structural biology techniques, providing insights into protein structure, function, and dynamics. The session will cover key experimental methods like X-ray crystallography, NMR spectroscopy, and cryo-EM, highlighting their strengths and limitations. We'll then delve into how computational methods address these limitations and extend our understanding of molecular structures. This foundational knowledge will set the stage for deeper exploration of computational techniques in structural biology.
+This lecture introduces the field of computational structural biology and its interplay with experimental methods.
+We'll explore how computational approaches complement and enhance traditional structural biology techniques, providing insights into protein structure, function, and dynamics.
+The session will cover key experimental methods like X-ray crystallography, NMR spectroscopy, and cryo-EM, highlighting their strengths and limitations.
+We'll then delve into how computational methods address these limitations and extend our understanding of molecular structures.
+This foundational knowledge will set the stage for deeper exploration of computational techniques in structural biology.
 
 ## Learning objectives
 
@@ -31,4 +35,8 @@ TODO:
 
 ## Presentation
 
-TODO:
+<!-- -   **View:** [slides.com/aalexmmaldonado/biosc1540-l11](https://slides.com/aalexmmaldonado/biosc1540-l11) -->
+<!-- -   **Live link:** [slides.com/d/uhBDP3A/live](https://slides.com/d/uhBDP3A/live) -->
+<!-- -   **Download:** [biosc1540-l11.pdf](/lectures/10/biosc1540-l11.pdf) -->
+
+<iframe src="https://slides.com/aalexmmaldonado/biosc1540-l11/embed?byline=hidden&share=hidden" width="100%" height="600" title="BIOSC 1540: Lecture 11" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
