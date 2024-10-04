@@ -32,7 +32,7 @@ TODO:
 ## Presentation
 
 <!-- -   **View:** [slides.com/aalexmmaldonado/biosc1540-l15](https://slides.com/aalexmmaldonado/biosc1540-l15) -->
-<!-- -   **Live link:** [slides.com/d/uhBDP3A/live](https://slides.com/d/uhBDP3A/live) -->
+-   **Live link:** [slides.com/d/QSAvIIo/live](https://slides.com/d/QSAvIIo/live)
 <!-- -   **Download:** [biosc1540-l15.pdf](/lectures/10/biosc1540-l15.pdf) -->
 
 <iframe src="https://slides.com/aalexmmaldonado/biosc1540-l15/embed?byline=hidden&share=hidden" width="100%" height="600" title="BIOSC 1540: Lecture 15" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
