@@ -47,7 +47,17 @@ Consequently, I will not round up any final grades.
 
 ## Missed exams
 
-TODO:
+Attendance and participation in all scheduled exams are crucial for your success in this course.
+To accommodate unforeseen circumstances while maintaining academic standards, please be aware of the following policy:
+
+Due to time constraints and the difficulty of creating equivalent assessments, makeup exams will only be offered under the same circumstances.
+Instead, an optional cumulative final exam will be available at the end of the course.
+This final exam can replace your lowest midterm exam grade if it benefits your overall score.
+If the final exam score is lower than your existing midterm grades, it will not be counted, ensuring it cannot negatively impact your grade.
+
+If you miss one of the midterm exams, you are highly encouraged to take the cumulative final exam.
+The score you achieve on the final exam will replace the missed midterm exam grade in calculating your final grade.
+Missing both midterm exams poses a significant challenge to course completion; in such cases, you must contact me immediately to discuss your situation and explore possible options.
 
 ## Scale
 
