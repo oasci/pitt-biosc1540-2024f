@@ -1,6 +1,6 @@
 <h1 align="center">
 <b>Lecture 11</b><br>
-Structural biology and determination
+Structural biology
 </h1>
 <p align="center">
 <b>Date:</b> Oct 8, 2024
@@ -20,12 +20,12 @@ This foundational knowledge will set the stage for deeper exploration of computa
 
 What you should be able to do after today's lecture:
 
-1.  Define computational structural biology and explain its importance in modern biological research.
-2.  Describe the basic principles of key experimental methods in structural biology (X-ray crystallography, NMR spectroscopy, cryo-EM).
-3.  Compare and contrast the strengths and limitations of different experimental structural biology techniques.
-4.  Explain how computational methods complement and enhance experimental structural biology approaches.
-5.  Identify major areas of application for computational structural biology, such as protein structure prediction and molecular dynamics simulations.
-6.  Discuss the future directions and challenges in integrating computational and experimental methods in structural biology.
+1.  Communicate what structural biology is and why it is crucial in modern biological research.
+2.  Explain how computational methods enhance our understanding of biological structures alongside experimental approaches.
+3.  Summarize how X-ray crystallography, NMR spectroscopy, and cryo-electron microscopy (cryo-EM) work.
+4.  Understand the challenges and limitations of experimental methods.
+5.  Discuss the implications and challenges of disordered regions.
+6.  Describe how computational methods address these challenges.
 
 ## Readings
 
