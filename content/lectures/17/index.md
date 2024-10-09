@@ -33,6 +33,6 @@ TODO:
 
 <!-- -   **View:** [slides.com/aalexmmaldonado/biosc1540-l17](https://slides.com/aalexmmaldonado/biosc1540-l17) -->
 -   **Live link:** [slides.com/d/LPBvUgQ/live](https://slides.com/d/LPBvUgQ/live)
-<!-- -   **Download:** [biosc1540-l17.pdf](/lectures/10/biosc1540-l17.pdf) -->
+<!-- -   **Download:** [biosc1540-l17.pdf](/lectures/17/biosc1540-l17.pdf) -->
 
 <iframe src="https://slides.com/aalexmmaldonado/biosc1540-l17/embed?byline=hidden&share=hidden" width="100%" height="600" title="BIOSC 1540: Lecture 17" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

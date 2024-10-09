@@ -32,6 +32,6 @@ TODO:
 
 <!-- -   **View:** [slides.com/aalexmmaldonado/biosc1540-l13](https://slides.com/aalexmmaldonado/biosc1540-l13) -->
 -   **Live link:** [slides.com/d/Nx6EDX8/live](https://slides.com/d/Nx6EDX8/live)
-<!-- -   **Download:** [biosc1540-l13.pdf](/lectures/10/biosc1540-l13.pdf) -->
+<!-- -   **Download:** [biosc1540-l13.pdf](/lectures/13/biosc1540-l13.pdf) -->
 
 <iframe src="https://slides.com/aalexmmaldonado/biosc1540-l13/embed?byline=hidden&share=hidden" width="100%" height="600" title="BIOSC 1540: Lecture 13" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
