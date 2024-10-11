@@ -41,9 +41,10 @@ It encourages timely submissions while acknowledging the influence of external c
 Exceptions to this policy will be made on a case-by-case basis for extenuating circumstances.
 Please communicate with me as early as possible if you anticipate difficulties meeting a deadline.
 
-By submitting assignments on time, you can earn up to 2% extra credit on your final grade, depending on the number and weight of assignments in the course.
-This bonus can potentially bump your grade to the next highest letter grade if you are close.
-Consequently, I will not round up any final grades.
+Submitting your assignments on time can earn you up to a 2% bonus added to your final grade.
+For each assignment you submit on time, you will receive a proportional percentage of this bonus.
+For example, if you submit 7 out of 8 assignments on time, you would receive a 1.75% boost to your final grade.
+This bonus can help improve your final grade, but please note that I will not round up final grades.
 
 ## Missed exams
 
