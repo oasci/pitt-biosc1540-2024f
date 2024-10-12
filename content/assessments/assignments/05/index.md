@@ -4,7 +4,7 @@ A05
 
 <p style="text-align: center;">
     <object hspace="50">
-        <strong>Due</strong></a>: Oct 20, 2024 by 11:59 p.m.
+        <strong>Due</strong></a>: Oct 25, 2024 by 11:59 p.m.
     </object>
     <object hspace="50">
         <strong>Points</strong></a>: 60
@@ -12,21 +12,35 @@ A05
 </p>
 
 Be concise and focus on critical concepts.
-For each question, your response should be around 45 to 75 words.
+For each question or subpart, your response should be between 50 and 100 words.
 
 ## Q01
 
-Explain how X-ray crystallography is used to determine the electron density of a molecule and how this information leads to fitting and refining an atomic model.
+**Points**: 8
+
+Explain how X-ray crystallography is used to determine the electron density of a molecule.
+Describe how this information leads to fitting and refining an atomic model.
+Include the key steps in your explanation, from data collection to model refinement.
 
 ## Q02
 
-Explain how X-rays scatter off electrons in a crystal and why this phenomenon is essential for determining protein structures using X-ray crystallography.
+**Points**: 8
+
+Explain how X-rays scatter off electrons in a crystal.
+Discuss why this phenomenon is essential for determining protein structures using X-ray crystallography.
+In your answer, briefly describe the relationship between the crystal lattice and the resulting diffraction pattern.
 
 ## Q03
 
+**Points**: 8
+
 Explain constructive and destructive interference in the context of X-ray diffraction patterns.
+Describe how these phenomena contribute to the formation of diffraction spots and the absence of certain reflections.
+Briefly discuss how understanding these concepts helps in interpreting X-ray diffraction data.
 
 ## Q04
+
+**Points**: 10
 
 Compare and contrast Cryo-Electron Microscopy (Cryo-EM) and X-ray Crystallography as methods for determining the structures of biological macromolecules.
 
@@ -34,16 +48,22 @@ Compare and contrast Cryo-Electron Microscopy (Cryo-EM) and X-ray Crystallograph
 
 **a**
 
+**Points**: 4
+
 Use [UniProt](https://www.uniprot.org/) to search for the Enoyl-[acyl-carrier-protein] reductase [NADH] (`inhA`) from *Mycobacterium smegmatis* with the highest annotation score.
-Summarize the function of this protein.
+Summarize the function of this protein and provide the UniProt ID.
 
 <!-- UniProt ID: P9WGR1 -->
 
 **b**
 
-What is the amino acid sequence of the protein?
+**Points**: 2
+
+Provide the amino acid sequence of the protein you found in part (a).
 
 **c**
+
+**Points**: 4
 
 Visit the Protein Data Bank (PDB) and find the best experimental structure for native `inhA` and provide the four-character PDB ID.
 Explain why you chose this structure (e.g., resolution, completeness, mutations).
@@ -70,12 +90,17 @@ Download the structure in `PDBXmmCIF Format`.
 
 ## Q06
 
+**Points**: 6
+
 Describe the concept of homology modeling in protein structure prediction.
-In your answer, briefly explain the main principles behind homology modeling.
+Explain the main principles behind this method and why it's useful.
+Mention at least one limitation of this approach.
 
 ## Q07
 
 **a**
+
+**Points**: 4
 
 -   Visit the [SWISS-MODEL](https://swissmodel.expasy.org/interactive) interactive workspace.
 -   Use the following amino acid sequence for prediction:
@@ -95,6 +120,8 @@ In your answer, briefly explain the main principles behind homology modeling.
 
 **b**
 
+**Points**: 2
+
 -   Navigate to [AlphaFold 3](https://alphafoldserver.com/) (AF3)
 -   Predict the structure of the inhA protein using the same amino acid sequence provided above.
 -   Once the prediction is complete, download and extract the results.
@@ -102,13 +129,14 @@ In your answer, briefly explain the main principles behind homology modeling.
 
 **c**
 
--   Open the [Mol*](https://molstar.org/viewer)
--   Load the following structures into Mol*:
+**Points**: 4
+
+-   Load the following structures into [Mol*](https://molstar.org/viewer):
     -   The experimental structure of the protein from Q05.
     -   The predicted structure from SWISS-MODEL (`modelCIF` file).
     -   The predicted structure from AlphaFold 3 (`_model_0.cif` file).
 -   Align the structures within Mol* to compare their conformations.
--   Take a screenshot of the aligned structures.
+-   Take a screenshot of the aligned structures and include it in your submission.
 -   Discuss at least one key difference observed between the structures. This could relate to structural features such as folding patterns, active sites, or any notable deviations.
 
 ## Programming+
