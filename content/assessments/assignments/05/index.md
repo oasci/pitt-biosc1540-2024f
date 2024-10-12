@@ -81,7 +81,11 @@ In your answer, briefly explain the main principles behind homology modeling.
 -   Use the following amino acid sequence for prediction:
 
     ```text
-    MTGLLDHKRILVSGIVTDSSIAYHVQAVAQEQGGELVLTGFDKLRVIQRVTDRLPSKAPLLELDAENEQHLASLAGKITEAIGAGNKIDGVTHSIGFMPRTGMGVNPFFDTPYADVTRGPHISAYSYTSMSKALLPIMNPGGTIVGMNFDPSRAMPVYNWMTAAKSAAESINRFVARETGKYGIRNNLVAAGPIRTLVMSAIVGGVLGAEAGAQICLVEENWDQRTPMGWNMKDITPVCKTVCGLLSDWLPATTGDIIYHDGGAHTQLL
+    MTGLLDHKRILVSGIVTDSSIAYHVQAVAQEQGGELVLTGFDKLRVIQRVTDRL
+    PSKAPLLELDAENEQHLASLAGKITEAIGAGNKIDGVTHSIGFMPRTGMGVNPF
+    FDTPYADVTRGPHISAYSYTSMSKALLPIMNPGGTIVGMNFDPSRAMPVYNWMT
+    AAKSAAESINRFVARETGKYGIRNNLVAAGPIRTLVMSAIVGGVLGAEAGAQIC
+    LVEENWDQRTPMGWNMKDITPVCKTVCGLLSDWLPATTGDIIYHDGGAHTQLL
     ```
 -   After submitting the sequence, identify and record the five PDB IDs with the highest identity scores from the template search results.
 -   Build homology models using these templates.
@@ -128,3 +132,107 @@ Happy coding!
 !!! note
     These problems would be similar to ones given in a major-only version of the class.
     Although, there would be more relevant instructions during class and would be given more than a week to complete.
+
+Given your focus on experimental protein structure determination and protein structure prediction (homology modeling and AlphaFold 2), here are some programming problems tailored to these topics:
+
+### P01
+
+**Objective**: Write a program that parses a PDB file and extracts basic information such as the number of atoms, the number of residues, and the types of secondary structures (helix, sheet, etc.).
+- **Input**: A PDB file.
+- **Output**: The number of atoms, residues, and secondary structures (helix, sheet, etc.).
+- **Hints**: Use Python libraries such as `Bio.PDB` from Biopython to extract the required information.
+
+This problem introduces students to working with PDB files, a key format in experimental protein structure determination.
+
+### P02
+
+**Objective**: Write a program that computes the Root Mean Square Deviation (RMSD) between two protein structures.
+- **Input**: Two PDB files of the same protein (e.g., one experimental and one predicted).
+- **Output**: The RMSD value.
+- **Hints**: Use the atomic coordinates from the PDB files and calculate the RMSD between the corresponding atoms.
+
+This problem will help students understand how protein structures are compared and analyzed.
+
+### P03
+
+**Objective**: Write a program that predicts the secondary structure (helix, sheet, or coil) of a given protein sequence using a simple scoring method (e.g., Chou-Fasman algorithm).
+- **Input**: A protein sequence (amino acid string).
+- **Output**: Predicted secondary structure for each residue.
+- **Hints**: You can implement the Chou-Fasman algorithm or use another simple method to predict the secondary structure.
+
+This task introduces students to basic principles behind predicting structural features of proteins based on their sequence.
+
+### P04
+
+**Objective**: Write a script that automates the process of submitting a protein sequence to SWISS-MODEL, retrieving the homology models, and reporting back the best models based on GMQE scores.
+- **Input**: A protein sequence.
+- **Output**: A summary of the top five models with their GMQE scores.
+- **Hints**: Use Python's `requests` library or similar tools to automate the process.
+
+This problem helps students connect the theoretical aspects of homology modeling to practical applications.
+
+### P05
+
+**Objective**: Write a program that interacts with the AlphaFold server to predict the structure of a protein from its sequence and download the resulting model.
+- **Input**: A protein sequence.
+- **Output**: The predicted protein structure in PDB or CIF format.
+- **Hints**: Research the AlphaFold API and automate the process of submitting sequences and retrieving results.
+
+This problem reinforces protein structure prediction using modern machine learning tools.
+
+### P06
+
+**Objective**: Write a program that calculates the solvent-accessible surface area (SASA) for a protein structure provided in PDB format.
+- **Input**: A PDB file.
+- **Output**: SASA for each residue.
+- **Hints**: Use libraries such as `Biopython` or external tools like `FreeSASA` to compute SASA.
+
+This introduces students to the concept of protein structure properties that can be inferred from 3D coordinates.
+
+These problems are aligned with your course’s focus and allow students to apply programming skills directly to tasks related to experimental structure determination and protein structure prediction methods.
+
+Given your focus on experimental protein structure determination and protein structure prediction (homology modeling and AlphaFold 2), here are some programming problems tailored to these topics:
+
+### P01
+
+**Objective**: Write a program that parses a PDB file and extracts basic information such as the number of atoms, the number of residues, and the types of secondary structures (helix, sheet, etc.).
+- **Input**: A PDB file.
+- **Output**: The number of atoms, residues, and secondary structures (helix, sheet, etc.).
+- **Hints**: Use Python libraries such as `Bio.PDB` from Biopython to extract the required information.
+
+### P02
+
+**Objective**: Write a program that computes the Root Mean Square Deviation (RMSD) between two protein structures.
+- **Input**: Two PDB files of the same protein (e.g., one experimental and one predicted).
+- **Output**: The RMSD value.
+- **Hints**: Use the atomic coordinates from the PDB files and calculate the RMSD between the corresponding atoms.
+
+### P03
+
+**Objective**: Write a program that predicts the secondary structure (helix, sheet, or coil) of a given protein sequence using a simple scoring method (e.g., Chou-Fasman algorithm).
+- **Input**: A protein sequence (amino acid string).
+- **Output**: Predicted secondary structure for each residue.
+- **Hints**: You can implement the Chou-Fasman algorithm or use another simple method to predict the secondary structure.
+
+### P04
+
+**Objective**: Write a script that automates the process of submitting a protein sequence to SWISS-MODEL, retrieving the homology models, and reporting back the best models based on GMQE scores.
+- **Input**: A protein sequence.
+- **Output**: A summary of the top five models with their GMQE scores.
+- **Hints**: Use Python's `requests` library or similar tools to automate the process.
+
+This problem helps students connect the theoretical aspects of homology modeling to practical applications.
+
+### P05
+
+**Objective**: Write a program that interacts with the AlphaFold server to predict the structure of a protein from its sequence and download the resulting model.
+- **Input**: A protein sequence.
+- **Output**: The predicted protein structure in PDB or CIF format.
+- **Hints**: Research the AlphaFold API and automate the process of submitting sequences and retrieving results.
+
+### P06
+
+**Objective**: Write a program that calculates the solvent-accessible surface area (SASA) for a protein structure provided in PDB format.
+- **Input**: A PDB file.
+- **Output**: SASA for each residue.
+- **Hints**: Use libraries such as `Biopython` or external tools like `FreeSASA` to compute SASA.
