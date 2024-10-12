@@ -25,7 +25,6 @@ Our [third module in scientific python](#module-03-special-interest-topics) will
 **Thursday** (Sep 5) [**Lecture 04**](../../lectures/04/)
 
 -   ^^Topics^^: De novo genome assembly.
--   ^^Due at 11:59 pm^^: [**A01**](../../assessments/assignments/01)
 
 ### Week 3
 
@@ -36,7 +35,6 @@ Our [third module in scientific python](#module-03-special-interest-topics) will
 **Thursday** (Sep 12) [**Lecture 06**](../../lectures/06/)
 
 -   ^^Topics^^: Sequence alignment.
--   ^^Due at 11:59 pm^^: [**A02**](../../assessments/assignments/02)
 
 ### Week 4
 
@@ -47,7 +45,6 @@ Our [third module in scientific python](#module-03-special-interest-topics) will
 **Thursday** (Sep 19)  [**Lecture 08**](../../lectures/08/)
 
 -   ^^Topics^^: Read mapping.
--   ^^Due at 11:59 pm^^: [**A03**](../../assessments/assignments/03)
 
 ### Week 5
 
@@ -58,7 +55,6 @@ Our [third module in scientific python](#module-03-special-interest-topics) will
 **Thursday** (Sep 26) [**Lecture 10**](../../lectures/10/)
 
 -   ^^Topics^^: Differential gene expression.
--   ^^Due at 11:59 pm^^: [**A04**](../../assessments/assignments/04)
 
 ### Week 6
 
@@ -91,7 +87,6 @@ Our [third module in scientific python](#module-03-special-interest-topics) will
 **Thursday** (Oct 17) [**Lecture 13**](../../lectures/13/)
 
 -   ^^Topics^^: Molecular simulation principles.
--   ^^Due at 11:59 pm^^: [**A05**](../../assessments/assignments/05)
 
 ### Week 9
 
@@ -102,7 +97,6 @@ Our [third module in scientific python](#module-03-special-interest-topics) will
 **Thursday** (Oct 24) [**Lecture 15**](../../lectures/15/)
 
 -   ^^Topics^^: Gaining atomistic insights.
--   ^^Due at 11:59 pm^^: [**A06**](../../assessments/assignments/06)
 
 ### Week 10
 
@@ -113,7 +107,6 @@ Our [third module in scientific python](#module-03-special-interest-topics) will
 **Thursday** (Oct 31) [**Lecture 17**](../../lectures/17/)
 
 -   ^^Topics^^: Docking and virtual screening.
--   ^^Due at 11:59 pm^^: [**A07**](../../assessments/assignments/07)
 
 ### Week 11
 
@@ -122,7 +115,6 @@ Our [third module in scientific python](#module-03-special-interest-topics) will
 **Thursday** (Nov 7) [**Lecture 18**](../../lectures/18/)
 
 -   ^^Topics^^: Ligand-based drug design.
--   ^^Due at 11:59 pm^^: [**A08**](../../assessments/assignments/08)
 
 ### Week 12
 
