@@ -655,6 +655,10 @@ Reverse the Burrows-Wheeler Transform output `BBAAB$AABA` to get the original st
 What is the original string?
 Show all of your steps.
 
+??? success "Solution"
+
+    The original string is `ABBABAAAB$`.
+
 ## Programming+
 
 These problems are not required and will not impact your BIOSC 1540 grade.
