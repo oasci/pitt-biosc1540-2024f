@@ -6,9 +6,6 @@ Computer-Aided Drug Design for a Novel Pathogen
 This project aims to simulate the process of computer-aided drug design (CADD) for a novel pathogen, giving students hands-on experience with key bioinformatics and cheminformatics tools used in early-stage drug discovery.
 Students will work through a complete workflow&mdash;from raw sequencing data to potential drug candidates&mdash;mirroring the steps researchers might take when confronted with a new pathogenic threat.
 
-!!! danger "DRAFT"
-    This page is a work in progress and is subject to change at any moment.
-
 ## Learning Objectives
 
 By completing this project, students will:
@@ -18,7 +15,6 @@ By completing this project, students will:
 -   Learn to use and interpret results from state-of-the-art structure prediction tools.
 -   Develop skills in molecular docking and virtual screening.
 -   Critically analyze results at each stage of the drug discovery pipeline.
--   Appreciate the interdisciplinary nature of modern drug discovery.
 
 ## Overview
 
@@ -59,14 +55,12 @@ Students will use [MolModa](https://durrantlab.pitt.edu/molmoda/).
 Students will compile and analyze their results from each stage throughout the project.
 Students will learn to integrate information from multiple computational approaches to make informed decisions about potential drug targets and hit compounds.
 They will prepare a final report summarizing their methods, results, and conclusions, demonstrating their understanding of the computer-aided drug design process.
-<!-- Optionally, students may present their findings to the class, simulating the collaborative nature of real-world drug discovery projects. -->
 
--   Assembled and annotated genome
--   Predicted 3D structures of selected target proteins
--   Docking results and analysis of top-hit compounds
--   Final report summarizing methods, results, and conclusions
-<!-- - (Optional) Presentation of findings to the class -->
+-   Assembled and annotated genome.
+-   Predicted 3D structures of selected target proteins.
+-   Docking results and analysis of top-hit compounds.
+-   Final report summarizing methods, results, and conclusions.
 
 <!-- REFERENCES -->
 
-[^bruce2022shared]: Bruce, S. A., Smith, J. T., Mydosh, J. L., Ball, J., Needle, D. B., Gibson, R., & Andam, C. P. (2022). Shared antibiotic resistance and virulence genes in Staphylococcus aureus from diverse animal hosts. Scientific Reports, 12(1), 4413.
+[^bruce2022shared]: Bruce, S. A., Smith, J. T., Mydosh, J. L., Ball, J., Needle, D. B., Gibson, R., & Andam, C. P. (2022). Shared antibiotic resistance and virulence genes in Staphylococcus aureus from diverse animal hosts. Scientific Reports, 12(1), 4413. DOI: [10.1038/s41598-022-08230-z](https://doi.org/10.1038/s41598-022-08230-z)
