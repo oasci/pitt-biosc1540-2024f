@@ -10,24 +10,27 @@ Molecular system representations
 
     This page is a work in progress and is subject to change at any moment.
 
-Building on the foundations from the previous lecture, this session focuses on the practical aspects of setting up and running MD simulations. We'll walk through the steps involved in preparing a system for simulation, from initial structure to production run.
+Building on the foundations from the previous lecture, this session focuses on the practical aspects of setting up and running MD simulations.
+We'll walk through the steps involved in preparing a system for simulation, from initial structure to production run.
 
 ## Learning objectives
 
 What you should be able to do after today's lecture:
 
-1.  Outline the steps involved in setting up an MD simulation.
-2.  Explain the importance of system preparation, including solvation and ion placement.
-3.  Describe the process of energy minimization and its importance.
-4.  Discuss the concept of equilibration and its role in MD simulations.
-5.  Explain periodic boundary conditions and their importance in MD simulations.
-6.  Identify key parameters and their significance in running production MD simulations.
+1.  Explain the importance of system preparation.
+2.  Describe periodic boundary conditions and their role in MD simulations.
+3.  Explain the role of force field selection and topology generation.
+4.  Outline the process of energy minimization and its significance.
+5.  Identify and explain key parameters in MD simulations.
+6.  Discuss the purpose of system relaxation.
+7.  Identify key aspects for running production simulations.
 
 ## Readings
 
 Relevant content for today's lecture.
 
-TODO:
+-   [GROMACS documentation](https://manual.gromacs.org/current/index.html)
+-   [Amber documentation](https://ambermd.org/index.php)
 
 ## Presentation
 
