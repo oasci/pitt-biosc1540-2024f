@@ -131,13 +131,16 @@ Mention at least one limitation of this approach.
 
 **Points**: 4
 
--   Load the following structures into [Mol*](https://molstar.org/viewer):
+-   Load the following structures into [Mol*](https://molstar.org/viewer).
+    You may use other programs such as [PyMOL](https://pymol.org/) or [ChimeraX](https://www.cgl.ucsf.edu/chimerax/).
+    (I personally prefer ChimeraX over PyMOL. I suggested Mol* since it is completely web based.)
     -   The experimental structure of the protein from Q05.
     -   The predicted structure from SWISS-MODEL (`modelCIF` file).
     -   The predicted structure from AlphaFold 3 (`_model_0.cif` file).
--   Align the structures within Mol* to compare their conformations.
+-   Align the structures to compare their conformations.
 -   Take a screenshot of the aligned structures and include it in your submission.
--   Discuss at least one key difference observed between the structures. This could relate to structural features such as folding patterns, active sites, or any notable deviations.
+-   Discuss at least one key difference observed between the structures.
+    This could relate to structural features such as folding patterns, active sites, or any notable deviations.
 
 ## Programming+
 
@@ -168,8 +171,8 @@ Your task is to create a program that can read and extract basic information fro
 
 Write a program that takes a PDB file as input and extracts the following information:
 
-1. The total number of atoms in the structure
-2. The number of amino acid residues
+1.  The total number of atoms in the structure
+2.  The number of amino acid residues
 
 To accomplish this, you'll need to understand the structure of a PDB file.
 Each line in a PDB file represents a record, and different record types contain different information.
@@ -188,16 +191,17 @@ This metric is crucial in various applications, such as assessing the quality of
 Your task is to write a program that calculates the RMSD between two protein structures.
 The program should:
 
-1. Take two PDB files as input. These could represent the same protein in different states (e.g., experimental vs. predicted structures).
-2. Align the structures (you may assume they are already roughly aligned).
-3. Calculate the RMSD between corresponding atoms.
+1.  Take two PDB files as input.
+    These could represent the same protein in different states (e.g., experimental vs. predicted structures).
+2.  Align the structures (you may assume they are already roughly aligned).
+3.  Calculate the RMSD between corresponding atoms.
 
 To calculate RMSD, you'll need to:
 
-1. Extract the 3D coordinates of corresponding atoms from both structures.
-2. Calculate the squared differences between these coordinates.
-3. Take the average of these squared differences.
-4. Take the square root of this average.
+1.  Extract the 3D coordinates of corresponding atoms from both structures.
+2.  Calculate the squared differences between these coordinates.
+3.  Take the average of these squared differences.
+4.  Take the square root of this average.
 
 You may want to focus on comparing only the backbone atoms (N, Cα, C) or all heavy atoms.
 Be sure to specify in your output which atoms you're using for the comparison.
@@ -213,16 +217,18 @@ This algorithm assigns propensities for each amino acid to be in an alpha helix,
 
 Your program should:
 
-1. Take a protein sequence as input (a string of one-letter amino acid codes).
-2. Implement the Chou-Fasman algorithm or another simple prediction method.
-3. Output the predicted secondary structure for each residue (e.g., H for helix, E for sheet, C for coil).
+1.  Take a protein sequence as input (a string of one-letter amino acid codes).
+2.  Implement the Chou-Fasman algorithm or another simple prediction method.
+3.  Output the predicted secondary structure for each residue (e.g., H for helix, E for sheet, C for coil).
 
 To implement the Chou-Fasman method:
 
-1. Use a table of propensity values for each amino acid.
-2. Scan the sequence to find regions with high propensities for helices or sheets.
-3. Apply rules for extending and terminating these structures.
-4. Assign remaining regions as coils.
+1.  Use a table of propensity values for each amino acid.
+    You can find more information in the following papers: ([Jiang et al., 1998
+](https://doi.org/10.1002/(SICI)1097-0282(199801)45:1%3C35::AID-BIP4%3E3.0.CO;2-%23); [Chen et al., 2006](https://doi.org/10.1186/1471-2105-7-S4-S14))
+2.  Scan the sequence to find regions with high propensities for helices or sheets.
+3.  Apply rules for extending and terminating these structures.
+4.  Assign remaining regions as coils.
 
 Remember, this is a simplified method and won't be as accurate as modern predictors, but it will give you insight into the principles of sequence-based structure prediction.
 
@@ -232,26 +238,26 @@ Solvent-Accessible Surface Area (SASA) is an important property in protein struc
 
 Your task is to write a program that calculates the SASA for each residue in a protein structure. The program should:
 
-1. Take a PDB file as input.
-2. Calculate the SASA for each residue.
-3. Output the SASA values in a clear, readable format.
+1.  Take a PDB file as input.
+2.  Calculate the SASA for each residue.
+3.  Output the SASA values in a clear, readable format.
 
 To calculate SASA, you can:
 
-1. Use the Biopython library, which provides SASA calculation functionality.
-2. Use an external tool like FreeSASA, which you can call from your Python script.
-3. Implement a simple SASA algorithm yourself (this is more challenging and less accurate, but educational).
+1.  Use the Biopython library, which provides SASA calculation functionality.
+2.  Use an external tool like FreeSASA, which you can call from your Python script.
+3.  Implement a simple SASA algorithm yourself (this is more challenging and less accurate, but educational).
 
 If using Biopython or FreeSASA:
 
-1. Read the documentation to understand how to use the SASA calculation functions.
-2. Ensure you understand the units of the output (typically Å²) and any parameters you need to set (like probe radius).
+1.  Read the documentation to understand how to use the SASA calculation functions.
+2.  Ensure you understand the units of the output (typically Å²) and any parameters you need to set (like probe radius).
 
 If implementing your own algorithm:
 
-1. Represent the protein as a set of spheres (atoms).
-2. Use a probe sphere to "roll" over the surface of these spheres.
-3. Calculate the area accessible to the probe.
+1.  Represent the protein as a set of spheres (atoms).
+2.  Use a probe sphere to "roll" over the surface of these spheres.
+3.  Calculate the area accessible to the probe.
 
 Your output should list each residue along with its calculated SASA.
 Consider also providing summary statistics, like average SASA per residue type or total protein SASA.
