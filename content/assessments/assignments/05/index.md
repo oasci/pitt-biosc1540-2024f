@@ -50,10 +50,13 @@ Compare and contrast Cryo-Electron Microscopy (Cryo-EM) and X-ray Crystallograph
 
 **Points**: 4
 
-Use [UniProt](https://www.uniprot.org/) to search for the Enoyl-[acyl-carrier-protein] reductase [NADH] (`inhA`) from *Mycobacterium smegmatis* with the highest annotation score.
+Use [UniProt](https://www.uniprot.org/) to search for the Enoyl-[acyl-carrier-protein] reductase [NADH] (`inhA`) from ~~*Mycobacterium smegmatis*~~ *Mycobacterium tuberculosis* (strain ATCC 25618 / H37Rv) with the highest annotation score.
 Summarize the function of this protein and provide the UniProt ID.
 
-<!-- UniProt ID: P9WGR1 -->
+!!! danger "Change"
+
+    I did not proof read enough and the species should have been *Mycobacterium tuberculosis* (strain ATCC 25618 / H37Rv).
+    I will accept structures from *Mycobacterium smegmatis* given the lateness of the correction.
 
 **b**
 
