@@ -1,6 +1,6 @@
 <h1 align="center">
 <b>Lecture 15</b><br>
-Atomistic insights
+Ensembles and atomistic insights
 </h1>
 <p align="center">
 <b>Date:</b> Oct 24, 2024
