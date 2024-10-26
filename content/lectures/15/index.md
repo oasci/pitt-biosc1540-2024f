@@ -6,10 +6,6 @@ Ensembles and atomistic insights
 <b>Date:</b> Oct 24, 2024
 </p>
 
-!!! danger "DRAFT"
-
-    This page is a work in progress and is subject to change at any moment.
-
 This final lecture in the MD series focuses on the analysis and interpretation of MD simulation data.
 We'll explore common analysis techniques and how to extract meaningful biological insights from simulation trajectories.
 
@@ -27,7 +23,7 @@ After today, you should better understand:
 
 Relevant content for today's lecture.
 
-TODO:
+-   Any scientific literature.
 
 ## Presentation
 
