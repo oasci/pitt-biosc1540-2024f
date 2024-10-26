@@ -15,14 +15,13 @@ We'll explore common analysis techniques and how to extract meaningful biologica
 
 ## Learning objectives
 
-What you should be able to do after today's lecture:
+After today, you should better understand:
 
-1.  Describe common analysis techniques for MD trajectories, including RMSD and RMSF.
-2.  Explain how to analyze protein secondary structure changes over a simulation.
-3.  Discuss methods for studying protein-ligand interactions in MD simulations.
-4.  Interpret MD simulation results in the context of experimental data.
-5.  Identify key applications of MD simulations in studying biological systems.
-6.  Critically evaluate the strengths and limitations of MD simulations in addressing biological questions.
+1.  Molecular ensembles and their relevance.
+2.  Maintaining thermodynamic equilibrium.
+3.  Relaxation and production MD simulations.
+4.  RMSD and RMSF as conformational changes and flexibility metricss.
+5.  Relationship between probability and energy in simulations.
 
 ## Readings
 
@@ -32,8 +31,8 @@ TODO:
 
 ## Presentation
 
-<!-- -   **View:** [slides.com/aalexmmaldonado/biosc1540-l15](https://slides.com/aalexmmaldonado/biosc1540-l15) -->
+-   **View:** [slides.com/aalexmmaldonado/biosc1540-l15](https://slides.com/aalexmmaldonado/biosc1540-l15)
 -   **Live link:** [slides.com/d/QSAvIIo/live](https://slides.com/d/QSAvIIo/live)
-<!-- -   **Download:** [biosc1540-l15.pdf](/lectures/15/biosc1540-l15.pdf) -->
+-   **Download:** [biosc1540-l15.pdf](/lectures/15/biosc1540-l15.pdf)
 
 <iframe src="https://slides.com/aalexmmaldonado/biosc1540-l15/embed?byline=hidden&share=hidden" width="100%" height="600" title="BIOSC 1540: Lecture 15" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
