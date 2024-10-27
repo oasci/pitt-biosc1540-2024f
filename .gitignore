@@ -17,3 +17,7 @@ public/
 node_modules
 package-lock.json
 package.json
+
+# pixi environments
+.pixi
+*.egg-info

@@ -1,55 +1,64 @@
-[tool.poetry]
+[tool.pixi.project]
 name = "pitt-biosc1540-2024f"
-version = "2024.3.14"
+version = "2024.10.26"
+readme = "README.md"
+license = "CC-BY-NC-SA-4.0"
+channels = ["conda-forge"]
+platforms = ["linux-64"]
 description = ""
 authors = [
     "OASCI <us@oasci.org>",
 ]
-readme = "README.md"
-license = "CC BY-NC-SA 4.0"
 
-[tool.poetry.dependencies]
-python = "^3.12"
-jupyterlab = "^4.0.10"
+[tool.pixi.environments]
+dev = ["dev"]
+sci = ["sci"]
 
-[tool.poetry.group.docs.dependencies]
-mkdocs = "^1.5.3"
-mkdocs-material = "^9.4.7"
-material-plausible-plugin = "^0.2.0"
-pymdown-extensions = "^10.3.1"
-mkdocs-table-reader-plugin = "^2.0.3"
-mkdocstrings = "^0.23.0"
-mkdocstrings-python = "^1.7.3"
-mkdocs-awesome-pages-plugin = "^2.9.2"
-mkdocs-macros-plugin = "^1.0.5"
-mkdocs-print-site-plugin = "^2.3.6"
-mkdocs-jupyter = "^0.24.6"
-python-dotenv = "^1.0.0"
-mkdocs-glightbox = "^0.3.5"
-gradescope-utils = "^0.5.0"
-mkdocs-git-revision-date-localized-plugin = "^1.2.6"
+[tool.pixi.tasks]
+mdlint = { cmd = ["markdownlint-cli2", '"**/*.{md,markdown}"', "--fix", "--config", ".markdownlint.yaml", "||", "true"] }
+isort = { cmd = ["isort", "--settings-path", "pyproject.toml", "./content"] }
+black = { cmd = ["black", "--config", "pyproject.toml", "./content"] }
+format = { depends-on = ["mdlint", "isort", "black"] }
+docs = { cmd = ["rm", "-rf", "./public/", "&&", "mkdocs", "build", "-d", "public/"] }
+serve = { cmd = ["mkdocs", "serve"] }
 
-[tool.poetry.group.sci.dependencies]
-matplotlib = "^3.8.2"
-numpy = "^1.26.3"
-pandas = "^2.1.4"
-seaborn = "^0.13.0"
-scikit-learn = "^1.3.2"
-polars = "^0.20.30"
-openpyxl = "^3.1.2"
-beautifulsoup4 = "^4.12.2"
+[tool.pixi.dependencies]
+python = ">=3.13.0,<4"
+mkdocs = ">=1.6.1,<2"
+mkdocs-material = ">=9.5.42,<10"
+jupyterlab = ">=4.2.5,<5"
+pymdown-extensions = ">=10.11.2,<11"
+mkdocs-table-reader-plugin = ">=3.1.0,<4"
+mkdocstrings = ">=0.26.2,<0.27"
+mkdocstrings-python = ">=1.12.2,<2"
+mkdocs-macros-plugin = ">=1.3.7,<2"
+mkdocs-jupyter = ">=0.25.0,<0.26"
+mkdocs-glightbox = ">=0.4.0,<0.5"
+gradescope-utils = ">=0.5.0,<0.6"
+mkdocs-git-revision-date-localized-plugin = ">=1.2.9,<2"
 
-[tool.poetry.group.dev.dependencies]
-black = "^23.10.0"
-isort = "^5.12.0"
-pylint = "^3.0.2"
-mypy = "^1.6.0"
-mypy-extensions = "^1.0.0"
-bump-my-version = "^0.11.0"
-poetry-dynamic-versioning = "^1.1.0"
+[tool.pixi.pypi-dependencies]
+material-plausible-plugin = ">=0.2.0,<0.3"
+mkdocs-awesome-pages-plugin = ">=2.9.3,<3"
+mkdocs-print-site-plugin = ">=2.6.0,<3"
+
+[tool.pixi.feature.dev.dependencies]
+black = ">=24.10.0,<25"
+isort = ">=5.13.2,<6"
+ruff = ">=0.7.1,<0.8"
+bump-my-version = ">=0.27.0,<0.28"
+
+[tool.pixi.feature.sci.dependencies]
+matplotlib = ">=3.9.2,<4"
+numpy = ">=2.1.2,<3"
+seaborn = ">=0.13.2,<0.14"
+scikit-learn = ">=1.5.2,<2"
+openpyxl = ">=3.1.5,<4"
+beautifulsoup4 = ">=4.12.3,<5"
+pandas = ">=2.2.3,<3"
 
 [tool.bumpversion]
-current_version = "2024.8.1"
+current_version = "2024.10.26"
 tag = true
 commit = true
 
@@ -109,88 +118,3 @@ requires = [
     "poetry-dynamic-versioning>=1.0.0,<2.0.0",
 ]
 build-backend = "poetry_dynamic_versioning.backend"
-
-["tool.poetry.group.conda.dependencies"]
-appdirs = "^1.4.4"
-"backports.tarfile" = "^1.0.0"
-Brotli = "^1.1.0"
-build = "^1.2.1"
-CacheControl = "^0.14.0"
-cachy = "^0.3.0"
-certifi = "^2024.7.4"
-cffi = "^1.17.0"
-cfgv = "^3.3.1"
-charset-normalizer = "^3.3.2"
-cleo = "^2.1.0"
-click = "^8.1.7"
-click-default-group = "^1.2.4"
-clikit = "^0.6.2"
-colorama = "^0.4.6"
-conda_lock = "^2.5.7"
-conda_poetry_liaison = "^0.1.2"
-crashtest = "^0.4.1"
-cryptography = "^43.0.0"
-distlib = "^0.3.8"
-dulwich = "^0.21.7"
-ensureconda = "^1.4.4"
-fastjsonschema = "^2.20.0"
-filelock = "^3.15.4"
-gitdb = "^4.0.11"
-GitPython = "^3.1.43"
-html5lib = "^1.1"
-identify = "^2.6.0"
-idna = "^3.8"
-importlib_metadata = "^8.4.0"
-importlib_resources = "^6.4.4"
-installer = "^0.7.0"
-"jaraco.classes" = "^3.4.0"
-"jaraco.context" = "^5.3.0"
-"jaraco.functools" = "^4.0.0"
-jeepney = "^0.8.0"
-Jinja2 = "^3.1.4"
-keyring = "^24.3.1"
-MarkupSafe = "^2.1.5"
-more-itertools = "^10.4.0"
-msgpack = "^1.0.8"
-nodeenv = "^1.9.1"
-numpy = "^2.1.0"
-packaging = "^24.1"
-pastel = "^0.2.1"
-pexpect = "^4.9.0"
-pip = "^24.2"
-pkginfo = "^1.11.1"
-platformdirs = "^4.2.2"
-poetry = "^1.8.3"
-poetry-core = "^1.9.0"
-poetry-plugin-export = "^1.8.0"
-pre_commit = "^3.8.0"
-ptyprocess = "^0.7.0"
-pycparser = "^2.22"
-pydantic = "^2.8.2"
-pydantic_core = "^2.20.1"
-pylev = "^1.4.0"
-pyproject_hooks = "^1.1.0"
-PySocks = "^1.7.1"
-PyYAML = "^6.0.2"
-rapidfuzz = "^3.9.6"
-requests = "^2.32.3"
-requests-toolbelt = "^1.0.0"
-"ruamel.yaml" = "^0.18.6"
-"ruamel.yaml.clib" = "^0.2.8"
-SecretStorage = "^3.3.3"
-setuptools = "^72.2.0"
-shellingham = "^1.5.4"
-six = "^1.16.0"
-smmap = "^5.0.0"
-tomli = "^2.0.1"
-tomli_w = "^1.0.0"
-tomlkit = "^0.13.2"
-toolz = "^0.12.1"
-trove-classifiers = "^2024.7.2"
-typing_extensions = "^4.12.2"
-ukkonen = "^1.0.1"
-urllib3 = "^1.26.19"
-virtualenv = "^20.26.3"
-webencodings = "^0.5.1"
-wheel = "^0.44.0"
-zipp = "^3.20.1"

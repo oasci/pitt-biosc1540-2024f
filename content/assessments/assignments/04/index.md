@@ -484,7 +484,6 @@ Explain with an example.
     - **Key Property:** BWT is reversible, allowing the original string to be perfectly reconstructed from the transformed data.
     - **Importance:** Ensures data integrity during the compression and decompression processes.
 
-
 ## Q08
 
 Perform the Burrows-Wheeler Transform (BWT) for the following DNA sequence: `ATTGCATTTGGCA`.

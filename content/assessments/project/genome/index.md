@@ -240,7 +240,7 @@ The presence or absence of certain genes can provide insights into the strain's 
 After annotating your genome and identifying the dihydrofolate reductase gene, the next step is to compare your sequence to a known reference.
 This comparison will help you verify your annotation and identify any potential variations in your sequence.
 
-1.  Go to the UniProt website (https://www.uniprot.org/).
+1.  Go to the UniProt website (<https://www.uniprot.org/>).
 2.  Search for "Dihydrofolate reductase Staphylococcus aureus".
 3.  Look for the entry with the accession number P0A017.
 
