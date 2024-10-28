@@ -37,10 +37,7 @@ Galaxy is a web-based platform for data-intensive biomedical research that will 
 1.  Go to <https://usegalaxy.org/>
 2.  Click on the "Login or Register" button in the top middle.
 3.  If you don't have an account, click on "Register here" and fill out the registration form. Make sure to use a valid email address as you'll need to verify it.
-4.  Once you've registered and logged in, you'll see your username in the top right corner. Click on it to access the user menu.
-5.  From the user menu, select "Projects" (you may need to click on "User" first to see this option).
-6.  On the Projects page, click the "Create new project" button.
-7.  Name your new project "BIOSC 1540 Project" and provide a brief description if you wish. Click "Create".
+4.  Once you've registered and logged in, click "Create new history+" and name your new project "BIOSC 1540 Project" and provide a brief description if you wish. Click "Create".
 
 Always ensure you're working within your "BIOSC 1540 Project" for this assignment. This will help you keep your work organized and easily accessible.
 
@@ -124,7 +121,7 @@ After assessing the quality of your raw sequencing data, the next step is to tri
 2.  Click on "fastp: fast all-in-one preprocessing for FASTQ files".
 3.  In the tool interface, set the following parameters:
     -   "Single-end or paired reads": Select "Paired Collection".
-    -   "Select paired collection(s)": Choose your pair of FASTQ files
+    -   "Select paired collection(s)": Choose your paired-end reads.
 4.  Click "Run Tool".
 
 Click on the eye icon next to the HTML report to view it.
