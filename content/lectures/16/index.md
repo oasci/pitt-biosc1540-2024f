@@ -10,7 +10,9 @@ Structure-based drug design
 
     This page is a work in progress and is subject to change at any moment.
 
-This lecture introduces structure-based drug design, a powerful approach in modern drug discovery that leverages the three-dimensional structure of biological targets. We'll explore how knowledge of protein structures guides the rational design of new therapeutics. The session will cover key principles of molecular recognition, binding site analysis, and fragment-based drug design. Students will gain insight into how computational tools utilize structural information to identify and optimize potential drug candidates, setting the stage for more detailed exploration of docking and virtual screening in the following lecture.
+This lecture introduces structure-based drug design, a powerful approach in modern drug discovery that leverages the three-dimensional structure of biological targets.
+We'll explore how knowledge of protein structures guides the rational design of new therapeutics.
+The session will cover key principles of molecular recognition, binding site analysis, and fragment-based drug design.
 
 ## Learning objectives
 
