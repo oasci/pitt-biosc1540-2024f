@@ -22,3 +22,10 @@ What you should be able to do after today's lecture:
 -   **Download:** [biosc1540-l16.pdf](/lectures/16/biosc1540-l16.pdf)
 
 <iframe src="https://slides.com/aalexmmaldonado/biosc1540-l16/embed?byline=hidden&share=hidden" width="100%" height="600" title="BIOSC 1540: Lecture 16" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<!--
+
+Notes:
+
+- To explain why relative free energies are practical to calculate, use an example of having to recompute only the conformations where the energy changes due to the alchemical parameter. To compute the whole partition function, I also have to compute the energy when the protein is unfolded and the ligand is very far away from the protein. Since the alchemical changes in energy are only relevant with the ligand is bound, the energy those other states will remain unchanged and will cancel out in our partition function.
+-->
