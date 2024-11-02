@@ -6,10 +6,6 @@ Docking and virtual screening
 <b>Date:</b> Oct 31, 2024
 </p>
 
-!!! danger "DRAFT"
-
-    This page is a work in progress and is subject to change at any moment.
-
 This lecture delves into molecular docking and virtual screening, essential techniques in computational drug discovery.
 The session will cover different docking algorithms, scoring functions, and strategies for improving virtual screening efficiency and accuracy.
 
@@ -24,12 +20,6 @@ After today, you should have a better understanding of:
 5.  Ligand pose optimization.
 6.  Scoring functions as data-driven predictors.
 7.  Interpretation of docking results.
-
-## Readings
-
-Relevant content for today's lecture.
-
-TODO:
 
 ## Presentation
 
