@@ -3,10 +3,7 @@
 Genome assembly
 </h1>
 
-!!! danger "DRAFT"
-    This page is a work in progress and is subject to change at any moment.
-
-You have been assigned a set of Illumina sequencing reads from a *Staphylococcus aureus* isolate.
+[You have been assigned](https://canvas.pitt.edu/courses/267135/files/18413175) a set of Illumina sequencing reads from a *Staphylococcus aureus* isolate.
 Your task is to assemble and annotate the genome, and then identify the dihydrofolate reductase gene, which is a common target for antibiotics.
 This project will give you experience with real-world bioinformatics tools and workflows used in genomics research.
 
@@ -36,10 +33,13 @@ Galaxy is a web-based platform for data-intensive biomedical research that will 
 
 1.  Go to <https://usegalaxy.org/>
 2.  Click on the "Login or Register" button in the top middle.
-3.  If you don't have an account, click on "Register here" and fill out the registration form. Make sure to use a valid email address as you'll need to verify it.
-4.  Once you've registered and logged in, click "Create new history+" and name your new project "BIOSC 1540 Project" and provide a brief description if you wish. Click "Create".
+3.  If you don't have an account, click on "Register here" and fill out the registration form.
+    Make sure to use a valid email address as you'll need to verify it.
+4.  Once you've registered and logged in, click "Create new history+" and name your new project "BIOSC 1540 Project" and provide a brief description if you wish.
+    Click `Create`.
 
-Always ensure you're working within your "BIOSC 1540 Project" for this assignment. This will help you keep your work organized and easily accessible.
+Always ensure you're working within your "BIOSC 1540 Project" for this assignment.
+This will help you keep your work organized and easily accessible.
 
 Galaxy will also save your work automatically, but it's a good practice to regularly check that your analyses are being saved correctly.
 
@@ -50,25 +50,27 @@ If you encounter any issues with Galaxy, check their [support](https://galaxypro
 In this step, you'll download the assigned sequencing data for your *S. aureus* isolate and upload it to Galaxy.
 Follow these instructions carefully:
 
-1.  Your instructor will provide you with a unique SRA (Sequence Read Archive) accession number for your assigned S. aureus isolate.
+1.  Your instructor will [provide you with a unique SRA](https://canvas.pitt.edu/courses/267135/files/18413175) (Sequence Read Archive) accession number for your assigned *S. aureus* isolate.
     We will use `SRX11246059` as an example.
-2.  In the Galaxy interface, click on "Tools" in the left sidebar.
-3.  In the search bar at the top of the Tools panel, type `Download and extract reads` and click on the `Download and Extract REads in FASTQ format from NCBI SRA` tool.
+2.  In the Galaxy interface, click on `Tools` in the left sidebar.
+3.  In the search bar at the top of the Tools panel, type `Download and Extract Reads in FASTQ format from NCBI SRA` and click on it.
 4.  In the tool interface:
     -   For `select input type`, choose `SRR accession`.
-    -   In the "Accession" field, enter your assigned SRA accession number.
+    -   In the `Accession` field, enter your assigned SRA accession number.
     -   Leave all other settings as default.
 5.  Click `Run Tool`.
 
 Galaxy will now download and extract your sequencing data.
-This may take a few minutes.
-You can monitor the progress in the right sidebar.
+You can monitor the progress in the right sidebar, and will turn from blanched almond to green once finished.
+
+!!! quote "Estimated time"
+    7 minutes
 
 1.  Once complete, you should see two new items in your history:
     -   `Single-end data (fastq-dump)`
     -   `Paired-end data (fastq-dump)`
 2.  There will be no data in `Single-end data (fastq-dump)`, so you can delete this.
-3.  Click on `Paired-end data (fastq-dump)`, your accession number (i.e., `SRX11246059`), then the eyeball on `forward` to preview its contents.
+3.  To find the `forward.fastqc` file, you need to view job information for `Paired-end data (fastq-dump)`, click on your accession number (i.e., `SRX11246059`), then on `forward` to preview its contents.
     You should see sequences in FASTQ format.
 
 !!! note "Report"
@@ -89,6 +91,9 @@ We'll use FastQC, a widely used tool for quality control of high throughput sequ
     -   For `Raw read data from your current history`, select `Dataset Collection` and choose `Paired-end data (fastq-dump)`.
     -   Leave all other settings as default.
 3.  Click `Run Tool`.
+
+!!! quote "Estimated time"
+    1 minute
 
 Once the job is complete, you'll see new items in your history for each FastQC report (Webpage and RawData).
 
@@ -115,7 +120,8 @@ The context of your experiment and the specific analyses you plan to perform sho
 
 ### Adapter Trimming with Fastp
 
-After assessing the quality of your raw sequencing data, the next step is to trim adapters and perform quality control. We'll use fastp, a fast all-in-one preprocessing tool for FASTQ files.
+After assessing the quality of your raw sequencing data, the next step is to trim adapters and perform quality control.
+We'll use fastp, a fast all-in-one preprocessing tool for FASTQ files.
 
 1.  In the Galaxy interface, search for "fastp" in the tools panel.
 2.  Click on "fastp: fast all-in-one preprocessing for FASTQ files".
@@ -124,6 +130,9 @@ After assessing the quality of your raw sequencing data, the next step is to tri
     -   "Select paired collection(s)": Choose your paired-end reads.
 4.  Click "Run Tool".
 
+!!! quote "Estimated time"
+    1 minute
+
 Click on the eye icon next to the HTML report to view it.
 The report contains information about the trimming and filtering process.
 
@@ -131,12 +140,14 @@ The report contains information about the trimming and filtering process.
 
     In your report, address the following questions:
 
-    1. How many reads were removed during the filtering process? What percentage of reads passed the filters?
-    2. Did fastp detect and trim any adapters? If so, which ones?
-    3. How did the quality scores change after filtering? Provide specific examples from the report.
-    4. Were there any issues with base composition (e.g., GC bias) before or after filtering?
-    5. What was the duplication rate? Is this what you would expect for your type of sequencing data?
-    6. Compare the fastp results to your earlier FastQC results. How do they complement each other? Are there any discrepancies?
+    1.  How many reads were removed during the filtering process? What percentage of reads passed the filters?
+    2.  Did fastp detect and trim any adapters? If so, which ones?
+    3.  How did the quality scores change after filtering? Provide specific examples from the report.
+    4.  Were there any issues with base composition (e.g., GC bias) before or after filtering?
+    5.  What was the duplication rate?
+        Is this what you would expect for your type of sequencing data?
+    6. Compare the fastp results to your earlier FastQC results.
+        How do they complement each other? Are there any discrepancies?
 
 Remember, the goal of this step is to improve the overall quality of your sequencing data by removing low-quality reads, trimming adapters, and addressing any other issues identified in the FastQC step.
 The fastp results should show an improvement in data quality compared to the raw reads.
@@ -154,7 +165,9 @@ We'll use SPAdes, a versatile genome assembler designed for both small genomes a
     -   "FASTA/FASTQ file(s)": Select your paired-end output from the fastp step
 4.  Click "Run Tool".
 
-This process may take some time.
+!!! quote "Estimated time"
+    2 hours
+
 Once complete, you'll see new items in your history, including the assembly graph, contigs, and scaffolds.
 
 To get more detailed statistics about your assembly, we'll use the Bandage Info tool:
@@ -168,6 +181,9 @@ To get more detailed statistics about your assembly, we'll use the Bandage Info 
 5.  Once complete, you'll see a new item in your history with the Bandage Info output.
 6.  Next, repeat the same process with `Bandage Image` and include this in your report.
 
+!!! quote "Estimated time"
+    1 minute
+
 !!! note "Report"
 
     In your report, address the following questions:
@@ -176,7 +192,8 @@ To get more detailed statistics about your assembly, we'll use the Bandage Info 
     2.  What is the total length of the assembly?
         How does this compare to the expected genome size of Staphylococcus aureus (approximately 2.8 Mb)?
     3.  What is the N50 of your assembly?
-    4.  Calculate the difference between the "Total length" and "Total length no overlaps". What does this difference represent, and why is it important to consider?
+    4.  Calculate the difference between the "Total length" and "Total length no overlaps".
+        What does this difference represent, and why is it important to consider?
     5.  What is the N50 of your assembly?
         How does this value compare to the median node length?
         What does this tell you about the distribution of contig sizes in your assembly?
@@ -200,6 +217,9 @@ We'll use Prokka, a rapid prokaryotic genome annotation tool.
     -   "Species name": Enter "aureus"
 4.  Click "Run Tool".
 
+!!! quote "Estimated time"
+    10 minutes
+
 After the annotation is complete, examine the output files.
 Pay particular attention to:
 
@@ -221,7 +241,8 @@ Pay particular attention to:
     2.  How many rRNA and tRNA genes were annotated?
     3.  What other types of features did Prokka identify, and how many of each?
     4.  How does the number of annotated genes compare to what you would expect for a *Staphylococcus aureus* genome?
-    5.  Did Prokka identify any potential plasmids? If so, how many genes are on the plasmid(s)?
+    5.  Did Prokka identify any potential plasmids?
+        If so, how many genes are on the plasmid(s)?
     6.  Search the `.faa` file for the dihydrofolate reductase gene.
         Did Prokka identify this gene?
         If so, what is its protein ID and what are its start and end positions in the genome?
@@ -229,7 +250,7 @@ Pay particular attention to:
     7.  Based on these results, how would you assess the quality and completeness of your genome annotation?
     8.  How might the genus and species names you provided influence the annotation process?
 
-Remember, a typical *S. aureus* genome contains around 2,500-2,900 genes.
+Remember, a typical *S. aureus* genome contains around 2,500 to 2,900 genes.
 The presence or absence of certain genes can provide insights into the strain's potential characteristics or capabilities.
 
 ### Comparing to UniProt
@@ -239,7 +260,7 @@ This comparison will help you verify your annotation and identify any potential 
 
 1.  Go to the UniProt website (<https://www.uniprot.org/>).
 2.  Search for "Dihydrofolate reductase Staphylococcus aureus".
-3.  Look for the entry with the accession number P0A017.
+3.  Look for the entry with the accession number `P0A017`.
 
 !!! note "Report"
 
@@ -254,11 +275,52 @@ This comparison will help you verify your annotation and identify any potential 
 
 ## Submission Guidelines
 
--   Submit your report as a single PDF file named `LastName_FirstName_GenomeAnalysisReport.pdf`.
--   Submit the dihydrofolate reductase amino acid sequence as a text file named `LastName_FirstName_DHFR.fasta`.
--   Ensure all figures and tables in your report are clearly labeled and referenced in the text
--   Use proper scientific writing style, including citations where appropriate
+-   Submit your report as a single PDF file named `LastName_FirstName_GenomeAssemblyReport.pdf` to [Gradescope](https://www.gradescope.com/).
+-   Responses to questions should be numbered under a heading and be of reasonable length.
+-   Ensure all figures and tables in your report are clearly labeled and referenced in the text.
+-   Use proper scientific writing style, including citations where appropriate.
 
-## Additional resources
+## Rubric
 
--   [Reference genome assembly ASM1342v1](https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000013425.1/)
+Your answers to all the aforementioned questions will help you garner points according to this rubric.
+
+**Data Acquisition and Initial Processing**
+
+| Criterion | Points | Description |
+|-----------|---------|-------------|
+| SRA Data Retrieval | 10 | - Successfully downloads correct SRA dataset (5 pts)<br>- Properly identifies and presents first five FASTQ entries (5 pts) |
+
+**Quality Control Analysis**
+
+| Criterion | Points | Description |
+|-----------|---------|-------------|
+| FastQC Interpretation | 12 | - Accurately interprets quality metrics (4 pts)<br>- Identifies key issues in sequencing data (4 pts)<br>- Compares forward/reverse reads effectively (4 pts) |
+| Fastp Analysis | 8 | - Correctly reports filtering statistics (3 pts)<br>- Analyzes quality improvement after trimming (3 pts)<br>- Interprets duplication rates appropriately (2 pts) |
+
+**Genome Assembly**
+
+| Criterion | Points | Description |
+|-----------|---------|-------------|
+| Assembly Statistics | 15 | - Accurately reports and interprets N50 (4 pts)<br>- Analyzes contig numbers and lengths (4 pts)<br>- Compares assembly size to expected genome size (4 pts)<br>- Evaluates assembly graph characteristics (3 pts) |
+| Quality Assessment | 10 | - Critically evaluates assembly quality (5 pts)<br>- Identifies potential issues and limitations (5 pts) |
+
+**Genome Annotation**
+
+| Criterion | Points | Description |
+|-----------|---------|-------------|
+| Prokka Results | 15 | - Reports complete annotation statistics (5 pts)<br>- Analyzes gene content and distribution (5 pts)<br>- Compares results to expected S. aureus features (5 pts) |
+| Gene Analysis | 10 | - Identifies dihydrofolate reductase gene (5 pts)<br>- Correctly reports gene characteristics and location (5 pts) |
+
+**Protein Analysis and Comparison**
+
+| Criterion | Points | Description |
+|-----------|---------|-------------|
+| UniProt Comparison | 10 | - Performs thorough sequence comparison (4 pts)<br>- Identifies and analyzes sequence variations (3 pts)<br>- Interprets biological significance of findings (3 pts) |
+
+**Report Quality**
+
+| Criterion | Points | Description |
+|-----------|---------|-------------|
+| Organization | 4 | - Clear structure and flow<br>- Proper section labeling<br>- Appropriate use of figures and tables |
+| Scientific Writing | 4 | - Clear, concise scientific writing<br>- Proper terminology<br>- Appropriate citations |
+| Format Compliance | 2 | - Follows submission guidelines<br>- Proper file naming<br>- Complete PDF submission |
