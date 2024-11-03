@@ -2,7 +2,7 @@
 
 We start with [bioinformatics](#module-01-bioinformatics) to learn fundamentals of genomics and transcriptomics.
 Afterwards, we will cover structure prediction, molecular simulations, and computer-aided drug design in our [computational structural biology module](#module-02-computational-structural-biology).
-Our [third module in scientific python](#module-03-special-interest-topics) will introduce how we can use Python in computational biology.
+Our [third module in scientific python](#module-03-scientific-python) will introduce how we can use Python in computational biology.
 
 ## Module 01 - Bioinformatics
 
@@ -110,7 +110,7 @@ Our [third module in scientific python](#module-03-special-interest-topics) will
 
 ### Week 11
 
-**Tuesday** (Nov 5) **Election day: go vote (no class)**
+**Tuesday** (Nov 5) **Election day: Go vote (no class)**
 
 **Thursday** (Nov 7) [**Lecture 18**](../../lectures/18/)
 
