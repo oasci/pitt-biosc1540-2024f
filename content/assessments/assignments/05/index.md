@@ -22,6 +22,11 @@ Explain how X-ray crystallography is used to determine the electron density of a
 Describe how this information leads to fitting and refining an atomic model.
 Include the key steps in your explanation, from data collection to model refinement.
 
+??? success "Solution"
+    X-ray crystallography determines a molecule's electron density by directing X-rays at a crystallized sample. The X-rays scatter upon interacting with the electrons in the crystal, producing a diffraction pattern. By measuring the intensities and angles of these diffracted beams, scientists use Fourier transforms to calculate an electron density map, which reveals where electrons are likely to be located within the molecule.
+
+    This electron density information is crucial for fitting and refining an atomic model. Scientists fit atoms into regions of high electron density in the map, creating an initial model of the molecule's structure. They then refine this model by adjusting atomic positions and thermal factors to minimize discrepancies between the observed diffraction data and the model's predicted data.
+
 ## Q02
 
 **Points**: 8
@@ -29,6 +34,20 @@ Include the key steps in your explanation, from data collection to model refinem
 Explain how X-rays scatter off electrons in a crystal.
 Discuss why this phenomenon is essential for determining protein structures using X-ray crystallography.
 In your answer, briefly describe the relationship between the crystal lattice and the resulting diffraction pattern.
+
+??? success "Solution"
+    X-rays scatter off electrons in a crystal through elastic interactions known as Thomson scattering.
+    When X-rays encounter the electrons in a crystal lattice, they are deflected without a loss of energy.
+    The electrons act as point scatterers, and due to the regular, repeating arrangement of atoms in the crystal, the scattered X-rays interfere constructively and destructively, creating a diffraction pattern.
+
+    This scattering phenomenon is essential for determining protein structures because the resulting diffraction pattern contains information about the electron density within the crystal.
+    By analyzing the intensities and positions of the diffracted X-rays, researchers can compute an electron density map using Fourier transforms.
+    This map reveals the locations of atoms in the protein, allowing scientists to build and refine an accurate three-dimensional model of its structure.
+
+    The relationship between the crystal lattice and the diffraction pattern is direct and fundamental.
+    The periodic arrangement of atoms in the crystal lattice causes the scattered X-rays to interfere in specific directions, producing discrete spots in the diffraction pattern.
+    According to Bragg's Law, the angles at which these spots appear are related to the spacing between lattice planes in the crystal.
+    Thus, the geometry of the crystal lattice determines the positions and intensities of the diffraction spots observed.
 
 ## Q03
 
@@ -38,11 +57,25 @@ Explain constructive and destructive interference in the context of X-ray diffra
 Describe how these phenomena contribute to the formation of diffraction spots and the absence of certain reflections.
 Briefly discuss how understanding these concepts helps in interpreting X-ray diffraction data.
 
+??? success "Solution"
+    In X-ray diffraction, constructive and destructive interference arise from the superposition of X-rays scattered by electrons in a crystal lattice.
+    Constructive interference occurs when the path difference between scattered waves leads them to be in phase, reinforcing each other and producing intense diffraction spots.
+    Destructive interference happens when waves are out of phase, canceling each other out and resulting in the absence of reflections.
+    These phenomena dictate the positions and intensities of diffraction spots, reflecting the crystal's internal structure.
+    Understanding interference is crucial for interpreting diffraction data, as it allows scientists to calculate electron density maps and build accurate atomic models.
+
 ## Q04
 
 **Points**: 10
 
 Compare and contrast Cryo-Electron Microscopy (Cryo-EM) and X-ray Crystallography as methods for determining the structures of biological macromolecules.
+
+??? success "Solution"
+    Cryo-Electron Microscopy (Cryo-EM) and X-ray Crystallography are techniques for determining macromolecular structures but differ in methodology and applications.
+    X-ray crystallography requires crystallizing the sample, providing high-resolution structures but limited by the difficulty of crystallization for some proteins.
+    Cryo-EM examines samples flash-frozen in vitreous ice without the need for crystals, capturing molecules in a more native state.
+    Cryo-EM is advantageous for studying large complexes and membrane proteins, especially those difficult to crystallize.
+    While X-ray crystallography often achieves higher resolution, Cryo-EM has improved significantly and is more suitable for heterogeneous or flexible samples.
 
 ## Q05
 
@@ -58,11 +91,28 @@ Summarize the function of this protein and provide the UniProt ID.
     I did not proof read enough and the species should have been *Mycobacterium tuberculosis* (strain ATCC 25618 / H37Rv).
     I will accept structures from *Mycobacterium smegmatis* given the lateness of the correction.
 
+??? success "Solution"
+    **UniProt ID:** [P9WGR1](https://www.uniprot.org/uniprotkb/P9WGR1/entry)
+
+    The protein InhA is an enoyl-[acyl-carrier-protein] reductase in *Mycobacterium tuberculosis*, essential for mycolic acid biosynthesis, which is crucial for the bacterial cell wall.
+    In the fatty acid elongation cycle, it catalyzes the NADH-dependent reduction of 2-trans-enoyl-[acyl-carrier protein].
+    This enzyme is a primary target of the tuberculosis drugs isoniazid and ethionamide, which inhibit its activity by forming an adduct with NAD.
+    Mutations in inhA can lead to drug resistance, impacting tuberculosis treatment effectiveness.​
+
 **b**
 
 **Points**: 2
 
 Provide the amino acid sequence of the protein you found in part (a).
+
+??? success "Solution"
+    ```text
+    MTGLLDGKRILVSGIITDSSIAFHIARVAQEQGAQLVLTGFDRLRLIQRITDRL
+    PAKAPLLELDVQNEEHLASLAGRVTEAIGAGNKLDGVVHSIGFMPQTGMGINPF
+    FDAPYADVSKGIHISAYSYASMAKALLPIMNPGGSIVGMDFDPSRAMPAYNWMT
+    VAKSALESVNRFVAREAGKYGVRSNLVAAGPIRTLAMSAIVGGALGEEAGAQIQ
+    LLEEGWDQRAPIGWNMKDATPVAKTVCALLSDWLPATTGDIIYADGGAHTQLL
+    ```
 
 **c**
 
@@ -99,6 +149,13 @@ Describe the concept of homology modeling in protein structure prediction.
 Explain the main principles behind this method and why it's useful.
 Mention at least one limitation of this approach.
 
+??? success "Solution"
+    Homology modeling predicts a protein's three-dimensional structure based on its amino acid sequence similarity to a known structure (the template).
+    The principle is that proteins with similar sequences tend to have similar structures.
+    By aligning the target protein sequence with the template, a structural model is constructed by mapping residues accordingly.
+    This method is useful for gaining structural insights when experimental data is unavailable, aiding in function prediction and drug design.
+    A limitation is that the accuracy of the model heavily depends on the degree of similarity; low sequence identity between the target and template can result in unreliable models.
+
 ## Q07
 
 **a**
@@ -109,12 +166,13 @@ Mention at least one limitation of this approach.
 -   Use the following amino acid sequence for prediction:
 
     ```text
-    MTGLLDHKRILVSGIVTDSSIAYHVQAVAQEQGGELVLTGFDKLRVIQRVTDRL
+    > MTGLLDHKRILVSGIVTDSSIAYHVQAVAQEQGGELVLTGFDKLRVIQRVTDRL
     PSKAPLLELDAENEQHLASLAGKITEAIGAGNKIDGVTHSIGFMPRTGMGVNPF
     FDTPYADVTRGPHISAYSYTSMSKALLPIMNPGGTIVGMNFDPSRAMPVYNWMT
     AAKSAAESINRFVARETGKYGIRNNLVAAGPIRTLVMSAIVGGVLGAEAGAQIC
     LVEENWDQRTPMGWNMKDITPVCKTVCGLLSDWLPATTGDIIYHDGGAHTQLL
     ```
+
 -   After submitting the sequence, identify and record the five PDB IDs with the highest identity scores from the template search results.
 -   Build homology models using these templates.
 -   Explain what Global Model Quality Estimation (GMQE) is in the context of protein modeling.
