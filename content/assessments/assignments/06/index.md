@@ -22,7 +22,9 @@ Discuss how molecular dynamics (MD) simulations provide unique insights into pro
 
 ??? success "Solution"
 
-    Molecular dynamics (MD) simulations reveal dynamic properties of proteins by tracking atomistic movements over time, capturing both small-scale atomic vibrations and large-scale conformational changes. Unlike static structures obtained through methods like X-ray crystallography or cryo-electron microscopy, MD simulations provide time-resolved trajectories. This allows MD to represent protein flexibility, exploring a protein's conformational landscape, which is critical for understanding biological functions that rely on motion, such as binding, signaling, and catalysis.
+    Molecular dynamics (MD) simulations reveal dynamic properties of proteins by tracking atomistic movements over time, capturing both small-scale atomic vibrations and large-scale conformational changes.
+    Unlike static structures obtained through methods like X-ray crystallography or cryo-electron microscopy, MD simulations provide time-resolved trajectories.
+    This allows MD to capture protein flexibility, exploring a protein's conformational landscape, which is critical for understanding biological functions that rely on motion, such as binding, signaling, and catalysis.
 
 ## Q02
 
@@ -32,7 +34,7 @@ In one sentence each, describe two key differences between molecular dynamics si
 
 ??? success "Solution"
 
-    -   Molecular dynamics (MD) simulations capture the time-resolved motion of atoms, providing insight into the dynamic behavior of proteins, while static structure determination methods, like X-ray crystallography, only offer a fixed snapshot.
+    -   Molecular dynamics (MD) simulations capture the time-resolved motion of atoms, providing insight into the dynamic behavior of proteins that are missing from X-ray crystallography
     -   MD simulations can sample multiple conformations, revealing protein flexibility and various functional states, whereas static methods depict a single, often energy-minimized structure without showing alternate conformations.
 
 ## Q03
@@ -46,7 +48,7 @@ Explain the approximations made when applying classical mechanics principles in 
     In molecular dynamics (MD) simulations, classical mechanics approximations assume atoms are classical particles with defined positions and velocities, governed by Newton's laws of motion.
     This approach neglects quantum effects such as electron behavior, zero-point energy, and tunneling.
     Classical MD does not explicitly simulate electrons, instead using potential energy functions (force fields) to approximate their influence on atomic interactions.
-    This approximation is valid for biomolecular systems where electronic excitations are not critical, but it limits MD's ability to model processes involving bond formation/breaking or reactions requiring quantum mechanics.
+    This approximation is useful for biomolecular systems where electronic excitations are not critical, but it limits MD's ability to model processes involving bond formation/breaking or reactions requiring quantum mechanics.
 
 ## Q04
 
@@ -56,7 +58,9 @@ Identify a scenario in biomolecular simulations where quantum mechanical effects
 
 ??? success "Solution"
 
-    A scenario where quantum mechanical effects are significant is in the study of enzyme-catalyzed reactions, particularly those involving proton or electron transfer. These processes rely on quantum phenomena like tunneling and electronic reorganization, which classical MD cannot capture, as it treats atoms as hard spheres with fixed charges and neglects electronic transitions. In this case, classical MD fails to model the reaction pathway accurately because it does not account for the wave-particle duality of electrons and the probability-based nature of quantum transitions
+    A scenario where quantum mechanical effects are significant is in the study of enzyme-catalyzed reactions, particularly those involving proton or electron transfer.
+    These processes rely on quantum phenomena like tunneling and electronic transfers, which classical MD cannot capture, as it treats atoms as hard spheres with fixed charges and neglects electronic transitions.
+    In this case, classical MD fails to model the reaction pathway accurately because it does not account for the wave-particle duality of electrons and the probability-based nature of quantum transitions
 
 ## Q05
 
@@ -66,7 +70,9 @@ Briefly describe how Newton’s second law ($F = ma$) is utilized in MD simulati
 
 ??? success "Solution"
 
-    In molecular dynamics (MD) simulations, Newton's second law ($F = ma$) is applied to compute atomic motion by calculating the acceleration of each atom based on the forces acting upon it. Using this relationship, the MD algorithm determines the acceleration ($a$) of each atom from the force ($F$) derived from the potential energy gradients of the system. This acceleration is then integrated over small time steps to update atomic velocities and positions, thus simulating the continuous motion of atoms over time.
+    In molecular dynamics (MD) simulations, Newton's second law ($F = ma$) is applied to compute atomic motion by calculating the acceleration of each atom based on the forces acting upon it.
+    Using this relationship, the MD algorithm determines the acceleration ($a$) of each atom from the force ($F$) derived from the potential energy gradients of the system.
+    This acceleration is then integrated over small time steps to update atomic velocities and positions, thus simulating the continuous motion of atoms over time.
 
 ## Q06
 
@@ -77,7 +83,10 @@ Provide an example of a protein function that could be impacted by these force c
 
 ??? success "Solution"
 
-    In molecular dynamics simulations, the potential energy landscape defines the spatial distribution of energy based on atomic positions. Forces on atoms are calculated as the negative gradient of this potential energy, meaning atoms in regions of steep energy gradients experience stronger forces that drive them toward lower-energy conformations. For example, in enzyme active sites, the energy landscape guides substrate binding and positioning, which are crucial for catalytic function. Accurate force calculations help model the binding process and predict enzyme efficiency, as well as the influence of mutations on function.
+    In molecular dynamics simulations, the potential energy landscape defines the spatial distribution of energy based on atomic positions.
+    Forces on atoms are calculated as the negative gradient of this potential energy, meaning atoms in regions of steep energy gradients experience stronger forces that drive them toward lower-energy conformations.
+    For example, in enzyme active sites, the energy landscape guides substrate binding and positioning, which are crucial for catalytic function.
+    Accurate force calculations help model the binding process and predict enzyme efficiency, as well as the influence of mutations on function.
 
 ## Q07
 
@@ -88,7 +97,15 @@ Explain the criteria you would use to select appropriate force fields for this s
 
 ??? success "Solution"
 
-    TODO
+    To select appropriate force fields for simulating a protein-ligand complex, I would prioritize compatibility with biomolecular systems, choosing a force field designed for proteins (e.g., AMBER or CHARMM) for the protein portion.
+    For the ligand, which is novel, standard libraries may not provide parameters, creating challenges in accurately representing its unique bonds, angles, and non-covalent interactions.
+    To address this, I would:
+
+    -   Run QM calculations on the ligand to obtain reference data for its optimal geometry, charge distribution, and interaction energies.
+    -   Use QM-derived data to develop custom force field parameters for the ligand, focusing on reproducing its electrostatic properties and bonded interactions within the protein environment.
+    -   Perform preliminary MD simulations to check that the ligand maintains stability and realistic behavior, adjusting parameters as necessary by comparing with experimental or QM reference data.
+
+    This process ensures the ligand’s interactions are accurately modeled, providing reliable insights into the protein-ligand dynamics
 
 ## Q08
 
@@ -99,14 +116,12 @@ Explain why Fourier series are used to model dihedral angle potentials, and desc
 
 ??? success "Solution"
 
-    To select appropriate force fields for simulating a protein-ligand complex, I would prioritize compatibility with biomolecular systems, choosing a force field designed for proteins (e.g., AMBER or CHARMM) for the protein portion. For the ligand, which is novel, standard libraries may not provide parameters, creating challenges in accurately representing its unique bonds, angles, and non-covalent interactions.
-    To address this, I would:
+    Fourier series are used to model dihedral angle potentials because they provide a flexible mathematical framework to describe periodic functions, which is essential for capturing the rotational nature of dihedral angles in molecules.
+    The dihedral potential energy must repeat itself as the angle rotates, creating multiple stable conformations corresponding to energy minima.
+    Fourier series achieve this by summing sine and cosine terms with varying frequencies to match the periodic energy profile.
 
-    -   Run QM calculations on the ligand to obtain reference data for its optimal geometry, charge distribution, and interaction energies.
-    -   Use QM-derived data to develop custom force field parameters for the ligand, focusing on reproducing its electrostatic properties and bonded interactions within the protein environment.
-    -   Perform preliminary MD simulations to check that the ligand maintains stability and realistic behavior, adjusting parameters as necessary by comparing with experimental or QM reference data.
-
-    This process ensures the ligand’s interactions are accurately modeled, providing reliable insights into the protein-ligand dynamics
+    Adjusting the terms in the Fourier series—such as the amplitude and frequency of each sine or cosine component—alters the shape of the dihedral potential.
+    By modifying these terms, one can control the number and depth of energy minima and barriers, fine-tuning the energy landscape to reflect the specific conformational preferences and rotational flexibility of the dihedral angle in the molecule
 
 ## Q09
 
@@ -116,7 +131,9 @@ Discuss how adding or removing specific ions or cofactors in a simulation could 
 
 ??? success "Solution"
 
-    Adding or removing specific ions or cofactors in a simulation can significantly impact protein behavior by altering the protein's structural stability, dynamics, and function. Ions often stabilize certain protein conformations or are essential for activity in binding sites, where they help orient substrates or stabilize reaction intermediates. Removing these ions can disrupt critical interactions, leading to conformational shifts or loss of function. Similarly, cofactors (e.g., NADH in enzymes) are integral to catalytic activity, and their absence can prevent key functional states, altering the simulation outcome and potentially missing critical biological insights.
+    Adding or removing specific ions or cofactors in a simulation can significantly impact protein behavior by altering the protein's structural stability, dynamics, and function.
+    Ions often stabilize certain protein conformations or are essential for activity in binding sites, where they help orient substrates or stabilize reaction intermediates.
+    Removing these ions can disrupt critical interactions, leading to conformational shifts or loss of function. Similarly, cofactors (e.g., NADH in enzymes) are integral to catalytic activity, and their absence can prevent key functional states, altering the simulation outcome and potentially missing critical biological insights.
 
 ## Q10
 
@@ -126,7 +143,10 @@ For a hypothetical protein simulation at pH 5, explain how this acidic environme
 
 ??? success "Solution"
 
-    At pH 5, an acidic environment, certain amino acid side chains, such as aspartate (Asp) and glutamate (Glu), are more likely to be protonated, reducing their negative charge. This protonation affects electrostatic interactions within the protein by diminishing repulsive forces between negatively charged residues and altering salt bridge formations. Additionally, histidine (His), which has a pKa around 6, may become positively charged, creating new electrostatic attractions that stabilize alternate conformations. These changes can impact protein folding, stability, and function by altering the overall charge distribution and interaction network within the protein.
+    At pH 5, an acidic environment, certain amino acid side chains, such as aspartate (Asp) and glutamate (Glu), are more likely to be protonated, reducing their negative charge.
+    This protonation affects electrostatic interactions within the protein by diminishing repulsive forces between negatively charged residues and altering salt bridge formations.
+    Additionally, histidine (His), which has a pKa around 6, may become positively charged, creating new electrostatic attractions that stabilize alternate conformations.
+    These changes can impact protein folding, stability, and function by altering the overall charge distribution and interaction network within the protein.
 
 ## Q11
 
@@ -137,20 +157,27 @@ Describe what could happen to a small protein simulation if PBC were not applied
 
 ??? success "Solution"
 
-    Periodic boundary conditions (PBC) are essential in molecular dynamics simulations to mimic an infinite, continuous environment by replicating the simulation box in all directions. This avoids artificial edge effects by ensuring that atoms leaving one side of the box re-enter from the opposite side, preserving the density and interactions that a molecule would experience in a larger system. Without PBC, a small protein simulation would experience unphysical behavior, with solvent molecules drifting away or clustering at the edges, creating an unrealistic environment. The lack of surrounding molecules could lead to inaccurate forces on the protein, impacting its stability and conformational sampling​.
+    Periodic boundary conditions (PBC) are essential in molecular dynamics simulations to mimic an infinite, continuous environment by replicating the simulation box in all directions.
+    This avoids artificial edge effects by ensuring that atoms leaving one side of the box re-enter from the opposite side, preserving the density and interactions that a molecule would experience in a larger system.
+    Without PBC, a small protein simulation would experience unphysical behavior, with solvent molecules drifting away or clustering at the edges, creating an unrealistic environment.
+    The lack of surrounding molecules could lead to inaccurate forces on the protein, impacting its stability and conformational sampling​.
 
 ## Q12
 
 **Points**: 3
 
-You are conducting a temperature-sensitive protein study. Evaluate the suitability of the Berendsen thermostat for accurately maintaining temperature.
+You are conducting a temperature-sensitive protein study.
+Evaluate the suitability of the Berendsen thermostat for accurately maintaining temperature.
 Compare it to the Nosé-Hoover thermostat, focusing on ensemble accuracy and how each method would affect the temperature distribution.
 
 ??? success "Solution"
 
-    The Berendsen thermostat adjusts the temperature by scaling particle velocities uniformly, quickly bringing the system to the target temperature. However, it does not produce a true canonical (NVT) ensemble because it lacks realistic temperature fluctuations, leading to an artificially narrow temperature distribution. This can be problematic in temperature-sensitive studies where accurate ensemble representation is critical.
+    The Berendsen thermostat adjusts the temperature by scaling particle velocities uniformly, quickly bringing the system to the target temperature.
+    However, it does not produce a true canonical (NVT) ensemble because it lacks realistic temperature fluctuations, leading to an artificially narrow temperature distribution.
+    This can be problematic in temperature-sensitive studies where accurate ensemble representation is critical.
 
-    In contrast, the Nosé-Hoover thermostat connects the system to a "fictitious heat bath," allowing natural fluctuations in temperature, thereby achieving a true NVT ensemble. This thermostat maintains a more realistic temperature distribution, which is essential for studies requiring precise temperature control, as it better replicates the natural variations a protein might experience in a real environment.
+    In contrast, the Nosé-Hoover thermostat connects the system to a "fictitious heat bath" by scaling particle momenta, allowing natural temperature fluctuations and thereby achieving a true NVT ensemble.
+    This thermostat maintains a more realistic temperature distribution, which is essential for studies requiring precise temperature control. It better replicates the natural variations a protein might experience in a real environment.
 
 ## Q13
 
@@ -161,7 +188,10 @@ Discuss what this might indicate about the protein’s function and how this fle
 
 ??? success "Solution"
 
-    High root mean square fluctuations (RMSF) in specific loop regions indicate that these areas are highly flexible, which may be functionally significant. Loop flexibility is often associated with roles in binding or catalysis, as flexible regions can adapt their conformation to interact with various ligands or facilitate access to active sites. This flexibility allows the protein to accommodate different binding partners, potentially enhancing specificity and affinity. However, high flexibility may also lead to transient conformational changes that impact stability, requiring careful consideration in ligand or biomolecule interactions to ensure proper binding orientation and function.
+    High root mean square fluctuations (RMSF) in specific loop regions indicate that these areas are highly flexible, which may be functionally significant.
+    Loop flexibility is often associated with roles in binding or catalysis, as flexible regions can adapt their conformation to interact with various ligands or facilitate access to active sites.
+    This flexibility allows the protein to accommodate different binding partners, potentially enhancing specificity and affinity.
+    However, high flexibility may also lead to transient conformational changes that impact stability, requiring careful consideration in ligand or biomolecule interactions to ensure proper binding orientation and function.
 
 ## Q14
 
@@ -171,7 +201,10 @@ Explain how the potential of mean force (PMF) is computed in molecular simulatio
 
 ??? success "Solution"
 
-    The potential of mean force (PMF) in molecular simulations is computed by mapping the free energy along a chosen reaction coordinate, such as the distance between atoms or a dihedral angle. This is often done using techniques like umbrella sampling, where simulations are performed at different points along the coordinate with applied biases, followed by removal of these biases to obtain the unbiased free energy profile. The resulting PMF curve reveals energy minima and barriers along the reaction pathway, indicating stable states and the energetic cost of transitioning between them. For proteins, PMF analysis helps identify energy barriers that must be overcome for conformational changes, providing insight into the feasibility and frequency of these transitions in biological contexts
+    The potential of mean force (PMF) in molecular simulations is computed by mapping the free energy along a chosen reaction coordinate, such as the distance between atoms or a dihedral angle.
+    This is often done using techniques like umbrella sampling, where simulations are performed at different points along the coordinate with applied biases, followed by removal of these biases to obtain the unbiased free energy profile.
+    The resulting PMF curve reveals energy minima and barriers along the reaction pathway, indicating stable states and the energetic cost of transitioning between them.
+    For proteins, PMF analysis helps identify energy barriers that must be overcome for conformational changes, providing insight into the feasibility and frequency of these transitions in biological contexts
 
 ## Q15
 
@@ -182,9 +215,12 @@ Discuss the potential consequences of using too large a time step on bond vibrat
 
 ??? success "Solution"
 
-    Choosing a time step of 2 femtoseconds (fs) instead of 0.5 fs can significantly impact simulation accuracy and stability. A larger time step, like 2 fs, allows faster computation but risks missing high-frequency motions, such as bond vibrations, leading to inaccuracies in simulating atomic interactions. If the time step is too large, bond vibrations may not be properly resolved, causing artifacts like unrealistic bond stretching, which can destabilize the system and lead to simulation failure.
+    Choosing a time step of 2 femtoseconds (fs) instead of 0.5 fs can significantly impact simulation accuracy and stability.
+    A larger time step, like 2 fs, allows faster computation but risks missing high-frequency motions, such as bond vibrations, leading to inaccuracies in simulating atomic interactions.
+    If the time step is too large, bond vibrations may not be properly resolved, causing artifacts like unrealistic bond stretching, which can destabilize the system and lead to simulation failure.
 
-    A smaller time step, such as 0.5 fs, would be preferable in scenarios requiring precise representation of rapid motions, like simulating systems with light atoms (e.g., hydrogen bonds in water) or high-energy interactions. This approach captures finer details and maintains stability, though at a higher computational cost
+    A smaller time step, such as 0.5 fs, would be preferable in scenarios requiring precise representation of rapid motions, like simulating systems with light atoms (e.g., hydrogen bonds in water) or high-energy interactions.
+    This approach captures finer details and maintains stability, though at a higher computational cost
 
 ## Q16
 
@@ -195,6 +231,9 @@ Explain how the number and length of simulations with different initial conditio
 
 ??? success "Solution"
 
-    Ensemble averages are crucial for obtaining reliable data about system properties in molecular simulations, as they represent the average behavior over many possible microstates. This approach accounts for the stochastic nature of atomic motion, providing accurate predictions of macroscopic properties like temperature, pressure, and free energy.
+    Ensemble averages are crucial for obtaining reliable data about system properties in molecular simulations, as they represent the average behavior over many possible microstates.
+    This approach accounts for the stochastic nature of atomic motion, providing accurate predictions of macroscopic properties like temperature, pressure, and free energy.
 
-    The accuracy of ensemble averages improves with the number and length of simulations, especially when each simulation starts with different initial conditions (e.g., randomized velocities). Multiple, longer simulations increase the sampling of microstates, reducing statistical noise and capturing rare events, which are essential for accurate property estimation. Inadequate sampling, either from too few or too short simulations, can lead to biased or incomplete results, underrepresenting certain conformations and limiting the reliability of calculated averages.
+    The accuracy of ensemble averages improves with the number and length of simulations, especially when each simulation starts with different initial conditions (e.g., randomized velocities).
+    Multiple, longer simulations increase the sampling of microstates, reducing statistical noise and capturing rare events, which are essential for accurate property estimation.
+    Inadequate sampling, either from too few or too short simulations, can lead to biased or incomplete results, underrepresenting certain conformations and limiting the reliability of calculated averages.
