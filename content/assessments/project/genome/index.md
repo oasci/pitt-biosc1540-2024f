@@ -259,18 +259,18 @@ After annotating your genome and identifying the dihydrofolate reductase gene, t
 This comparison will help you verify your annotation and identify any potential variations in your sequence.
 
 1.  Go to the UniProt website (<https://www.uniprot.org/>).
-2.  Search for "Dihydrofolate reductase Staphylococcus aureus".
-3.  Look for the entry with the accession number `P0A017`.
+2.  Find the dihydrofolate reductase protein (folA gene) entry for *Staphylococcus aureus* (Taxon ID `1280`).
 
 !!! note "Report"
 
     In your report, address the following questions:
 
-    1.  What is the length of your protein sequence?
+    1.  What is the UniProt ID?
+    2.  What is the length of your protein sequence?
         How does it compare to the UniProt reference (159 amino acids)?
-    2.  Calculate the percentage identity between your sequence and the UniProt reference.
+    3.  Calculate the percentage identity between your sequence and the UniProt reference.
         Are they identical, or are there differences?
-    3.  If there are differences, list their positions and the amino acid changes.
+    4.  If there are differences, list their positions and the amino acid changes.
         Are these changes conservative (similar amino acids) or non-conservative?
 
 ## Submission Guidelines
