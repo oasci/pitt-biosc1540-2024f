@@ -1,6 +1,6 @@
 <h1 align="center">
 <b>Lecture 20</b><br>
-Polars
+Arrays
 </h1>
 <p align="center">
 <b>Date:</b> Nov 21, 2024

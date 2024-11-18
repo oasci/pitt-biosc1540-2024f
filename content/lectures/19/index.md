@@ -1,6 +1,6 @@
 <h1 align="center">
 <b>Lecture 19</b><br>
-NumPy
+Basics
 </h1>
 <p align="center">
 <b>Date:</b> Nov 19, 2024
@@ -16,12 +16,10 @@ What you should be able to do after today's lecture:
 
 1.  TODO:
 
-## Readings
+## Materials
 
-Relevant content for today's lecture.
+-   [Getting familiar with Google Colab]()
 
-TODO:
-
-## Presentation
+## Resources
 
 TODO:

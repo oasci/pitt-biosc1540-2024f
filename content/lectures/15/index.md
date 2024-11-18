@@ -16,7 +16,7 @@ After today, you should better understand:
 1.  Molecular ensembles and their relevance.
 2.  Maintaining thermodynamic equilibrium.
 3.  Relaxation and production MD simulations.
-4.  RMSD and RMSF as conformational changes and flexibility metricss.
+4.  RMSD and RMSF as conformational changes and flexibility metrics.
 5.  Relationship between probability and energy in simulations.
 
 ## Readings
