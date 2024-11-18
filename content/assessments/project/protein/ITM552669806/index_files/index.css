@@ -1,0 +1,191 @@
+
+a:link{color:#0000FF}
+a:visited{color:#800080}
+a:hover{color:#0000FF}
+a:active{color:#0000FF}
+
+.div-relative{
+	position:relative;
+	width:503px;
+	height:503px
+}
+
+.div-model{
+	position:absolute;
+	width:500px;
+	height:500px
+}
+
+canvas{
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
+#small_window{
+	width: 50%;
+	height: 30%;
+	left: 25%;
+	top: 50%;
+	position: absolute;
+}
+#svg{
+	z-index: 300;
+	width: 100%;
+	height: 35%;
+}
+#rect1{
+	height: 14%;
+	left: 0.1%;
+	cursor: pointer;
+	position: absolute;
+	z-index: 2;
+}
+#rect2{
+
+	height: 14%;
+	cursor: pointer;
+	position: absolute;
+	z-index: 2;
+}
+#rect3{
+	height: 14%;
+	cursor: pointer;
+	position: absolute;
+	z-index: 2;
+}
+
+#rect4{
+	height: 14%;
+	cursor: pointer;
+	position: absolute;
+	z-index: 2;
+}
+.rect{
+	height: 14%;
+	cursor: pointer;
+	position: absolute;
+	z-index: 2;
+}
+#seqContent {
+	top: 0;
+	left: 0;
+	height: 40%;
+	width: 100%;
+	position: relative;
+	float: left;
+	border-width: 1px;
+	border-style: solid;
+}
+
+#small_gif{
+	width: 100%;
+	height: 65%;
+	position: absolute;
+	top: 15%;
+}
+
+#one_gif{
+	display: none;
+	width: 100%;
+	height: 55%;
+	left:0.1%;
+	top: 0;
+	overflow: hidden;
+	position: absolute;
+}
+
+#two_gif{
+	display: none;
+	width: 100%;
+	height: 55%;
+	top: 0;
+	position: absolute;
+}
+
+
+#three_gif{
+	display: none;
+	width: 100%;
+	height: 55%;
+	top: 0;
+	position: absolute;
+}
+
+#four_gif{
+	display: none;
+	width: 100%;
+	height: 55%;
+
+	top: 0;
+	position: absolute;
+}
+#five_gif{
+	display: none;
+	width: 100%;
+	height: 55%;
+	top: 0;
+	position: absolute;
+}
+
+.gif{
+	display:table-cell !important;
+	text-align: center;
+}
+
+#targetLegend {
+	left:0%;
+	position: relative;
+	top: 0%;
+	z-index: 1;
+	max-width: 900px;
+}
+#targetLegend > ul {
+	list-style-type: none;
+	padding: 0;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+#targetLegend > ul > li {
+	display: inline-block;
+	height: 20px;
+	vertical-align: middle;
+}
+#targetLegend > ul > li div{
+	display: inline-block;
+}
+
+#small_gif div{
+	min-width: 200px;
+	position: absolute;
+	background-color: rgb(239,239,239);
+	border-width: 3px;
+	border-color: rgb(7,73,135);
+	border-style: solid;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	height:300px;
+	text-align: justify;
+}
+
+#small_gif div h5{
+	width: 100%;
+	height: 10%;
+	margin:0;
+	background-color: rgb(7,73,135);
+}
+#small_gif div p{
+	word-wrap: break-word;
+	word-break: break-all;
+	overflow: hidden;
+}
+
+.axis path, .axis line {
+	fill: none;
+	stroke: black;
+	shape-rendering: auto;
+}
+path[Attributes Style] {
+	d: path("M 0 6 V 0 H 800 V 6");
+}

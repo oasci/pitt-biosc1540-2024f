@@ -23,57 +23,19 @@ By completing this project, you will:
 -   Learn to critically evaluate and compare protein structure predictions.
 -   Understand how to analyze protein structures and their functional features.
 -   Develop skills in structural visualization and analysis.
--   Understand the relationship between protein structure and function.
--   Learn to make informed decisions about computational methodology.
 
 ## Instructions
 
 Using the UniProt DHFR sequence from your [genome assembly project](../genome/), we will perform several predictions.
-Instead of flooding these free servers with the same jobs, so I ran the jobs for everyone.
+Instead of flooding these free servers with the same jobs, we will all use the same outputs.
 
-### I-TASSER-MTD
+-   **[I-TASSER](https://zhanggroup.org/I-TASSER/):** [S799334](./S799334/)
+-   **[D-I-TASSER](https://zhanggroup.org/D-I-TASSER/):** [DIT6377](./DIT6377/)
+-   **[I-TASSER-MTD](https://zhanggroup.org/I-TASSER-MTD/):** [ITM552669806](./ITM552669806/)
+-   **[C-QUARK](https://zhanggroup.org/C-QUARK/):** [QB4066](https://seq2fun.dcmb.med.umich.edu/C-QUARK/output/QB4066/)
+-   **[SWISS-MODEL](https://swissmodel.expasy.org/):** [a7BMLv](https://swissmodel.expasy.org/interactive/a7BMLv/)
 
-Job ID: [ITM552669806](https://zhanggroup.org/I-TASSER-MTD/output/ITM552669806/)
-
-Go to the I-TASSER-MTD[^zhou2022itassermtd] [web server](https://zhanggroup.org/D-I-TASSER/) and read the [about](https://zhanggroup.org/I-TASSER-MTD/about.html) section.
-
-!!! note "Report"
-
-    In your report, answer the following questions:
-
-    1.  TODO:
-
-### D-I-TASSER
-
-Job ID: [DIT6377](https://zhanggroup.org/D-I-TASSER/output/DIT6377/)
-
-!!! note "Report"
-
-    In your report, answer the following questions:
-
-    1.  TODO:
-
-### C-QUARK
-
-Job ID: [QB4066](https://seq2fun.dcmb.med.umich.edu/C-QUARK/output/QB4066/)
-
-!!! note "Report"
-
-    In your report, answer the following questions:
-
-    1.  TODO:
-
-### SWISS-MODEL
-
-Job ID: [a7BMLv](https://swissmodel.expasy.org/interactive/a7BMLv/)
-
-SWISS-MODEL (https://swissmodel.expasy.org/)
-
-!!! note "Report"
-
-### AlphaFold3
-
-AlphaFold3 (https://alphafoldserver.com/)
+You will, however, need to run your own [AlphaFold3](https://alphafoldserver.com/) prediction.
 
 !!! note "Report"
 
@@ -83,7 +45,7 @@ AlphaFold3 (https://alphafoldserver.com/)
 
 ### Experimental Structure Analysis
 
-Obtain the experimental structure of *S. aureus* DHFR from the PDB:
+Identify the optimal experimental structure of *S. aureus* DHFR from the PDB.
 
 TODO:
 

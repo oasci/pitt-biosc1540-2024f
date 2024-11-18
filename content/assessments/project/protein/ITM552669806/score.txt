@@ -1,0 +1,6 @@
+Cscore,Pscore,Estimated_TM-score,Estimated_RMSD
+1.69, 1.00, 0.95+-0.05, 1.7+-1.5
+1.69, 1.00, 0.95+-0.05, 1.7+-1.5
+1.69, 1.00, 0.95+-0.05, 1.7+-1.5
+is, an, estimated, TM-score
+is, calculated, based, on
