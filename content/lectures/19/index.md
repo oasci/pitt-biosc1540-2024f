@@ -10,11 +10,21 @@ Python basics
 
     This page is a work in progress and is subject to change at any moment.
 
-## Learning objectives
+### Learning Objectives
 
-What you should be able to do after today's lecture:
+After today, you should have a better understanding of:
 
-1.  TODO:
+1.  Setting up and navigating a Colab notebook to write and execute Python code.
+2.  Writing simple print statements to display output.
+3.  Adding inline and block comments to make code more understandable.
+4.  Using Python to perform basic arithmetic calculations like addition, subtraction, multiplication, division, and exponentiation.
+5.  Defining and assigning variables.
+6.  Recognizing and using basic Python data types such as integers, floats, strings, and booleans.
+7.  Implementing decision-making logic using `if`, `elif`, and `else` statements.
+8.  Using lists, tuples, and dictionaries to store and manipulate grouped data.
+9.  Writing reusable code by defining functions with parameters and return values.
+10.  Iterating over sequences using `for` loops.
+11.  Writing `while` loops to repeat actions based on conditions.
 
 ## Materials
 
