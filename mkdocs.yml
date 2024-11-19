@@ -105,13 +105,13 @@ extra_css:
   - css/3dmol.css
   - css/progress.css
   - css/launchy.css
+  - css/jupyter.css
+  - https://cdn.jsdelivr.net/npm/molstar@latest/build/viewer/molstar.css
 
 extra_javascript:
-  - js/mathjax-config.js
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - js/mathjax.js
   - js/d3.js
   - css/mol.css
-  - https://cdn.jsdelivr.net/npm/molstar@latest/build/viewer/molstar.css
 
 markdown_extensions:
   - abbr
