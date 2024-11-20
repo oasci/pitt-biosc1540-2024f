@@ -44,31 +44,21 @@ Instead of flooding these free servers with the same jobs, we will all use the s
 
 ### Experimental Structure Analysis
 
-Identify the optimal experimental structure of *S. aureus* DHFR from the PDB.
+The following experimental structures were selected for our analysis.
+All are wild-type *S. aureus* DHFR with co-crystallized NADP(H).
+
+| PDB ID | Additional ligand |
+| ------ | -------------- |
+| [3FRD](https://www.rcsb.org/structure/3FRD) | [Folate](https://pubchem.ncbi.nlm.nih.gov/compound/135398658) |
+| [6PRA](https://www.rcsb.org/structure/6PRA) | None |
+| [6PR6](https://www.rcsb.org/structure/6PR6) | [OWS](https://pubchem.ncbi.nlm.nih.gov/compound/146170541) |
+| [6PR7](https://www.rcsb.org/structure/6PR7) | [OWP](https://pubchem.ncbi.nlm.nih.gov/compound/146170542) |
+| [6PR8](https://www.rcsb.org/structure/6PR8) | [OWJ](https://pubchem.ncbi.nlm.nih.gov/compound/146672960) |
+| [6PR9](https://www.rcsb.org/structure/6PR9) | [OWV](https://pubchem.ncbi.nlm.nih.gov/compound/146672961) |
+| [6PRB](https://www.rcsb.org/structure/6PRB) | [OWM](https://pubchem.ncbi.nlm.nih.gov/compound/146170546) |
+| [6PRD](https://www.rcsb.org/structure/6PRD) | [OWG](https://pubchem.ncbi.nlm.nih.gov/compound/146170547) |
 
 TODO:
-
-<!--
-There are no wild types without some inhibitors.
-
-# Paper: Increased hydrophobic interactions of iclaprim with Staphylococcus aureus dihydrofolate reductase are responsible for the increase in affinity and antibacterial activity
-
-3FRA: S. aureus F98Y DHFR complexed with iclaprim
-3FRB: S. aureus F98Y DHFR complexed with TMP
-3FRD: S. aureus DHFR complexed with NADPH and folate
-3FRE: S. aureus DHFR complexed with NADPH and TMP
-3FRF: S. aureus DHFR complexed with NADPH and iclaprim
-
-# Paper: Inhibitor design to target a unique feature in the folate pocket of Staphylococcus aureus dihydrofolate reductase.
-
-6PRA: S. aureus dihydrofolate reductase with NADP(H) and empty folate pocket
-6PR6: S. aureus dihydrofolate reductase co-crystallized with para-tolyl-dihydropthalazine inhibitor and NADP(H)
-6PR7: S. aureus dihydrofolate reductase co-crystallized with benzyl-dihydropthalazine inhibitor and NADP(H)
-6PR8: S. aureus dihydrofolate reductase co-crystallized with 3,5-dimethylphenyl-dihydropthalazine inhibitor and NADP(H)
-6PR9: S. aureus dihydrofolate reductase co-crystallized with 1-ethylpropyl-dihydropthalazine inhibitor and NADP(H)
-6PRB: S. aureus dihydrofolate reductase co-crystallized with cyclopropyl-dimethyoxydihydropthalazine inhibitor and NADP(H)
-6PRD: S. aureus dihydrofolate reductase co-crystallized with para-methoxyphenyl-dimethyoxydihydropthalazine inhibitor and NADP(H)
--->
 
 ### Structural Analysis
 
