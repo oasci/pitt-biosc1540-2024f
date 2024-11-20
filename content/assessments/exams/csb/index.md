@@ -11,6 +11,18 @@
     </object>
 </p>
 
+[**2024 Fall CSB Exam**](./2024f-exam-csb.pdf) ([Key](./2024f-exam-csb-key.pdf))
+
+!!! quote "Grade statistics"
+    <figure markdown>
+    ![](./grade-distribution.png)
+    </figure>
+
+!!! quote "Question statistics"
+    <figure markdown>
+    ![](./question-distribution.png)
+    </figure>
+
 ## Review guide
 
 This guide covers the major themes of the exam, providing a broad framework for your review.
