@@ -6,11 +6,7 @@ Python basics
 <b>Date:</b> Nov 19, 2024
 </p>
 
-!!! danger "DRAFT"
-
-    This page is a work in progress and is subject to change at any moment.
-
-### Learning Objectives
+## Learning Objectives
 
 After today, you should have a better understanding of:
 
