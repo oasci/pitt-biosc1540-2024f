@@ -25,7 +25,7 @@ After today, you should have a better understanding of:
 ## Materials
 
 -   **[Google Colab](https://python.crumblearn.org/getting-started/colab/)**
--   **[Worksheet](l19-worksheet.ipynb)**
+-   **[L19 Worksheet](l19-worksheet.ipynb)**
 
 ## Additional resources
 

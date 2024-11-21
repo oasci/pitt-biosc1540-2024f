@@ -14,14 +14,13 @@ Arrays
 
 What you should be able to do after today's lecture:
 
-1.  TODO:
+-   Learn how to load, slice, and manipulate multi-dimensional data arrays.
+-   Calculate descriptive statistics such as mean, median, and standard deviation.
+-   Generate scatter plots to visualize relationships between variables.
+-   Use heat maps to explore gene expression patterns across patients.
+-   Compare gene expression levels between survivors and non-survivors.
+-   Identify potential genes of interest using a volcano plot.
 
-## Readings
+## Materials
 
-Relevant content for today's lecture.
-
-TODO:
-
-## Presentation
-
-TODO:
+-   **[L20 Worksheet](l20-worksheet.ipynb)**
