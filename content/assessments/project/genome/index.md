@@ -138,7 +138,7 @@ The report contains information about the trimming and filtering process.
 
 !!! note "Report"
 
-    In your report, address the following questions:
+    In your report, address the following questions with either your fastp or FastQC report:
 
     1.  How many reads were removed during the filtering process? What percentage of reads passed the filters?
     2.  Did fastp detect and trim any adapters? If so, which ones?
@@ -278,7 +278,6 @@ This comparison will help you verify your annotation and identify any potential 
 -   Submit your report as a single PDF file named `LastName_FirstName_GenomeAssemblyReport.pdf` to [Gradescope](https://www.gradescope.com/).
 -   Responses to questions should be numbered under a heading and be of reasonable length.
 -   Ensure all figures and tables in your report are clearly labeled and referenced in the text.
--   Use proper scientific writing style, including citations where appropriate.
 
 ## Rubric
 
