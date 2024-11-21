@@ -6,10 +6,6 @@ Arrays
 <b>Date:</b> Nov 21, 2024
 </p>
 
-!!! danger "DRAFT"
-
-    This page is a work in progress and is subject to change at any moment.
-
 ## Learning objectives
 
 What you should be able to do after today's lecture:
@@ -24,3 +20,7 @@ What you should be able to do after today's lecture:
 ## Materials
 
 -   **[L20 Worksheet](l20-worksheet.ipynb)**
+
+## Additional resources
+
+-   Here are some additional resources for learning Python: [python.crumblearn.org/data/numpy/](https://python.crumblearn.org/data/numpy/)
