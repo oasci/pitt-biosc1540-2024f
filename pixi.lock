@@ -4009,6 +4009,27 @@ packages:
   size: 15076
   timestamp: 1724961317361
 - kind: conda
+  name: mkdocs-table-reader-plugin
+  version: 3.1.0
+  build: pyhd8ed1ab_0
+  subdir: noarch
+  noarch: python
+  url: https://conda.anaconda.org/conda-forge/noarch/mkdocs-table-reader-plugin-3.1.0-pyhd8ed1ab_0.conda
+  sha256: 2d81889f195ed4ac50128a7485e7dfa65e692e71721913617796141e02ff02b4
+  md5: 027d48d01eb97a1175c66d6ac8f24ff8
+  depends:
+  - mkdocs >=1.0
+  - pandas >=1.1
+  - python >=3.6
+  - pyyaml >=5.4.1
+  - tabulate >=0.8.7
+  license: MIT
+  license_family: MIT
+  purls:
+  - pkg:pypi/mkdocs-table-reader-plugin?source=hash-mapping
+  size: 15076
+  timestamp: 1724961317361
+- kind: conda
   name: mkdocstrings
   version: 0.26.2
   build: pyhd8ed1ab_0

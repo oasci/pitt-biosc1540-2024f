@@ -56,6 +56,7 @@ scikit-learn = ">=1.5.2,<2"
 openpyxl = ">=3.1.5,<4"
 beautifulsoup4 = ">=4.12.3,<5"
 pandas = ">=2.2.3,<3"
+scipy = ">=1.14.1,<2"
 
 [tool.bumpversion]
 current_version = "2024.10.26"
