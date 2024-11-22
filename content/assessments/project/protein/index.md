@@ -26,6 +26,8 @@ By completing this project, you will:
 
 ## Instructions
 
+### Structure predictions
+
 Using the UniProt DHFR sequence from your [genome assembly project](../genome/), we will perform several predictions.
 Instead of flooding these free servers with the same jobs, we will all use the same outputs.
 
@@ -36,30 +38,31 @@ Instead of flooding these free servers with the same jobs, we will all use the s
 -   **[SWISS-MODEL](https://swissmodel.expasy.org/)** (Job ID [a7BMLv](./a7BMLv/BIOSC_1540__Project/models.html)): A homology modeling platform emphasizing user accessibility and high-quality models through evolutionary template matching; while not as suitable for low-homology cases as I-TASSER or AlphaFold3, it excels in providing intuitive results for well-conserved targets
 -   [**AlphaFold3**](https://alphafoldserver.com/) (You must run your own job): A state-of-the-art model leveraging a diffusion-based architecture to predict highly accurate protein structures and biomolecular interactions across diverse targets, outperforming specialized tools in protein-ligand and protein-nucleic acid interactions​.
 
-!!! note "To submit"
+!!! note "Submission"
 
     In your submission, answer the following questions:
 
     1.  Download the PDB files for SWISS-MODELS 01 (6E4E), 05 (3FYW), 03 (6PRP), and 06 (6PR8).
         Using a "licorice" representation, identify if there are any apparent protein conformational differences near the NADP(H) and folate binding pockets.
         Below is an example image of Lys159 and Glu130 in multiple conformations after aligning all structure by their alpha carbons.
+        Provide screenshots to support your claims.
 
         !!! quote "Example"
             <figure markdown>
             ![](./a7BMLv/high-sim-example.png)
             </figure>
-
-        Provide screenshots to support your claims.
     2.  Download the PDB file for SWISS-MODEL 02 (2W3M) and compare it against model 01 (6E4E).
         What is the alpha-carbon RMSD after alignment?
         Out of these two structures, which would you use for docking?
         Justify your choice.
-    3.  Download the [I-TASSER](./S799334/), [D-I-TASSER](./DIT6377/), and [I-TASSER-MTD](./ITM552669806/) PDB structures.
+        Provide screenshots to support your claims.
+    3.  Download the [I-TASSER](./S799334/), [D-I-TASSER](./DIT6377/), [I-TASSER-MTD](./ITM552669806/), and your AlphaFold3 PDB structures.
         Compare these structure to each other and to SWISS-MODEL 01.
-        Which threading prediction has the highest similarity (i.e., low RMSD) to the SWISS-MODEL?
+        Which prediction has the highest similarity (i.e., low RMSD) to the SWISS-MODEL?
         Which method would you generally find more reliable?
+        Provide screenshots to support your claims.
 
-### Experimental Structure Analysis
+### Experimental structures
 
 The following experimental structures were selected for our analysis.
 All are wild-type *S. aureus* DHFR with co-crystallized NADP(H).
@@ -74,6 +77,16 @@ All are wild-type *S. aureus* DHFR with co-crystallized NADP(H).
 | [6PR9](https://www.rcsb.org/structure/6PR9) | [OWV](https://pubchem.ncbi.nlm.nih.gov/compound/146672961) |
 | [6PRB](https://www.rcsb.org/structure/6PRB) | [OWM](https://pubchem.ncbi.nlm.nih.gov/compound/146170546) |
 | [6PRD](https://www.rcsb.org/structure/6PRD) | [OWG](https://pubchem.ncbi.nlm.nih.gov/compound/146170547) |
+
+!!! note "Submission"
+
+    In your submission, answer the following questions:
+
+    4.  Download [3FRD](https://www.rcsb.org/structure/3FRD) and [6PRA](https://www.rcsb.org/structure/6PRA) PDB files.
+        Suppose you will be docking in the folate pocket while keeping NADP(H) and removing all water molecules.
+        Are there any structural differences in the protein that could impact your docking results?
+        If yes, specify which residues, explain how this would impact docking, and provide screenshots to support your claims.
+        If no, provide evidence in the form of screenshots.
 
 TODO:
 

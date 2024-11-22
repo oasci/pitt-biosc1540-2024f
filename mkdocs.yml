@@ -111,7 +111,6 @@ extra_css:
 extra_javascript:
   - js/mathjax.js
   - js/d3.js
-  - css/mol.css
 
 markdown_extensions:
   - abbr
