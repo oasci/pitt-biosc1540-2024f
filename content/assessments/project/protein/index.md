@@ -26,6 +26,8 @@ By completing this project, you will:
 
 ## Instructions
 
+Use [PyMOL](https://www.pymol.org/) or [ChimeraX](https://www.cgl.ucsf.edu/chimerax/) for structural analysis.
+
 ### Structure predictions
 
 Using the UniProt DHFR sequence from your [genome assembly project](../genome/), we will perform several predictions.
@@ -86,7 +88,10 @@ All are wild-type *S. aureus* DHFR with co-crystallized NADP(H).
         Suppose you will be docking in the folate pocket while keeping NADP(H) and removing all water molecules.
         Are there any structural differences in the protein that could impact your docking results?
         If yes, specify which residues, explain how this would impact docking, and provide screenshots to support your claims.
-        If no, provide evidence in the form of screenshots.
+        If no, provide evidence in the form of screenshots and a possible explanation.
+    5.  Download all PDB structures in the above table that start with `6PR`.
+        Each of these structures, excluding `6PRA`, contain co-crystallized ligands that are potential *S. aureus* DHFR inhibitors.
+
 
 TODO:
 
