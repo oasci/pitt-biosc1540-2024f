@@ -20,6 +20,7 @@ By completing this project, you will:
 
 You will be assigned one of 114 whole-genome sequencing runs from the BioProject [PRJNA741582](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA741582).
 Each run contains Illumina HiSeq 2000 paired-end reads of 250 nucleotides in length.
+Go [here](https://canvas.pitt.edu/courses/267135/files/18413175) to find your SRA accession number.
 
 ## Instructions
 
