@@ -16,6 +16,7 @@ Nc1nc(N)c(cn1)Cc2cc(c(c(c2)OC)OC)/C=C/C(=O)N3[C@@H](c5c(C=N3)cccc5)Cc4ccc(C)cc4
 Nc1nc(N)c(cn1)Cc2cc(c(c(c2)OC)OC)/C=C/C(=O)N3[C@H](c5c(C=N3)cccc5)Cc4ccc(OC)cc4
 Nc1nc(N)c(cn1)Cc2cc(c(c(c2)OC)OC)/C=C/C(=O)N3[C@@H](c5c(C=N3)cccc5)Cc4ccc(cc4)OC(F)(F)F
 Nc1nc(N)c(cn1)Cc2cc(c(c(c2)OC)OC)/C=C/C(=O)N3[C@@H](CC)c4c(C=N3)cc(OC)c(c4)OC
+Nc1nc(N)c(cn1)Cc2cc(c(c(c2)OC)OC)/C=C/C(=O)N3[C@H](CCC)c4c(C=N3)cc(OC)c(c4)OC
 Nc1nc(N)c(cn1)Cc2cc(c(c(c2)OC)OC)/C=C/C(=O)N3[C@H](C4CC4)c5c(C=N3)cc(OC)c(c5)OC
 Nc1nc(N)c(cn1)Cc2cc(c(c(c2)OC)OC)/C=C/C(=O)N3[C@H](C=C)c4c(C=N3)cc(OC)c(c4)OC
 Nc1nc(N)c(cn1)Cc2cc(c(c(c2)OC)OC)/C=C/C(=O)N3[C@H](C=C(C)C)c4c(C=N3)cc(OC)c(c4)OC
