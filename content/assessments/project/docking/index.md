@@ -86,6 +86,7 @@ Prepare each structure for docking by remove all non-polymer atoms (e.g., water 
     | 11p | `Nc1nc(N)c(cn1)Cc2cc(c(c(c2)OC)OC)/C=C/C(=O)N3[C@H](c5c(C=N3)cccc5)Cc4ccc(OC)cc4` |
     | 11q | `Nc1nc(N)c(cn1)Cc2cc(c(c(c2)OC)OC)/C=C/C(=O)N3[C@@H](c5c(C=N3)cccc5)Cc4ccc(cc4)OC(F)(F)F` |
     | 12a | `Nc1nc(N)c(cn1)Cc2cc(c(c(c2)OC)OC)/C=C/C(=O)N3[C@@H](CC)c4c(C=N3)cc(OC)c(c4)OC` |
+    | 12b | `Nc1nc(N)c(cn1)Cc2cc(c(c(c2)OC)OC)/C=C/C(=O)N3[C@H](CCC)c4c(C=N3)cc(OC)c(c4)OC` |
     | 12c | `Nc1nc(N)c(cn1)Cc2cc(c(c(c2)OC)OC)/C=C/C(=O)N3[C@H](C4CC4)c5c(C=N3)cc(OC)c(c5)OC` |
     | 12d | `Nc1nc(N)c(cn1)Cc2cc(c(c(c2)OC)OC)/C=C/C(=O)N3[C@H](C=C)c4c(C=N3)cc(OC)c(c4)OC` |
     | 12e | `Nc1nc(N)c(cn1)Cc2cc(c(c(c2)OC)OC)/C=C/C(=O)N3[C@H](C=C(C)C)c4c(C=N3)cc(OC)c(c4)OC` |
