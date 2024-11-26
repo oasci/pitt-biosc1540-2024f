@@ -321,6 +321,5 @@ Your answers to all the aforementioned questions will help you garner points acc
 
 | Criterion | Points | Description |
 |-----------|---------|-------------|
-| Organization | 4 | - Clear structure and flow<br>- Proper section labeling<br>- Appropriate use of figures and tables |
-| Scientific Writing | 4 | - Clear, concise scientific writing<br>- Proper terminology<br>- Appropriate citations |
+| Scientific Writing | 6 | - Clear, concise scientific writing |
 | Format Compliance | 2 | - Follows submission guidelines<br>- Proper file naming<br>- Complete PDF submission |
