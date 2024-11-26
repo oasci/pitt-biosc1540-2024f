@@ -3,30 +3,76 @@
 Docking
 </h1>
 
-!!! danger "DRAFT"
-    This page is a work in progress and is subject to change at any moment.
+In the ongoing battle against antibiotic-resistant bacteria, understanding the molecular interactions between drugs and their targets is crucial.
+*Staphylococcus aureus* dihydrofolate reductase (DHFR) is a well-established target for several antibiotics due to its essential role in bacterial folate synthesis.
+This project focuses on protein-ligand docking studies of *S. aureus* DHFR using [MolModa](https://durrantlab.pitt.edu/molmoda/#), a powerful tool for virtual screening and molecular modeling.
 
-| PDB ID | Additional ligand |
-| ------ | ----------------- |
-| [3FRD](https://www.rcsb.org/structure/3FRD) | [Folate]( https://www.ebi.ac.uk/chembl/explore/compound/135398658) |
-| [6PRA](https://www.rcsb.org/structure/6PRA) | None |
-| [6PRB](https://www.rcsb.org/structure/6PRB) | [OWM]( https://www.ebi.ac.uk/chembl/explore/compound/146170546) |
+You will perform docking simulations to predict how various ligands bind to DHFR within different protein environments.
+By comparing these predictions with experimental data, you will assess the reliability of computational docking as a method for identifying potential antibiotic candidates.
+Additionally, you will explore the impact of cofactors like NADPH on ligand binding, providing insights into the complexities of protein-ligand interactions in a cellular context.
+
+## Learning Objectives
+
+By completing this project, you will:
+
+1.  Comprehend the principles and significance of molecular docking in drug discovery.
+2.  Navigate and utilize MolModa for preparing proteins and ligands for docking.
+3.  Configure and execute docking simulations with appropriate parameters.
+4.  Compare computational docking scores with experimental binding affinities (IC50, Ki, MIC).
+5.  Assess the impact of cofactors, such as NADPH, on ligand binding and docking outcomes.
+6.  Evaluate the correlation between docking predictions and experimental data.
+7.  Generate and interpret visual representations of ligand poses and binding interactions.
+8.  Analyze how decoys are scored and the implications for screening accuracy.
 
 ## Instructions
 
-We will be using [MolModa][molmoda] to perform protein-ligand docking of *S. aureus* DHFR.
+We will be using [MolModa][molmoda] to perform protein-ligand docking of *S. aureus* DHFR in the following proteins.
+
+| PDB ID | Additional ligand |
+| ------ | ----------------- |
+| [3FRD](https://www.rcsb.org/structure/3FRD) | [Folate](https://www.ebi.ac.uk/chembl/explore/compound/135398658) |
+| [6PRA](https://www.rcsb.org/structure/6PRA) | None |
+| [6PR6](https://www.rcsb.org/structure/6PR6) | [OWS](https://pubchem.ncbi.nlm.nih.gov/compound/146170541) |
+
+[MolModa][molmoda], unfortunately, cannot dock in the presence of cofactors (e.g. NADPH), which could impact results of our virtual screening.
+Thus, the instructor will provide docking results with the NADPH cofactor while you use [MolModa][molmoda] to examine the impact of its removal.
 
 ### Protein preparation
 
-Download the following PDB structures and load them into [MolModa][molmoda] using `File` -> `PDB ID`.
+Here are the general steps in [MolModa][molmoda] to prepare the protein for docking.
 
--   `3FRD`
--   `6PRA`
--   `6PRB`
+1.  Download [this specific `3FRD` PDB structure](./proteins/3frd-xray.pdb) and import it into [MolModa][molmoda] using `File` -> `Open`.
+2.  Remove all non-polymer atoms (e.g., water molecules and all co-crystallized ligands) from the protein structure.
+3.  Protonate the protein at a pH of 7.4.
+4.  Add a region with a center of (-9, 34, -4) and dimensions of (26, 25, 27).
 
-Prepare each structure for docking by remove all non-polymer atoms (e.g., water molecules and co-crystallized ligands) except for NADP(H).
+### Ligand preparation
 
-### Docking analysis
+Here are the general steps in [MolModa][molmoda] to prepare the ligands for docking.
+
+1.  Download the [active molecules' SMILES](./active.smiles) and load them into [MolModa][molmoda].
+2.  Protonate all compounds at a pH of 7.4 while regenerating coordinates with the "recommended" 3D coordinates generation option.
+
+### Docking
+
+Dock the prepared compounds into the `3FRD` protein using an exhaustiveness of 24.
+
+!!! note "Submission"
+
+    In your submission, answer the following questions:
+
+    1.  Download and extract [these docking results](./results/3frd-results.zip) that were performed in the presence of NADPH.
+        In your favorite viewer, load the `3frd.pdb` structure and all active `.pdbqt` files in the `poses/` directory.
+        These `.pdbqt` files contain the top 9 poses of the identified binding modes.
+        To see their scores, look at the respective log file in the `logs/` directory.
+        Choose any three active compounds and compare these poses to your results&mdash;you can download your ligand poses from [MolModa][molmoda] by clicking `File` -> `Save` and unchecking "Save project in .molmoda format".
+        Be sure to look at more than just the top pose from the NADPH results.
+        Use screenshots to justify your observations.
+
+### Analysis
+
+As mentioned in most CSB lectures, the purpose of docking is to be able to identify potentially active compounds out of the massively large chemical space.
+Below is a table from [Muddala et al.](https://doi.org/10.1016/j.ejmech.2020.112412) that elucidates the binding affinity and antibacterial properties of novel ligands to *S. aureus* DHFR.
 
 | Label | Inhibitor | Average IC50 ± SEM (nM) | Average Ki ± SEM (nM) | MIC (µg/mL) |
 |-------| ----------|-------------------------|-----------------------|-------------|
@@ -64,43 +110,32 @@ Prepare each structure for docking by remove all non-polymer atoms (e.g., water 
 | 13e | N/A | 7.4 ± 4.2 | 1.5 ± 0.8 | 0.5 |
 | 13f | N/A | 6.1 ± 2.7 | 1.2 ± 0.5 | 0.5 |
 
-??? quote "SMILES"
+Your instructor has docked all of these active ligands (in addition to the canonical reactant, DFH) and 100 randomly selected decoys from FDA approved drugs into `3FRD`, `6PRA`, and `6PR6`.
+You can download the results here: [3FRD-results.zip](./results/3frd-results.zip), [6PRA-results.zip](./results/6pra-results.zip), [6PR6-results.zip](./results/6pr6-results.zip).
 
-    | Label | SMILES |
-    | ----- | ------ |
-    | 11a | `Nc1nc(N)c(cn1)Cc2cc(c(c(c2)OC)OC)/C=C/C(=O)N3[C@H](CCC)c4c(C=N3)cccc4` |
-    | 11b | `Nc1nc(N)c(cn1)Cc2cc(c(c(c2)OC)OC)/C=C/C(=O)N3[C@H](C(C)C)c4c(C=N3)cccc4` |
-    | 11c | `Nc1nc(N)c(cn1)Cc2cc(c(c(c2)OC)OC)/C=C/C(=O)N3[C@H](CCC(F)(F)F)c4c(C=N3)cccc4` |
-    | 11d | `Nc1nc(N)c(cn1)Cc2cc(c(c(c2)OC)OC)/C=C/C(=O)N3[C@H](CC(C)C)c4c(C=N3)cccc4` |
-    | 11e | `Nc1nc(N)c(cn1)Cc2cc(c(c(c2)OC)OC)/C=C/C(=O)N3/C(=C/C(C)C)c4c(C=N3)cccc4` |
-    | 11f | `Nc1nc(N)c(cn1)Cc2cc(c(c(c2)OC)OC)/C=C/C(=O)N3[C@H](C(CC)CC)c4c(C=N3)cccc4` |
-    | 11g | `Nc1nc(N)c(cn1)Cc2cc(c(c(c2)OC)OC)/C=C/C(=O)N3[C@H](C4CCCCC4)c5c(C=N3)cccc5` |
-    | 11h | `Nc1nc(N)c(cn1)Cc2cc(c(c(c2)OC)OC)/C=C/C(=O)N3[C@H](c4ccccc4)c5c(C=N3)cccc5` |
-    | 11i | `Nc1nc(N)c(cn1)Cc2cc(c(c(c2)OC)OC)/C=C/C(=O)N3[C@H](c4c(cccc4)C)c5c(C=N3)cccc5` |
-    | 11j | `Nc1nc(N)c(cn1)Cc2cc(c(c(c2)OC)OC)/C=C/C(=O)N3[C@H](c4ccc(cc4)C)c5c(C=N3)cccc5` |
-    | 11k | `Nc1nc(N)c(cn1)Cc2cc(c(c(c2)OC)OC)/C=C/C(=O)N3[C@@H](c4c(C=N3)cccc4)c5cc(C)cc(c5)C` |
-    | 11l | `Nc1nc(N)c(cn1)Cc2cc(c(c(c2)OC)OC)/C=C/C(=O)N3[C@H](c4cc(ccc4)F)c5c(C=N3)cccc5` |
-    | 11m | `Nc1nc(N)c(cn1)Cc2cc(c(c(c2)OC)OC)/C=C/C(=O)N3[C@H](c4ccc(cc4)F)c5c(C=N3)cccc5` |
-    | 11n | `Nc1nc(N)c(cn1)Cc2cc(c(c(c2)OC)OC)/C=C/C(=O)N3[C@@H](c5c(C=N3)cccc5)Cc4ccccc4` |
-    | 11o | `Nc1nc(N)c(cn1)Cc2cc(c(c(c2)OC)OC)/C=C/C(=O)N3[C@@H](c5c(C=N3)cccc5)Cc4ccc(C)cc4` |
-    | 11p | `Nc1nc(N)c(cn1)Cc2cc(c(c(c2)OC)OC)/C=C/C(=O)N3[C@H](c5c(C=N3)cccc5)Cc4ccc(OC)cc4` |
-    | 11q | `Nc1nc(N)c(cn1)Cc2cc(c(c(c2)OC)OC)/C=C/C(=O)N3[C@@H](c5c(C=N3)cccc5)Cc4ccc(cc4)OC(F)(F)F` |
-    | 12a | `Nc1nc(N)c(cn1)Cc2cc(c(c(c2)OC)OC)/C=C/C(=O)N3[C@@H](CC)c4c(C=N3)cc(OC)c(c4)OC` |
-    | 12b | `Nc1nc(N)c(cn1)Cc2cc(c(c(c2)OC)OC)/C=C/C(=O)N3[C@H](CCC)c4c(C=N3)cc(OC)c(c4)OC` |
-    | 12c | `Nc1nc(N)c(cn1)Cc2cc(c(c(c2)OC)OC)/C=C/C(=O)N3[C@H](C4CC4)c5c(C=N3)cc(OC)c(c5)OC` |
-    | 12d | `Nc1nc(N)c(cn1)Cc2cc(c(c(c2)OC)OC)/C=C/C(=O)N3[C@H](C=C)c4c(C=N3)cc(OC)c(c4)OC` |
-    | 12e | `Nc1nc(N)c(cn1)Cc2cc(c(c(c2)OC)OC)/C=C/C(=O)N3[C@H](C=C(C)C)c4c(C=N3)cc(OC)c(c4)OC` |
-    | 12f | `Nc1nc(N)c(cn1)Cc2cc(c(c(c2)OC)OC)/C=C/C(=O)N3[C@H](c4ccccc4)c5c(C=N3)cc(OC)c(c5)OC` |
-    | 12g | `Nc1nc(N)c(cn1)Cc2cc(c(c(c2)OC)OC)/C=C/C(=O)N3[C@H](c4c(cccc4)C)c5c(C=N3)cc(OC)c(c5)OC` |
-    | 12h | `Nc1nc(N)c(cn1)Cc2cc(c(c(c2)OC)OC)/C=C/C(=O)N3[C@@H](c4c(cccc4)CC)c5c(C=N3)cc(OC)c(c5)OC` |
-    | 12i | `Nc1nc(N)c(cn1)Cc2cc(c(c(c2)OC)OC)/C=C/C(=O)N3[C@@H](c4c(cccc4)OC)c5c(C=N3)cc(OC)c(c5)OC` |
-    | 12j | `Nc1nc(N)c(cn1)Cc2cc(c(c(c2)OC)OC)/C=C/C(=O)N3[C@@H](c4ccc(cc4)OC)c5c(C=N3)cc(OC)c(c5)OC` |
-    | 13a | `Nc1nc(N)c(cn1)Cc2cc(c(c(c2)OC)OC)/C=C/C(=O)N3[C@@H](CC)c4c(C=N3)cc(C)c(c4)C` |
-    | 13b | `Nc1nc(N)c(cn1)Cc2cc(c(c(c2)OC)OC)/C=C/C(=O)N3[C@@H](CCC)c4c(C=N3)cc(C)c(c4)C` |
-    | 13c | `Nc1nc(N)c(cn1)Cc2cc(c(c(c2)OC)OC)/C=C/C(=O)N3[C@H](C4CC4)c5c(C=N3)cc(C)c(c5)C` |
-    | 13d | `Nc1nc(N)c(cn1)Cc2cc(c(c(c2)OC)OC)/C=C/C(=O)N3[C@H](C=C)c4c(C=N3)cc(C)c(c4)C` |
-    | 13e | `Nc1nc(N)c(cn1)Cc2cc(c(c(c2)OC)OC)/C=C/C(=O)N3[C@H](C=C(C)C)c4c(C=N3)cc(C)c(c4)C` |
-    | 13f | `Nc1nc(N)c(cn1)Cc2cc(c(c(c2)OC)OC)/C=C/C(=O)N3[C@H](c4ccccc4)c5c(C=N3)cc(C)c(c5)C` |
+!!! note "Submission"
+
+    In your submission, answer the following questions:
+
+    1.  What is the meaning/significance of IC50, Ki, and MIC?
+    For an active molecule, what are the ideal values for these properties?
+    2.  `3FRD` is a crystal structure with NADPH and DHF, which should be an optimal protein structure to design a DHF competitive inhibitor.
+    Is there a correlation between AutoDock Vina docking scores and experimental Ki values?
+    Quantify this correlation with an R<sup>2</sup> value.
+    3.  `6PRA` is a crystal structure that does not have DHF.
+    Explain how this could impact docking calculations.
+    Compare the docking scores of active ligands from `6PRA` and `3FRD`; are there significant differences?
+    4.  `6PR6` was crystallized with the active compound `11j`.
+    Compare the crystallized ligand pose to the top 9 poses and scores of the same `11j` ligand.
+    What do you observe?
+    Support your claims with screenshots.
+    5.  Decoy ligands provide a mechanism to ensure that virtual screening workflows work as expected.
+    Using the `3FRD` results, examine the decoy scores and poses with the top three best and worst scores.
+    Does our pipeline accurately sort these decoy molecules?
+    Why or why not?
+    Examine the top poses of these best and worst decoys.
+    Are there any noncovalent interaction trends?
+    Support your claims with screenshots.
 
 <!-- LINKS -->
 
