@@ -247,7 +247,7 @@ Pay particular attention to:
         If so, how many genes are on the plasmid(s)?
     6.  Search the `.faa` file for the dihydrofolate reductase gene.
         Did Prokka identify this gene?
-        If so, what is its protein ID and what are its start and end positions in the genome?
+        If so, what is its protein ID?
         What is the amino acid sequence of your protein?
     7.  Based on these results, how would you assess the quality and completeness of your genome annotation?
     8.  How might the genus and species names you provided influence the annotation process?
