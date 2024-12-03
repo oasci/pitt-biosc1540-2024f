@@ -1,2 +1,3 @@
 nav:
     - "<b>Lecture 21</b>: Predictive modeling": index.md
+    - Student notebook: predictive-modeling-pka.ipynb
