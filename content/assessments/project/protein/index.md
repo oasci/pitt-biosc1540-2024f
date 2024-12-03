@@ -91,8 +91,8 @@ Remember that you need to add hydrogens to your structures!
         Suppose you will be docking in the folate pocket while keeping NADP(H) and removing all water molecules.
         Are there any structural differences in the protein that could impact your docking results?
         If yes, specify which residues, explain how this would impact docking, and provide screenshots to support your claims.
-        [(PyMol session file)](./pse/4-3frd-6pra.pse.gz)
         If no, provide evidence in the form of screenshots and a possible explanation.
+        [(PyMol session file)](./pse/4-3frd-6pra.pse.gz)
     2.  Identify noncovalent interactions in [3FRD](https://www.rcsb.org/structure/3FRD) that stabilize this folate pose.
         Use screenshots to support your claims.
         (Use the same PyMol session file as the previous question.)
