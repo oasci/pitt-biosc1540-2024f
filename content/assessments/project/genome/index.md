@@ -191,7 +191,8 @@ To get more detailed statistics about your assembly, we'll use the Bandage Info 
 
     1.  How many contigs (i.e., nodes) were produced by the assembly?
     2.  What is the total length of the assembly?
-        How does this compare to the expected genome size of Staphylococcus aureus (approximately 2.8 Mb)?
+        How does this compare to the expected genome size of Staphylococcus aureus (approximately 2,800,000 base bp)?
+        (Note: You can also use quast to check this number.)
     3.  What is the N50 of your assembly?
     4.  Calculate the difference between the "Total length" and "Total length no overlaps".
         What does this difference represent, and why is it important to consider?
