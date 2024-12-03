@@ -15,8 +15,12 @@ By completing this project, you will:
 
 ## Instructions
 
-Use [PyMOL](https://www.pymol.org/) or [ChimeraX](https://www.cgl.ucsf.edu/chimerax/) for structural analysis.
+Use [PyMOL](https://www.pymol.org/) for your structural analysis.
 You often will need to use the "licorice" representation of the protein to see that atomistic differences.
+
+To support your computational biology project, your instructor has provided a PSE file for each question.
+A PSE file is a PyMOL session file that contains a pre-configured molecular structure and relevant visualizations to help you address the specific questions.
+These files are designed to save you time and effort by providing the necessary setup, including loaded molecules, annotations, and possibly preset views that align with the problem requirements.
 
 In each screenshot, ensure you provide a visual indication and/or label to specify the origin (e.g., I-TASSER or 6PRD) of the structure.
 Below is an example of an appropriate image to use in your report.
@@ -47,16 +51,19 @@ Instead of flooding these free servers with the same jobs, we will all use the s
     1.  Download the PDB files for SWISS-MODELS 01 (6E4E), 05 (3FYW), 03 (6PRP), and 06 (6PR8).
         Identify if there are any apparent protein conformational differences near the NADP(H) and folate binding pockets.
         Provide screenshots to support your claims.
+        [(PyMol session file)](./pse/1-swiss.pse.gz)
     2.  Download the PDB file for SWISS-MODEL 02 (2W3M) and compare it against model 01 (6E4E).
         What is the alpha-carbon RMSD after alignment?
         Out of these two structures, which would you use for docking?
         Justify your choice.
         Provide screenshots to support your claims.
+        [(PyMol session file)](./pse/2-swiss.pse.gz)
     3.  Download the [I-TASSER](./S799334/), [D-I-TASSER](./DIT6377/), [I-TASSER-MTD](./ITM552669806/), and your AlphaFold3 PDB structures.
         Compare these structure to each other and to SWISS-MODEL 01.
         Which prediction has the highest similarity (i.e., low RMSD) to the SWISS-MODEL?
         Which method would you generally find more reliable?
         Provide screenshots to support your claims.
+        [(PyMol session file)](./pse/3-tasser.pse.gz)
 
 ### Experimental structures
 
