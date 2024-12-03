@@ -91,12 +91,16 @@ Remember that you need to add hydrogens to your structures!
         Suppose you will be docking in the folate pocket while keeping NADP(H) and removing all water molecules.
         Are there any structural differences in the protein that could impact your docking results?
         If yes, specify which residues, explain how this would impact docking, and provide screenshots to support your claims.
+        [(PyMol session file)](./pse/4-3frd-6pra.pse.gz)
         If no, provide evidence in the form of screenshots and a possible explanation.
     2.  Identify noncovalent interactions in [3FRD](https://www.rcsb.org/structure/3FRD) that stabilize this folate pose.
         Use screenshots to support your claims.
+        (Use the same PyMol session file as the previous question.)
     3.  Download all PDB structures in the above table that start with `6PR`.
         Each of these `6PR` structures, excluding [6PRA](https://www.rcsb.org/structure/6PRA), contain co-crystallized ligands that are potential *S. aureus* DHFR inhibitors from [this publication](https://doi.org/10.1016/j.ejmech.2020.112412).
         Identify protein-ligand noncovalent interactions for each inhibitor and note similarities and differences between folate noncovalent interactions.
+        [(PyMol session file)](./pse/6-6pr.pse.gz)
     4.  In the same `6PR` structures, identify amino acids that are in different conformations depending on the ligand.
         Also, which protein would be the least reliable for subsequent protein-ligand docking?
         Provide a rationale.
+        (Use the same PyMol session file as the previous question.)
