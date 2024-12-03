@@ -243,14 +243,12 @@ Pay particular attention to:
     2.  How many rRNA and tRNA genes were annotated?
     3.  What other types of features did Prokka identify, and how many of each?
     4.  How does the number of annotated genes compare to what you would expect for a *Staphylococcus aureus* genome?
-    5.  Did Prokka identify any potential plasmids?
-        If so, how many genes are on the plasmid(s)?
-    6.  Search the `.faa` file for the dihydrofolate reductase gene.
+    5.  Search the `.faa` file for the dihydrofolate reductase gene.
         Did Prokka identify this gene?
         If so, what is its protein ID?
         What is the amino acid sequence of your protein?
-    7.  Based on these results, how would you assess the quality and completeness of your genome annotation?
-    8.  How might the genus and species names you provided influence the annotation process?
+    6.  Based on these results, how would you assess the quality and completeness of your genome annotation?
+    7.  How might the genus and species names you provided influence the annotation process?
 
 Remember, a typical *S. aureus* genome contains around 2,500 to 2,900 genes.
 The presence or absence of certain genes can provide insights into the strain's potential characteristics or capabilities.
