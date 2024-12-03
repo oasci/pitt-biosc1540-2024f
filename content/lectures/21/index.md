@@ -1,6 +1,6 @@
 <h1 align="center">
 <b>Lecture 21</b><br>
-Matplotlib
+Predictive modeling
 </h1>
 <p align="center">
 <b>Date:</b> Dec 3, 2024
@@ -15,13 +15,3 @@ Matplotlib
 What you should be able to do after today's lecture:
 
 1.  TODO:
-
-## Readings
-
-Relevant content for today's lecture.
-
-TODO:
-
-## Presentation
-
-TODO:

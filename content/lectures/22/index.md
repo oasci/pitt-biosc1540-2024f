@@ -1,27 +1,11 @@
 <h1 align="center">
 <b>Lecture 22</b><br>
-SciPy
+Project work
 </h1>
 <p align="center">
 <b>Date:</b> Dec 5, 2024
 </p>
 
-!!! danger "DRAFT"
-
-    This page is a work in progress and is subject to change at any moment.
-
-## Learning objectives
-
-What you should be able to do after today's lecture:
-
-1.  TODO:
-
-## Readings
-
-Relevant content for today's lecture.
-
-TODO:
-
-## Presentation
-
-TODO:
+For today's lecture, we will have an open work session dedicated to your ongoing projects.
+This is a great opportunity to focus on your work, collaborate with classmates, and address any challenges you might be facing.
+Additionally, I will be available to provide help with PyMol, a powerful molecular visualization tool that can enhance your project presentations and analyses.
