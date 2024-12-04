@@ -103,6 +103,7 @@ You can load these compounds into PyMOL.
         Choose any three active compounds and compare these poses to your results&mdash;you can download your ligand poses from [MolModa][molmoda] by clicking `File` -> `Save` and unchecking "Save project in .molmoda format".
         Be sure to look at more than just the top pose from the NADPH results.
         Use screenshots to justify your observations.
+        [(PyMol session file)](./pse/1-3frd-actives.pse.gz)
 
 ### Analysis
 
@@ -155,15 +156,17 @@ You can download the results here: [3FRD-results.zip](./results/3frd-results.zip
     1.  What is the meaning/significance of IC50, Ki, and MIC?
     For an active molecule, what are the ideal values for these properties?
     2.  `3FRD` is a crystal structure with NADPH and DHF, which should be an optimal protein structure to design a DHF competitive inhibitor.
-    Is there a correlation between AutoDock Vina docking scores and experimental Ki values?
+    Is there a correlation between AutoDock Vina docking scores (with NADPH) and experimental Ki values?
     Quantify this correlation with an R<sup>2</sup> value.
     3.  `6PRA` is a crystal structure that does not have DHF.
     Explain how this could impact docking calculations.
     Compare the docking scores of active ligands from `6PRA` and `3FRD`; are there significant differences?
+    [(PyMol session file)](./pse/4-3frd-6pra.pse.gz)
     4.  `6PR6` was crystallized with the active compound `11j`.
     Compare the crystallized ligand pose to the top 9 poses and scores of the same `11j` ligand.
     What do you observe?
     Support your claims with screenshots.
+    [(PyMol session file)](./pse/4-6pr6-11j.pse.gz)
     5.  Decoy ligands provide a mechanism to ensure that virtual screening workflows work as expected.
     Using the `3FRD` results, examine the decoy scores and poses with the top three best and worst scores.
     Does our pipeline accurately sort these decoy molecules?
