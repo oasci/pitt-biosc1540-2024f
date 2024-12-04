@@ -41,28 +41,63 @@ Thus, the instructor will provide docking results with the NADPH cofactor while 
 
 Here are the general steps in [MolModa][molmoda] to prepare the protein for docking.
 
-1.  Download [this specific `3FRD` PDB structure](./proteins/3frd-xray.pdb) and import it into [MolModa][molmoda] using `File` -> `Open`.
+1.  Download [this specific `3FRD` PDB structure (click this link!)](./proteins/3frd-xray.pdb) and import it into [MolModa][molmoda] using `File` -> `Open`.
 2.  Remove all non-polymer atoms (e.g., water molecules and all co-crystallized ligands) from the protein structure.
 3.  Protonate the protein at a pH of 7.4.
 4.  Add a region with a center of (-9, 34, -4) and dimensions of (26, 25, 27).
+
+!!! quote "Reference image"
+
+    After this stage, your MolModa session should look like this.
+    Note that the color of your region may be different.
+
+    <figure markdown>
+    ![](./molmoda-box-reference.png)
+    </figure>
 
 ### Ligand preparation
 
 Here are the general steps in [MolModa][molmoda] to prepare the ligands for docking.
 
-1.  Download the [active molecules' SMILES](./active.smiles) and load them into [MolModa][molmoda].
+1.  Download the [active molecules' SMILES](./active.smiles) and load them into [MolModa][molmoda] by using `File` -> `Open` or by drag and drop.
 2.  Protonate all compounds at a pH of 7.4 while regenerating coordinates with the "recommended" 3D coordinates generation option.
+
+!!! quote "Reference image"
+
+    After this stage, your MolModa session should look like this.
+
+    <figure markdown>
+    ![](./molmoda-actives.png)
+    </figure>
 
 ### Docking
 
-Dock the prepared compounds into the `3FRD` protein using an exhaustiveness of 24.
+[Dock the protonated compounds](https://durrantlab.pitt.edu/molmoda/docs/docking/tutorials/td001/#docking) into the `3FRD` protein using an exhaustiveness of `24` in MolModa.
+These are **your** docking results for the active compounds without NADPH.
+
+!!! quote "Reference image"
+
+    After this stage, your MolModa session should look like this.
+
+    <figure markdown>
+    ![](./molmoda-docked.png)
+    </figure>
+
+You need to download your docked ligand poses by going to `File` -> `Save`, uncheck "Save in MolModa format", and use these settings.
+
+<figure markdown>
+![](./molmoda-save.png)
+</figure>
+
+This will download a zip file that you can extract and have all of your docked poses as `mol2` files.
+You can load these compounds into PyMOL.
 
 !!! note "Submission"
 
     In your submission, answer the following questions:
 
-    1.  Download and extract [these docking results](./results/3frd-results.zip) that were performed in the presence of NADPH.
-        In your favorite viewer, load the `3frd.pdb` structure and all active `.pdbqt` files in the `poses/` directory.
+    1.  Download and extract on your computer [these docking results](./results/3frd-results.zip) that were performed in the presence of NADPH using AutoDock Vina.
+        In [PyMOL](https://www.pymol.org/), load the `3frd.pdb` structure and all active `.pdbqt` files in the `poses/` directory.
         These `.pdbqt` files contain the top 9 poses of the identified binding modes.
         To see their scores, look at the respective log file in the `logs/` directory.
         Choose any three active compounds and compare these poses to your results&mdash;you can download your ligand poses from [MolModa][molmoda] by clicking `File` -> `Save` and unchecking "Save project in .molmoda format".
