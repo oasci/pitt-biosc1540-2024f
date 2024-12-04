@@ -193,18 +193,17 @@ To get more detailed statistics about your assembly, we'll use the Bandage Info 
     2.  What is the total length of the assembly?
         How does this compare to the expected genome size of Staphylococcus aureus (approximately 2,800,000 base bp)?
         (Note: You can also use quast to check this number.)
-    3.  What is the N50 of your assembly?
-    4.  Calculate the difference between the "Total length" and "Total length no overlaps".
+    3.  Calculate the difference between the "Total length" and "Total length no overlaps".
         What does this difference represent, and why is it important to consider?
-    5.  What is the N50 of your assembly?
+    4.  What is the N50 of your assembly?
         How does this value compare to the median node length?
         What does this tell you about the distribution of contig sizes in your assembly?
-    6.  Analyze the "dead ends" in your assembly.
+    5.  Analyze the "dead ends" in your assembly.
         How many dead ends are there?
         What percentage of the total possible ends (2 * number of nodes) do these represent?
         What might a high percentage of dead ends indicate about your assembly?
-    7.  Based on all these results, how would you assess the overall quality of your genome assembly? Consider factors such as completeness, contiguity, and potential issues.
-    8.  How do you think the "careful" mode in SPAdes might have influenced these assembly statistics compared to the default mode?
+    6.  Based on all these results, how would you assess the overall quality of your genome assembly? Consider factors such as completeness, contiguity, and potential issues.
+    7.  How do you think the "careful" mode in SPAdes might have influenced these assembly statistics compared to the default mode?
 
 ### Gene Annotation with Prokka
 
