@@ -37,6 +37,10 @@ We will be using [MolModa][molmoda] to perform protein-ligand docking of *S. aur
 [MolModa][molmoda], unfortunately, cannot dock in the presence of cofactors (e.g. NADPH), which could impact results of our virtual screening.
 Thus, the instructor will provide docking results with the NADPH cofactor while you use [MolModa][molmoda] to examine the impact of its removal.
 
+!!! note "Important"
+    We recommend that you use Google Chrome instead of other browsers.
+    Some browsers (e.g., Firefox) have been shown to exhibit more bugs and not work smoothly.
+
 ### Protein preparation
 
 Here are the general steps in [MolModa][molmoda] to prepare the protein for docking.
