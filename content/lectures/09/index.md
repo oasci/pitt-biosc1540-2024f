@@ -30,8 +30,4 @@ Relevant content for today's lecture.
 
 ## Presentation
 
--   **View:** [slides.com/aalexmmaldonado/biosc1540-l09](https://slides.com/aalexmmaldonado/biosc1540-l09)
--   **Live link:** [slides.com/d/R975Cow/live](https://slides.com/d/R975Cow/live)
--   **Download:** [biosc1540-l09.pdf](/lectures/09/biosc1540-l09.pdf)
-
-<iframe src="https://slides.com/aalexmmaldonado/biosc1540-l09/embed?byline=hidden&share=hidden" width="100%" height="600" title="BIOSC 1540: Lecture 09" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+**Download:** [biosc1540-l09.pdf](/lectures/09/biosc1540-l09.pdf)

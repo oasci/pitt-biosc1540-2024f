@@ -10,3 +10,17 @@
         <strong>Points</strong></a>: 100
     </object>
 </p>
+
+This final exam was optional and allowed students to replace their lowest exam grade.
+
+[**2024 Fall Final Exam**](./2024f-exam-final.pdf)
+
+!!! quote "Grade statistics"
+    <figure markdown>
+    ![](./exam-histogram.png)
+    </figure>
+
+!!! quote "Question statistics"
+    <figure markdown>
+    ![](./question-distribution.png)
+    </figure>

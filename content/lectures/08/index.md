@@ -6,10 +6,6 @@ Read mapping
 <b>Date:</b> Sep 19, 2024
 </p>
 
-!!! danger "DRAFT"
-
-    This page is a work in progress and is subject to change at any moment.
-
 We'll explore the challenges of aligning millions of short reads to a reference genome and discuss various algorithms and data structures that make this process efficient.
 The session will focus on the Burrows-Wheeler Transform (BWT) and the FM-index, two key concepts that revolutionized read alignment by enabling fast, memory-efficient sequence searching.
 We'll examine how these techniques are implemented in popular alignment tools and compare their performance characteristics.
@@ -36,8 +32,4 @@ Relevant content for today's lecture.
 
 ## Presentation
 
--   **View:** [slides.com/aalexmmaldonado/biosc1540-l08](https://slides.com/aalexmmaldonado/biosc1540-l08)
--   **Live link:** [slides.com/d/v69HoBk/live](https://slides.com/d/v69HoBk/live)
--   **Download:** [biosc1540-l08.pdf](/lectures/08/biosc1540-l08.pdf)
-
-<iframe src="https://slides.com/aalexmmaldonado/biosc1540-l08/embed?byline=hidden&share=hidden" width="100%" height="600" title="BIOSC 1540: Lecture 08" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+**Download:** [biosc1540-l08.pdf](/lectures/08/biosc1540-l08.pdf)

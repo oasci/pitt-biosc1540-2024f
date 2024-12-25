@@ -27,16 +27,4 @@ Relevant content for today's lecture.
 
 ## Presentation
 
--   **View:** [slides.com/aalexmmaldonado/biosc1540-l15](https://slides.com/aalexmmaldonado/biosc1540-l15)
--   **Live link:** [slides.com/d/QSAvIIo/live](https://slides.com/d/QSAvIIo/live)
--   **Download:** [biosc1540-l15.pdf](/lectures/15/biosc1540-l15.pdf)
-
-<iframe src="https://slides.com/aalexmmaldonado/biosc1540-l15/embed?byline=hidden&share=hidden" width="100%" height="600" title="BIOSC 1540: Lecture 15" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-<!--
-Notes
-
-- To explain the MD sampling aspect (one long vs. three short), you can use getting from one building to another.
-- PMF is a little complicated to explain the meaning, probably just emphasize that it is a "kind" of energy (e.g., kinetic vs. potential).
-
--->
+**Download:** [biosc1540-l15.pdf](/lectures/15/biosc1540-l15.pdf)

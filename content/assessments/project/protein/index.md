@@ -3,6 +3,15 @@
 Protein structure prediction
 </h1>
 
+<p style="text-align: center;">
+    <object hspace="50">
+        <strong>Due</strong></a>: Dec 10, 2024 at 11:59 pm
+    </object>
+    <object hspace="50">
+        <strong>Points</strong></a>: 100
+    </object>
+</p>
+
 In this phase, you will predict and analyze the structure of dihydrofolate reductase (DHFR) from *S. aureus* that you identified in [Part 1](../genome/).
 DHFR is an essential enzyme involved in folate metabolism and an important antibiotic target.
 

@@ -3,6 +3,15 @@
 Docking
 </h1>
 
+<p style="text-align: center;">
+    <object hspace="50">
+        <strong>Due</strong></a>: Dec 10, 2024 at 11:59 pm
+    </object>
+    <object hspace="50">
+        <strong>Points</strong></a>: 100
+    </object>
+</p>
+
 In the ongoing battle against antibiotic-resistant bacteria, understanding the molecular interactions between drugs and their targets is crucial.
 *Staphylococcus aureus* dihydrofolate reductase (DHFR) is a well-established target for several antibiotics due to its essential role in bacterial folate synthesis.
 This project focuses on protein-ligand docking studies of *S. aureus* DHFR using [MolModa](https://durrantlab.pitt.edu/molmoda/#), a powerful tool for virtual screening and molecular modeling.

@@ -3,6 +3,15 @@
 Genome assembly
 </h1>
 
+<p style="text-align: center;">
+    <object hspace="50">
+        <strong>Due</strong></a>: Dec 10, 2024 at 11:59 pm
+    </object>
+    <object hspace="50">
+        <strong>Points</strong></a>: 100
+    </object>
+</p>
+
 [You have been assigned](https://canvas.pitt.edu/courses/267135/files/18413175) a set of Illumina sequencing reads from a *Staphylococcus aureus* isolate.
 Your task is to assemble and annotate the genome, and then identify the dihydrofolate reductase gene, which is a common target for antibiotics.
 This project will give you experience with real-world bioinformatics tools and workflows used in genomics research.

@@ -132,11 +132,11 @@ These are optional lectures that will not negatively affect your final grade.
 
 **Tuesday** (Nov 19) [**Lecture 19**](../../lectures/19/)
 
--   ^^Topics^^: NumPy
+-   ^^Topics^^: Python basics
 
 **Thursday** (Nov 21) [**Lecture 20**](../../lectures/20/)
 
--   ^^Topics^^: Polars
+-   ^^Topics^^: Arrays and plotting
 
 ### Thanksgiving break
 
@@ -146,17 +146,17 @@ No class on Nov 26 and 28.
 
 **Tuesday** (Dec 3) [**Lecture 21**](../../lectures/21/)
 
--   ^^Topics^^: Matplotlib
+-   ^^Topics^^: Predictive modeling
 
 **Thursday** (Dec 5) [**Lecture 22**](../../lectures/22/)
 
--   ^^Topics^^: SciPy
+-   ^^Topics^^: Project work
 
 ### Week 16
 
 **Tuesday** (Dec 10) [**Lecture 23**](../../lectures/23/)
 
--   ^^Topics^^: Scikit-learn
+-   ^^Topics^^: Project work
 
 <hr>
 

@@ -35,17 +35,4 @@ Relevant content for today's lecture.
 
 ## Presentation
 
--   **View:** [slides.com/aalexmmaldonado/biosc1540-l02](https://slides.com/aalexmmaldonado/biosc1540-l02)
--   **Live link:** [slides.com/d/wOV7d9w/live](https://slides.com/d/wOV7d9w/live)
--   **Download:** [biosc1540-l02.pdf](/lectures/02/biosc1540-l02.pdf)
-
-<iframe src="https://slides.com/aalexmmaldonado/biosc1540-l02/embed?byline=hidden&share=hidden" width="100%" height="600" title="BIOSC 1540: Lecture 02" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-<!-- Notes
-
-- Add example about cluster for why we need stronger signal.
-- Need to go into more detail/clarification of primers, indices, and adapters.
-- There seems to be a gap in how we get from sample, to attached, amplified, and then sequenced.
-- Gave example of looking out into a dark stadium and giving people flash lights.
-- Students are still really struggling with how the fragments get onto the flow cell.
--->
+**Download:** [biosc1540-l02.pdf](/lectures/02/biosc1540-l02.pdf)
