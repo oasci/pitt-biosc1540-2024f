@@ -36,6 +36,8 @@ Go [here](https://canvas.pitt.edu/courses/267135/files/18413175) to find your SR
 You will use a series of bioinformatics tools to process and analyze your assigned sequencing data.
 Follow these steps carefully, documenting your process and results at each stage.
 
+A video walkthrough of the Galaxy portions of the project can be found [here](https://vimeo.com/1050103334).
+
 ### Setting Up Your Galaxy Project
 
 Before beginning the analysis, you need to set up an account on Galaxy and create a project for this assignment.
